@@ -7,7 +7,36 @@
 <script>
 	function $(s){
 		return document.getElementById(s);
-	} 
+	}
+	function showPane(arrID){
+		arrID=arrID.split(",");
+		var arr=new Array("","","");
+	}
+	function onSelectChange(){
+		var flag=$("sl").value;
+		if(flag=="Video"){
+			//hide others
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+		}
+		if(flag=="Album"){
+			//hide others
+			$("Title").style.display="none";
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+			$("src").style.display="none";
+			$("Description").style.display="none";
+			$("Tags").style.display="none";
+		}
+		if(flag=="Song"){
+			//hide others
+		}
+		if(flag=="Lrc"){
+			//hide others
+		}
+	}
 	function xx(){
 		var flag=$("sl").value;
 		if(flag=="Video"){
@@ -17,12 +46,27 @@
 				.replace(/\|/g,"\\\|").replace(/\}/g,"\\\}") +"\",\""+ $("Tags").value +"\",\""+ $("Src").value +"\",\""+ $("Color").value +"\",\""+ $("Ground").value +"\",\""+ $("CH").value +"\",\""+ $("Album").value +"\");";
 			clipboardData.setData('Text',txt);
 			$("temp").value=txt;
+			
+			//hide others
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+			
 		}
 		if(flag=="Album"){
 										//aname,ground,color,ch
 			var txt="Albums[Albums.length++]=new Album(\""+ $("Album").value +"\",\""+$("Ground").value+"\",\""+$("Color").value+"\",\""+$("CH").value+"\");";
 			clipboardData.setData('Text',txt);
 			$("temp").value=txt;
+			
+			//hide others
+			$("Title").style.display="none";
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+			$("src").style.display="none";
+			$("Description").style.display="none";
+			$("Tags").style.display="none";
 		}
 		if(flag=="Song"){
 			var txt="Songs[Songs.length++]=new Song(\""+ $("Title").value.replace(/\'/g,"\\\'") +"\",\""+ $("CH").value +"\",\""+ $("singer").value +"\",\""+ $("singerCH").value +"\",\""+ $("Src").value +"\");";
@@ -39,6 +83,9 @@
 			 +"');";
 			clipboardData.setData('Text',txt);
 			$("temp").value=txt;
+		}
+		if(flag=="Search"){
+			
 		}
 		alert("复制成功");
 		$("txt").value="";
@@ -58,9 +105,24 @@
   <table align="center">
     <tr><td>
   	<p>
-    <input name="Title" id="Title" >
-	  Title | name</p>
-	  <p>
+  	  <select name="sl" id="sl" ><!--onChange="onSelectChange()"-->
+        <option value="Video" selected>Video</option>
+        <option value="Album">Video_Album</option>
+        <option value="Song">Song</option>
+        <option value="Lrc">Lrc</option>
+        <option value="Search">Search</option>
+            </select>
+      <select name="Ground" id="Ground">
+        <option value="Dongman" selected 
+ >动漫</option>
+        <option value="Movie">影视</option>
+        <option value="MV">MV</option>
+      </select>
+</p>
+  	<p>
+	      <input name="Title" id="Title">
+	    Title | name</p>
+  	<p>
 	    <input name="singer" id="singer" >
 	    singer</p>
 	  <p>
@@ -78,11 +140,11 @@ Src</p>
       <input name="Color" id="Color" >	  
 Color</p>
 	  <p>
-    <input name="Album" id="Album2" >
+    <input name="Album" id="Album" >
     Album</p>
 	  <p>      <input name="CH" id="CH2" maxlength="1" >
       CH</p>	  <p>
-	    <textarea name=txt></textarea>
+	    <textarea name=txt id="txt"></textarea>
 Lrc    
     <DIV></DIV><TEXTAREA id=temp style="HEIGHT: 38px" name=temp cols=30></TEXTAREA> 
       预览
@@ -97,18 +159,6 @@ Lrc
     <p>
       <input type="button" name="button" value="        →数据库格式        " onClick="xx();" style="LEFT: 141px; TOP: 333px">
       <input type="reset" value="清空">
-      <select name="sl" id="sl">
-        <option value="Video" selected>Video</option>
-        <option value="Album">Album</option>
-        <option value="Song">Song</option>
-        <option value="Lrc">Lrc</option>
-      </select>
-			 <select name="Ground" id="Ground">
-			  <option value="Dongman" selected 
- >动漫</option>
-			  <option value="Movie">影视</option>
-			  <option value="MV">MV</option>
-			</select>
     </p>
   </div>
   <p align="center">
