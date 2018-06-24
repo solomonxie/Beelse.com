@@ -1,0 +1,54 @@
+
+<div style="text-align:center ">
+<form action="SignUp.htm" method="get" onSubmit="return check();">
+<table border="0" cellpadding="3" cellspacing="3" style="padding-top:15px;margin:0 auto;" >
+	<tr><td id="tip"></td></tr>
+  <tr>
+    <td><label>Email</label>
+      :</td>
+    <td><input name="email" type="text" id="email"></td>
+  </tr>
+  <tr>
+    <td><label>Password</label>
+      :</td>
+    <td><input name="uspwd" type="password"></td>
+  </tr>
+  <tr>
+    <td><label>Confirm</label>
+      :</td>
+    <td><input name="repwd" type="password" id="repwd"></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <input name="xy" type="checkbox" id="xy" checked>
+      <a href="#" onClick="alert('这是示范性的协议')">Terms of Use</a>
+	  </td>
+    </tr>
+  <tr align="right">
+    <td colspan="2">
+      <input name="Login" type="button" id="Login" value="  SIGN UP  " onClick="check();"></td>
+    </tr>
+	
+</table>
+<script>
+	function $(s){
+		return document.getElementById(s);
+	} 
+	
+	function check(){
+		if($("uspwd").value==$("repwd").value && $("uspwd").value!=""){
+			alert("正在检查邮件真实性……");
+			alert("成功注册，请登陆并且修改您的个人信息");
+			alert("以上即方便的注册方式，希望大家别再故弄玄虚的弄一大堆注册条款了");
+			return true;
+		}else{
+			$("tip").innerHTML="<font color=red>请确认密码</font>";
+			return false;
+		}
+	}
+</script>
+</form>
+</div>
+<a></a>
+<a></a>
+<a></a>

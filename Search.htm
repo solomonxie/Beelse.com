@@ -1,0 +1,144 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>给你最舒服的搜索</TITLE>
+<META http-equiv=Content-Type content=text/html; charset=gb2312 charset=gb2312>
+<link rel="stylesheet" type="text/css" href="Sheet_SearchFace.css">
+<STYLE>
+	BODY {
+	MARGIN: 4px 0px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 90px;
+	background-color:#FFFFFF;
+	}
+	A:link
+	{
+		COLOR:#959595;
+		TEXT-DECORATION: none;
+		font-family: Comic Sans MS;
+	}
+	A:visited
+	{
+		COLOR:#959595;
+		TEXT-DECORATION: none;
+		font-family: Comic Sans MS;
+	}
+	A:hover
+	{
+		COLOR:#FFCC99;
+		TEXT-DECORATION:underline;
+		font-family: Comic Sans MS;
+	}
+	.style5 {
+	color: #959595;
+	font-family: "Comic Sans MS";
+	font-size: 65px;
+	}
+#lrMsgWait {
+	position:absolute;
+	width:135px;
+	height:28px;
+	z-index:4;
+	left: 583px;
+	top: 96px;
+	background-color:#68AF02;
+	PADDING-RIGHT: 28px;
+	DISPLAY: inline;
+	PADDING-LEFT: 12px;
+	FONT-SIZE: 12px; 
+	PADDING-BOTTOM: 0px;
+	COLOR: #fff; 
+	LINE-HEIGHT: 18px;
+	PADDING-TOP: 0px;
+	HEIGHT: 18px; 
+	TEXT-ALIGN: left;
+}
+</STYLE>
+<META content="MSHTML 6.00.2900.3020" name=GENERATOR>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<script>
+	//----Start----点击列 隐藏/显示----
+	function $(s){
+		return document.getElementById(s);
+	} 
+	function swap(s,a,b,c){
+		$(s)[a]=$(s)[a]==b?c:b;
+	}
+	function hide(s){
+		$(s).style.display=$(s).style.display=="none"?"":"none";
+	}
+	
+//----End----点击列 隐藏/显示----
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+</HEAD>
+<BODY onMouseOut="window.status='Beelse.com--Just Be the Else!!';return true" onload="$('key').focus();">
+<div id="lrMsgWait"> 加载中,稍等……</div>
+<div>
+  <p class="style5" align="center"><a href="index.htm">Beelse.com</a></p>
+  <div align="center" style="position:absolute; z-index:auto; left: 367px; top: 173px; width: 316px;"><font size="2" color="#959595"><a href="Video.htm">Video:视频</a> | <a href="Search.htm">Search：搜索引擎</a> | <a href="Mp3.htm">Mp3：歌曲</a></font></div>
+  <p>&nbsp;</p>
+</div>
+<CENTER>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div style="position:absolute; width:200px; z-index:2; left: 199px; top: 261px;">
+    <!--start-->
+    <DIV id=l>
+      <DIV id="Bar"> <A id=1 onClick="getLrSelect('web');changeColor('1');" href="#">网页</a>&nbsp;&nbsp;&nbsp;&nbsp;<A id=2 onClick="getLrSelect('dongman');changeColor('2');" href="#">动漫</a>&nbsp;&nbsp;&nbsp;&nbsp;<A id=3 onClick="getLrSelect('download');changeColor('3');" href="#">下载</a>&nbsp;&nbsp;&nbsp;&nbsp;<A id=4 onClick="getLrSelect('video');changeColor('4');" href="#">视频</a>&nbsp;&nbsp; <A id=5 onClick="getLrSelect('buy');changeColor('5');" href="#">购物</a>&nbsp;&nbsp;&nbsp;&nbsp;<A id=6 onClick="getLrSelect('music');changeColor('6');" href="#">歌er</a>&nbsp;&nbsp;&nbsp;&nbsp;<A id=7 onClick="getLrSelect('picture');changeColor('7');" href="#">图片</a> &nbsp;&nbsp;<A id=8 onClick="getLrSelect('other');changeColor('8');" href="#">Other&gt;&gt;&nbsp;</a> </DIV>
+    </DIV>
+    <TABLE cellSpacing=0 cellPadding=0 width=600 border=0>
+      <TR vAlign=top>
+        <TD width=92></TD>
+        <TD><FORM name="form_Total" id="form_Total" onSubmit="return goSearch(this.fname.value);" target="_blank">
+            <INPUT class=kw size=40 name="key" id="key">
+            <INPUT type=submit class=sb value=不同搜索>
+            <input type="hidden" name="type" id="type">
+            <input type="hidden" name="fname"  id="fname">
+            <input type="hidden" name="wpname"  id="wpname">
+          </FORM></TD>
+      </TR>
+    </TABLE>
+    <!--end-->
+  </div>
+  <br>
+  <div id="lrSLWP" style="position:absolute; top: 311px; left: 289px; z-index: 3; width: 346px;" class="kw">
+    <!--<div id="lrSLWP" style="position:absolute; top: 82px; left: 63px; z-index: 1;">-->
+    <script>//$("lrSLWP").style.display="none";</script>
+    <table width="100%"  border="0" align="center">
+      <tr id="trLrc">
+        <td align="center" bgcolor="#CEEFFF"><div id="lrText">
+            <div align="center" id="lrSelect"  onClick="setLrSelectDisplay(('引擎是：'+$('wpname').value).fontcolor('#636563'));$('key').focus();" style=" background-color:white;overflow:auto;"><font color="#636563">---------------点击上面选择搜索类型哦----------------</font></div>
+          </div></td>
+      </tr>
+    </table>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <hr width="650" size="1">
+  <div align="center"><font color="#ffffff">耶和华没有赐予我最好的建设能力 但赐予了我最好的整理能力 阿们</font></div>
+  <script src="DataForSearch.js"></script>
+  <script src='Songs.js'></script>
+  <script>$("lrMsgWait").style.display="none";</script>
+  <br>
+  <br>
+  <p></p>
+</CENTER>
+<a></a> <a></a> <a></a>
+</BODY>
+</HTML>

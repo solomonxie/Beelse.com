@@ -1,0 +1,26 @@
+<html>
+<head>
+<script src="Functions.js"></script>
+<script src="Users.js"></script>
+<title>正在处理……</title>
+</head>
+<body>
+
+<script>
+	var usname=getKey("usname","logit.htm");
+	var uspwd=getKey("uspwd","logit.htm");
+	if(checkUser(usname,uspwd)==true){//如果验证通过
+		document.cookie="usname="+ usname +";uspwd="+ uspwd +";";
+	}else{alert("用户名或密码错误");}
+	this.location.href="ideas.htm";
+</script>
+
+
+
+<b></b>
+<b></b>
+<b></b>
+<b></b>
+<b></b>
+</body>
+</html>

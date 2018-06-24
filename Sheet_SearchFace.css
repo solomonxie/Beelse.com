@@ -1,0 +1,60 @@
+<STYLE type="text/css">
+	IMG {
+		BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+	}
+	TD {
+		FONT-SIZE: 12px
+	}
+	P {
+		FONT-SIZE: 12px
+	}
+	P {
+		PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 600px; PADDING-TOP: 0px
+	}
+	.kw {
+		FONT-SIZE: 16px; PADDING-TOP: 2px; FONT-FAMILY: Verdana; HEIGHT: 1.78em
+	}
+	#b {
+		FONT-SIZE: 12px; WIDTH: 600px; COLOR: #77c; PADDING-TOP: 4px; FONT-FAMILY: Arial; HEIGHT: 30px
+	}
+	#b A {
+		FONT-SIZE: 12px; COLOR: #77c
+	}
+	#usrbar {
+		PADDING-RIGHT: 10px; FONT-SIZE: 12px; MARGIN-BOTTOM: 10px; LINE-HEIGHT: 19px; FONT-FAMILY: Arial; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+	}
+	.sb {
+		FONT-SIZE: 14px; WIDTH: 5.6em; HEIGHT: 2em
+	}
+	#km {
+		FONT-SIZE: 14px; HEIGHT: 50px
+	}
+	#km A {
+		FONT-FAMILY: ËÎÌו
+	}
+	#l {
+		FONT-SIZE: 14px; MARGIN-BOTTOM: 5px; WIDTH: 600px; FONT-FAMILY: arial; TEXT-ALIGN: left
+	}
+	#l DIV {
+		MARGIN-LEFT: 96px
+	}
+	.Normal{
+		font-size:14px;
+		font-weight:normal;
+	}
+	.Change{
+		font-size:18px;
+		font-weight:bold;
+	}
+	A.linkWebSelect:Link{
+		display:block;
+		background-color:#FFFFFF;
+	}
+	A.linkWebSelect:Hover{
+		display:block;
+		background-color:#999999;
+	}
+	A.linkWebSelect:Visited{
+		display:block;
+	}
+</STYLE>

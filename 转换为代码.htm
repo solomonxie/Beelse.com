@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>转换为代码</title>
+<script>
+	function $(s){
+		return document.getElementById(s);
+	}
+	function showPane(arrID){
+		arrID=arrID.split(",");
+		var arr=new Array("","","");
+	}
+	function onSelectChange(){
+		var flag=$("sl").value;
+		if(flag=="Video"){
+			//hide others
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+		}
+		if(flag=="Album"){
+			//hide others
+			$("Title").style.display="none";
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+			$("src").style.display="none";
+			$("Description").style.display="none";
+			$("Tags").style.display="none";
+		}
+		if(flag=="Song"){
+			//hide others
+		}
+		if(flag=="Lrc"){
+			//hide others
+		}
+	}
+	function xx(){
+		var flag=$("sl").value;
+		if(flag=="Video"){
+			var txt="Videos[Videos.length++]=new Video(\""+ $("Title").value +"\",\""+ $("Description").value.replace(/\r\n/g,"<br>").replace(/\'/g,"\\\'").replace(/\"/g,"\\\"")
+				.replace(/\//g,"\\\/").replace(/\$/g,"\\\$").replace(/\(/g,"\\\(").replace(/\)/g,"\\\)").replace(/\*/g,"\\\*")
+				.replace(/\+/g,"\\\+").replace(/\./g,"\\\.").replace(/\?/g,"\\\?").replace(/\^/g,"\\\^").replace(/\{/g,"\\\{")
+				.replace(/\|/g,"\\\|").replace(/\}/g,"\\\}") +"\",\""+ $("Tags").value +"\",\""+ $("Src").value +"\",\""+ $("Color").value +"\",\""+ $("Ground").value +"\",\""+ $("CH").value +"\",\""+ $("Album").value +"\");";
+			clipboardData.setData('Text',txt);
+			$("temp").value=txt;
+			
+			//hide others
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+			
+		}
+		if(flag=="Album"){
+										//aname,ground,color,ch
+			var txt="Albums[Albums.length++]=new Album(\""+ $("Album").value +"\",\""+$("Ground").value+"\",\""+$("Color").value+"\",\""+$("CH").value+"\");";
+			clipboardData.setData('Text',txt);
+			$("temp").value=txt;
+			
+			//hide others
+			$("Title").style.display="none";
+			$("singer").style.display="none";
+			$("singerCH").style.display="none";
+			$("txt").style.display="none";
+			$("src").style.display="none";
+			$("Description").style.display="none";
+			$("Tags").style.display="none";
+		}
+		if(flag=="Song"){
+			var txt="Songs[Songs.length++]=new Song(\""+ $("Title").value.replace(/\'/g,"\\\'") +"\",\""+ $("CH").value +"\",\""+ $("singer").value +"\",\""+ $("singerCH").value +"\",\""+ $("Src").value +"\");";
+			var txt="Songs[Songs.length++]=new Song(\""+ $("Title").value.replace(/\'/g,"\\\'") +"\",\""+ $("singer").value +"\",\""+ $("Src").value +"\",\""+ $("CH").value +"\",\""+ $("singerCH").value +"\");";
+			clipboardData.setData('Text',txt);
+			$("temp").value=txt;
+		}
+		if(flag=="Lrc"){
+			var txt="Lrcs[Lrcs.length++]=new Lrc('"+ $("Title").value +"','"+ 
+				$("txt").value.replace(/\[\d\d:\d\d\.\d\d\]/g,"").replace(/\r\n/g,"<br>").replace(/\'/g,"\\\'").replace(/\"/g,"\\\"")
+				.replace(/\//g,"\\\/").replace(/\$/g,"\\\$").replace(/\(/g,"\\\(").replace(/\)/g,"\\\)").replace(/\*/g,"\\\*")
+				.replace(/\+/g,"\\\+").replace(/\./g,"\\\.").replace(/\?/g,"\\\?").replace(/\^/g,"\\\^").replace(/\{/g,"\\\{")
+				.replace(/\|/g,"\\\|").replace(/\}/g,"\\\}")
+			 +"');";
+			clipboardData.setData('Text',txt);
+			$("temp").value=txt;
+		}
+		if(flag=="Search"){
+			
+		}
+		alert("复制成功");
+		$("txt").value="";
+		$("Src").value="";
+		$("txt").focus();
+		
+	}
+</script>
+<script>
+
+</script>
+</head>
+
+<body>
+<form name="f">
+  <p align="center">&nbsp;</p>
+  <table align="center">
+    <tr><td>
+  	<p>
+  	  <select name="sl" id="sl" ><!--onChange="onSelectChange()"-->
+        <option value="Video" selected>Video</option>
+        <option value="Album">Video_Album</option>
+        <option value="Song">Song</option>
+        <option value="Lrc">Lrc</option>
+        <option value="Search">Search</option>
+            </select>
+      <select name="Ground" id="Ground">
+        <option value="Dongman" selected 
+ >动漫</option>
+        <option value="Movie">影视</option>
+        <option value="MV">MV</option>
+      </select>
+</p>
+  	<p>
+	      <input name="Title" id="Title">
+	    Title | name</p>
+  	<p>
+	    <input name="singer" id="singer" >
+	    singer</p>
+	  <p>
+        <input name="singerCH" id="singerCH" maxlength="1" >
+singerCH</p>
+	  <p>
+	    <input name="Src" id="Src" >
+Src</p>
+	  <p><TEXTAREA id=Description name=Description></TEXTAREA>
+	  Description</p>
+	  <p>
+		<input name="Tags" id="Tags" >
+	  Tags(connect by "&amp;&amp;&amp;")</p>
+	  <p>
+      <input name="Color" id="Color" >	  
+Color</p>
+	  <p>
+    <input name="Album" id="Album" >
+    Album</p>
+	  <p>      <input name="CH" id="CH2" maxlength="1" >
+      CH</p>	  <p>
+	    <textarea name=txt id="txt"></textarea>
+Lrc    
+    <DIV></DIV><TEXTAREA id=temp style="HEIGHT: 38px" name=temp cols=30></TEXTAREA> 
+      预览
+</td></tr></table>
+  
+  
+  
+  
+  
+  
+  <div align="center">
+    <p>
+      <input type="button" name="button" value="        →数据库格式        " onClick="xx();" style="LEFT: 141px; TOP: 333px">
+      <input type="reset" value="清空">
+    </p>
+  </div>
+  <p align="center">
+    <input type="button" name="button" value="                  关闭                  " onClick="window.close();">
+  </p>
+</form>
+
+<script>
+	/*var temp="";
+	//<div id=temp></div>
+	for(var i=0;i< Data.length;i++)temp+="Data[Data.length++]=new Form(\""+ Data[i][0] +"\",\""+ Data[i][1] +"\",\""+ Data[i][2] +"\",\""+ Data[i][3] +"\",\""+ Data[i][4] +"\");"+"<br>";
+	
+	$("temp").innerHTML=temp;*/
+</script>
+
+<b></b>
+<b></b>
+<b></b>
+<b></b><b></b><b></b>
+</body>
+</html>
