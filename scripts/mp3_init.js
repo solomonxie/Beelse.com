@@ -1,0 +1,30 @@
+var player = new SWFObject("common/mp3_player/mp3player.swf", "player_id",'320','320','8'); 
+player.addVariable("file","common/mp3_player/playlist.xml"); 
+player.addVariable("image","cover.jpg"); 
+player.addParam("allowfullscreen","true"); 
+player.addVariable("enablejs","true"); 
+player.addVariable("javascriptid","player_id"); 
+player.addVariable("displayheight","240");
+player.write("lr_player");
+var mmw = new SWFMacMouseWheel(player);
+
+
+showMp3List();
+
+
+/*
+//to change player
+	sendEvent('playpause');
+	sendEvent('volume',50);
+	loadFile( {
+		file:'http://www.jeroenwijering.com/upload/windmill_warriors.flv',
+		title:'The BMC Windmill Warriors',
+		link:'http://www.beelse.com',
+		id:'12345',
+		image:'/upload/windmill_dvd_rip.jpg'
+	} );
+	addItem( 
+		{file:'/upload/afraid.flv'},1
+	);
+	removeItem(1);
+*/

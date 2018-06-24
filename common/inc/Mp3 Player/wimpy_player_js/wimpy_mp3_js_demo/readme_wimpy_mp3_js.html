@@ -1,0 +1,766 @@
+<html>
+<head>
+<title>Wimpy MP3 Player - JavaScript Controls  - Read Me</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+a {  color: #003399; text-decoration: none}
+p {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333}
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+ol {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+
+}
+
+.codeExample {
+	background-color: #EFEFEF;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+	color: #3300FF;
+}
+.cellHR {
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: #D3D2D4;
+}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF">
+<table width="740" border="0" cellspacing="0" cellpadding="20">
+  <tr align="center" valign="middle">
+    <td width="75%" align="left" valign="top"><p><a href="readme_wimpy_mp3_js.html">Instructions</a> | <a href="readme_wimpy_mp3_js_example1.html">Example 1</a> | <a href="readme_wimpy_mp3_js_example2.html">Example 2</a> | <a href="readme_wimpy_mp3_js_example3.html">Example 3</a> | <a href="readme_wimpy_mp3_js_example4.html">Example 4</a> | <a href="readme_wimpy_mp3_js_example5.html">Example 5</a> | <a href="readme_wimpy_mp3_js_example6.html">Example 6 (Advanced Usage: Experts only!)</a></p>
+      <p>&nbsp;</p>
+      <h1>Wimpy JavaScript Controls </h1>
+      <p>Version 2.0 </p>
+      <p>By Mike Gieson <br>
+        Available at <a href="http://www.wimpyplayer.com" target="_blank">http://www.wimpyplayer.com</a><br>
+        &copy;2002-2006 plaino </p>
+      <p><strong>This product includes software developed by Macromedia, Inc.</strong></p>
+      <p>Macromedia(r) Flash(r) JavaScript Integration Kit<br>
+        Portions noted as part of the JavaScript Integration Kit<br>
+        are Copyright (c) 2005 Macromedia, inc. All rights reserved.<br>
+        http://www.macromedia.com/go/flashjavascript/</p>
+      <p>Macromedia(r) Flash(r) JavaScript Integration Kit Created by:</p>
+      <p>Christian Cantrell<br>
+        http://weblogs.macromedia.com/cantrell/<br>
+        mailto:cantrell@macromedia.com</p>
+      <p>Mike Chambers<br>
+        http://weblogs.macromedia.com/mesh/<br>
+        mailto:mesh@macromedia.com</p>
+      <p>Macromedia</p>
+      <hr size="1" noshade>
+      <p>&nbsp;</p>
+      <p><strong>Contents:</strong></p>
+      <p><a href="#overview">Overview<br>
+        </a><a href="#functions">Function Reference</a> <br>
+        <a href="#options">Options Reference</a> <br>
+        JavaScript Control Setup <br>
+        &nbsp;&nbsp; - <a href="#setup">For experienced users</a><br>
+        &nbsp;&nbsp; - <a href="#newbie">For Newbies</a> </p>
+      <p>IMPORTANT NOTE: For the very latest documentation, go to:</p>
+      <p><a href="http://www.wimpyplayer/products/mp3/javascript_mp3_player.html" target="_blank">http://www.wimpyplayer/products/mp3/javascript_mp3_player.html </a></p>
+      <p>&nbsp;</p>
+      <hr size="1" noshade>
+      <p><a name="overview" id="overview"></a></p>
+      <h2>Overview</h2>
+      <p>The JavaScript controls are intended for advanced HTML authors who are not afraid to tinker with HTML and modify JavaScript variables. If the previous sentence didn't make sense to you, you may want to make a pot of coffee. There is a &quot;newbie&quot; section included in this documentation, which attempts to help explain some of the techno mumbo-jumbo it's the best I can offer without actually showing up at your office and holding your hand. </p>
+      <p>Basically the way it works is that the wimpy.js file contains a series of functions that create HTML code on the fly, and use the JavaScript Kit developed by Macromedia to allow JavaScript to communicate with the internal Actionscript contained within the Wimpy MP3 Player.&nbsp; The end result is that JavaScript can control Wimpy MP3 Player. </p>
+      <p><strong>The JavaScript Controls consists of 3 files:</strong></p>
+      <table width="435" border="0">
+        <tr>
+          <td width="166" nowrap><p>wimpy.swf<br>
+              wimpy.js<br>
+              some_page.html</p></td>
+          <td width="259" nowrap><p>&lt;- The player<br>
+              &lt;- The wiring <br>
+              &lt;- Your HTML page </p></td>
+        </tr>
+      </table>
+      <p>The remainder of this documentation explains how to implement the  JavaScript Controls. I recommend taking a look at the source HTML code in the example HTML pages to see how the code is implemented in a **real** HTML page. The examples should work on your local PC, but you may experience problems when viewing locally depending on the security settings you have established through the Flash plugin installed in your browser. The best way to test things out is to upload all the files contained in this package to your web server. </p>
+      <p>&nbsp;</p>
+      <hr size="1" noshade>
+      <p><a name="functions" id="functions"></a></p>
+      <h2>Function Reference</h2>
+      <p><font color="#CC0000"><strong>IMPORTANT NOTE</strong>: It is best to try and only use alpha-numeric characters. Double-byte and non-alpha-numeric characters must be URL encoded. You may want to apply the escape() function to any questionable arguments that may contain non-alpha-numeric characters. </font></p>
+      <p><font color="#CC0000">Pay special attension to URL encode (escape) -- or don't use at all -- the following characters:<br>
+      <strong>&amp; ' ? space &quot; # !  \</strong> </font></p>
+      <p>&nbsp;</p>
+      <table width="700" border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td width="135" align="left" valign="top" nowrap class="cellHR"><p><strong>makeWimpyPlayer()</strong></p></td>
+          <td width="805" align="left" valign="top" class="cellHR"><p>Initializes the JavaScript Controls and renders a player on your page based on the options established within the wimpy.js file. The wimpy.js file contains more information about the available options in the javaScript comments.</p>
+            <p> <strong>This is required to use any of the JavaScript Controls.</strong> In order to take advantage of the JavaScript Controls, an instance of the player must&nbsp; be established through javascript using  makeWimpyPlayer.</p>
+            <p><b><font color="#CC0000">Only one player can be rendered and controlled on a page.</font></b> </p>
+            <p>To render a player: </p>
+            <p class="codeExample">&lt;script language=&quot;JavaScript&quot; &gt;<br>
+              &nbsp;
+              makeWimpyPlayer();<br>
+              &lt;/script&gt;</p>
+            <p>To render a player with a default MP3 file:</p>
+            <p class="codeExample">&lt;script language=&quot;JavaScript&quot; &gt;<br>
+&nbsp;
+              makeWimpyPlayer(&quot;file1.mp3&quot;);<br>
+&lt;/script&gt;</p>
+           <p>To render a player with a few files, seperate each file with a &quot;pipe&quot; character:</p>
+            <p class="codeExample">&lt;script language=&quot;JavaScript&quot; &gt;<br>
+&nbsp;
+              makeWimpyPlayer(&quot;file1.mp3|file.mp3|file3.mp3&quot;);<br>
+&lt;/script&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td width="135" align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_loadAndPlay()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Load an MP3 file into the playlist and play the loaded file immediately. </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_loadAndPlay(<br>
+              &nbsp;&nbsp;&nbsp; 'example4.mp3', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to track.mp3 <br>
+              &nbsp;&nbsp;&nbsp;
+              'My Artist', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;-- Artist's Name <br>
+              &nbsp;&nbsp;&nbsp;
+              'My Title', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Track Title<br>
+              &nbsp;&nbsp;&nbsp;
+              'http://www.goto.com',&nbsp;&nbsp;&lt;-- URL link on graphic<br>
+              &nbsp;&nbsp;&nbsp;
+              'coverart.jpg'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to graphic.jpg<br>
+              &nbsp;&nbsp;&nbsp;
+              );&quot;&gt;<br>
+              Load and Play: track 1<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_clearPlaylist()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Clears the playlist </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_clearPlaylist();&quot;&gt; <br>
+              Clear Playlist<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_appendPlaylist()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Load either an MP3 file or XML playlist into the playlist. This feature will NOT load the contents of an XML playlist, it will only load a reference to the playlist. The user will have to click on the playlist item to open the playlist. </p>
+            <p>To add an MP3 file to the playlist </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot; <br>
+              onClick=&quot;wimpy_appendPlaylist(<br>
+              &nbsp;&nbsp;&nbsp; 'track', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Use &quot;track&quot; when loading MP3 files <br>
+              &nbsp;&nbsp;&nbsp; 'example4.mp3', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to track.mp3 <br>
+              &nbsp;&nbsp;&nbsp; 'My Artist', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;-- Artist's Name <br>
+              &nbsp;&nbsp;&nbsp; 'My Title', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Track Title<br>
+              &nbsp;&nbsp;&nbsp; 'http://www.goto.com',&nbsp;&nbsp;&lt;-- URL link on graphic<br>
+              &nbsp;&nbsp;&nbsp; 'coverart.jpg'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to graphic.jpg<br>
+              &nbsp;&nbsp;&nbsp; )&quot;&gt;<br>
+              Add Track <br>
+              &lt;/a&gt;</p>
+            <p><br>
+              To add an XML playlist to the playlist </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot; <br>
+              onClick=&quot;wimpy_appendPlaylist(<br>
+              &nbsp;&nbsp;&nbsp; 'playlist', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Use &quot;playlist&quot; when loading XML files <br>
+              &nbsp;&nbsp;&nbsp; 'my_playlist.xml', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;-- URL to playlist.xml <br>
+              &nbsp;&nbsp;&nbsp; '', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Can be empty, or same as Title (below) <br>
+              &nbsp;&nbsp;&nbsp; 'My Title', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;--  Playlist Title<br>
+              &nbsp;&nbsp;&nbsp; 'http://www.goto.com',&nbsp;&nbsp;&lt;-- URL link on graphic<br>
+              &nbsp;&nbsp;&nbsp; 'coverart.jpg'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to graphic.jpg<br>
+              &nbsp;&nbsp;&nbsp; )&quot;&gt;<br>
+              Add Track <br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_play()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Starts the player or plays the track that is currently selected in the playlist. </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_play();&quot;&gt; <br>
+              Play<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_stop()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Stops the currently loaded track </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_stop();&quot;&gt; <br>
+              Stop<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_pause()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Pauses the currently loaded </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_pause();&quot;&gt; <br>
+              Pause<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_gotoTrack()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Goes to a specific track listed in the playlist. The only way to determine which track to &quot;go to&quot; is by referencing a number. Example wimpy_gotoTrack(3) would play the third item in the current playlist. </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_gotoTrack(2);&quot;&gt; &lt;-- Specify the track number inside the (). <br>
+              Stop<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_next()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Plays the next track in the playlist </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_next();&quot;&gt;<br>
+              Next<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_prev()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Rewinds the play head to the beginning of the track, or goes to the previous item in the playlist depending on the current status of the player's play head. </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;wimpy_prev();&quot;&gt;<br>
+              Previous<br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" nowrap class="cellHR"><p><strong>wimpy_appendMultipleTracks()</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Allows you to quickly load multiple MP3 tracks into the player.</p>
+            <p>Seperate each URL to each MP3 file with a &quot;pipe&quot; character.</p>
+            <p>Example:</p>
+            <p class="codeExample">http://www/<strong>1</strong>.mp3|http://www/<strong>2</strong>.mp3|http://www/<strong>3</strong>.mp3</p>
+            <p>This function is similar to wimpy_appendPlaylist, but rather than setting the &quot;title&quot; for each track, we set a &quot;Group Title&quot; field. The Group Title will only display in the info display area when a track is playing, It will not appear in the playlist. </p>
+            <p>The items will display in the playlist using a &quot;psuedo title&quot; based on the file name for each track</p>
+            <p>Each track loaded through this function will use common &quot;Group title&quot;, &quot;Hyperlink&quot;, and &quot;Cover Art&quot; arguments. The items will display in the playlist using a &quot;psuedo title&quot; based on the file name for each track.  Unfortunately this function does not allow you to specify each track title (like wimpy_appendTrack), so only the filename will display in the playlist.</p>
+            <p>NOTE: The common arguments can be empty strings (e.g. &quot;&quot;), in which case only the file name for each track will be used both in the playlist and in the info display area. </p>
+            <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+              onClick=&quot;<b>wimpy_appendMultipleTracks</b>(<br>
+              &nbsp;&nbsp;&nbsp; 'example1.mp3|example2.mp3|example3.mp3', &lt;-- Seperate|with|pipe <br>
+              &nbsp;&nbsp;&nbsp; 'My Group Title', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- The Group Title <br>
+              &nbsp;&nbsp;&nbsp; 'http://www.goto.com',&nbsp;&nbsp;&lt;-- URL link on graphic<br>
+              &nbsp;&nbsp;&nbsp; 'coverart.jpg'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to graphic.jpg<br>
+              &nbsp;&nbsp;&nbsp; );&quot;&gt;<br>
+              Add Multiple Tracks <br>
+              &lt;/a&gt;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+        	<td align="left" valign="top" nowrap class="cellHR"><p><b>wimpy_getTrackInfo()</b></p></td>
+        	<td align="left" valign="top" class="cellHR"><p>Returns all the information loaded into Wimpy for the track that is currently playing. If the player has not yet started to play a track, &quot;undefined&quot; is returned.</p>
+        		<p>Wimpy returns the information as an array, where the first index of the array is a string identifying the name of the function (e.g.  <b>'</b>wimpy_getTrackInfo&quot; which allows you to distinguish between different function calls returned to the function that is defined in  js_wimpy_returnOnComplete.</p>
+        		<p>This function requires js_wimpy_returnOnComplete to be established within wimpy.js. See the comments within wimpy.js for how to use this feature.</p>
+        		<p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+onClick=&quot;<b>wimpy_getTrackInfo()</b>;&quot;&gt;<br>
+<br> 
+Get info about current track.
+<br>
+<br>
+&lt;/a&gt;</p>
+        		<p>See  <a href="readme_wimpy_mp3_js_example6.html" target="_blank">readme_wimpy_mp3_js_example6.html</a> for example of how to use this feature. </p>
+        		<p>&nbsp;</p></td>
+        	</tr>
+        <tr>
+			<td align="left" valign="top" nowrap class="cellHR"><p><b>wimpy_returnPlaylistItem()</b></p></td>
+        	<td align="left" valign="top" class="cellHR"><p>Returns all the information  for a specific track loaded into the Wimpy playist.</p>
+        			<p>Wimpy returns the information as an array, where the first index of the array is a string identifying the name of the function (e.g. &quot;wimpy_returnPlaylistItem &quot; which allows you to distinguish between different function calls returned to the function that is defined in  js_wimpy_returnOnComplete.</p>
+        			<p>This function requires js_wimpy_returnOnComplete to be established within wimpy.js. See the comments within wimpy.js for how to use this feature.</p>
+        			<p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+        			onClick=&quot;<b>wimpy_returnPlaylistItem(2)</b>;&quot;&gt; &lt;-- Specify the track number inside the (). <br>
+        			<br>
+        			Get info about a specific track <br>
+					<br>
+					&lt;/a&gt;</p>
+        		<p>See <a href="readme_wimpy_mp3_js_example6.html" target="_blank">readme_wimpy_mp3_js_example6.html</a> for example of how to use this feature. </p>
+        		<p>&nbsp;</p></td>
+        	</tr>
+      </table>
+      <p>&nbsp;</p>
+      <p><a name="options" id="options"></a></p>
+      <h2>Options Reference</h2>
+      <p>Options for your player instance can be set by editing each option's vairalbe in the wimpy.swf file. if you're not sure how to edit variables, or you don't know what a variable is, review the &quot;<a href="#newbies">newbies</a>&quot; section below. </p>
+      <p>&nbsp;</p>
+      <table width="700" border="0" cellspacing="0" cellpadding="10">
+        <tr>
+          <td width="133" align="left" valign="top" class="cellHR"><p><strong>wimpySwf</strong></p></td>
+          <td width="527" align="left" valign="top" class="cellHR"><p>URl to where you have wimpy.swf uploaded to your server.</p>
+            <p>Example:</p>
+            <p class="codeExample">wimpySwf = &quot;http://www/path/to/wimpy.swf&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>wimpySkin</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>URL to skin_name.xml file</p>
+            <p>Example:</p>
+            <p class="codeExample">wimpySkin = &quot;http://www.yoursite.com/path/to/skin_wimpy_vert.xml&quot;;<br>
+            </p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>wimpyConfigFile</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>URL to config file. if this is used, the config file will over-ride the options set below.</p>
+            <p>Example:</p>
+            <p class="codeExample">wimpyConfigFile = &quot;http://www.yoursite.com/path/to/wimpyConfigs.xml&quot;;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>trackPlays</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>URL to script that receives information about the file</p>
+            <p>Example:</p>
+            <p class="codeExample">trackPlays = &quot;http://www.yoursite.com/path/to/wimpy_trackplays.php&quot;;<br>
+            </p>
+            <p>Leave as empty string if not using.</p>
+            <p>Example:</p>
+            <p class="codeExample">trackPlays = &quot;&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>voteScript</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>URL to script that receives information about the file</p>
+            <p>Example:</p>
+            <p class="codeExample">voteScript = &quot;http://www.yoursite.com/path/to/wimpy_vote_script.php&quot;;</span><br>
+            </p>
+            <p>Leave as empty string if not using.</p>
+            <p>Example:</p>
+            <p class="codeExample">voteScript = &quot;&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>defaultImage</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>URL to default iamge (jpg or swf format only)</p>
+            <p>Example:</p>
+            <p class="codeExample">voteScript = &quot;http://www.yoursite.com/path/to/graphic.jpg&quot;;</span><br>
+            </p>
+            <p>Leave as empty string if not using.</p>
+            <p>Example:</p>
+            <p class="codeExample">defaultImage = &quot;&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>startPlayingOnload</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This should be pretty easy to understand.</p>
+            <p>Options: &quot;yes&quot; or &quot;no&quot;</p>
+            <p class="codeExample">startPlayingOnload = &quot;no&quot;;</span></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>shuffleOnLoad</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This should be pretty easy to understand.</p>
+            <p>Options: &quot;yes&quot; or &quot;no&quot;</p>
+            <p class="codeExample">shuffleOnLoad = &quot;no&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>randomOnLoad</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This should be pretty easy to understand.</p>
+            <p>Options: &quot;yes&quot; or &quot;no&quot;</p>
+            <p class="codeExample">randomOnLoad = &quot;no&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>displayDownloadButton</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This should be pretty easy to understand. Download links will open files in a new window.</p>
+            <p>Options: &quot;yes&quot; or &quot;no&quot;</p>
+            <p class="codeExample">displayDownloadButton = &quot;no&quot;;</span><br>
+            </p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>startOnTrack</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This will cause wimpy to start on a specific track in the playlist. The number used will be the track number Wimpy will start to play when Wimpy loads up. Using this option will over-ride &quot;startPlayingOnload&quot; -- if startPlayingOnload is set to &quot;no&quot; and this option is set, then Wimpy will automatically set startPlayingOnload to &quot;yes&quot;</p>
+            <p>Example:</p>
+            <p class="codeExample">startOnTrack = &quot;3&quot;;</span><br>
+            </p>
+            <p>Leave as empty string if not using.</p>
+            <p>Example:</p>
+            <p class="codeExample">startOnTrack = &quot;&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>autoAdvance</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>Force the user to click &quot;next&quot; to advance to the next track, or automatically advance  )keep on playing tracks)</p>
+            <p>Options: &quot;yes&quot; or &quot;no&quot;</p>
+            <p class="codeExample">autoAdvance = &quot;yes&quot;;</span><br>
+            </p>
+            <p>&nbsp;</p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>popUpHelp</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This should be pretty easy to understand.</p>
+            <p>Options: &quot;yes&quot; or &quot;no&quot;</p>
+            <p class="codeExample">popUpHelp = &quot;yes&quot;;</span><br>
+            </p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>scrollInfoDisplay</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This should be pretty easy to understand.</p>
+            <p>Options: &quot;yes&quot; or &quot;no&quot;</p>
+            <p class="codeExample">scrollInfoDisplay = &quot;yes&quot;;</span></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>infoDisplayTime</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This will set the speed of the scroller. Higher values will increase the scroll speed.</p>
+            <p class="codeExample">infoDisplayTime = &quot;3&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>bufferAudio</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This will cause the player to &quot;wait&quot; the specified period of time (in seconds) before the track actually starts to play. This option is good for slow internet connections, since it allows the file to load X number of seconds before it starts to play -- thereby minimizing a &quot;choppy&quot; playback. If the end user has a fast connection, the track may not hesitate for the total number of seconds used for this option and may start to play much sooner.</p>
+            <p>Options: Number of seconds to &quot;wait&quot; before playing track. (For slow connections only)</p>
+            <p class="codeExample">bufferAudio = &quot;3&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>theVolume</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>This will set the &quot;default&quot; volume percentage when the player starts up. <br>
+              Options: Any number from 0 to 100 (think &quot;percent&quot;)</p>
+            <p class="codeExample">theVolume = &quot;100&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+          <td align="left" valign="top" class="cellHR"><p><strong>defaultVisualExt</strong></p></td>
+          <td align="left" valign="top" class="cellHR"><p>If you are using a skin that displays cover art, wimpy will automatically attempt&nbsp; to load an image that has the same name as your audio.mp3 file. For example, if you have a file located here:</p>
+            <p>http://www.yoursite.com/mp3s/track1.mp3</p>
+            <p>Then wimpy will attempt to load:</p>
+            <p>http://www.yoursite.com/mp3s/track1.jpg</p>
+            <p>Set this to the type of file it should load. <br>
+              Options: &quot;swf&quot; or &quot;jpg&quot;</p>
+            <p class="codeExample">defaultVisualExt = &quot;jpg&quot;;</span><br>
+            </p>
+            <p></p></td>
+        </tr>
+        <tr>
+        	<td align="left" valign="top" class="cellHR"><p><b>js_wimpy_returnOnComplete</b></p></td>
+        	<td align="left" valign="top" class="cellHR"><p>Specifies a function that Wimpy should ping when: </p>
+        		<p>- Each time a track begins to play.<br>
+        			- When each track finishes playing.<br>
+        		- The function &quot;wimpy_getTrackInfo&quot; is initiated.<br>
+        		- The function  &quot;wimpy_returnPlaylistItem&quot; is initiated. </p>
+        		<p>If set, Wimpy will &quot;ping&quot; the function name defined for this variable.</p>
+        		<p><b>Example:</b></p>
+        		<p class="codeExample">js_wimpy_returnOnComplete = &quot;myFunction&quot;;<br>
+        			<br>
+        		funtion myFunction(WimpyReturnArgs){<br>
+        			&nbsp;&nbsp; alert (&quot;wimpy returns:&quot;+ WimpyReturnArgs);<br>
+        			}</p>
+        		<p>In the example above, Wimpy will initiate the function &quot;myFunction&quot; each time a track starts to play and when the track is finished palying. (And when either wimpy_getTrackInfo or wimpy_returnPlaylistItem have been initiated. ) </p>
+        		<p>NOTE: If the user clicks the &quot;pause&quot; or &quot;stop&quot; button, the function will NOT be pinged. In order for this function to be pinged when the track is complete, the track must reach the end of it's play time &quot;naturally.&quot; </p>
+        		<p>&nbsp;</p></td>
+        	</tr>
+        <tr>
+        	<td align="left" valign="top" class="cellHR"><p><b>limitPlaytime</b></p></td>
+        	<td align="left" valign="top" class="cellHR"><p>Limits the amount of time that the file is allowed to play. Set this to a number of seconds that files should be allowed to play.</p>
+        		<p><b>The following example above will imit play time to 30 seconds:</b></p>
+        		<p class="codeExample">limitPlaytime=&quot;30&quot;;</p>
+        		<p>&nbsp;</p></td>
+        	</tr>
+        <tr>
+        	<td align="left" valign="top" class="cellHR"><p><b>startupLogo</b></p></td>
+        	<td align="left" valign="top" class="cellHR"><p>You can use either a JPG or SWF image as the start up logo, which will replace the default  &quot;W&quot; logo when the player starts up.</p>
+        		<p>When the image is loaded, it is centered within the player's bounding box. The image is <b>not</b> resized, it is only centered.</p>
+        		<p><b>Example:</b></p>
+        		<p class="codeExample">startupLogo = &quot;http://www.yoursite.com/images/logo.jpg&quot;;</p>
+        		<p>NOTE: If you are using an <b>SWF</b> logo, Wimpy will center the loaded movie based on the dimensions of all of the objects on the main stage, so if there are any &quot;invisible&quot; items, or if objects &quot;hang off the edge&quot; of the main stage, or if the objects are smaller than the main stage, the loaded logo may not get centered properly. Wimpy can not determine the size of the main stage, it can only determine the size of all the objects on the main stage. </p></td>
+        	</tr>
+      </table>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p><a name="setup" id="setup"></a></p>
+      <h2>JavaScript Control Setup - For experienced users</h2>
+      <p>Non-experienced users: <a href="#newbie">scroll down to the &quot;newbie&quot; section below</a>)</p>
+      <p>&nbsp;</p>
+      <p><strong>1. Edit the wimpy.js file:</strong></p>
+      <blockquote>
+        <p>Change:<strong>wimpySwf</strong> to refer to <font color="#CC0000"><strong>wimpy.swf</strong></font> on your web site.</p>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">wimpySwf = &quot;http://www.yoursite.com/mp3s/wimpy.swf&quot;;</p>
+        <p>&nbsp;</p>
+      </blockquote>
+      <p><strong>2. Reference wimpy.js in the &lt;head&gt; tags.</strong></p>
+      <blockquote>
+        <p>For each page that you would like to use the player on you will need to include a reference to the wimpy.js file so that the function calls used on your pages will work.</p>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">&lt;head&gt;<br>
+          &lt;script language='javascript'<br>
+          src='http://www.yoursite.com/mp3s/wimpy.js'&gt;<br>
+          &lt;/script&gt;<br>
+          &lt;/head&gt;</p>
+      </blockquote>
+      <p><strong>3. Establish a player on your page:</strong></p>
+      <blockquote>
+        <p><strong>This is required to use any of the JavaScript Controls.</strong> In order to take advantage of the JavaScript Controls, an instance of the player must&nbsp; be established through javascript using  makeWimpyPlayer.</p>
+        <p>Only one player can be rendered and controlled on a page. </p>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample"><span class="func">&lt;script&gt;<br>
+          </span><span class="string">&nbsp;&nbsp; makeWimpyPlayer(</span><span class="string">);</span><span class="func"><br>
+          &lt;/script&gt;</span></p>
+      </blockquote>
+      <p><strong>4. Include  JavaScript Control calls anywhere in the &lt;body&gt; of your HTML pages:</strong></p>
+      <blockquote>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+          onClick=&quot;wimpy_play();&quot;&gt; <br>
+          Play<br>
+          &lt;/a&gt;</p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <hr size="1" noshade>
+      <p><a name="newbie" id="newbie"></a> </p>
+      <h1>JavaScript Control Setup - For Newbies</h1>
+      <p>Throughout this tutorial, you will be asked to &quot;Clear your browser's cache&quot; -- which makes sure that your browser loads the latest changes to the files that were edited. <a href="http://www.chami.com/tips/internet/021198I.html" target="_blank">Click here to lean how to clear your browser's cache.</a></p>
+      <p>For development I highly recommend <a href="http://www.mozilla.com" target="_blank">Mozilla's Firefox browser</a>. The primary reason is because FireFox's &quot;Clear Cache Now&quot; button actually works. Internet Explorer does not always clear files from the cache, which causes many hours of double thinking where the code is wrong. With FireFox, you KNOW that the cache is cleared when you &quot;Clear the cache.&quot; Plus there are a number of developer tools and extensions that make clearing the cache 9or disabling the cache a one click (or no-click) deal. </p>
+      <p>To clear the cache in FireFox, From the Main Menu &gt; Tools &gt; Options &gt; Privacy Icon &gt; Cache tab &gt; &quot;Clear Cache Now.&quot; You can also include the &quot;clearing of the cache&quot; by clicking the &quot;settings&quot; tab in the same screen and check &quot;cache&quot; from the list, This way you only have to From the Main menu &gt; Tools &gt; Clear Private Data. OR, ctrl+ shift+del.</p>
+      <p>In addition there is a nifty JavaScript error reporting tool, which can help you determine exactly where the JavaScript error is occurring. The JavaScript error console can be access From the Main Menu &gt; Tools &gt; JavaScript Console. </p>
+      <p>Nailing down the &quot;Clear cache&quot; and using the JavaScript Console will save you lots'o'time and headaches. </p>
+      <h1><strong>PART 1</strong></h1>
+      <p>In the first part we are going to edit the JavaScript file so that the JavaScript file refers to the proper locations to the Wimpy files on your site. Locations to files, Internet address' and URL's are all &quot;the same thing&quot; -- URL stands for &quot;Uniform Resource Locator&quot; and is just an easy way to say &quot;this is where I want you to go on the internet,&quot; or,&quot; the internet address to a web site or file.&quot; </p>
+      <p><strong>1. Open the local copy of wimpy.js in a simple text editor.</strong> </p>
+      <blockquote>
+        <p>The simpler the text editor the better. I recommend Note Pad (notepad.exe), which is usually located here:<br>
+          <strong>C:\WINDOWS\system32\notepad.exe</strong><br>
+          Make a shortcut to this program and place the shortcut on your desktop, as we will be referring to it a couple more times. </p>
+        <p>If your on a Mac, I recommend <a href="http://smultron.sourceforge.net/" target="_blank">Smultron.</a></p>
+      </blockquote>
+      <p><strong>2. Scroll down to the line that reads:</strong></p>
+      <blockquote>
+        <p class="codeExample">wimpySwf = &quot;wimpy.swf&quot;;</p>
+        <p>What you are looking at is called a &quot;variable&quot; -- which means that <strong>wimpySwf</strong> can vary depending on your needs. You need this variable to reference the URL to wimpy.swf on your web site. </p>
+        <p>You should have already created a new &quot;mp3s&quot; folder on your web site and uploaded all the Wimpy MP3 Player files to the newly created folder. If you have not, be sure to do so now. Refer to the &quot;<a href="#install">installation</a>&quot; instructions up at the top of this document. </p>
+        <p><strong>It is a good idea</strong> to test the URL before you go to the next step. Usually, I copy and paste the URL into an empty browser window to make sure that i'm &quot;hitting&quot; the right file. (Sometimes my typing can be terrible.) </p>
+        <p>You will notice that there are &quot;comments&quot; in the wimpy.js file. Comments are lines that begin with two slashes //. These slashes are not processed as code, they are overlooked when the JavaScript engine (&quot;Interpreter&quot;) reads the script -- so it's a nice way to include &quot;human readable&quot; explanations for how the script works.</p>
+      </blockquote>
+      <p><strong>3. Change this variable so that it references the location of <font color="#CC0000">wimpy.swf</font> on your web site.</strong> </p>
+      <blockquote>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">wimpySwf = &quot;http://www.yoursite.com/mp3s/wimpy.swf&quot;;</span></p>
+        <p>NOTE: Be sure to keep the URL between the quotes, and that the semi-colon is at the end of the line. otherwise the code will &quot;break.&quot;</p>
+      </blockquote>
+      <p><strong>5. Save wimpy.js  and re-upload the file to your Wimpy MP3 Player installation folder.</strong></p>
+      <blockquote>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">wimpySwf = &quot;http://www.yoursite.com/mp3s/wimpy.swf&quot;;</span></p>
+      </blockquote>
+      <p><strong>6. Clear your browser's cache</strong></p>
+      <p><strong>7. Pull up wimpyJS_example_1.html file on your web site with your browser</strong>. </p>
+      <blockquote>
+        <p>Enter the following into your web browser's &quot;address&quot; field:</p>
+        <p class="codeExample">http://www.yoursite.com/mp3s/wimpyJS_example_1.html.html</span></p>
+        <p>(Of course you'll want to replace &quot;yoursite.com&quot; with your domain name) </p>
+      </blockquote>
+      <p><strong>8. Click on all the links to make sure that everything is working OK.</strong></p>
+      <p>&nbsp;</p>
+      <h1><strong>PART 2 </strong></h1>
+      <p>In this second part we are going to edit the example HTML files so you will understand the process that you will need to apply to your existing web page(s) in order to use the JavaScript Controls on your web site. </p>
+      <p>&nbsp;</p>
+      <p><strong>2.1. Open your local copy of wimpyJS_example_1.html in a text editor.</strong> </p>
+      <blockquote>
+        <p>Toward the top of the page you will find the following line:</p>
+        <p class="codeExample"><span class="func">&lt;script language='javascript' src='wimpy</span><span class="string">.js</span><span class="func">'&gt;&lt;/script&gt;</span></p>
+        <p>Edit the reference to &quot;wimpy.js&quot; so that it uses a full URL to the wimpy.js file on your web site.</p>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample"><span class="func">&lt;script language='javascript' src='</span><span class="string">http://www.yoursite.com/mp3s/wimpy.js</span><span class="func">'&gt;&lt;/script&gt;</span></p>
+        <p><strong>NOTE:</strong> You can wrap the URL in 'single quotes' or &quot;double quotes&quot; -- I recommend single quotes, but double quotes are OK too. the reason to use one over the other is if you wanted to include a quote in the reference. </p>
+        <p>For example, if you wanted to use a URL such as:<br>
+          <strong>http://www.yoursite.com/bob's files/bob.jpg</strong><br>
+          ... the only way to ensure that the apostrophe would work would be to wrap the URL with double quotes. if we wrapped the URL with single quotes, then the code would &quot;breaK&quot; because the apostrophe would act as the last (or ending) quote:</p>
+        <p><strong>Bad:</strong><br>
+          'http://www.yoursite.com/bob's files/bob.jpg'<br>
+          <strong>Good:</strong><br>
+          &quot;http://www.yoursite.com/bob's files/bob.jpg&quot;</p>
+        <p>Likewise, if we wanted to use a double quote in the URL, we would have to wrap the URL with single quotes:</p>
+        <p><strong>Bad:</strong><br>
+          &quot;http://www.yoursite.com/bob said &quot;hi&quot;/ hello.jpg&quot;<br>
+          <strong>Good:</strong><br>
+          'http://www.yoursite.com/bob said &quot;hi&quot;/ hello.jpg'</p>
+        <p>I do not recommend ever using weirdo characters in any file name or folder name. Try and use only alpha-numeric characters.</p>
+        <p>The reason I went off on this long explanation is because sooner or later you are going to want to use a file with an apostrophe in your wasp code -- like when you try and reference an FLV video such as:</p>
+        <p><strong>Bad:</strong><br>
+          waspPopup('bob's video.flv', 320, 240)<br>
+          <strong>Good:</strong><br>
+          waspPopup(&quot;bob's video.flv&quot;, 320, 240)</p>
+        <p>It will invariably happen, and now you know why.</p>
+      </blockquote>
+      <p><strong>2.2. Save _example1.html and upload it to a DIFFERENT folder on your web site.</strong></p>
+      <blockquote>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">http://www.yoursite.com/someWhereElse/wimpyJS_example_1.html</span></p>
+      </blockquote>
+      <p><strong>2.3. Open your browser and enter the URL to the wimpyJS_example_1.html file in the NEW folder.</strong> </p>
+      <blockquote>
+        <p>The video should play. If it does not, go back to step 2.1 and try again.</p>
+        <p>If the player does work and you want to include the player on an existing page on your site. You will have to edit your existing page by adding the reference to the wimpy.js script in the &lt;head&gt; of your HTML page, then add the call to the javascript function somewhere in the &lt;body&gt; tag.</p>
+        <p>Come again? </p>
+        <p>OK, open the wimpyJS_example_1.html file in a text editor and copy the line that reads:</p>
+        <p class="codeExample"><span class="func">&lt;script language='javascript' src='</span><span class="string">http://www.yoursite.com/mp3s/wimpy.js'</span><span class="func">&gt;&lt;/script&gt;</span></p>
+        <p>Then open your existing page and paste the code anywhere between the opening &lt;head&gt; tag and the closing &lt;/head&gt; tag.<br>
+          <strong>Example:</strong></p>
+        <p class="codeExample"><span class="attrib">&lt;html&gt;<br>
+          <br>
+          &lt;head&gt;</span><span class="param"><br>
+          </span><span class="func">&lt;script language='javascript' src=</span><span class="string">'http://www.yoursite.com/mp3s/wimpy.js</span><span class="func">'&gt;&lt;/script&gt;</span><span class="param"><br>
+          </span><span class="attrib">&lt;/head&gt;</span><br>
+          <br>
+          &lt;body&gt;<br>
+          blah blah blah<br>
+          &lt;/body&gt;<br>
+          <br>
+          &lt;/html&gt; </p>
+        <p>You can only have one set of &lt;head&gt; tags (an opening &lt;head&gt; and closing &lt;/head&gt; is one set. Do not put two sets in your page... just paste the &lt;script&gt;blah blah&lt;/script&gt; tag BETWEEN the head tags. </p>
+      </blockquote>
+      <p><strong>2.4 Take a deep breath.</strong></p>
+      <p><strong>2.5 Understanding the available &quot;methods&quot; contained in the JavaScript Controls.</strong></p>
+      <blockquote>
+        <p>There  are a number of &quot;methods&quot; of &quot;functions&quot; you can call in your HTML pages. One being a call to  embed a player directly into the page, this method is required since it &quot;initializes&quot; the javaScript Controls. The remainder of the the functions take advantage of  standard HTML hyperlink tags to control the player. </p>
+      </blockquote>
+      <p><strong>2.6 Establishing a player. </strong></p>
+      <blockquote>
+        <p>In order to use the JavaScript Controls, we must first establish a Wimpy MP3 Player on our page. By doing so, we &quot;initialize&quot; the player. This just means that we are establishing the JavaScript code and the player so that the browser will know how to pass the information between to and from the player. One reason that we need to establish a player is because within the HTML we need to identify a &quot;name&quot; and &quot;id&quot; for the player. The &quot;name&quot; and &quot;id&quot; act as a label or &quot;name tag&quot; so that the browser can identify the player &quot;by name&quot; so that when a JavaScript Control function is actuated, the browser will say to it's self &quot;to whom shall I give this command&quot; -- if the player and JavaScript Controls did not have a reference name, the browser will not know who to give the instructions  to. But since we are &quot;initializing&quot; the JavaScript controls and providing the Wimpy MP3 Player with a name, then the JavaScript controls can tell the browser to &quot;give this instruction to the Wimpy MP3 Player that has this ____ name. </p>
+        <p>Another side benefit to using JavaScript to establish a player is that  we can do the same things that the Customizer tool does -- create a bunch of HTML code -- without having to continually use the Customizer tool. The &quot;makeWimpyPlayer&quot; function allows us to render all the HTML required to display the player without all the overhead and complexity of the HTML that the Customizer tool outputs. </p>
+        <p>To  establish a player in your HTML page include the following code  anywhere between the opening &lt;body&gt; and closing &lt;/body. tags  in your HTML page. This function will write all the HTML code necessary to display the player based on the settings defined in the wimpy.js file. </p>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">&lt;script&gt;<br>
+          &nbsp; makeWimpyPlayer();<br>
+          &lt;/script&gt;</p>
+      </blockquote>
+      <p>&nbsp;</p>
+      <p><strong>2.7 Controlling the player.</strong> </p>
+      <blockquote>
+        <p>The player is controlled by taking advantage of standard &lt;a href&gt; hyperlink tags. e.g. a &quot;standard link&quot; HTML code. With a standard HTML hyper link, we usually just reference a URL in the "href" attribute of a hyperlink tag.</p>
+        <p>Example of a standard HTML hyperlink tag:</p>
+        <p class="codeExample">&lt;a href="URL"&gt; Click Here &lt;/a&gt;</p>
+        <p>The <strong>&lt;a&gt;</strong> tag contains one attribute named <strong>href</strong> (which stands  for "Hyperlink Reference"). The &lt;a&gt; tag in our standard HTML  example above is wrapped around the words "Click Here" -- so that when  the words "Click Here" are clicked, the browser knows to go to a new  page... Or, the browser "hyperlinks" to a new page. </p>
+        <p>With  JavaScript we can take advantage of the simplicity of the &lt;a&gt;  hyperlink tag by adding an additional attribute to the &lt;a&gt;  hyperlink tag. The additional reference is an "onClick" attribute. </p>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">&lt;a href="javascript:;" onClick=&quot;do something&quot; &gt; Click Here &lt;/a&gt;</span></p>
+        <p>In  order to tell the browser that we are using JavaScript instead of a  traditional hyperlink reference, we replace the usual URL with the word  "javascript" followed by a colon and semi-colon. Doing so indicates to  the browser that we want to over-ride the traditional hyperlink action  with a javascript function.</p>
+        <p>The additional attribute  named "onClick"  tells the browser what kind  of user interactivity we want the browser to react to. There are a  variety of interactive options we can set this attribute to, but  onClick is the most widely used option -- supported by all browsers, so  we'll just stick with this option.</p>
+        <p>So, now that we have  told the browser to deal with this hyperlink when the link is clicked  on -- or "onClick"&nbsp; -- we need to inform the browser which JavaScript  function to use when the link is clicked. </p>
+        <p>In the same  respect that the traditional <strong>href</strong> attribute "points" the browser to  a new URL, with the onClick attribute, we are "pointing" the browser to  a JavaScript function. The JavaScript function is actually contained in  the <strong>wimpy.js</strong> file, which we referenced in the <strong>&lt;head&gt;</strong> tag... here  we are just "calling" the function with the specifics about how we want to control the player. </p>
+      </blockquote>
+      <p>&nbsp; </p>
+      <p><strong>2.8 Loading a file into an existing embedded player.</strong></p>
+      <blockquote>
+        <p>The function called <strong>wimpy_loadAndPlay</strong> will &quot;load and play&quot; an MP3 file into the existing embedded player that we established through the <strong>makeWimpyPlayer</strong> function. </p>
+        <p>The first step is to follow the instructions for the &quot;establishing a  player&quot; described above to establish an embedded player on the page.</p>
+        <p><strong>Example:</strong></p>
+        <p class="codeExample">&lt;script&gt;<br>
+          &nbsp; makeWimpyPlayer();<br>
+          &lt;/script&gt;</p>
+        <p>Then add the following JavaScript link on your page to load an MP3 into the existing embedded Wimpy MP3 Player:</p>
+        <p>Example:</p>
+        <p class="codeExample">&lt;a href=&quot;javascript:;&quot; onClick=&quot;wimpy_loadAndPlay('example4.mp3', 'My Artist', 'My Title', 'http://www.goto.com', 'coverart.jpg');&quot;&gt;<br>
+          Click to play: Example 1<br>
+          &lt;/a&gt;</p>
+        <p>Broken down for ease of reading / explanation: </p>
+        <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+          onClick=&quot;wimpy_loadAndPlay(<br>
+          &nbsp;&nbsp;&nbsp; 'example4.mp3', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to track.mp3 <br>
+          &nbsp;&nbsp;&nbsp;
+          'My Artist', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;-- Artist's Name <br>
+          &nbsp;&nbsp;&nbsp;
+          'My Title', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Track Title<br>
+          &nbsp;&nbsp;&nbsp;
+          'http://www.goto.com',&nbsp;&nbsp;&lt;-- URL link on graphic<br>
+          &nbsp;&nbsp;&nbsp;
+          'coverart.jpg'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to graphic.jpg<br>
+          &nbsp;&nbsp;&nbsp;
+          );&quot;&gt;<br>
+          Load and Play: track 1<br>
+          &lt;/a&gt;</p>
+        <p>The wimpy_loadAndPlay function allows you to include addition information about the file that you are loading into the player. information such as Artist name, Track Title, A URL to the cover art image and a hyper link that the cover art image will use when the user clicks on the image.</p>
+        <p>The way that the function puts this information into the player is by the references we use within the parenthesis. As you may have noticed, all function calls contain a set of parenthesis after the name of the function (). These parenthesis allow us to send dynamic information into the player so that we can re-use the function with different information.</p>
+        <p>Think of a function as though it were a coffee grinder. you put beans into the top of the coffee grinder, the gears inside the grinder grind up the coffee , and the end result is usable coffee. A function is very similar. stuff gets &quot;put into&quot; the function, the function processes the information, then outputs usable code, or performs a specific task. The stuff between the parentheses is like the area that accepts the raw coffee beans and the result is the usable coffee.</p>
+        <p>If you were to open the wimpy.js file in a text editor and find the reference to the wimpy_loadAndPlay function, you will notice that there are words inside the parentheses that refer to specific &quot;kinds&quot; of information. When we access the function, we enter &quot;real&quot; information in the same place that the &quot;holder&quot; reference words are located. Each different kind of information that we put into the function is separated by a comma. In the wimpy.js file, each item is just a reference word, so the reference word (or variable) does not have to have quotes around it. however, when we attempt to use the function &quot;in real life&quot; we must wrap each piece of information we send into the function with quotes so that the function will recognize the data as a text &quot;string&quot; -- otherwise JavaScript will attempt to interpret the stuff we put into the function as other reference variables. By wrapping the stuff with quotes we are basically sending in &quot;raw&quot; data (or full beans).</p>
+        <p>It is also important to maintain the proper order of the stuff that gets sent in. In other words, if a function accepts 3 items. </p>
+        <p class="codeExample">my_function(x, y, z)
+        <p>Then we must include three items when we call the function -- and the reference to each must be in the same order. </p>
+        <p>For example, lets say we have a function named &quot;make_a_sentance&quot; that accepts three kinds of information:</p>
+        <p>1. A persons name<br>
+          2. A day<br>
+          3. A location</p>
+        <p>The function could look something like:</p>
+        <p class="codeExample">function make_a_sentance(theName,theLocation,  theDay){<br>
+          &nbsp;&nbsp; document.write(theName + &quot; went to &quot; + theLocation + &quot; on &quot; + &quot;.&quot;);<br>
+          } </p>
+        <p>When we call the function we would use something like:</p>
+        <p class="codeExample">make_a_sentance(&quot;Bob&quot; , &quot;the store&quot;,  &quot;3/14/2006&quot;) </p>
+        <p>This function would output the following: </p>
+        <p class="codeExample">Bob went to the store on 3/14/2006. </p>
+        <p>If, when calling the function, we put the information in the wrong &quot;slot&quot; the sentence would not print out properly. So we must ensure that we put the proper kind of information into the proper &quot;slot&quot; so that the function can put the stuff in the right spot. If you don't have anything for a specific &quot;slot&quot; then you would use empty quotes, but you still have to put &quot;something&quot; into the &quot;slot&quot; -- even if it's nothing.</p>
+        <p>Example:</p>
+        <p class="codeExample">make_a_sentance(&quot;Bob&quot; , &quot;&quot;,  &quot;3/14/2006&quot;) </p>
+        <p>This sentence would print out as:</p>
+        <p class="codeExample">Bob went to &nbsp; on 3/14/2006. </p>
+        <p>But if we simply omitted or didn't reference the second &quot;slot&quot; at all the function would output:</p>
+        <p class="codeExample">Bob went to 3/14/2006 on&nbsp; .</p>
+        <p>Because the function is thinking that the seconds &quot;slot&quot; should be a reference to a location, not a date. </p>
+        <p>So in the same respect, when using the JavaScript controls, you need to reference the proper kind of data in the proper slot. If you do not want to include anything for that particular kind of data, say, you didn't want to include an image or artist name, then you would simply use empty quotes. </p>
+        <p>Example:</p>
+        <p class="codeExample">&lt;a href=&quot;javascript:;&quot; onClick=&quot;wimpy_loadAndPlay('example4.mp3', '', 'My Title', '', '');&quot;&gt;<br>
+          Click to play: Example 1<br>
+          &lt;/a&gt;</p>
+        <p>Broken down for ease of reading / explanation: </p>
+        <p class="codeExample">&lt;a href=&quot;javascript:;&quot;<br>
+          onClick=&quot;wimpy_loadAndPlay(<br>
+          &nbsp;&nbsp;&nbsp; 'example4.mp3', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to track.mp3 <br>
+          &nbsp;&nbsp;&nbsp;
+          '', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Artist's Name <br>
+          &nbsp;&nbsp;&nbsp;
+          'My Title', &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- Track Title<br>
+          &nbsp;&nbsp;&nbsp;
+          '',&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL link on graphic<br>
+          &nbsp;&nbsp;&nbsp;
+          ''&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- URL to graphic.jpg<br>
+          &nbsp;&nbsp;&nbsp;
+          );&quot;&gt;<br>
+          Load and Play: track 1<br>
+          &lt;/a&gt;</p>
+        <p>There are plenty of tutorials on the Internet that you can refer to for more information on JavaScript. </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+      </blockquote>
+      <p>&copy; 2006 Plaino. <a href="http://www.wimpyplayer.com" target="_blank">www.wimpyplayer.com</a></p>
+      <p></p>
+      <p>&nbsp;</p></td>
+  </tr>
+</table>
+</body>
+</html>

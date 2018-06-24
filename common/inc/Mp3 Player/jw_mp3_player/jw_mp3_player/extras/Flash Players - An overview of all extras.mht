@@ -1,0 +1,167 @@
+From: <¨®¨¦ Microsoft Internet Explorer 5 ¡À¡ê¡ä?>
+Subject: Flash Players - An overview of all extras
+Date: Sun, 5 Aug 2007 00:12:36 +0800
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/extras/
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den xml:lang=3D"en" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>Flash Players - An =
+overview of all extras</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<STYLE type=3Dtext/css>BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; FONT: 13px/18px Arial, sans-serif; COLOR: #000; PADDING-TOP: 0px; =
+BACKGROUND-COLOR: #eee; TEXT-ALIGN: center
+}
+H1 {
+	FONT-SIZE: 20px; MARGIN: 0px; LINE-HEIGHT: 24px; BORDER-BOTTOM: #c00 =
+2px solid
+}
+H2 {
+	FONT-SIZE: 14px; MARGIN: 40px 0px 0px
+}
+A {
+	COLOR: #c00
+}
+A:hover {
+	COLOR: #000
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: inside; =
+PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px; =
+LIST-STYLE-TYPE: square
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; LIST-STYLE-POSITION: inside; =
+PADDING-BOTTOM: 0px; MARGIN: 10px 0px; PADDING-TOP: 0px; =
+LIST-STYLE-TYPE: square
+}
+#wrapper {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 40px; PADDING-BOTTOM: 40px; MARGIN: =
+0px auto; WIDTH: 780px; PADDING-TOP: 40px; BACKGROUND-COLOR: #fff; =
+TEXT-ALIGN: left
+}
+#lead {
+	FONT-WEIGHT: bold; MARGIN-BOTTOM: 40px; FONT-STYLE: italic
+}
+#player {
+	FLOAT: right; WIDTH: 360px; HEIGHT: 260px
+}
+#left {
+	WIDTH: 360px
+}
+#footer {
+	CLEAR: both; MARGIN-TOP: 60px; FONT-SIZE: 11px; WIDTH: 680px
+}
+</STYLE>
+
+<META content=3D"MSHTML 6.00.2900.3132" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3Dwrapper>
+<H1>AN OVERVIEW OF ALL EXTRAS</H1>
+<P id=3Dlead>Because a working example is often way more useful than an =
+elaborate=20
+explanation, I've grouped a couple of example pages, files and scripts =
+here that=20
+may help you to understand certain much-asked-for functionalities of the =
+Flash=20
+players:</P>
+<H2>SETUP WIZARD</H2>
+<P>Using <A =
+href=3D"http://www.jeroenwijering.com/extras/wizard.html">the setup=20
+wizard</A>, you can quickly customize the Flash players. Just pick an =
+example,=20
+and tweak all optional flashvars.</P>
+<H2>ADVANCED FUNCTIONALITIES</H2>
+<UL>
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/javascript.html">All=20
+  javascript functionality of the players</A>.=20
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/statistics.html">The=20
+  callback for statistics in action</A>.=20
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/streaming.html">The three=20
+  types of FLV delivery (FLV,HTTP,RTMP)</A>.=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/accessibility.html">Accessib=
+ility=20
+  in action: captions, largecontrols and audiotrack</A>.=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/advertisements.html">Adverti=
+sement=20
+  possibilities: prerolls, overlays and postrolls</A>.=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/bandwidthcheck.html">Detecti=
+ng=20
+  bandwidth and serving the appropriate stream</A>. </LI></UL>
+<H2>PLAYLIST AND CAPTIONING EXAMPLE XML'S</H2>
+<P>Here are also some examples of the XML files the players accept, both =
+
+playlists and captions:</P>
+<UL>
+  <LI><A href=3D"http://www.jeroenwijering.com/extras/rss_example.xml">A =
+RSS=20
+  playlist</A>.=20
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/xspf_example.xml">A XSPF=20
+  playlist</A>.=20
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/subtitles_example.xml">A=20
+  TimedText captions file</A>.=20
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/subtitles_example.txt">A =
+SRT=20
+  captions file</A>. </LI></UL>
+<P>Naomi Spirit has written two <A=20
+href=3D"http://www.jeroenwijering.com/extras/subtitleworkshop_ttoutput.zi=
+p">output=20
+scripts for Subtitle Workshop for W3C's TT format</A>. The first one =
+just sets=20
+the "duration" element to ten seconds. The second one can be fed through =
+an ASP=20
+script for inserting the correct duration data. Thanks Naomi!</P>
+<H2>HANDY PHP SCRIPTS</H2>
+<P>An here's a couple of example PHP scripts that might come in =
+handy:</P>
+<UL>
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/mysql_playlist.zip">Playlist=
+=20
+  auto-generation from MySQL</A>.=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readdir_playlist.zip">Playli=
+st=20
+  auto-generation from a certain directory</A>.=20
+  <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/external_feed.zip">Tunneling=
+=20
+  of an external RSS feed (avoiding the crossdomain restriction)</A>.=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/force_download.zip">Force-do=
+wnloading=20
+  mediafiles (useful for the dlbutton and the small 'link' buttons in =
+the=20
+  playlist)</A>. </LI></UL>
+<H2>README</H2>
+<P>Finally, this collection of extras also includes the <A=20
+href=3D"http://www.jeroenwijering.com/extras/readme.html">readme file =
+for the=20
+Flash players and Image Rotator</A>. It's the most comprehensive source =
+of=20
+information and it is regularly updated.</P>
+<DIV id=3Dfooter>homepage: <A=20
+href=3D"http://www.jeroenwijering.com/">http://www.jeroenwijering.com/</A=
+> | last=20
+update: june 19th, 2007</DIV></DIV></BODY></HTML>

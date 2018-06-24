@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+
+		<track>
+			<title>on web</title>
+			<creator>on web</creator>
+			<location>http://file.beelse.com/Music/%E9%93%81%E7%AB%B9%E5%A0%82%20-%20%E8%83%BD%E4%B8%8D%E8%83%BD.mp3</location>
+		</track>
+
+		<track>
+			<title>flv</title>
+			<creator>flv</creator>
+			<location>../../media/Linkin Park-Numb.flv</location>
+			<info>http://www.jeroenwijering.com</info>
+		</track>
+		
+		<track>
+			<title>baobei</title>
+			<creator>baobei</creator>
+			<location>media/baobei.mp3</location>
+		</track>
+		
+		<track>
+			<title>local</title>
+			<creator>local</creator>
+			<location>media/song1.mp3</location>
+		</track>
+
+
+
+	</trackList>
+</playlist>

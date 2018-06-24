@@ -1,0 +1,1646 @@
+From: <ÓÉ Microsoft Internet Explorer 5 ±£´æ>
+Subject: Flash Players 3.99 ReadMe
+Date: Sun, 5 Aug 2007 00:12:02 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_001B_01C7D6F5.3FC587B0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_001B_01C7D6F5.3FC587B0
+Content-Type: text/html;
+	charset="gb2312"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/extras/readme.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Flash Players 3.99 ReadMe</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dgb2312">
+<STYLE type=3Dtext/css>BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; COLOR: #000; LINE-HEIGHT: 18px; PADDING-TOP: 0px; =
+FONT-FAMILY: Arial, sans-serif; BACKGROUND-COLOR: #eee; TEXT-ALIGN: =
+center
+}
+H1 {
+	MARGIN-TOP: 40px; FONT-SIZE: 20px; LINE-HEIGHT: 24px; BORDER-BOTTOM: =
+#c00 2px solid
+}
+H2 {
+	MARGIN-TOP: 50px; FONT-SIZE: 14px
+}
+H3 {
+	FONT-SIZE: 14px; MARGIN: 25px 0px 10px 30px
+}
+P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 15px
+}
+A {
+	COLOR: #c00
+}
+A:hover {
+	COLOR: #000
+}
+TABLE {
+	MARGIN-TOP: 10px; FONT-SIZE: 12px; MARGIN-BOTTOM: 30px; WIDTH: 100%; =
+FONT-FAMILY: monospace; BORDER-COLLAPSE: collapse
+}
+TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; =
+VERTICAL-ALIGN: top; PADDING-TOP: 5px; BORDER-BOTTOM: #fff 1px solid
+}
+#thead {
+	COLOR: #fff; BACKGROUND-COLOR: #c00
+}
+#name {
+	WIDTH: 100px
+}
+#values {
+	WIDTH: 125px
+}
+.tlight {
+	BACKGROUND-COLOR: #eee
+}
+PRE {
+	MARGIN-TOP: 5px; FONT-SIZE: 12px; MARGIN-BOTTOM: 15px; COLOR: #c00; =
+FONT-FAMILY: monospace
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px =
+0px 15px 50px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px =
+0px 15px 50px; PADDING-TOP: 0px; LIST-STYLE-TYPE: square
+}
+#wrapper {
+	PADDING-RIGHT: 50px; PADDING-LEFT: 50px; PADDING-BOTTOM: 10px; MARGIN: =
+0px auto; WIDTH: 780px; PADDING-TOP: 10px; BACKGROUND-COLOR: #fff; =
+TEXT-ALIGN: left
+}
+#lead {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+#footer {
+	CLEAR: both; MARGIN-TOP: 60px; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; =
+WIDTH: 480px
+}
+</STYLE>
+
+<META content=3D"MSHTML 6.00.2900.3132" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3Dwrapper>
+<H1>JW PLAYERS 3.99 README</H1>
+<P id=3Dlead>This readme contains information regarding the installation =
+and=20
+configuration of the <A=20
+href=3D"http://www.jeroenwijering.com/?item=3DJW_MP3_Player">JW MP3 =
+Player</A>, <A=20
+href=3D"http://www.jeroenwijering.com/?item=3DJW_FLV_Player">JW FLV =
+Player</A>, <A=20
+href=3D"http://www.jeroenwijering.com/?item=3DJW_Media_Player">JW Media =
+Player</A>=20
+and <A =
+href=3D"http://www.jeroenwijering.com/?item=3DJW_Image_Rotator">JW Image =
+
+Rotator</A>. Contents of this readme:</P>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#installing">Inst=
+alling</A>=20
+  (embed codes for your site)=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#flashvars">Flash=
+vars</A>=20
+  (all configuration options):=20
+  <UL>
+    <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#basic">Basic=20
+    flashvars</A>=20
+    <LI><A =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#color">Color=20
+    flashvars</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#appearance">Appe=
+arance=20
+    flashvars</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playback">Playba=
+ck=20
+    flashvars</A>=20
+    <LI><A=20
+    =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#interaction">Int=
+eraction=20
+    flashvars</A> </LI></UL>
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">Playl=
+ists</A>=20
+  (how to create playlists)=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#customization">C=
+ustomization</A>=20
+  (how to customize the players)=20
+  <LI><A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#support">Support=
+</A>=20
+  (common pitfalls plus support links) </LI></UL>
+<P>For a quick setup of flashvars, check out the <A=20
+href=3D"http://www.jeroenwijering.com/extras/wizard.html">setup =
+wizard</A>.</P>
+<H2 id=3Dinstalling>INSTALLING</H2>
+<P>The example HTML file in the download works right out of the box. If =
+you look=20
+at it's source code (in a text or HTML editor), you can see that the SWF =
+files=20
+are inserted in the page with a small javascript. These javascripts use =
+the=20
+external swfobject.js script by <A=20
+href=3D"http://blog.deconcept.com/swfobject/">Geoff Stearns</A> in order =
+to=20
+prevent the annoying "click here to activate" message. If you copy the =
+SWF to=20
+your website, make sure you don't forget to copy the swfobject.js file =
+as well.=20
+It is inserted in the HTML page right at the top:</P><PRE>&lt;script =
+type=3D"text/javascript" src=3D"swfobject.js"&gt;&lt;/script&gt;</PRE>
+<P>An insertion javascript allows you to set the location of the SWF, =
+it's width=20
+and height, a name, the version of Flash that is needed and the =
+backgroundcolor=20
+of the movie. You can also send a list of flashvars (with the =
+addVariable()=20
+command) to the SWF to configure it (for that see the next paragraph). =
+When the=20
+HTML page loads, the javascript replaces the element of your HTML with =
+the "id"=20
+you provided in the javascript (make sure you have an element with that=20
+id!).</P><PRE>&lt;p id=3D"player"&gt;&lt;a =
+href=3D"http://www.macromedia.com/go/getflashplayer"&gt;Get =
+Flash&lt;/a&gt; to see this player.&lt;/p&gt;
+&lt;script type=3D"text/javascript"&gt;
+	var so =3D new SWFObject('mediaplayer.swf','player','400','400','7');
+	so.addParam("allowfullscreen","true");
+	so.addVariable("file","test.flv");
+	so.addVariable("displayheight","300");
+	so.write('player');
+&lt;/script&gt;</PRE>
+<P>If you cannot use javascript on your website (for example if you run =
+the SWF=20
+on a profile site like MySpace), you can use an "embed" code instead of =
+the=20
+javascript. Your SWF will probably be on another server then. That is =
+OK, but=20
+note that your XML playlist (if used) should always reside on the same =
+server=20
+than your SWF, or else the security restrictions won't allow the player =
+to load=20
+it. Having MP3 or JPG or FLV files on a different server is no =
+problem.</P><PRE>&lt;embed =
+src=3D"http://www.myfileserver.com/folder/mediaplayer.swf" width=3D"400" =
+height=3D"400"=20
+type=3D"application/x-shockwave-flash" =
+pluginspage=3D"http://www.macromedia.com/go/getflashplayer"=20
+flashvars=3D"file=3Dhttp://www.myfileserver.com/folder/test.flv&amp;displ=
+ayheight=3D300" /&gt;</PRE>
+<H2 id=3Dflashvars>FLASHVARS</H2>
+<P>Flashvars are variables you can insert into your HTML code to control =
+both=20
+behavior and appearance of the player/rotator. With the swfobject embed =
+method,=20
+you add them with the addVariable() function and in the embed method =
+they are=20
+inside the "flashvars" attribute, stacked with an "&amp;" symbol. <A=20
+href=3D"http://www.jeroenwijering.com/extras/wizard.html">At this =
+page</A> you'll=20
+find a wizard in which you can easily set all flashvars. In the lists =
+below, all=20
+flashvars are explained.</P>
+<P><B>All variables with an * are also available to the rotator.</B></P>
+<H3 id=3Dbasic>BASIC FLASHVARS</H3>
+<UL>
+  <LI><B>displayheight</B> (number): This flashvar is used by the =
+players and=20
+  sets the height of the display. It defaults to the height of the SWF =
+object=20
+  minus the controlbar (20px), but if you set it to a smaller height, =
+the=20
+  playlist will show up. If you set it to the height of the player =
+itself (or=20
+  larger), the controlbar will auto-hide over the video.=20
+  <LI><B>file</B>* (url): The location of the file to play. It can be a =
+single=20
+  file (MP3/FLV/RTMP/JPG/SWF/PNG/GIF) or a <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">playl=
+ist</A>=20
+  for the players. The rotator only accepts playlists.=20
+  <LI><B>height</B>* (number): As with the width of the player/rotator, =
+this=20
+  variable is already set with a default embed code. However, sometimes =
+(notably=20
+  on IE), this won't get through (so you get a messed-up display). Then =
+use this=20
+  flashvar to tell the player/rotator how many pixels high it should be. =
+
+  <LI><B>image</B> (url): If you play MP3 of FLV files, you can use this =
+
+  flashvar to show a preview image or album cover. It can be a =
+JPG/SWF/PNG/GIF=20
+  file. You can also assign an image for every item in a <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">playl=
+ist</A>.=20
+
+  <LI><B>shownavigation</B>* (true,false): Another flashvar only for the =
+
+  rotator. It enables/disables the navigation bar.=20
+  <LI><B>transition</B>*=20
+  (fade,bgfade,blocks,bubbles,circles,fluids,lines,random,slowfade): =
+This=20
+  flashvar is only used by the rotator. It sets the transition to use =
+between=20
+  images. "random" will show all transitions randomly. The default is =
+"fade".=20
+  <LI><B>width</B>* (number): As with the height of the player/rotator, =
+this=20
+  variable is already set with a default embed code. However, sometimes =
+(notably=20
+  on IE), this won't get through (so you get a messed-up display). Then =
+use this=20
+  flashvar to tell the player/rotator how many pixels wide it should be. =
+
+</LI></UL>
+<H3 id=3Dcolor>COLOR FLASHVARS</H3>
+<UL>
+  <LI><B>backcolor</B>* (color): Backgroundcolor of the player/rotator. =
+In the=20
+  "extras" folder of this download there's a colorpicker script with =
+which you=20
+  can pick a color value. The default for the players is 0xFFFFFF =
+(white) and=20
+  for the rotator 0x000000 (black).=20
+  <LI><B>frontcolor</B>* (color): Texts / buttons color of the =
+player/rotator.=20
+  The default for the players is 0x000000 (black) and for the rotator =
+0xFFFFFF=20
+  (white).=20
+  <LI><B>lightcolor</B>* (color): Rollover/ active color of the =
+player/rotator.=20
+  The default for the players is 0x000000 (black) and for the rotator =
+0xCC0000=20
+  (red). </LI></UL>
+<H3 id=3Dappearance>APPEARANCE FLASHVARS</H3>
+<UL>
+  <LI><B>autoscroll</B> (true,false): By default, the playlist area of =
+the=20
+  players will have a scrollbar if the number of items is too long. If =
+you set=20
+  this flashvar to "true", the scrollbar wil disappear and the playlist =
+will=20
+  scroll automatically, depending upon the mouse position.=20
+  <LI><B>displaywidth</B> (number of pixels): Instead of the =
+"displayheight",=20
+  you can set "displaywidth" to a size smaller that the SWF width to =
+make the=20
+  playlist appear at the right side of the display.=20
+  <LI><B>kenburns</B>* (true,false): Set this to true to apply the <A=20
+  href=3D"http://en.wikipedia.org/wiki/Ken_Burns_Effect">Ken Burns =
+effect</A> to=20
+  images in the rotator. Note that this works best when using large =
+images from=20
+  the same server on a fast computer. Small images from different =
+servers and=20
+  slow computers produce blurry results and choppy motion. Works also =
+best in=20
+  combination with the "slowfade" transition.=20
+  <LI><B>largecontrols</B> (true,false): Set this to true to make the =
+controlbar=20
+  twice as large. This is useful to visually impaired users.=20
+  <LI><B>logo</B>* (url): Set this flashvar to put a watermark logo in =
+the top=20
+  right corner of the display. All image formats are supported, but =
+transparent=20
+  PNG files give the best results.=20
+  <LI><B>overstretch</B>* (true,false,fit,none): Defines how to stretch=20
+  images/movies to make them fit the display. "true" will stretch them=20
+  proportionally to fill the display, "false" will stretch them to fit. =
+"fit"=20
+  will stretch them disproportionally to fit both height and width. =
+"none" will=20
+  show all items in their original dimensions. Defaults to "fit" for the =
+players=20
+  and "false" for the rotator.=20
+  <LI><B>showdigits</B> (true,false,total): Set this to false if you =
+don't want=20
+  the elapsed/remaining time to display in the controlbar of the =
+players. Quite=20
+  handy to save some space. Set it to "total" to show the total time =
+instead of=20
+  the remaining time.=20
+  <LI><B>showdownload</B> (true,false): Set this to true to show a=20
+  downloadbutton in the controlbar. The downloadbutton links to the <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#interaction">lin=
+k=20
+  flashvar</A>.=20
+  <LI><B>showeq</B> (true,false): Set to true to show a fake equalizer =
+in the=20
+  display. It adds a nice graphical touch when you are playing MP3 =
+files.=20
+  <LI><B>showicons</B>* (true,false): Show or hide the play and activity =
+icons=20
+  in the middle of the display. Defaults to true for the players and =
+false for=20
+  the rotator. If set to false, the overlaid controlbar will also hide =
+with the=20
+  players.=20
+  <LI><B>showvolume</B> (true,false): Set this to false to hide the =
+volume=20
+  button and save space.=20
+  <LI><B>thumbsinplaylist</B> (true,false): If you have a playlist that =
+also=20
+  includes preview images with the &lt;image&gt; element, you can set =
+this=20
+  flashvar to "true" to show them in the playlist. </LI></UL>
+<H3 id=3Dplayback>PLAYBACK FLASHVARS</H3>
+<UL>
+  <LI><B>autostart</B> (true,false,muted): Set this to "true" to make =
+the player=20
+  automatically start playing when the page loads. If set to "muted", =
+the player=20
+  will autostart with the volume set to 0 and an unmute icon in the =
+display.=20
+  <LI><B>bufferlength</B> (number): This sets the number of seconds an =
+FLV=20
+  should be buffered ahead before the player starts it. Set this smaller =
+for=20
+  fast connections or short videos. Set this bigger for slow =
+connections. The=20
+  default is 3 seconds.=20
+  <LI><B>repeat</B>* (true,false,list): By default, the players will =
+stop=20
+  playback after every item to preserve bandwidth (repeat=3Dfalse). You =
+can set=20
+  this to "list" to playback all items in a playlist once, or to "true" =
+to=20
+  continously playback your song/movie/playlist.=20
+  <LI><B>rotatetime</B>* (number): Use this flashvar to set the number =
+of=20
+  seconds you want an image to display. The default is "10" for the =
+mediaplayer=20
+  and "5" for the rotator.=20
+  <LI><B>shuffle</B>* (true,false): If you use a playlist, the players =
+and=20
+  rotator will automatically shuffle the entries to prevent boredom. Set =
+this=20
+  flashvar to "false" to play all items sequentially.=20
+  <LI><B>start</B>* (second): If you use RTMP or HTTP streaming (not for =
+regular=20
+  FLV or MP3 files); use this flashvar to specify an offset start =
+position. You=20
+  can also use this flashvar in <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">XSPF =
+
+  playlists</A>, so you can make a chapter index of a single file.=20
+  <LI><B>volume</B>* (number): The default volume for playback of =
+sounds/movies=20
+  is 80, but you can set another startup value with this flashvar. =
+</LI></UL>
+<H3 id=3Dinteraction>INTERACTION FLASHVARS</H3>
+<UL>
+  <LI><B>audio</B>* (url): You can set this flashvar to the location of =
+an=20
+  external mp3 file that should serve as an additional audiotrack. Use =
+this for=20
+  accessibility commentary, director's comments or, with the =
+imagerotator,=20
+  background music.</A>=20
+  <LI><B>bwfile</B> (url): Image to use for bandwidth checking; used in=20
+  conjunction with <I>bwstreams</I>. Assign a simple image to this =
+flashvar (<A=20
+  href=3D"http://www.jeroenwijering.com/upload/100k.jpg">this one</A> =
+will do=20
+  nice), or the rtmp location of the serverside bwcheck script that <A=20
+  =
+href=3D"http://www.adobe.com/devnet/flashcom/articles/flvideo_bandwidth_p=
+rint.html">can=20
+  be downloaded here</A>. Here's an <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/bandwidthcheck.html">example=
+=20
+  bandwidth checking player</A>.=20
+  <LI><B>bwstreams</B> (comma-separated list of bitrates): The different =
+streams=20
+  to use for bandwidth checking; used in conjunction with <I>bwfile</I>. =
+If, for=20
+  example, you want to play the video <I>video.flv</I> and set this to=20
+  <I>100,250,500,1000</I> and the player detects a bandwidth of 349kbps, =
+the=20
+  file <I>video_250.flv</I> will be played. Here's an <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/bandwidthcheck.html">example=
+=20
+  bandwidth checking player</A>=20
+  <LI><B>callback</B> (url): Set this flashvar to the location of a =
+serverside=20
+  script (PHP/ASP) that can process callbacks. The players will send a =
+callback=20
+  every time an item starts/stops, so you can save statistics with the=20
+  serverside script. More info can be found in this <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/statistics.html">demonstrati=
+on=20
+  page</A>. An example callback script is placed in the "extras" folder =
+of the=20
+  downloads.=20
+  <LI><B>captions</B> (url): You can set this flashvar to the location =
+of an=20
+  external textfile with captions. The players support SMIL's TimedText =
+format=20
+  (<A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/subtitles_example.xml">examp=
+le</A>)=20
+  and the SRT format (<A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/subtitles_example.txt">examp=
+le</A>)=20
+  used with ripped DVD's. Set this flashvar to "captionate" if your FLV =
+file has=20
+  <A href=3D"http://www.buraks.com/captionate/">Captionate captions</A> =
+embedded.=20
+  If you use multitrack Captionate captions, you can set this flashvar =
+to=20
+  "captionate0", "captionate3" etc. to display a certain track. A live =
+example=20
+  of different captions <A=20
+  href=3D"http://www.jeroenwijering.com/extras/accessibility.html">can =
+be found=20
+  here</A>. You can also assign captions for every item in a <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">playl=
+ist</A>.=20
+
+  <LI><B>enablejs</B>* (true,false): Set this to true to enable =
+javascript=20
+  interaction. This'll only work online! Javascript interaction includes =
+
+  playback control, asynchroneous loading of media files and return of =
+track=20
+  information to javascript.An example of all supported javascript =
+functions can=20
+  be found <A =
+href=3D"http://www.jeroenwijering.com/extras/javascript.html">on=20
+  this page</A>.=20
+  <LI><B>fsbuttonlink</B> (url): The players automatically shows a =
+fullscreen=20
+  button if a user has installed a capable flashplayer (from 9.0.28). =
+With this=20
+  flashvar, you can link to an alternative page to display a sort-of =
+fullscreen=20
+  version of the player. Use serverside variables or the =
+getQueryParamValue()=20
+  function of <A href=3D"http://blog.deconcept.com/swfobject/">SWF =
+Object</A> to=20
+  send the "file" and any other flashvars to that fullscreen-substitute =
+page.=20
+  <LI><B>id</B> (string): The unique identifier of the file to play. It =
+will be=20
+  sent to serverside callbacks(see below here, and is also used when =
+using RTMP=20
+  streams. In the latter case, the "file" flashvar points to the rtmp:// =
+stream,=20
+  and this "id" flashvar to the precise file to play. You can also =
+assign an id=20
+  for every item in a <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">playl=
+ist</A>.=20
+
+  <LI><B>javascriptid</B>* (string): If you control multiple =
+players/rotators=20
+  with javascript, you can use this flashvar to give each of them a =
+unique ID.=20
+  It will be returned with every call to the getUpdate() event. Demo <A=20
+  href=3D"http://www.jeroenwijering.com/extras/javascript.html">on this =
+page</A>.=20
+  <LI><B>link</B> (url): Set here the url to an external URL, =
+downloadeable=20
+  version of the file, or <A=20
+  href=3D"http://www.jeroenwijering.com/extras/">force-download =
+script</A> you can=20
+  use for downloading the file. You can assign link-clicks to the =
+display (see=20
+  below), the <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#appearance">down=
+loadbutton</A>=20
+  and every item in a <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">playl=
+ist</A>.=20
+
+  <LI><B>linkfromdisplay</B>* (true,false): You can set this flashvar to =
+"true"=20
+  to make a click on the image/video display to result in a jump to the =
+"link"=20
+  webpage. By default, a click on the display will play/pause the movie. =
+
+  <LI><B>linktarget</B>* (frame): The targetframe a link (from the =
+display or=20
+  playlist buttons) will open into. The default is "_self". Set it to =
+"_blank"=20
+  to open links in a new window.=20
+  <LI><B>streamscript</B> (url): This flashvar is the URL of an optional =
+script=20
+  to use for 'fake streaming' FLV files, eg. through PHP, ASP or =
+LigHTTPD. The=20
+  parameters 'file' and 'pos' are sent to the script. An example file,=20
+  "stream.php", can be found in the "extras" folder of the downloads. If =
+you use=20
+  the LigHTTPD FLV module, set this to the value "lighttpd". Note that =
+all FLV=20
+  files you want to fake-stream should have an <A=20
+  href=3D"http://www.buraks.com/flvmdi/">array with =
+keyframe-positions</A> in=20
+  their metadata! More info and a running example can be found <A=20
+  href=3D"http://www.jeroenwijering.com/extras/streaming.html">at this =
+page</A>.=20
+  <LI><B>type</B> (mp3,flv,rtmp,jpg,png,gif,swf,rbs): The players =
+determine the=20
+  type of file to play based upon the last three characters of the =
+"file"=20
+  flashvar. This method doesn't work if you use database id's or =
+mod_rewrite to=20
+  retrieve the files. Therefore you can set this flashvar to tell the =
+players of=20
+  which filetype the file you want to play is. The type is also assigned =
+to=20
+  every item in a <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">playl=
+ist</A>.=20
+  If no match is found, the player assumes it loads a playlist.=20
+  <LI><B>useaudio</B> (true,false): Set this to false to force the =
+additional=20
+  audiotrack to mute by default.=20
+  <LI><B>usecaptions</B> (true,false): Set this to false to force the =
+captions=20
+  to hide by default.=20
+  <LI><B>usefullscreen</B> (true,false): Set this flashvar to false if =
+you don't=20
+  want to use the flash9 fullscreen functionality. If you added a =
+"fsbuttonlink"=20
+  flashvar as well, this link will become the default action for the =
+fullscreen=20
+  page.=20
+  <LI><B>usekeys</B> (true,false): Set this to false to disable keyboard =
+input=20
+  (SPACE,UP,DOWN,LEFT,RIGHT) for the players. </LI></UL>
+<P>Note that you must urlencode any ? =3D &amp; symbols inside =
+flashvars. The=20
+urlencoded values for these symbols are: <I>?</I> =A1=FA <I>%3F</I>, =
+<I>=3D</I> =A1=FA=20
+<I>%3D</I>, <I>&amp;</I> =A1=FA <I>%26</I>. So if your "file" flashvar =
+has the value=20
+of getplaylist.php?id=3D123, you can set it like this:=20
+getplaylist.php%3Fid%3D123.</P>
+<H2 id=3Dplaylists>PLAYLISTS</H2>
+<P>You can load a single file as well as an entire playlist of files =
+into the=20
+players. The players look at the filename to determine whether a single =
+file or=20
+a playlist is loaded. For example, if your file is test.mp3, it will =
+presume you=20
+load a single MP3 file, because the extension is "mp3". If your filename =
+is=20
+getlist.php, the SWF will see a playlist. If you use dynamic scripts to =
+load a=20
+single file (e.g. getmovie.php%3Fid%3D123), you can tell the player =
+which file=20
+it loads by using the additional "type" flashvar: "type=3Dflv".</P>
+<P>The players support three commonly used playlist formats to ensure =
+maximum=20
+compatibility: <A href=3D"http://en.wikipedia.org/wiki/XSPF">XSPF</A> =
+(much used=20
+for CC music), <A href=3D"http://en.wikipedia.org/wiki/RSS">RSS</A> =
+(much-used for=20
+Podcasts) and <A href=3D"http://en.wikipedia.org/wiki/ATOM">ATOM</A> =
+(much-used by=20
+Blogs). The example playlist.xml that comes with the downloads is in =
+XSPF=20
+format. On my website, I've placed additional examples of both <A=20
+href=3D"http://www.jeroenwijering.com/extras/xspf_example.xml">an xspf=20
+playlist</A> and <A=20
+href=3D"http://www.jeroenwijering.com/extras/rss_example.xml">an rss =
+playlist</A>,=20
+with nearly all supported tags included. If you assign a regular feed =
+without=20
+any media enclosures to the player, the player will use the API from <A=20
+href=3D"http://www.talkr.com/">Talkr.com</A> to perform a text-to-speech =
+operation=20
+on the feed's items, instantly turning your feed into a podcast!=20
+<P>Here is a complete list of all flashvars with corresponding =
+XSPF/RSS/ATOM=20
+tags that are supported by the player/rotator:</P>
+<TABLE>
+  <TBODY>
+  <TR id=3Dthead>
+    <TD>Flashvar</TD>
+    <TD>XSPF Tag</TD>
+    <TD>RSS Tag</TD>
+    <TD>ATOM Tag</TD></TR>
+  <TR>
+    <TD>file</TD>
+    <TD>&lt;location&gt;</TD>
+    <TD>&lt;enclosure&gt; or &lt;media:content&gt;</TD>
+    <TD>&lt;link rel=3D"enclosure"&gt;</TD></TR>
+  <TR class=3Dtlight>
+    <TD>title</TD>
+    <TD>&lt;title&gt;</TD>
+    <TD>&lt;title&gt;</TD>
+    <TD>&lt;title&gt;</TD></TR>
+  <TR>
+    <TD>link</TD>
+    <TD>&lt;info&gt;</TD>
+    <TD>&lt;link&gt;</TD>
+    <TD>&lt;link&gt;</TD></TR>
+  <TR class=3Dtlight>
+    <TD>id</TD>
+    <TD>&lt;identifier&gt;</TD>
+    <TD>&lt;guid&gt;</TD>
+    <TD>&lt;id&gt;</TD></TR>
+  <TR>
+    <TD>image</TD>
+    <TD>&lt;image&gt;</TD>
+    <TD>&lt;media:thumbnail&gt; or &lt;itunes:image&gt;</TD>
+    <TD>&lt;link rel=3D"image"&gt;</TD></TR>
+  <TR class=3Dtlight>
+    <TD>author</TD>
+    <TD>&lt;creator&gt;</TD>
+    <TD>&lt;author&gt;</TD>
+    <TD>&lt;name&gt;</TD></TR>
+  <TR>
+    <TD>captions</TD>
+    <TD>&lt;link rel=3D"captions"&gt;</TD>
+    <TD>&lt;enclosure type=3D"captions"&gt;</TD>
+    <TD>&lt;link rel=3D"captions"&gt;</TD></TR>
+  <TR class=3Dtlight>
+    <TD>audio*</TD>
+    <TD>&lt;link rel=3D"audio"&gt;</TD>
+    <TD>&lt;enclosure type=3D"audio"&gt;</TD>
+    <TD>&lt;link rel=3D"audio"&gt;</TD></TR>
+  <TR>
+    <TD>category**</TD>
+    <TD>&lt;album&gt;</TD>
+    <TD>&lt;category&gt;</TD>
+    <TD>&lt;category&gt;</TD></TR>
+  <TR class=3Dtlight>
+    <TD>start***</TD>
+    <TD>&lt;meta rel=3D"start"&gt;</TD>
+    <TD>-</TD>
+    <TD>-</TD></TR>
+  <TR>
+    <TD>type****</TD>
+    <TD>last three characters of &lt;location&gt;or &lt;meta =
+rel=3D"type"&gt;</TD>
+    <TD>mimetype of &lt;enclosure&gt;</TD>
+    <TD>mimetype of &lt;link =
+rel=3D"enclosure"&gt;</TD></TR></TBODY></TABLE>
+<P>* The Image Rotator will only playback the 'audio' of the first item =
+in the=20
+playlist, to provide background music. The players support a per-element =
+extra=20
+audio track.</P>
+<P>** The "category" element can be used to specify advertisements. You =
+can set=20
+it to "preroll", "postroll" or "overlay". Use the "link" element of the=20
+playlistentry to set the commercial's URL. In the extras of my website, =
+there's=20
+an <A=20
+href=3D"http://www.jeroenwijering.com/extras/advertisements.html">adverti=
+sements=20
+example page</A>.</P>
+<P>*** The "start" element is only supported by XSPF playlists, and only =
+works=20
+with streaming files (HTTP or RTMP). Use it to specify the starting =
+position in=20
+seconds. <A =
+href=3D"http://www.jeroenwijering.com/extras/streaming.html">Here's an=20
+example page</A>.</P>
+<P>**** If the XSPF "location" url doesn't contain a useful extension =
+(e.g.=20
+"mp3" or "flv"), use the "meta" element to tell the player which =
+filetype it is=20
+(e.g. &lt;meta rel=3D'"type"&gt;mp3&lt;/meta&gt; ). For RSS and ATOM, =
+the filetype=20
+is automatically extracted from the mimetype.</P>
+<P>Note that, if you play a single file, you can send each item in this =
+table as=20
+a flashvar to the SWF. This way, you can add an image, title, id, link, =
+etc. to=20
+a single file as well. So if you have, for example, the flvplayer and a =
+single=20
+file "video.flv" and want to display a preview image too, you can set =
+the=20
+flashvars "file=3Dvideo.flv" and "image=3Dpreview.jpg". For refering to =
+RTMP=20
+streams, the additional "id" flashvar has to be sent as well. Example:=20
+"file=3Drtmp://my.streaming.server/mypath" and "id=3Dvideo_one".</P>
+<P>I'd like to point out two common pitfalls users encounter when using=20
+playlists. First, a playlist should always reside on the same server as =
+the SWF=20
+file, due to security restrictions of the Flash Player (there is a small =
+
+workaround, tunneling the external feed through a serverside script. <A=20
+href=3D"http://www.jeroenwijering.com/extras/external_feed.zip">Here's =
+an example=20
+in PHP</A>.). Second, always try to use full URL's (including the =
+http:// part)=20
+when referring to files, links or images in your playlists. It will save =
+you a=20
+lot of troubles with unresponsive SWF's or "file not found" errors!</P>
+<P>I've included some additional PHP scripts in the <A=20
+href=3D"http://www.jeroenwijering.com/extras/">"extras" folder of my =
+website</A>,=20
+two for auto-creating playlists and one for force-downloading files.</P>
+<H2 id=3Dcustomization>CUSTOMIZATION</H2>
+<P>I receive a lot of requests for creating customized versions of my =
+players.=20
+In most cases however, a clever setting of the flashvars already =
+fulfilled the=20
+requests, so please make sure you check these first! <A=20
+href=3D"http://www.jeroenwijering.com/extras/wizard.html">I've made an =
+online=20
+wizard you can use to easily set all flashvars</A>. Additionally, I do =
+not=20
+design or program any particular (paid-for) customizations (I just don't =
+have=20
+time for it), but interesting features will be plugged into the next =
+update of=20
+the players.</P>
+<P>If you are familiar with actionscripting yourself, you should find =
+that=20
+changing or adding to the players is quite simple. To get started, check =
+out=20
+this schematic overview of the player's code. Note that the flvplayer, =
+mp3player=20
+and mediaplayer are identical in terms of code:</P>
+<P><IMG alt=3D"schematic overview of the players"=20
+src=3D"http://www.jeroenwijering.com/extras/schematics.gif"></P>
+<P>A player starts by instantiating either the ImageRotator or =
+Mediaplayer=20
+class, which loads all config and playlist variables and sets up the MCV =
+cycle.=20
+The config and feeder objects are available to each member of the MCV =
+cycle. The=20
+two <SPAN style=3D"COLOR: #c00">objects in red</SPAN> have javascript =
+handlers, so=20
+all their functions are available through javascript. Here is <A=20
+href=3D"http://www.jeroenwijering.com/extras/javascript.html">an online =
+page with=20
+examples of all javascript functions</A>.</P>
+<P>Communication between the MCV's members is strictly defined (with the =
+
+updates, changes and events). Creating a complete new look for any of =
+the=20
+players (or adding something like a rating field or recommendations) can =
+be done=20
+by creating a new class that extends the AbstractView and instantiating =
+it in=20
+the MediaPlayer.as class. The ControlbarView class is a good =
+AbstractView=20
+extension to copy and modify for this purpose (it contains all =
+controlbar=20
+graphics).</P>
+<P>Because of the many requests to hide part of the url for media files =
+to=20
+prevent stealing, I have added a single line of code to the script in =
+the FLA's=20
+timeline. If you un-comment this line (//var prefix =3D "..."), you can =
+set here a=20
+prefix url the players will use for the FLV/MP3/etc. Set this e.g. to =
+the=20
+directory where your mediafiles are located=20
+(http://www.jeroenwijering.com/uploads/), and then you only have to add =
+the=20
+filename of your mediafiles to the flashvars/playlists.</P>
+<P>Placing the player/rotator into another Flash file is also possible. =
+Just=20
+copy-paste the player or rotator symbol from the FLA file in the =
+download to=20
+your FLA file. Also make sure you copy the "com" directory to the =
+directory of=20
+your FLA file as well; it contains all scripting. If that's done, you =
+can set=20
+all flashvars as variables in the root timeline and start the player =
+from there=20
+as well. Make sure you set the "width" and "height" flashvar too, or the =
+
+player/rotator will stretch to your entire stage! Here's an =
+example:</P><PRE>// Set the flashvars (booleans and numbers should also =
+be quoted)
+var width =3D "320";
+var height =3D "240";
+var file =3D "my_video.flv";
+var autostart =3D "true";
+// Start the player
+var mpl =3D new =
+com.jeroenwijering.players.MediaPlayer(this.player);</PRE>
+<P>Additionally, I have made the controller a public object, so you can =
+control=20
+the mediaplayer with the sendEvent() function from anywhere in your =
+flash site=20
+(the schematic above has a list of all sendEvent() options). Let's =
+continue the=20
+small script above:</P><PRE>// Control the mediaplayer
+mpl.controller.sendEvent("volume",50);
+mpl.controller.sendEvent("playpause");</PRE>
+<H2 id=3Dsupport>SUPPORT</H2>
+<P>Here's a small list with frequently-encountered problems:</P>
+<UL>
+  <LI>If you get strange display errors on IE (most notably after =
+refreshing),=20
+  the Stage dimensions are probably not properly set. You can use =
+flashvars=20
+  "width" and "height" to force specific dimensions to the =
+player/rotator and=20
+  fix this problem.=20
+  <LI>Note that, due to security restrictions in the Flash Player, =
+javascript=20
+  interaction will not work when testing locally. Accessing remote media =
+files=20
+  or jumping to remote URL's also won't work because of this. Both will =
+work=20
+  fine if you test from your webserver.=20
+  <LI>True fullscreen only works if you have the <A=20
+  =
+href=3D"http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Vers=
+ion=3DShockwaveFlash">Flash=20
+  Player 9,0,28,0</A> or higher installed. If you use the <A=20
+  href=3D"http://blog.deconcept.com/swfobject/">SWFObject javascript</A> =
+to embed=20
+  your player, you can use it's auto-update functionality. Also make =
+sure you=20
+  have the parameter "allowfullscreen" set to "true" in your embed code! =
+
+  <LI>If the progressbar isn't running with your FLV file, or if your =
+video=20
+  dimensions are messed-up, your FLV file doesn't have correct metadata=20
+  inserted. You can fix this by using the small tool available at <A=20
+  title=3D"The Buraks FLV Metadata Injector"=20
+  href=3D"http://www.buraks.com/flvmdi/">www.buraks.com/flvmdi/</A>.=20
+  <LI>If the player plays FLV files on your computer but not on your =
+website and=20
+  your website is running of an IIS server, then the FLV mimetype isn't =
+added to=20
+  the server yet. You can check this by typing in the direct address to =
+your FLV=20
+  file in your browser. If you get a 404, you're on IIS without =
+mimetype. Please=20
+  contact your webserver administrator on this (if you're an admin, <A=20
+  =
+href=3D"http://www.adobe.com/cfusion/knowledgebase/index.cfm?id=3Dtn_1943=
+9">here's=20
+  how to fix it</A>).=20
+  <LI>If you encounter too fast or too slow playback of MP3 files or if =
+your=20
+  progressbar is messed up, your MP3 files contains variable bitrate =
+encoding.=20
+  Flash isn't very good at handling these, it's best to stick to =
+constant=20
+  bitrate encoding. Also make sure to stick to a sampling frequency that =
+is a=20
+  multitude of 11.025kHz (48kHz, for example, also poses problems). The =
+free <A=20
+  href=3D"http://www.apple.com/itunes">iTunes software</A> has a basic, =
+decent MP3=20
+  encoder.=20
+  <LI>The player/rotator will run quite OK inside the Flash Player 7. =
+However,=20
+  the following features are not supported: display of GIF/PNG images, =
+smoothing=20
+  of scaled images/video, VP6 encoded video, javascript control and the =
+digits=20
+  in the controlbar. </LI></UL>
+<P>An up-to-date list of third-party plugins for each list can be found =
+on <A=20
+href=3D"http://www.jeroenwijering.com/">my website</A>, at the =
+respective player's=20
+page. If you have written or seen an unlisted plugin, please <A=20
+href=3D"http://www.jeroenwijering.com/?thread=3D3009">report so in my =
+forum</A>!</P>
+<P>For tips, tricks, additional info and bug reports, you can always =
+have a look=20
+at my <A href=3D"http://www.jeroenwijering.com/?forum=3Dall">Support =
+Forum</A>.</P>
+<P>For more info about the embedding of Flash in HTML, have a look at my =
+<A=20
+href=3D"http://www.jeroenwijering.com/?item=3DEmbedding_Flash">Embedding =
+Flash=20
+article</A>.</P>
+<P>For more info about Flash Video and some compression tips, check out =
+my <A=20
+href=3D"http://www.jeroenwijering.com/?item=3DFLV_Video_Compression">Flas=
+h Video=20
+Compression article</A>.</P>
+<DIV id=3Dfooter>all extras: <A=20
+href=3D"http://www.jeroenwijering.com/extras/">jeroenwijering.com/extras/=
+</A> |=20
+last update: july 3rd, 2007</DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_001B_01C7D6F5.3FC587B0
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: http://www.jeroenwijering.com/extras/schematics.gif
+
+R0lGODlh4wLsAvePAMDAwOaAgAAAAL+/v8zMzIyMjLKystnZ2bOzs5mZmT8/P39/f2ZmZvb29vf3
+98wAAHl5eezs7MbGxnBwcNDQ0M/Pz+Pj49/f36CgoA8PD9jY2J+fn+/v74ODg6mpqby8vB8fHy8v
+L5aWlm9vb4CAgEBAQPr6+nd3d19fX6+vr/Ly8ru7uzs7O09PT/LAwI+Pj+vr69lAQPX19eLi4ra2
+tuDg4A4ODoKCgsXFxdTU1JSUlObm5llZWfDw8KioqJWVlR0dHWBgYPK/v2hoaMHBwSwsLCAgIBAQ
+EOV/fzAwMNg/P0pKSqOjo1BQULCwsJCQkKWlpaGhoYWFhYiIiPjf388PD/XPz+Xl5fvv76qqqtUv
+L99fX/zw8NIfH+ufn+iPj9IgIPng4M8QEN9gYOygoO+vr9tPT93d3eJvb8PDw+mQkG5ubtxQUO+w
+sNYwMPbQ0OJwcIqKitLS0ufn566urtXV1YuLi/Hx8fv7+7m5uaamppOTk7W1tfz8/JKSksrKyqur
+q76+vr29vXh4eOHh4d7e3qenp52dnfn5+enp6aSkpJycnIGBge7u7v///////wAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEAAI8ALAAAAADjAuwC
+AAj/AKcYGEiwoMGDCBMqXMiwocOHECNKnEixosWLGDNq3Mixo8ePIEOKHEmypMmEeZw8WsmypcuX
+LWk0mkmzps2bOHPq3Mmzp8+fQIMKHUq0qNGjSJMqXcq0qdOnUKNKnUq1qtWcDgDA3Mr1kcyrYMOK
+HUu2rNmzaNOqXcu2LdWsXePGdEu3rt27ePPq3cu3r1+dcOXK/fq3sOHDiBMrXsy48c/AgrsSdky5
+suXLmDNrxgw58tbJm0OLHk26tOnTQDt7fgkatevXsGPLnp1W9eq5tHPr3s27t2+atm+vbP27uPHj
+yJPrDS6cuPLn0KNLn46U+W3n1LNr3879uPXV2LuL/x9Pvrzm757Dm1/Pvr17u+gjq39Pv779+0/j
+C56Pv7///wDWpN9gARZo4IH4DRgXfwg26OCD3mklHGsQVmjhhb8pKFlVBpygg00nnADUBRQkRcRM
+HYYY4okzhYjhizAaqCFXDB5VhAACXFATjj/pYIMBSA0hQIs4FinAEDPxGOOSTNY342dUEVGkFDsO
+6RMLAgB5lJInCMDDQF0KUKKSTZZp5nhPwlRjUULyIEARVfp45ExEYPnmiUPY8CaSLLCgw5EXLIFj
+EVpewIOeLJxop59dijgTlkAqqQMQAtjAQyNMsEBlIwaw4KgUlBI60xB+2gDnmaimOlqaFE6l5wU3
+sv/YCI5AnECpiJQOIaQNF+S556xF6oDlEIICMZOgSwhp7KI6NIqinmMOacCbJ+ipAwVvjirAh0xQ
+a4MNJdrpparklmsZqy6tOdSfSzQixbhJZsmpAMbiKAUFOjChI6TxSnHBBUxQeQGPAxvbCA9DREuk
+kfDySIEUeAogoqAlAmHDTDeW+CefArRborkgh3wYurhFJainbl4cL008Ckmro/wCq2MjFAxxI4/T
+snATl/T2ucSHKzeiwxJ6Siy0ABA3LECfN+qMJRMiRy01XySzpG5Q2DK8bdDAomgzjh/GrOQFevLw
+p7RLz0TBxzw7ahOPXdbqpqOmCqkljip62EjMU/f/7TdbVQ8nVZdLENSlzsBS+WcRFBQBhI5z7y1v
+1/PCmfVMr0r+Yds48fj0wUaD7jhN/J7Ag6KT/6366mMF7pVUlGqJuZjAAmEn1G7aXmmJucM5tp5F
+fEt7l6Zm20ioPDi785DEBw+vlHOiWCmWvEouO+vYZx+V61f/dIGLNTV7YogU8MAC1DNJ0efpMxnK
+wqXgc7rEEkx0yCITS7AwxMxE5C9Fh9ejiYu+p7/vbQpYH0OR+XjwsWYlUHsQjGB1JDShkiGnW6eS
+oAY3mB8KVlBwySka+jhIwhIahXvKaVYATcjCFu4EhS6MoQy1A8MZ2vCGyKkhDnfIw9zosIdADKJp
+/34oxCIa8TJEPKISl4iYJDLxiVDMixOjSMUqqmWKVsyiFsGCxS168YtO6aJbcnAFMJqxhGKUShpW
+yJMpEOCMcNRgGo9CgDPkJAtZmMkVCFBGmuQgBzXhoxsbscc+xvGQf5sjUa6wgCmcII8GmEIjcnCC
+FTCAAQSgpCPT0IgpNHINnDzDCRYQokyeYAqYRKQqp6bIoUQBSFc4QRmfEIUFcBKPjVgAIHOwgE7m
+MQ2SjEIer7AGAmQhAY1Igx1XyUyQuW4FDoimNKdJzWpak5pxuOQl5eCARkzgENGkAx0coM1LOiAO
+3JRDHM7JTXbuAAJrSIAFrknPetrznvjMpz73yf/PfvrznwANqEAHStCCGvSgCE2oQhfK0IY69KHR
+xIMHP/gEAFj0ohjNqEYzSoGXiKCjj4jASigAAQg04BEIQMAjJnDSkD6iAAd4xAEK8IiPrqQDB2hA
+AywgAhFspQYbDapQh0rUohr1qEhNqlKXytSmOvWpUI2qVKdK1apa9apYzapWt8rVpwL1gy2ZKFhf
+IoEOUOADLI0ABCzgAQygFAMNwIAIDoABmsJUpjSlgFkRwAC6zhUDbh2rYAdL2MIa9rCITaxiF8vY
+xjr2sZCNrGQnq1ixTsiyhZVAAURggUd4QAIr4awFCkCBBiCgAHD1bGfZOtICIMADFograltK2dr/
+2va2uM2tbnfL29769rfA9QxmbzPc4Br3uMhNrnKXy9zmOve5tS2ucKFL3epa97rYza52t8tdmEg3
+Mt/trnjHS97ymve86HVueOWy3vS6973wja985yvf9nbFvvTNr373y9/++hey+N1KgP9L4AIb+MAI
+pu+AX7LgBDv4wRCOsIR/2+CwTvjCGM6whjf82AqzxMMcDrGIR0xiAoP4EScusYpXzOIWZ/fEKXax
+jGdM4xrjFsY2zrGOd8zj3OK4x0AOspCH/MEfE/nISE7ykI2s5CY7+ckrZjKUp0zlKj9YylbOsn5f
+MIAue/nLYA6zmMdM5jKb+cxoTrOa18zmNruZ/8wxJi+WCdsDi7akzuulQA0eUQOQwgTPF2VJn7VM
+aMEMwBGITrSiF83oRjv60ZCOtKQnTelKW/rSmM70o+M83jkPFgA42vNKnICjyJSABI8gQQm4Amoj
+HaGjqobuAWK6GpUWuryH1rSud83rXvv618CGdAII4GBPCxbURngCS4JgBAGYGtVxATVLetCEVcf6
+uSm9DQNujetge/vb4A63uC097GJ/urICmEATWHKECTh7JU8oQQkC+wgKBKEETjg1igNrb3kHVtof
+dva1ezABeZOgB494Akh7QII9E7wETZCQRdXtZ8Zm+xESQIBIH9GAjIN2JQfQ+LYxjoDOclu7uf8e
+t8pXzvKWX7rcCTb2WEFN6pEKoOaPKIERSDCBdvP5CKc2whFQHesaAJ0EQRCAVgAObyOketWPSMLO
+e47qIARhJRg4wiN6cPSkq4QER2jCBCq+2GwXoAAemEBnN4uACYAWARBAQAe27QEReIABGz/5dVPu
+8r77/e/jhjmCZQ5Wad881RF3thOMgPB6C4DgSVhJDQRA9FUDYN0r0TeoScD5pFeez00QdaxJjfAm
+XF3dLHlC5MEu2ZSqdSUScKsETooBlUJApBHYtt0jkHe9W5fvgA++8If/cmLH/NyJlbbYo15RgWsN
+APrO/OfrjfQkUB7FApA3xAN77Ro8oeDZX8n/ETDQg8OXQGtPbz0CZgpymsKdAXF/xMjl/wieMqAA
+vfc9dIFP/P77//+Cd2CEV2TO9gRGMHlAJXBJkFE9EH0593mkVgIToHqoxnQtUXRHkARBgHRQFwRN
+kHWZFwQZlX6R5XoQAHsYYAG351m2h3vbBloNIAK2pn/UxX/fNgAtoAApoAD/14M+uGgBaGADWEHS
+Nnkk4HTSRmogZW8E53Rbd32xJoErwXUV+G4uEWskEHmZB3XYIoUrxXhYN32QZXZoNwEHEAET0FYT
+oFISEHdz91KuZYY0SFlcwAZtMFY26G0Z0AILcAEL8IOA2INBWGBDeFnvlgQ+B3CIOAE9t2pG/xd0
+Q5d+PceIQjcB2AcToycAG4iIWvgIzQZSRrdznkeCkDVrsKdxIIcAEmABHxdyEaBSDfAB6zeHtRUA
+DwAGAcAFFZSHjdZli1YB/McBA3ABiSYA/HcBA8ABmeYDMzADPrBrM1AAPlAAvaYBjoADOBBs1Ch8
+g2hiyIdYFAB18dZR4TiF8VYCyiZ59+YEE+BWGGCJDAdxAIABV1eOL/GOWOdv4dh4E+CEkldwTaAS
+j4CPtPhgXAAGD5CQY+ACwsGLilYBIIAjGVABjgCRErkBiKYALZABOPICjlAkCjAAAoBoGyCRIcCD
+llYAGqAB26hpBWAAM2CNu8aSjgADMBBsDP8wfN34X4U4XkkAbQUpYmSQkEQJBmqgi5HhkIkGAi3A
+ARzQAiDgCCCgABfAASOQI46gABPpCCiQAY4gki8AjCM5MB4pkij5aDIwjT8wA46gkjSZaDJgAAWw
+ATLgCBrwAz8gkwZQAdJolxCwATBgAIiGAy+JAzaZjddokxXwAxj5AWdHkRsAAStpjTCwAQWAmDiw
+mD9Ql4gmAx/QmZ+5mC+JaDm5kogmmBU5lzeZmhvAlsC2k/7Vk9zlBIgoakEpYjFAlLo5Bm9gaJJW
+AVjpCBxwAcBJjIgGAh6pACOAaCKJaMb4lSO5AVGJaChwlo62AXmJnW25ki3pCNjJkoA5Atj/CAE3
+yQAboAE3gAMa8JcwkJM4cAMVYAAMwJ2I5pYMkJk4IJkfsJyRqQED4QgQsJfw2ZY3oAEbgJGJRp7X
+CJgMUAEVMAJsmZP/6Qg5WQEF+gEQ4AgzIJkb8IyvaXyD943wVQMkQHa5FQYBkKIquqIs2qIu+qIw
+GqMyOqM0WqM2eqM4mqM6uqM8yqJsoJtA6gZkEBdKCZ2L1pyJpgB/qKTMOZIfeWjNuQBnKaWRJgMw
+oAHTuJ1viWgjUJcy4Jke6gOfyQB1+Z8qSaGO8AMU6QgF+pZueQOJdqU4UJrUOBAzAKcV+QNtSZFb
+6gj/mZc1OQMVIJloOqE5yZgDAQEzAAMj/8CM3gab/SWbNIaiPVqplnqpmJqpmrqpnBoAPwqkRMkG
+DNkVRVqcicZlwSmVyfmHRvqkRvoC08mV1qlNimYAI1AAP0CNbtmdOZloE/qfvWqm1piTZ6ql27ir
+iPagc0mnfmoAb0mTZ9qnMECeGTqtN/ADhCqhqEmsG0AQN2mgI6CnH2pux3ab5lpbbgCquBgGvilp
+IIACyjgCGcABU1mVV0mMTNqqz9mcZPmVGWCdjUamjuCYxqpoBaqh8HmsFBmsgnmmOekDgikDI7CS
+cCoDkummFDkDzDoQElumzxit3dmW3eqnz2ixw0qyGvqwEUuXGvCZ7RlskMpfknquNPtBav8ApDFw
+h55RpBUZkQKQARhpkT+LoPmKpPvqpCX5sycZaQUAATfwtAWbaDNwq+LZliW1jQy7nWhqsTdQUtbo
+tE9Ln356qzdAplP7Af9pq117kyC7aHP6rfdXUgurobf6AzlprX9ZkyPQtR76azG7XzMbGXX2WECF
+UTVbY1wgBgkpBnDArrfBs8kKfMD4kMYpjMypjJZ7ARsgjFbZApKmAWxpjTPwpa4JlxqwmhpaujJp
+kxpal9Z4uhogAzfgmrE7ujJQujHZuqnLujUpk7p7u4smA757pVb6rZ35uokGuqZbun4LogIoooZl
+gYtFAgxzBMVlb10xAZx2uNsFBw8QA0P/uot/NzALMAAbALT9pwEjYAAbgKeB2Hd/q1+BKxjSq1jX
+tnVN4I+YCHVboXTca2BcwJt4CHgpEJEgwKrpawAfwJnv63Lxm1/zy17vhgEAoGqolm9NsHAFd2qN
+RwHVBlgS0m9BIHr8e4krAQD3NgF7Bn07t3UbfHCppolaUQMFJ4InDAAU978YBrkN3MM+HGkPrGDQ
+W1gAp3NiB3Q/aQRQJ3U8F4mPeITXB2obWAJHsGf3WwNNoIUReIRVjAFCt2pMTHU5JwBJgAGhqGqH
+B3ZiZ6I67GA8/MNwHMeOEMTzFcHR9m7ythI9h3A1h8UknGpaaITMxxLLR71GYgQgpYEs/2EEllh0
+obcS1+a//bhsq6d1kUVbW4HJbWxcbyzHnvy+dFxfQ0xYRQxt1wZw3gd+q+aA+qY11raAlweGK+G/
+kGxtUJfK5wd1/uuA0na/jjVXcWGJm4xcnfzJxiyIziuEo/xpeGzKUFeEGbiB9/aALNHKFXVRsMa/
+ijzLFISFjhjNHMjN1HzCAlfCiBVyHRUBHfABHOdxK2EBFrB+DNBZrzh7w+xbxXzM+qyTyUyIy3xs
+zVzL5AzI1bxqE6CF5YdqSYB5K/V1/IstErLNntjIr1zQ4jzJKxEEq2fOhqVXbScBEjABHfBSMuh2
+L9UBHlAADOABaiV39HbPupXP+zzTfv8XyvFlx/cV0CSYhJqYhRn4c0F3fVt8flrhy0c4atnHxVY8
+dKS2iT/9CAIQcWd8fg69WI5pARt3V/Zcey/1cdumgqWlyTB9WzJN02a9cjYNXzjNFfbYjlgnzPaI
+AfpYAgjXb3INbShcAkEAUgQ5hQF5wiksaj1wbxQg1/O2j4+Qb5ZIw3otIX2NWHE1ARAQU3f1fvF3
+V/SHUhAwAew81rplUQkQ2qI92qRd2qZ92qid2qq92qzd2q792rAd27J92gPQz95YrsBFApjHdQKJ
+XmeIUnZ1ACooUh6gUpi9bREQUwcwf56dWwTw3NAd3dI93dRd3dZ93did3dq93dzd3d7//d3gfd3k
+OnPBFYpU3InoBXdyZ9wYgIZqaNy0xgAScABpKAI01dz4XZBrrVg98AQk0Nvu5c71p3Eht4qgJQEb
+RwEqFXIfINb5/eC3tt8QPuGPwGVvduEYnuEavuEc3uEe/uEgHuIZvnQUXuJgVdZnneIqvuKRRuJN
+1qkwHuMyXqPhe2EozuI4nuMpPmzbG2Iz/uNAPuMxMAYZduM6fuRI7sk8buL+laJFnuRQHuU4vuRM
+zl9OvsNSnuVavs9UXuX6deU2vuViPuY/3OVeTl9gPmFGTuZs3uYf2uNnzlxpLmFr7uZ2fufFB+dx
+rlxzHmF1jueAHuiNZuZ7Dl99DmE8/0sFW6AEZaBpaOAFgh7pWk7ohe5eh/5gPGsGWoAEVKBpSoAE
+kh7qUE7plY5el+7Gk/bpimYFQoAFiyYEQrBoVBDrqo5os97pikYFVmBpzihpve6owcu8oj7smkbq
+pW5ep55gRaoEROkIVqAFCVkFkO4IZVAFCdkFu+4IW5CQWrDpjoAFZkCUaIBoSGAG1t7olNanjkaT
+o8toE0rs8I5pxn7s5JXsCFakz74Fsa4FW+DqX/AAVEAFVfAF374FXeAIXlAFsY4EDwDqaKAFnS4E
+0u4IDG8FWODq614Blsmn1JiWuNqMazoD6kmNhsmai3p2qJuZeBmXozmwj2mXGl8Arv8pmqh5lxtQ
+AdYoA5aJmT7wA6gb7yo+7/QuXvZ+YDyr6lbQ8Eiw9F3wBV/QBUu/9A9gBWawBYkG9Y5QBVsQ9Upg
+BhSvBZJmq9g4AldKjd+JnYxKkh8AraDLoT4AAyifaI+5ASPwAQ8q8vq5nLZaARhakw1694w69oJ5
+A2ufnhTqA4gJ9Csu9EPPXUVvYEcP6kLwAEpQ+ZXvBUhQBZZf+VZQ646g6g+gBZs/7kigBGGPoGJK
+k1aKpdT4A9lI9mzPqMD+7ntql3h6pnIqoR7aqzAgqPoZpjAZoOyrpwKr+CzO+I2vXY9fYJHv7ACf
+aJ3+9LnuCFV/9aA+8bZO7qavaCr/PZ++ipoDQZO2iqvUyJd8aZe6+rp0r6e037bbqawboK2kWZNO
+i63+Cf7OKvwGkI29ChCOBA4kWNDgQYQJFS5k2NDhQ4gRJUZMQADAI4wZNW7k2NHjR5AhRY4kWdLk
+SZQpVa5k2ZJkgAAuZc6kGXJAQyVIBHbRQsXRlwdCqDzYggXLlipYvAT9+UAnUiGOhFTRiUQJQwMF
+BBaooEErAxmOPmh1BKEADkdeHRXQoOGDIxgMHBkwQJBtWrJsuTqaIZeuQL8+HMmAoKFCXgMyRoTF
+gVbuRMiRJU+mXNlywooXa27m3NnzZ9ChRT+COdq06ZsMcwq00uXBa52OvFR5XaWM/0A0r7Vo0YlF
+yesHZrA4sor1BgQIG/CuhXDDuUADYJezhTHiuOAPhQfeVbtWg4ERBW6A/etIrgYGBZBXcPQD+Y26
+4AuMmGH+8n38+fXvb5j59H8AAxRwQABLI/DAlVJbyAqfBrJCiOEIEiIqgqiIisGBLGzQESqswMoA
+GOobTEQN6tNAIBx+EEiG+mYIS4YSB9IAhoFcHFEgG2c40UUYaExLIBg0kKHHIGeAwYe34BJSoBP5
+c/JJKKN0yD8Eq7TySiwHNDBLLjlSUMrIylsIvCbBLEgxH3yAwEcz23Tzzfyo7HJOOuu006Mt78Ty
+SzgdaqshHNjrE0i62Bz0UEQTNf9ITj0bdfTRAmOCtEo+FbX0Ukwz1VQhRif19FNQVcoz1P8q3fRU
+VFNV1clOSXX11VdHhTU0U1e19VZcc0Wo1Vl79fVOWX/lrFZdizX22Et5FXZZZg8MtlmZiEV2Wmqr
+fVJZaLPV9rNnt1VJWmvDFXdcibD19lx0RZU0XZbAJfddeON1xFx267W3o27vtUlefvuNl159A2Y3
+X4E7ctdfhBNWFeCCG86WYIczOtigEQR1qIIRHBlBAY4V2ABjjS1G6GOCfCjAB7TISmhHwVh0xAcR
+D5pBMJgNmvmgmgdqzC44Xc6Zvx7XcjLolRdymaAyJeJgAYgYjvhpXyF+euKCFKD/2pEBFHBEgRcG
+8PoCDtizWqELtJaxMCPtU0gul/+6CyG1bCyou4Lkhq4uGeF0O2n9uHPy7YPoRkjM5SJbQLkpLYJ6
+8W2ljvjqgcYeoIUWUkuhBQWYduQCFFp4QeuxB7pAubFTUACFCwpCIQWCNoAAhz8fO2wDQ3FgAAcY
+cC+gABjumuGHH5JWC/fcs0Ir7iRRpFGDHzbwAW/o0qpggwJmmD2ssfZKq/mu+AKe7xmo3yAsvNvq
+nfcCPgA+LEdwKIB26dMfSIasxnekgh8KqKt4/dNKbi4UvW9506ueQGYXs8HULyz4658G/lcj4LHH
+dSfKHntggD/q8W4grqtAkug3/5frQUd/7BMIB0DwEKcxToWfcpzDICcQq10gAxvYAAgucAEBpCAF
+GWAPCBaQghCADgULOBzWQDcAIA7gBSckiAAK4joc/EUuFbiBWyBAENvBDn3omxEEKoAxNqmFLej5
+ABi9MgMIIJA6I2jMCKBnHwO87gMj2IAGbvABHBRmjnBhIw7cCAMvgpEgEDCAHd/ymELtrndVpGH7
+blABA9xgLl4s0waCJ0AGfJE+GhiBD6gIu//JBQePjORcKpYdvhTGea27JO0yiTEdPVAgp5TkBPPo
+loyhBwfZY9ME09g+FTEgeM17WR0bSZDQMSSFK2Smo1rYsBduTYkZ09gLNleBFP+AYAAVCIFATLe1
+IRYxa9JsQThBYLFxIk0rUmzPBujyy4GcZ511YctY6CI/JmlljJL0jgNHwLd6CuZlbwwMYMi3Pw3Y
+TiwCfZ49s5I8uASpf4iMDz3Zo5YfCOoGMzCAQAeymMGEJUQVKIwDDaiiu8glowLZaEcBw8efzfJF
+IrWedgBXFpIVLkgKtePd1CkW5fzAMTRSjMboAp6CEDFxmmlmU131zIJF02pKdQQRLwCCELRAm+kc
+ZzKNKM3TEXEBqRNIOmU0T/u876iGkudc6Pkd/dGlTGJsS17aQkcV2eU7eCOcX/BGUYy9z693y8pR
+k6ae3dWFom71znSaxBbCqQ3/SM1xT13z2Vi5vA2yf2XSBkaQ15cOBJA3qGxjRasmCMBIK4HdQFsZ
+e9bBjKA6YXmMfRhw1DdWVXPKVJxTfQsqqApMqkg0mwJSsICMmXAAHMgAB6p6RIJ0dQAjYBoHUOBc
+A3bzp+x83mDsF8/l7O0wAvkZXbszRq08Uq/jXQtBX0vRvfTlfohhb3n5+QPFhgW/jOWOVrqrGPrl
+top8gU/LSgpSl6Z0oLEN8EvdApfaOmLAMyjwYGxapiMJpKT6ZI98u0O47ogPMCfq6YQ9Oktr9qe3
+v2Xxo4IbsOFuDQQg0NoABKCAGbNuAxkIQRClGd0jXjUEIEBBQUCA3cuyc7T//7uZxuqolex45UTq
+cU5YtGJeu8ZtMTu7i+uaU5eaDVZtRw3PePT7Hno25wZhgZlijnMDwbjuBv2Lcn/h0hw3vnZnMwgP
+G9GjHkq+Z83tWbNcRpvn8hjaOhAQzJ77DLv0rIfQMqjZmyXJ5w/Ix8zdifLNMJ2WTAJmzvS536ML
+EgKy8papLWa1nV6sr2hWALtfFN1ybyiQC8iaPbImSNjuh91tGqSI86tP0OYqIkoDSUgkChH7dLTB
+G7noaNIWkZFgUBe5WZtGsPsR0ZoUtGfzqERHStKzUXQiGMFg2kRiUrNv1G4g+ejaK5qRsockURjN
+T0hzlbePmgQjEc17MPVW0v+9By4DbqelTDNo0Y5kcLS0qFugDOcjeJdEb0NtzmwqXnWrPc6lV98r
+mm7igHYh8kGJnPhifCtIYiSCJjVlHDokxE/3FiI4ytjcIS6PDMpRBB/wNgQFVFvmx40+mpDba+Ru
+orXC4FKoTeVOXA8eSG4RwgHWoXDFR+e6s9bl1KU7XexjB1PRu372miS9XmEne9vdjh+zo13uLVE7
+u9hukI3PUpNljcz0aqRyg6iMIX5/e+HLvvW5J55bX2/q3QviRGR6zWyQn0gIkAxxhESYIQpIteE9
+v5+4K170L2F8M6PJgY21gD1LMy7kN5A5q41zAwJQTgUod5PRLcBjtld966j/CSS0BGp9CeSK7AQo
+lvr43BEpKPLnnR8nxI9e+i6pe7qi2bkBdM4R2G+BEzcQguMKQPKOmP0GrqrDDFxgABn4YQaspv3I
+fUmMjFSOJZk3xSqikooywOdAKP98AKSM0Js+AtyI6kOX01O/jXGE5nIEDnCiFsi6EBg/R3CizyEi
+rhkA7TKur/K/ueGw5QApGVApd4qj+lAT0Iq/AFxByRjAAnzBAzyXaFoA98OcCvTA0Im9yXsusaJA
+ycm7/3Os5aitzCpBEAE1tKgax2PBz3PBFyTAGPSWaBIA5/ocR5hArHEi6nLADKBAJ/qmkEmnHySI
+BoQtOxsw9FgwGRgfwpgj/5q7QpFhQjlUtSesw5OIwm2RKqzqsftxvxBwopIbsq0ymwwoMhzrMQ4Q
+w5swq+3LusuyMz4TD0Nrjv/Zr7HoNSaaQ01cCCe0Q9HDQ20ZuWBLjUTEmoFYLlnztc1JjQogRUHh
+NVUsq+ZbkRZ5EWQjMRlJvrkioQ3YrU38xUWJPk8cRgMsPWZawijhPP6wPGBsxoLoRGKUO1DMFmSE
+Eqzbj6ZzRm2Exmg8u2mElmrURnGcFm7sRq77xmYJx3FcR10pR3M0OnRkFnW0jIrZnM6DiKXhGYXY
+GYdYACRjR7Fzx3f0uHhclnmsjLHxKogYOqQZE6tLiOwDSLITyIFktYIUlv9ooiGrsS6PEYgfUoAR
+4EjWYT1/5IAUM8n7uT0Y8hoic0AU6Ejyu5wWIEmCuACTix7DoB4SaZ7u+p3guR9B+QBDQTWJDEhh
+rMgnvMhfkSrjssmuCQHlEIChG7IUeIEM2L7KaYGMsSHyQx0QQL/Uib2WDIGnJB3jQoEMeIEdshiq
+Ai/w6KArqo42ApFAki1A4qgU1K2idDqKRMrfUkpfkSrWqQAfWgDto8KqoiYnakDm0svKuUDds6aE
+3KbC1D4O1MCVVEGCKCj7+ACGMgCHkh+SSq2CYMS97Je+9EunAsxeibEBKMwigjyqciLKc6Kruioe
+JKKbmMzXFCvSWcTiUhD/hRQzMTuquCqk2EIcIDvNhElN1Wwm1pyVGGMu52ok2dQcJ8JCzAQnpgHD
+epxM6iS/3+zAZIrAgiDO+doKA6iv+vgBNeGby2FOhHHO51yh6ISVGKsq9+OhG9TLG9whBciArJs9
+sjpEZhybFrA8GgxQsQHOzBQIzzrP94JQNGOOKrtEPqM5OpJPf6HP+mSc+3yVWEMy9QM2XCMrUlyu
+gSjFgWjFFnWuRHSuEjUgGH1FJCu5uYkoJqkRduOLJrm4tBkIZuRQfvHQD4WaEHWVg0yUYdOPXiRS
+1DzKI1W8JCWVJU0U5cyPLIVSeDHSKXWYKg2VK+VSMr0WKf1SaTTGFRrT/zJtU+jrODSlUjVVoWiq
+R8jZGI5BHYS4NYXIx+1YiJjqU19UCEhy03Hx0jgNmDAFlRHtz4fIwAGgwX/UzIRgyLxRiJtaiCZV
+iCoz1HBB1ES9l0X9lIwcHdpLycrZnF7cPcpp0IFAAWuqgJe8rtcsMlk9nX+0yZaTHp0MoKzYke8B
+SoEQyhXNRAi9x/DZJSY5DDxyH8PIn7qoABHROU9VFFAN1XoZVU8ZrvI7vx1SP/YD0OxrgR8rK63x
+IQ3smpZEV7IkiLZ8qbdEpVGCJAboIk3qkTQygLz0KvN7ogogDOigpN3pileijxTRMASqVkS5VmxN
+F22dlBizwMyJzO28TP/oMld7zBqmGZsb0tjIk1CXso+VkjC3iCvRRI43fFeDIIy6OpGQ1Z6R0g7Z
+QiOFTZYzbdiPe1hIidjcXAAfdNBk2gBDpLHM+TEc4xhfHM4J1Sy4MqzkFLZBLYg82p0bUI7yuIvR
+Kq3n6a6atdabxdlW09lH4VnvbMXg/KrQUa7tbIGN9RrtYluCMM/NnND/+if2bI/3LIgRSDGEWJOB
+WJOrdVkDO5HquAGZ61o4YViwbZw5ZZwYK0QZQ0RFRNsgCtDk4jGsypgElaEhC4HfI7/PhSPOkgHn
+QI4pUzMZwFCQEtLOq0cm4SfyOqqtILFI86KtgF3EPRTFXdyHadzFaVT/9TMgV6RRB9w1r1HREhoA
+sFm95UrE5e21m+w2f5MRFnG2H3U2NimbguC1eCMIFiEauQkSgyM/iMrdPtld3m0WsXUUNtWPTcUP
+S8WPI1ld8x0U9E3fZVnfRmlfJ92Pa9wPA0jY+n2T+8XfX9FfPeHfAV7geflaA24qBL4TBWbg+i3g
+B56VCLaTCabg3LXgC44V34WaDebgrvXgDyaVDK6TESZhhTXhEwauEJ4aFp7hy3DhF/aUFKaTFaZh
+N7XhG4aUHJ6THebhMvXhH3amGH4cIl7iiTDiI9aTIO6SIWZiInXiJ3a1JHYYAACABOhiL/5iMA5j
+MR5jMi5jMz5jNE5j/zVeYzZuYzd+YziOYzmeYzr+4gFw4CtumCieEwLoYz/+Y0AOZEEeZEIuZEM+
+ZEROZEVeZEZuZEd+ZEiOZEmeZEoOZDjNYxDNYkze5AC5ZJTwZE4GU00OZVIODVA2iVMuZX3ZY1X+
+4FQmiVdu5YEZZVmuZZeIZZHAZVtm3F3uZVOWCV32ZfWlZWEu5pAI5o9AZmOOGmJeZmfWCGXuiGh+
+5qdqZmp25mneiGy+ZkdxAY3IE2/mZnGWZmAeZ2aBgxgIZwNxgRiAA3N+Z4zY5oyQZ3jukjB4jTHg
+ApgIgzF4jTCoZ3Om50cQaIDGkhh4DTFwAzcQg9dgg4IeZ4Em6IeuEv8yAA6LfoA2mGhujmiNhhWG
+vmgw6Ohr5miRRuGLfgBrLukrJmmV/pR7vuh/bmljZmmZnhQ2sOgxqOmZLmednpQ2sOhw7ulepmmh
+bhQweI2QLuqh5mmlbpQAeA01aOpdJmqpphMueA0uqOpapmqt7pIxyOmubmWuDmsscYE3IGtVHmu0
+Xuu1Vmu2fmutdmu4nuuilmu6vmuZtmu83uuO1mu+/muA9mvAHmyIZmrCPuyHFmzEXuxiVmzGfmxb
+dmzInuxSlmzKvmxMtmzM3uwf1mzO/uwL9mzQHm3eFW3SPm1sNW3UXu0vVW3AfgFBWAHZnm3arm3b
+vm3czm3d3m3e7m3/3/5t4A5u4abtCiBt1/7rAWiARlhu5m5u535u6I5u6Z5u6q5u675u7M5u7d7u
+5sYD4zZs1E5u7h5v8i5v8z5v9CbvHCCA0T5uvhbv9I5v+Z5v+q5v5l7v9gbv04Zv++5v//5vAL9v
+9gZt995r/g5wBE9wBd9u/CZw/SbtA19wCZ9wCm+EBv/sAsfrCK9wDu9w+75wzs7wu95wDy9xEy9v
+EN9sEadrEj9xF3/x6k5xzF7xuW5xGL9xHF9uGb9sGodrG89xID/xHafsHn/rHw9yJOfwIZ/sImfr
+I09yKF/wJYfsJl/rJ49yLAfwKX/sKkfrK89yMK/vLWfsLifrLw9z/zRP7zFf7DIP6zNPczhX7wHH
+8Acf7TePczzP7jVH7Dbv6jtnbh5gASlobh1gAR247gs4dPOmACZYbhZ4dEUngkdnASK47keXbkkf
+Aijf88Puc63+80agAAEQACBo7hMQgBOwbgqwARYwbyZA9eUedQFYguWWAlk3gOsedek2AAFo9STn
+dML29KoG9SEQABsQgEZf7lM/gQswAApobiIwgEpfbl73deamgGlvdlxv7maf9kZY9lgn9VJvBB4g
+dQHY9kagi+eW9kbQdeZmd2rv9U2f8xCvc9AGdSBAdQHgAeY+9SU4dgE49AtgAVkvgmaX9XP392On
+AB2QdRvY9mIfdf8WuIBTl/V233cBeHYgAAKCx3UdAHgbUPQLKIJRL3cBoHaAL4Jnr/Z5z+9bZm2M
++PNXp/VjvwBlH3UdaPiMt/UlMIBy5wEKKHcgOAEKqPgiYAFRBwKfn/VGePUiMIAlQHUDIHgWSHWc
+D3hRD/RzJwJjz/ljr/RyZ4Gp1/ULsAEbYAJbb3WW/3V6V3F7/+w/j/pDL/dB//Z9X266t3UbOAEm
+mPa1P/UiuHYKKHp5L/dGpwApqHRwv/isb/hCP/dyV/SG5/eFD3Vdb3hNbwSSp4C1R3JgH2xhl+o7
+xyEBOPp8D3y7T/XUH3iHP/S/h3Vlz3eJb4SOd+7F1/WNL3cK6Pj/2k93eXf3i7d7hD/3zg/yzwfs
+0G/qO7f14RcAxReAzC/2VI92KSB4G/B9X1/8hi8CJnj1Vo/6ZD8BXL/9kxf6Uu94uV/umb94myf9
+RrB1HsCtg7d242/7GX97zr7zfE92uwcIHo1OCLBBhIINAUR4CBBIpGAjAwKKNLpA8ESjgQKWNBoi
+gEUjHRsvSPmocUhFAQJCqhTIQoABkUUoUCgigEmjJQJQelz5EMgFiQIlgsxo9CjSpEqXMm2qNAeB
+R1KnUq1q9SrWrFq3cu3q9SvYsGLHki1rViuAs1LTqm3r9i3cuHLn0g07oIFTpD+PUoBI8GXLijZV
+CtBRMaGAExcz//ZVWcSGjYyACxKJSFjiysaGXxpoxJAwykZEEAPO2FMlTqJ5V7NuvRRq3diyZ9Ou
+bXsr27O5b/Pu7fs3cK53XVMwUPmoAQMXitM8YTjjBR2KjzeioJimAQpGreu4QER5RiYnpGjPaGB8
+0M4RwX+/kJHIdL7O1xuFf6J8UOqu9/N/HTU4gAEKOKBZu5VlIIEJKrggg8P19yCEEUo4IYUPwsYg
+hhlqOBuCY3W4IYghiliWgxWaeCKKKaqY0YUjuvgijFN9GNaMMdp4Y4Ylrrgjjz36yOJ/OAo5ZIA1
+fmUkkUkqSZuOPzr5JJT7tbgklVXGhWRXWFq5JZd24RUlmGGKef/UlF2aeSZabWmJJptoNjkmnHGu
+WGabdZq5Zpp26qnnm3L6+WeEdO45aJJ4ZmUooYnC2CegjTqal6CKSvoioldVOimmGDL6KKedApkp
+qC5eWtWooZoa3KaeqgpopKe6WqSar8q6Yaqr2gpnq7PqalupMu76K4G13jpslLkCe6xcva6FLLO+
+CUsstD4a2yy1B8ZaLbaxPcvjFTlEe+u0X4UxhhrZMqvsI+iauy5V27Y2xX4EwPvtquFyRUYMD4jB
+BbvAoqtuv+u6a9QVBFyxFANG5eDtUQScYdQZUM17BgH0cmovVmHAIcYDHZMR8K//gjzyWAM3ksMJ
+U5yQxhUnVJz/QBRTMABvAgssMO/MU6zxcBZr2AzvCicssMbBFrMaZFhtsNEx026QrKvIT0st3Jet
+LeBtDgucvIYBWjeScBpPZPREGl9XHEUWVxDdSBbwTrFCIysUbbSfGEsVRgBgML23C1O/GrWCbQQw
+OOGFG3444okrvjjjjTv+OOSRSz455Yb3HdYLK9CwOeed79AA6KEzMProoKfAwBWgM9AAHaQzQEcD
+q7NOhxxxgF57A3+McAIgEYT+ewOdCz888cUbfzzyySu//PJIb/XG0nvvLUYM1Vt/PfbZa789991z
+z4bftwGeYAxjVH4++umrvz777R9+OVgDODI//fXbT/8IMswP/8P8N0DwwfwY4IgP+GB/AZxfcmZw
+g/lVoACO4F8FbgDA+1Gwgha8IAYzqMENcnCDCXCeVrhABjdIj2licAEKU6jCFbKwhS58IQxf+IDw
+8epaCooB/GhIJfl10BEb+IEGNuBAH2wABhCYgSMYMAMYjAAHFRiBBpKIQAM44gYGiKADIWAADdwA
+Bz38IhjDKMYx0u+DYnnDGEr4gI+JaIY65JANyZfDNyaJhx2UgQEKsAEZzOAH+qtAAX3wA0do4AcF
+qMD8HOgIHHhRBj/EQQH7WAAqkrGSlrzkGM04Fi6oQW8m5FeI3EjHuoyPQDgc5ZLsiMlVsrKVrlyl
+JsvigjR2LP8AbUQlKeNoyjni8kaqfCUwgynMYc4vlmbhQt4eEIZQ9nIupRzQKZsppF8Ss5rWvGYP
+jamWNpQLRKKUplueKaBogtNG1MQmOtOpTm2y6Zvl1I0uocnLd4ronOq8Jz6DyU40uZOeZBFngMjp
+zxHZM58GPWgl93mmfg6URvEc5zwbmiOEUrSiZFSomRgqUa8AFEACfUsNMJCu3ADASCTASg+4QpNR
+FtSiLn2p/TDaJY1ulCsdDc5Hw1mCR5DgpFLp6VYEcBUK7FQrPUgCKlsK06VaVKZcomlN8wTPBeW0
+KhggAQWk0oMnPCGl6aoBCZwwFQw8wQk7BepPT0qBGnDVqwD/IEENhPoICvS0Bo94QhLsClaRVoUE
+fKWjUpkqWIM6dUtQjSpWbgqcqk5lAk2YgABqcNQJTOAIKRVACUhwhLSUoAQTMMJZfcrTk5YgCRPo
+LE+NQIIkCBUARyBBE4zwiCQcAQMUUG0TijoVyyZ1sL59aWGtdFjEWkWxv2GsVB5bA7tioAklbYJI
+IzvaGsj2ERgI7VSAmlmpGIG6ehVqDcQa13TtNAgkKGl3p0IBpPb2t+5FaHCrNFyyiJaucJUKBuxK
+lx6IdU/G9Q1y59oEzIIVtJ2NbloBUFQFjza7pGVLCQAg10cIlQIDNkJrd1razpYgq2vRLWDfK+J8
+xpdK8x2L/1yDoNrKijXCdSmBfvX0394EWKQ9aIJfgyAVJ9hVrnWt7nWtq9sSiJTI3PXuI8aL40f0
+IMOPCAJfMeBV8mYrolsJ7Iiz7MoSL+mwb+2vde87V7Y+QUZwFWqQ14LUEjiBq+qta5JDSgKvbjW/
+dt1qV0ml40HNmDcB7qxmAdCDIwShsj1O65M9C1omJyGzpU1pCYxwWh1jQLWsTfRqW2uEkh7Bsezd
+bbZOXBUs108BhFGJAhwxAAHYDwUtuF8GNuAIlaSgfirB8gJSXcFca5mVXFYSVJ2QBM2KNAg43uwj
+Ir3ak5LA0kKFrlWUPex0vTa2PO10bplM6CC8drKVnfIjmv8AZhk/NKBWZvITzqvVdOvXpyXF7xMo
+wNceXFXKUmHzE/76VrCiG65PsGu+k0yCPFMlCONmlqjb1UMFoGAADh8AIldtvwoI4AL120AG5ieA
+DKCAfinIgABwrWsK8rrXmPx1kqD6hA7rddNv1bGRGZze8bq4KjHfaXiTLFQS7BnNezZvc5/710fw
+ls/l9ui56VJzkIIY4SVb+ALuJ3H7heAF9WvBCDSOAhDQDwUoCPn8LvCCBSDS4wsYQMkdUQGbWdwR
+aTd5QkHIT6Ny2+VH4PAEkp0WBk9YqFCmCgV64GIGW1gAGG4whRHf02ZzeOgT9u/RcZr0uUzAw3Cx
+bbUSPhX/UtNPAVG339QvzvWwV1zjGxBA2UFwevmdHgQhEEDHHfF1BWQgBLpegAAU8HpZvx3umZT7
+QtFiVxLAuLoU4OzedzpzNH+aApYd/E6X3GTE+1wqQN8zj6nyeHKrBWBwCTBx4aJ5qXB+fgoAgQLS
+r+vQ048DGeBh2kNedbULgANgz0DWHZEC1FMcke5PdQVkQNlhnNuNnO/93p5AVbMtW7Jl1hG0WPJZ
+l7NZ34rVlt5RWRBk1qWhlVD1gBEEAbfNGaEZGlU4F6H02W2AX/i5xfg9Qvk5QvrZjM3MD/vhT+yB
+QK1p3ACMQKq9QKqF3KpxAP2EgM2EAP6k2gJkgPqZGtoZ/+ABhhHKEclh1dtYqZt16RVf7ZtovZWY
+5VeS2Ri7/du78RSTsdVVndRWidlY5Z3RdR+DqCBVHMABSEUDmIUcakUESAAdteALep7Usdr9XED9
+pcDo6WAQzh8QAqL52czI8doCgIAMsl3vPeEXReGQtCBv1MADOoERWB5WJAG41QkK2gYcTsUdisAc
+lsUdZsUBFMAePl0H+SHoKaL9KMAGoMDn6aAjxBrqzdoACCIPud8GYJwQOkILpBoxzg8HbAAHTCIl
+dpAlCgkm8oZZsZlKDZ0oRt5iTR5VRIA3dsAHSIUEIEAESMUBRAACZNU4lqNVeGMDWMABIIAFTIUE
+fAAFuP/iI6zjIzRAKr5jwPAh1P3hw0Ec/WzA67WdLm7d6IHd+W1ACtAeB7hfC6Bd7jmC+4VACqRA
+CHCdMz6jBwFfRq0gR2njcXHjVCAAAkjABHSAdYkAAkzAHDJAAbxkAXiACEDAVaDkAUyACHjABNRh
+AdQkBLgiBrgkTD5CAYRjB+hhvwBkLOYi/azaqRlgBryarbGeAOQf2HEACoBcC5RdBZiaAvAgA7WA
+SrSAxXWkR2ZQNOLINErUKNZGKUoFSiLlOUKAHCKASDFAOeqlVDBATiLAAeCkXUYAYUpAARhmXopU
+A/AkNpqLU66lZGYTSM4UWOQhHdphKmYFApwLSQKYSdL/ZWcWgBxOQFDW5CMA5iPUZWoGZitKBWm+
+5iO04k6epgdIxQfwJchE5mT2JltW5lNdph5+QGeq4mZihWoeS1zSxlyu5mjepVTAY2s651+6Jj6S
+pmGKY2ISpnQ2Zk/uJiz6pnhaUFveSMK9YwNgAAbUYTymogVEwAeEY3tehTfOJjpaXjxGgGrOJz/S
+4TyGynLORnPWZQGIVFC+ZFapJmsC5iqKpmySpnUJpSseaOUh5Qc0QAd4ImSG53h2aP2Up40kXCta
+AARAgAVIQAcgQIoiZQd4QAcUQE/qZlXUpUy+5BwiAASoKGCiqIqOplIyJagEqGw05x1aADnmo2DS
+pTmm/2JnxmMcniNTSgA71uOJimOSWkA4PgKW/iOHeqiHgmiMiKgr1iUEUMABUABOFoAeDiZsHqdo
+pmZfdiYElKN+PkKZnilOeudjToqQxkZzqiKQbhRvemmHgimMiCl1yuRp2uVsXqebJuqbJidgKmpQ
+4qaMAuhn0lhomkUdItagEqp4GuqLICqZlmMD6CGEPuij0uibzukj1Kmrnuo+8uRtmkqf1sWfiqRY
+fCoGyaIwmVr+mZ8AQKUF1WD9GOtaiqqLkGpi4qiK3maqOipmnmRnKmhnSkCOdgBgOmuLWiiGaiif
+Zqqfbaqu7mqXZpCvBhPtFaL9ZQCxVhCy0iAtTqayjv9IwmFmAyRpPEYpnfJrBAzdHRbnKuanwKak
+lmbplmKqG1LVpjaoVxTnbXTqsfDqBcniACzjAlgc2sla2I3dCxSjqi0AM9rR2mVs531d220A+n0e
+xuYgA4ls6Ind2cnreNbrLc1GA9Tq1NwqXQwoxHpFctYGKjqdWPTh5+XeRrqr6wmArAUg+mXA6J1e
+0gIi7uke0y4iCFid7KGAHwagEgpACAih1C7t/Hyc7cGeqs2rZNosM9GGxEoNz86Fz1opO56qwZoj
+OQbtVHijPr7q3TYAfK7p38Znp55jOr4qOBKtXQTkrFklCICAEHKtI5ClRd6f1pqa2gng/BAgDC7A
+CFj/ZQY8ZNQdoxBeQAZY3ekK6/zEGgMJYLw+I9t6U7nihrim4KYSaE1OwDzC6EvqIbfqLV1CgHr+
+JIkigAi44k5igAc4a45iqAf4ZB3WKEyqJEsiC8VakCyCXefOT8lxwAC8wNdBXP2VLasl4RIy5ALs
+H/1trwC4LA8GIfmm7RK66+tSYuxuyFs2VNzKhc9mZz6KlATUIQbIKZ0C72riIwZIwADL4ZyyqZ2W
+IzxKACoegAjooW4S6KPqyvVWUPbykCzy2unlXviGnsQ9YiSarB+27+eyrx3lGgmz2qqdsMOpbbIC
+p2G1ydtayf7Ghc/K5mviKAPk6HQOMVWwJkoWwIsG/yU84mPQ4uhpWvCbQqj1nmuvHq0Hfx6vpa4j
+AKMglt0LsFoyWiQzbi/WzZ8fQuLJAuP8fPEWa68PXUD9PuH9akj+jogF4COX7PD33S45HiYGkGg5
+Lu8Dv6oB+6V1KXCU8iM+xmoC8xUFlKO1MuoUFy3jau8Hp1pVDoBBMiRGYhyrXWRGbuQi+hAIlJ4f
+JuHZhS8MdjLImV+sDYBZwjENe+QcZ8h5wmOSvipxpmIq1mcDxCc7omOgUsU7zifdRicFXOgvH+ls
+5vJ7xidudgA7bokev8XcBqVPnuMEeAAGTMC1ZiuDHudLqmcH8OM2iwBLyia2PmtjKu8EQHIU7+ms
+bP8wBXXwKBegqpUyDoZA1nGAWYLACABiBZilAKDlKAuiEW6v25UyRirj12UtIHIlyIWA/MTxAdYy
+hojoUGZzYz6vbkZyi96klubo8V7FYObuHBaljT6CaWJABEzA8J5qiq5oAWRrZ3bABAwzlVSzWxBp
+KvbtvlZpM6NjMxdxSl6oVKAjUk9rMzPlMrOjwM6hkU7zr9AzKxk0KYMqNmE0g4joT/6vrGJoTL5p
+TgOudQnmYFK1OX61AitmPO5lOSqwODbAnaIpUq4p8uIxNdcuKZIrWRxAoLImPVn1Kp2f57qrVl8T
+Vy8IojZqelLWUUYyBWirgSZxAfxnHOIjbZomNk//p2Cn5mlO6By+pmzmMV/LpV+PRQ5LgE5LE2Fj
+UjMqQAtwbGJX02IriEaLIwZ8gAjUYQeM9SMsbwNklWIm8FxbhQO3NXcCt1w/wgek9T6i6mjn9Z2c
+NnOm9ux2xWvXtsnddoJ4tVCeaI4WwFF2QE82L0xD707aZPX+bG16gIki5UxWqGpiqDujY7ZC63TP
+Jl52CU+3Ra5mt3ZTMXfDrg0LF1jQJjOP45nO4S9LwB2iIzMrdafqtYJPM4MrKR0SJzvuqzj2K262
+tpL8t1oE+Emqxc/mo6m+amszNVakeFIPcw4PynYXeJZ5N4E09lsArF4jC4mfhYlruFmkOGnecaOa
+/3SPWwWMHzlVsKGi1LiNixiOD0jCWYDOusXbWnm1/LhZ/Gk8ephUy+EB/GffRmcd9uerRkAvCyZp
+foA0KzhmN2o8YjZQJ7VgWoAiz7mWMkCc0ziBY29WltqwatyphUDZxTYKlN2sta+tufEFva5aFuqB
+y5eAJ5Z1C+imTnbvtqYHBCVPtuRK45ceSoBuJjCDbjN5HwBOQzitfvVa9+RXq3Rkzyaqw+ROwnrO
+MsCV+zklxyLUtt/GHe0LPFwLjJ5hx7LGcZzHgRyWQboTguqUC0gd+xOXl0VzfsBls2NyYivg4uVb
+myJRqmljxs4hS4W3Iy9hSjF/t6lb+yVgGredMv9wmxIxoUA5w5UeKduzMoac6bYdEWpdIXqd9rZs
+/azdBoReybZdpNfspJvYWcy4VUB8bEj8mVQ7WTTnY/e3apLoPNZmZ0/FnMJkBe+lJMcmdUsyk8cm
+Z6MmYEqxyc+7AeuJvT+i1nqdvleuoqva+5leLzqC6oGd15pa2PoQ2JKt2yHt1S58qDZ8l5kFcW7F
+0N6Gk9uJxY8FkfalKwImxyf1clPF84qAnYpAgpZ7vJO2o4I7u3f9uzPlucP8pMz8Cu+i6GrcsA+A
+RhYiDKKtDs4fxdmf/JDuFqeuFmNuAA5gxim9b0Z7gGieMIOOetYhBSAAUluAkap6llbFMyN1M/f/
+MjrOYYb7rVPj8jxaAJ9D3sLe0O3adGt2QIriLoKquJZOQDiKdGuSaKfbetszapOePYWOvQXUuhye
+PQOIeJ3MvPpSnEKfWkHnPBzzsw6SpQ/64qy5rwLAr/6VrxKqX8ghfm8qPoDca7b+cYka6UxXNjev
+5FUgcae7Io+uKI56ALajdPGW9K1DrwfouulPFeqHxTgChIRHjxAQRHCw4CMJCA4MZOgwwqMDFBwO
+jMBQQsQPGQUqjFjgUYSOGQcubEgw5MUDBQ6ILBmRQsKBM2nWtHkTZ06dO3n2pPnAZ80BjogWNXqU
+qIIFjgSkGNHCkVKiAoYiNZpCwNQBAwRwCPGC/+lQqkUXKOBa9OwCEAvYsr1Q1mpcuXPp1rV7d24C
+AkH59vX71ybQoBYgUGjQwKBECwpBFujI8maBhBAiFJ4IgSCGkJgfUYiAgeEByqIHQmYAGHVq1TYB
+rH7U2nXsmTFcyM6JIGJszUEldDggYYJt4cP/Cu5bFa/UFiO+Rl0aFmmFDBeIbsig1VGGDQIqQF9b
+VAGKC2MdvchqnQNRDhs4wMX7Hn58+XH1Erdv27hPBBAmfEhMoQMGIGjsJMhsMpAlBgpYEKSDJAJp
+pgI6YNCClUpr6LT7NFwNNtU63LAv2kBETDYSg0KgABEWA5FF+/ILCrm7pNoABAGokwo6pEAIYf8A
+60bADgUQQMBugQwWGACFsRQIIQXrsuIgAyZTCGFI9+a7EssskaqvxS57enGnCBo64DQHJ2iIAgIv
+jKwjyih7pAGBHKxsoAM+wGCkBix8xDQv/dzpQ9QC/RMnEQk9FNFEfQKzpxjtkmq8EJJ6jryjLmhB
+gAx+xG67TclTSwAm1UsSBPOIqgBTAVqgzkotXX31PS4V/ZPRnA6YwAMRGiygMgw8GJDPAjUjKUII
+PChAs/0Q6MCDxB7BQLIJKLg11w4eXJOBjmb1c9C/up3V0G3FHdfPWndyFNZ01V2X3VdlJRdEc3E6
+AIEPEGuAoYs+uMijgSzA7aEIKdhoJno7OuD/JIUC1hcxl/qNCd4Wv+1r4kTDBczEmjK2CWGdHA4z
+4YhFzknenNBtF+WUVV753ZGJK1k23Ggy0OWacao4KJwPvdgvEUKe6QOZburYVgh1kiBXoW12Geab
+Tl4Z6qillq/lpWNr2rWNPVjR6q517unrP3nmiV6KIujAvzgREKgBDDBAjN6fI4iggQoR4FqCD9Is
+SWY9B6q7gQ4g4LprkbEWaurEFV88r70Kl+3wxyWXLWxARR5bJwARmEAC4KxNcXMJCBu8t2WFPuhW
+ETyYALEFfwUJAxE2b6gA/zrISO+fJ9828pmeZhz44FGuene/ei8eeYpdq9xLzHP6oAALcoNM/wLE
+QEvMMgo4c4ghzliik7HKEEZAswYmEGG35OE9/pHfhX8f/iyJV/9L24i1emP6mc9p/xadx6ltE4AA
+7RqyHwEVxEEKYhBNUAchluxpJbdiULMe8QEG5IZ+42Kf++LXQQ/aZX4Z1An7ckIzm/lMhDPp301W
+CKL/DS0iKAoWYSLiAQQW5E1xYiBDHNgSzkiAV5ypEJzOR8EUzmqDH1TiEu8SwiMGhi8WINHcJBIw
+ltTNX4exmxQ/YC++YbAm0usiieJmEZVUsSMNGCOcthgStD2xhTWJo4ZeaBNldaAgyIoArjAwAQTy
+6o7N6lgD1wSt1/EpWhSpXeAo8sREJZGJkf+UpFGc6MiZRO4DFOzAvyCwH/88sIeiKcDqJNMBzcRu
+dpFh1oIUgkc8EsRYQetkJwPngdXpqYis8xwcl3e52vBlIR35l5jWZgG2PcRgdSoIwhxGrLwZk28N
+sYB/HjFNSyIKkpPU5hIrec3I0YlOb6ITKC9EGj4JZCXio1f6ZjaZykxLe5kZyJsqJAGfHUAEEjAn
+ZEyYwTmq0Jde+s011ZfNbR40ft20ZO9EEBP/ZOgRpyFnsPYEmQhOYIKRKRCZGNSghEAUlgzSZw+D
+xUsOBbRL+SOo5AyKUJcCT6GO7J0EMPAmcWJmor6p6JiC6C/dnXOelYmIDh30iBziaTee2Wn/SY/4
+z4E4lTh1XOlU+9LSl151ajF94vEgIAKHzDKPB2gAA3I1wKVaaEGbowjRSmMsZMFyWc0qqgQ6ySzz
++WoCYiLpW5vay4hJlaqB5Qn7AACABBwWsYlV7GIZ21jHPhaykZXsZClbWcteNrEDcJxgL+kXfRYs
+YCRRSUaaGZFmBoxeMxuYtpIpkYS1Vo0yK201ZZZCqEJ1OIClCdx+ihq2uua3tlGaRbS1OxI+ggDJ
+Ve5ymdtc5z4XutGV7nSpW13rXhe72W0uZ39CroFGqLfczZlf4aVbf4EkuKopamzWK5zhhqS4kzuu
+eOkr3vkOR2uEqy9fbotSn3ygA3OLSEsQ/0CRheSmjDi5SEccpLaDLXgmC1mRGr0Ip420dyYWGNhh
+1lg3enHRiw6uU0oWcq/FELiRVRRTze67XxcTtMUvhld///pLn3SAcwmM1ihFgJnSvdImhEGArhID
+Os5FVDKdfESuPHDBWt7yrn18L0YxcDZbsk6UpFyWZowskDLhisgWUlAq7wjSiMVYxmnOIJrVPCsa
+l9fGPbFQAmO4m9Nkb3s0AQ3CKOOg6j2rIAxoCJ1UR0V7IiyfNB3I9WxyQYXcM5/7RCdI/ny9Mtn5
+Wo52kDjNvL42f3q/91UpqL30ZnKZ91oJ5N5ATqNAVh5oQgv6FwIhcMCIzuQ0FhCBgi4yoP8FLSQh
+GGb1V0V61gbVWsll+mimVw3RTpOLzaSWts3mG7RpH8rU40L1nAO96lvnML6LztNBaLjkQJvWx3CS
+naI7I5LdMLomGWK3Ukm6knLb8NZFPY2YV81pFl8b4N7sy4IP4za4BUyMFQ445ch76jiTbYCqdlaZ
+6irIkFFLBNY6yB49IOWI4hECAknrme66OrqZ0uP3uzUR8arXNaWTj37M97L5nZgP1PXZGlz4zkX4
+zbpiYHSc9CSfVmk0nnuo4dp+OE82Msg6nSQhrU0tTRjmWjRC84IBi+1JYpsbNeqzgCGTSdfh+5Ky
+Gwyay4R62aM+aHpFIOfiivbR6e6lyBH/xjCI2TS6+eTOuqcm2+JCtW/D3ZO46weMf3LbAXL1778/
+3mq9209/EuNspvYT8j4J/LYGjzHAGP0vo04ptN7m+GlvzQJG7EnqawJ6AOo384D55piUbVS+Oyao
+sVfeSWus+xTO/YhXhL1O9lSwngjb93yJHMZ31Wtl8cmt7Ey+5XgP5+nTD/g2EQmKRCcCFYWE9IuR
+AAW8vyIg1q5O6JsWnKCVkLZJJmMFHuX7G4mi0jMGRS05ZopSPJA0fX8luK8iOiNFVkTXHCMCFiTx
+rq9++IJeQgyZrGi1GBBskk7wli413mtkRK++sq8mbqXAMOoAYseoPGAEvWpBYsLHCoMC/yZAejgH
+OAoCj0awWWTnADqg/xgAA26wMD4gOHLFTqylN2JC0CwEWuwkOGYCQCiArsSEAQrsdm5tCbVnbkJO
+e6CHVyhQ+YgD87SQhSyQ8zAQNQ4PXpKwzTyQJm6wNNYKJOiG8RqjkTIkAjRsgDJpIGxIyA4iOKBl
+X+JN7yjoNPzoIAanoQZCp0DiMH4DpApxyT5ADTvDq04DfQ6iduwwJJzFCxtQOLYmE6kP6XovKBJG
+ihQmN06DiiSCjT6Mwu5ljWBobUDrJCxgmBTmJCCMxBAAMSyAAYYv1EDE2KAvRdRECjGqx+gl2LoH
+IQpCjQKkuDJE3yIqGRNwo+aMykDKQP8IidmQBSGMcYc6URO9sUs2D1zEECcK0XwQaXUWo/ZuLcsw
+asuejHVuYsyU7MfyiFlWYpTORMiIbHNyBSSaTPVkDA0Lpt5YwloqSBgliiIaYID2pu/MZzFY78+A
+iCaccdmisG0aAN/MB2FAggFyEaTwjU+mJR4RoFlOo+PuUMMgJJOQDxy76yXDEQzHEZiGpcp+SDPW
+cd+8Z9IODZ8KT9A2w6jgCacEAnw8Y89E4yIwbeXO0BcLkiE7QCo/5yROwwcLAAIK4xF6DAJeCTgK
+4MhqCixz0NtyDaMgoHykMis7cisHJEBMJHAERzNEoys7ADFOIy6l0noGxAVvLrxeUl7/pC8mP5Ew
+Ha4vWCd6IMgjJ+5aSioAfQ33Gg3XkGyBLMroJIRCnrEp1Wwg/8YATQxOWgIVRxEVq2nQ5uYApMcD
+qElMMKhCNqYWEexvUjMNAQeLFKOaYHPCpChhIOq3hqhOFnAwHyEwSWA4Z3L3rI8vQAMzwEfRam+s
+GtMy5004HS2chkrkBo0z7ARPSgJflm0z06wzhcN8bOlNbEYj8+w4q2onkqAH1hPwkNNiyBEnLIDy
+0PFMhnHI9g0qJ6Dl+gXXQE5OKo6p2k9aME7jwDNbPm08heMiastmLoIX4XMnSmYCnoBCAUMcFaXz
+IPTABvDtCmK2XILsCCJksu61XhFA/2nRIuqFtwYQYpwyQ2eUZHbCCZqARpMzPkFRXCA0PL2xQXP0
+6EoGAEpASMer+gxzXDbG9ToxSI904YjUSKGUJzZ0PqlUUZ4US6etZEgAQ7eUf+QTUToPTK+mTDO0
+ZJKgBs70C5NU6XKiB5yATYdDS+dUPHUCAILATuVITHeGPoMAt/a0TvfUxeSFBN6TUJ+qTwnlhWpg
+ShM1NQYVUu1rUqt0UcWGPh8hCfqvUrewUzNRUjvRSsc0Uy/0U43nVL0wVDNxVP10J0jAOFM1KFZV
+VheqVvnUTS/wVWP1Viu0V6ePVrWwVRk1U0uAU38VipBV94KVAocVU3WiB4xAWUdoWv9jj1kZ0Fn9
+5IVIQDCrdSCu1VvlS1mztXnIsQd4NVxhMl3pDlynj1y7hEy9tV3XNfLG9VK1NVPpVV31NUrtNVfD
+kF+/MWCvbV597139J18DtmAH9sz8tTDflGFrNGIJ1mF3VDknNlkxltQWNvYOlkXitVo5VmOztGIF
+xb9G9ltRFtREFvI81oUSll9ZVmVppWQ19GRRVmZn1u5q1ltudmRzVmdbBGjpzmU3BGSndWiDdkOS
+lueKVjjIgCbCJQxgVl6VViB51i8CVTXYAAx+SUS4IAAegGpD1mpfjGl3zmltwwUe4AFiIAxogwzE
+4AHAAGfLtlCxVkcVBQzY9gHEYG//2VYN6tZuOxBv+Wtc1IBvE1cMuEBwB5dSkTVtbYMLEpdvx0Bl
+z9ZxzRRy75VFxoByH+ANLjdzH/dXI1dtKdcNZhZzR1c1VhfgTNc23CBxoVZ0WVewXPfaYFc2yIBv
+F1d1bfd2CxdJx4UL5PYBLPd3gZeqcHfadFc2PPcBwkBnmVd5Z1V4NS9i3qBtg5Z6q1dga9V5ZSMG
+aDd5vfeaYuB6KzBixpZeu9d8BzZ833ew5Jd+S41z6zdS8Vd/NSR+97cm3Nd/q7V/AzhlCdiAH9Zm
+D1g4AFiBb3WACZiBG1hWHziAI1iCT5WC/deCL7hTM3h/N5iDJ9WD9ReEQzhRRxh//0vYhPcUhetX
+hVd4TluYfl8Yhs9UhuWXhmsYTG/4fXNYh7GUh83Xh38YSvuXAgoLiZNYiZeYiZvYiZ8YiqNYiqeY
+iqvYiqcYUXmHiO+jBq7Yi78YjMNYjMfYi9c0Nvp3BRpBjdeYjdvYjd8YjuNYjueYjuvYju8Yj/O4
+jvFA57aYOAagAfRYkAeZkAvZkA9Zj1eA4f51NdIYkR8ZkiNZkif5DlSgD7TYj4cDkCeZkzvZkz+5
+jflABRDhfm+GOBwZlFNZlVdZj3OAAFQAkzPZNjaZlWvZlm9ZjaOAAHaglNtUOFAZl4NZmDnZlWEZ
+iWRZOGh5mJeZmQtZl3mZkfM2Nv+AuZmr2ZrpuJhj2WVaoweUOItVowa+WVaV+ZrL2ZzX+Jl7mTVO
++Zzb+Zyz+ZhtRgBe4whKwJ6N1S9qQE9pogZw9FfJ2Z0DepjTOZoNdzioWaAT+pbhmWRbpJuzuItr
+ggJSrJsfYZ6LlCcemp9hA6NpAlCRFaAVWqRVmaARuGcPeqRTmpUZ+pFahAKMoAQEoDUwAKaNYE1L
+IAlK4Ajk1AnqOQku+lEHwlQfoQmc4KVLwAjklASSIAmMIDgEQAB4tQakFaQDWaWv2pNL2mK3WjYQ
+Gqu/GpFZGptahAT01AnC2Qje8wmCowSM0wmMNAlaAwAuGqrrujOS4BF64Ag0lSL/KACvScBIewCo
+9Wyf/9mqwRqxD1mrTbagUcOrExuy8VisDyVIp/oIgqCL61oAjLQE5NpI53kgBrsmNrWPLFqzHwFW
+Q/s1gjq1qzqyX1uPFzuBTbqRYdu273iyCSVIe6AHKKAJmsCvB4K3H6GzV/sRjuA9Bdu4a2KtN/W4
+EXVNW1u0B6K1Dfu2r1uOZfukaVs1Hhu7sTu3aZZFgqAJ8lRPjYAEACAJjLO4MXoCyrsJLjqukXhN
+oxWvH4G889RIpfs11HQmblRZQ/q7sVu7s1add8K7B9y2w7tcHDoISiAI3lOf21qo+zoJAfutO+Oe
+7Xk3/FO4ATvCn2U3ArsJ0JWq/61bwRW8wKV5u20jwVM8shl8Z12MW10bxr97xQ2au1PjxW8csWW8
+S4YYTptAnFNVwH0csnN8eLl6mpEcvF9Zm5F5NY7cycFaybG3sQGjx6tcpYFcaKVcNqicy6/6ytV3
+xx17zGHby1lEyPlVzNN8pMvcUrP8L7YczhN6zePFj8mAfGPjze88oeXcE5ncNez8jQ3gBHSAjSkg
+0e/4AijgkImgEYig0dn4BE7gAi79yY25oYk4DPoWDqTXNf4cjhn9BNpY0+9Y0g350deYAoaABVhA
+Ci6AkFfdjhld0RHdAFZZ0PH0wHXC0N24CKCa1tXYAASABexYB2xg1wt5CASgEf8oQABsgI2JQACA
+oBGgetOjXIfDlm1joA2m/LDz+NkFgAnYWNvrmAiA4NQLedmbXQc0e9ptHY+fHY+PPdlPQADaPZV7
+PUzp3C+CvdrrWgrWGN/tmAUEoNkJOd0T/tzV+NkL3gAWfsGhPJ63mAv+lm3BIABE/S9I/Y1tAKqX
+AN2hvY71nd8HOeF3nQJEvuApIOGTXY/T3Y4PHuV5fZd/HaBQWpCfnQcEoAgMHtmf3QYUfdITHugl
+fQhEvgiGgAhYYAh+ngkuYAmgugianQiqXgB4gNaRngV0IN55YI2BwEYaIdaNfdiBQOJlHeJl3gDY
+PqDzfGllmXc/lw3YdyBAvo3/mUAAlkDkiz3bBWDZBWAI1PgCfv7aFV0HyB4Ikh3Wlz3ol/7aC74R
+Dl/kWUDpmX4IpIDw1/jwjd7ygf7hdUDWfx4Idt3rdeDpo97cG+EEGL/dbX7f1VgKyP7q2x7yFTvn
+AX7Qu3qQ/37YV/3Yh17kd53sh4DoL0Dym374oRrmCb/qsf0Cjr/qxT71x4PaG4HvST7wo90GbOAE
+hn3qgb7yofrcn/3h3VnuNeQBAsD93x/+41/+55/+69/+7x//81//95//ASKAwIEECxo8iDChwoUM
+Gy4U8yCixIhg1HB5hDGjxo2PBjRoBDKkyJEilwhgMkSAlJACBAA5AUTAiUY8/wQsOWFDgAEdMYGw
+aMSipQAeJ2ymFEChkcklKYE0GpKzyJCgBkiCDMoCqs5GRW0MMek0qAAWOgwIRVr0ZcyZZn8WnclE
+QBGcNpKKHWo1r94oBHZw/AtYI4DAhDkOLoz47wq9jHXYbCQFbyOzNi5wxdtSCgUdTCxTndySSFIm
+Ky+0bBSXR6MLLGY2Og2ypg6aJ0GeTjmbglylSOMCGdIIiA3GxIsbP56DgIrEzJv/VeMwuvTp1Ktb
+v449u/btBCFOlChmTBjnHo+L1D2ciEuWW82GHUpkZ9K3Vx9TIHLCchGdpp3SHGLXVp+RFNdPoBVx
+mWqmCWAbg6AJIJppla2W0/8FbV02035JOQZcUEs0kpR5efHll3OAHWaiYSkmtpiIIJnUWk3DgWbg
+hUe55NpnZiEIEgVD7HcafSPBhtpjNvj3GoNBFcGCWI04pgMPQEipm2ouXonlSMktt2KXXn4JZphi
+jklmmWZ+6cJ3FJFxkYnluRjZS0VB2CB7RbZkAw+WCRkUEyBdIMVdBlw40mcm+RmSDvPJZKeQsMG2
+I0iEAqXThfS11OR+P/WZJUkkionil6GS2aKIup3V0myErvpjqpRWRegFOfHgGINCEmFZkiLF5Jhr
+ugZF1AnCUrjEb3EVhWinypq35ZnOPgtttNJOS+2KYHw3hgteviliTKhaSST/bBScIJZqfG5FKQtS
+7DfoWD2G+FlkH4LkmFNFAVenow5C6u6BIVFlKaMtCSvsbAMu28inYY7aJcNilmpeUUsMakBRP5lF
+Z00AFgGEZTXNpGO/kZ7aiHoIyoqUriE1lXK+jDKxBKI85FSVAEcijHNxzVbLc88+/wz0z2pIVFGb
+234konsUxzVhZk/uZhIRT7vF6KsNWhZTVRVSavBWKPOwU06zqdcxZI/pWyeNIeUktXrDBQzyVifw
+IPXByyoMpsMp6g0mxMdlLVJOFLhnw3510eaTzUnVBEQRsUZlg+CUAhETvjEVYaV6j9mJMgs0g8T0
+iwLgm3PpJO0cdOqqr856/+sacQERG22Mye1xH5ckwGwtJV6bYzZ43rvNLBgwYFCUi31Z4bshjiAR
+3rZkJW3KH452cHKB3e/TY7XkJ9yg/W6zZ+gijLeooDrrd3EXDCuSDieIdkJZSywhNUiBskD3nzzg
+P+5sks7PhIrV734rAQkRlqCukEjhBFUJCft8xIKJiSR+kjpBiEyHQZCgznUc7KAHP/glgYyHTLUz
+zgIvOJkT+ElYFNhfsmAWwWSRawmbsWCP9qcZFYIOgUPI1QX2Fz0mCKt+ieJhrirWQPYdUF39E4kB
+gFi/JiJRUkAMkftQqKzyeYlvzuGil9KXwTCKcYxk3CAIz8iRCEQAjWxs4/+KSkjGOMpxjlfSYsPO
+dyYw0nGPfOxjI8zoxjMiAAF/ocAHAonIQMLRj4xsZAbtuCIvMkeSK9KjIy+JySwBMpFkssABMtKA
+AzRAIxawwCNCOUqMROCTjxikKlnZSkKeUpScrKXrFpnJXOqSOJDcGx7NZMldCnOYf1SOLc1UAAhA
+oAOPoMAECjCBTxagAB2YAAI6UM0GICCZy4zlIyQAgWSukgEMOIAFwgkBChxznUDDJTHfmclemoiS
+iKGniYIJz3wycpPsTBEFCoARDESgA588ADMLQEhnjpKgCIAARgpAgUE2AAKj/IAHvNkBU1qAmf3s
+6LTcqc+Q7lGeXfxlmfD/KdKUltGYHvWSKzPCAJg+ogAFBehMD/DSQQ7yAOQkJ0Bd2VNytnSozgKp
+So/6yL6YdIvoQ6pT58hPohbGohg5QAQmMMoGTOCmjziATWmKgIs+wgMfGORGMdKAUboSq6qUqlvF
+ZNSnyrVTJG2OPQlz1+agdK58dVFU3/qXCEBAAs48AAZEcAARYICrXn0oTicgAXBGwJUQQIBBCYkA
+DDTgsIa1KWA/6yak9XW0WVTqwpY6pr2SdrV5+StoSSkCiJ5ymwgYpQc0KtbbhvWwpozsIyKAAYRi
+xAIQ1WYBNPva5CYmrqxtrkjqOknUPsy51DWOa5XbpZdid7u0E211vzsS/+gmJq8naip4zyuS63LX
+Odpdr3vf6F30fle89ZRumFQrX76q97387e+ZmJvfudK3MOT9S4ERg98AP3W//m0wdtVAhjIBWMFO
+HTBe7du3XObgChQ2HYMdDOLPvuEBYAjACME0YTKe4QwdzpmFA3PgjcSYMAk+ThYI4KIp4LjFOPtw
+iH8s1TFIRHYoji/OzpAAF2UhCzwmn2nzhuEv1TgkBGCxVXQMkisQgMMhyUEORLJlLGuZy02+ko+B
+jOaOwm4iRetSitP7ZasQYApUtjJIzrBjDZ5hySCpcpnr+GTznTaPV7rCAqZwAiY/gckrWEAWyPnH
+EyA6DY2YwqHXQOkznP9gAcIiQA4kzYA8/xk5LE2zqZM7NDVlK0VvBkkCFnDoP67hCoZOAzmzYGhE
+MzkLsD5BFECC6E3j+tJMHvVxXlzeQQOzjlW5wglozcATsBjLC/hyDhZQaSangc5RYPIV1kCALCQ5
+DXY2ts5K7RwXcGfd7G63u98N73jHW01EY1NzWp2GJ4DkCZQ2wBQS8Os5J6zZz84Cna/AgEZsG9g3
+XsAVkmNu4yDbwFH20iIohnGMEzEkUwgqjgnAgBZhOagJx7LAsVzpKp9gDQko93kyDvOYy3zmNK+5
+zW+Oc5jjAN3NUbe8fw70oAt96ERPiHfUJAY4nBgxA9CAzUny6J4WG9H/faZzx3sa7mInnM+N4HPH
+nyDqkFgo52Qvu9nPnnM/BJqpyi5TIEwA97jLfe5x1wEB4D4HuEMBAnuAux3qYIIR3AHvJvi7Cepg
+BxPYHe6MqMMd7kCIH/Sd7pSvvOUvj/nMa37znJe7IXh+6tBLlQz0doO9ydOHzsM9D3ogvAnmMIgR
+FOLwiV/8603gBCfAnQEmYD3c9aD7OSTCAGtQvfGPj/zkb14Ra79j20noiOhLf/rUlz4OblCBD4xA
+BhW4gQxugANHFOADjtjADzSwgQKIXwOO0ID6u18BAzAA/effwAaqj//863///O+///8PgNSXAKAn
+egXYT1xwLeAxBm/g/2YBKH0wMAI4UAEjwH7g130yoAE3AAPXl33bNyjRxwCOAAMQgAM4MAIGwIEf
+AAEOyIIt6IIv+H9Q0HyRVHENyII4UAA/MAMyoIMi+AMygIMwIAMGUAAbIAOO4AMz4Agz4APRVwEF
+YABJKAPpZ4QwaIVXiIUBOIBcYoBd2E8BQDQW8SUD4IIa8AMFUAGOgANN6AgoyIMGoIY5qIQlGH3q
+t4Q/sAEfEH5E2INZ6Id/6IcyWCJQ9ny0A4iHiIiJqIj8t4Ve6IjHFAYRsWphQoaLaImXiIlWKIg1
+OF5FlYmfCIqhmH+N+IiliEgCYTSUKIqryIqYuImFSIP/1YqzSIt/SP+KpoiL3FWJtciLveiAr0iI
+wShhvkiMxbh/t5iLyfhau2iMzWiMwChowgh9zkiNxIiMBdgApgRLyriM1eiNvAiNbCeNhviN5ciK
+1yh6jeVZ3AhazGiO7+iKM+hLsKiK8GiPl4iO7+VJqRRYnrSOXbVG7OhW7niPBfmH4eh84whXBsmQ
+gJiP64VN2dRYXIUAE4BNABVTglVNhySQREWQDQmSLYiQsaiQ9RiSJ9mCD7ldwIURBDWRNKVVaoWR
+Y0VIMdmRQ/WRKKmT+zeS81iSKLaTQel/KrldEiACHVBOL3kAE9lYMUVTjnWTLZWTQkmVjtCT88SJ
+rFaVWymABMhdEtD/ARRAXEv5VebEUf/0CDElAur0CBkVlR41lVypk1dZUvQIlHLJlUSpXB8AVuV0
+VYYUTW2JABTQATMJlhHlUG/ZUXGJlyFJl3aVlW7SmFupl8m1WQg1mN+EULd1SoclARdlUxJwXAGp
+mOzEmJPJkI8ZXXY5hqhJlZVZmrHJQafpmveomp3ImttSm0EJm7Lpm6pDm7R4AQNwAbvpf7dZX7lp
+g8Z5kr35m8/pM8EpfQOAKi3AAY5AnYdYAQogFApwnQ5YASnwfwJAhgqwAOaInAQWmeThgiCAAg5I
+no5gnvmHAi1QfRmwAQugAMx5jF4Jnf/ZTg5InQNAoCkQAu+ZnX94/wEZ0ALFOQAhsJ8OOJ/+F58T
++o3peWHK+UYtaKAC8J3jSYYVUJz4VwECMKLRtwEZ4AgXkIb8OYr+WYBqBKC1JJ3Rl6DRlwICgJ06
+iqOwVokD8KFA2qMv8J0cUAEVsAAXMAIRaqMZUKT5KZ5OOJwLcH+OUAEHWgFGiqTFyQFQKn0Vep6O
+0KVUKn1Z+gJVSosYCmPreW8tqAAbgAJhKqa7KKLRdwEvQKTxWadi6qXRFwIvMH0tMAIr2qJjWqUs
+Gn0csItCmpcwamos6Vszmkg1uqPTlwIqmqAoIAAKEAICcH+CiqMeKp8ZoAAgkAFpOAAgAAIKMAIg
+AKgkmgGkKgAhcP+dnLqqAvCe3LmpqbqqI1ABscqdtOoIYLqiqqoAGSCsnBoCIPChraimyfaTremA
+C6qoIDCdPCqf5/mrIBACnVqe2gqss3qdG2CtdmqijqCfxbqqyNql5boA8WkaJ1qVzglangRK5kRK
+ptRV/7hKG2FVGdGvkgqcAkqeBJqiCKqjC1qJS1p+KuoI9ekILyCsD2uf1Bml8Yl/LeCdK5oBgFqq
+1/kCPDqfFht9GnudCwqoxNoC7ymmfyqfIeCLz0pxGqqVDjgCLAsCUXqj89kC9omuKruxKCumGVCJ
+6Yqu+7myifqnHCAAaViq5ymxeEmvgMVNzORM0ERI01RNF0VOOtX/ShZJUWk5TROwRuCUTQIbNJRK
+nUKRAShwnTcanguwqmIqAOKJn/K5qgrAqTp6oxhbfXUrfQw7oQk6stgKuNHHsMQ6q3pbqvtpobUo
+sypCs5LpgAwKayHgszt7nofLtN86rFHqCAwbujgbpem6uHo7t6AqAAzrsnI5tW6Flo8gUB+gTmh5
+XKeEVY0lUWwVVmn5SR6QtRLwTfyItj2jttg6fdnJAZ2atxG6sjlaq+YJa7BWqX76qtKXAsXpt+k6
+uCJ7nn27i6brubg6vWT6uGkqj1g5uewZgCnKuNzpoNg6n36ruOEboabBASlQrkc7rHE6vfe3ASGQ
+qiUar1LrqMnV/14R4AHQBFBPeVO6a1k21ZQY4UrOVFnEW7zVcrz4l50vwKzRhwIReqkowLIhXKbi
+eaOia67iCQJyqgC5GqaE+73Y2sLS98LD6rk1jKNOK6eQm751Ga26GYCtW7KDeqM1rMMlmsMuzLLy
+Cadymq467AgpkIamMQL22bYwa8BcyF9UBZCVdQC2y5YZBcFn1UwikJYUTEhrRJgcmcE8s8HV18H4
+OQAjsKnSlwGHS50tMAAHW71D26DY2a3RtwAZsAADoKmeW70K0AIVcKOFfMiJjMPZ+rOH/K73d76z
+GLkyxqbMUaMEPH0puqK4OgAtYMjoip8d6rmQjMh+G8DnSsj7+f+uluypftqxozqoW9xggkVY0QRZ
+hNnAYXlNXdUBk0VIlUWYwhtT3gTGHSC8bwzHBMvBPKqpuLoBovqwDoujnZoBI/C2yFsBINCdHyq3
+sxql3YuisXqj6CrOIXCxilzOrhp9meysPwyZ69umAAix1He3LxCr+hmmhYyfxMrO5szPPhvLhCzO
+8hx9IUuG79qirnvAyWUBsVW7BbCWaDx+ipVVIoAAvgVcBfDMoSm8FS1c0BzNmZi0LOjI8uqi1LfJ
+gtHJy/XSIPm66+XAKD2pmFjHTVvTgBjTGTFjQu2JP22QN81dOa3TioSJ24mmRo2FQY0RQz3VRQ3V
+9ojUS63VG0H/qVcNjva8mkG8nF5tjlm91Wfd1WStyWCNm2K9oWpd1hP9WqFEmmilURh81iCU1nC9
+ilL9CFT911bN19Vo1i2FTc+cEeq4jXmt1/eoqBHton4N2IDNEXs9nC492IlY2B61zP7awKz0r2gV
+2o9gAQE52gCpEajE2OQIgGsrFALMfz1cfRxwvf3HAdUsACAA2f9H2/83n0b7jGydnG5dswG4neO8
+f/EZn8DNgn7rCAxdpibK3PMq159VAOSklIrdAIVpTc30TAxAAQa1TNudTDVZmJXVVcuETau9kAE4
+oARayk6qf+tcfdO9f91Khhdgys3qf/adf7/NpMUo2TPNdNPK/6AOCqHJTYbLHeDwyYweTH0Qi6gS
+zcX8FVPZ/dkGlY2fRFDN9AEHsFVjdUgT1QBkdUoUBeILtdjsXdz/t86di71Uep20TZ4n+wILQKQr
+igKwbaU4PqJamqSX+qEcQLQxvgHfyaIXgOMnu+NkCKSH3KNHPs/nCdwpsOR2egEpkOOhOOD47Mk2
+G+ADIN8reuNbrtwPrQBKLuVOCGtPPQA+Hn0YS5xMC9kZIJ4TbqhSaqeFutezuNkddeFlqdgzxQCI
+lcaJ/VVB5VWKrpQsLq2tjbzUyaWdeqyn6toDsK3Haq3v2hIPO6vifH+8yqr7PNuUHqtpKLfruulC
+MawQ6p2mfv+qlGy0x1qqsb4Ay+rOotjlxE25AAjd1JfpGVCuZ87OpMqu5be4uArCm2qqaVjjLSCs
+JCx95JrQF2Cs7Crt8smj1I7V1f1Zge5Yg65GFfkIbPVNE7mWbZXuv7WvUOnoY+1/1Mm4ncqy/syl
+jFy9ogvj6VqiUToCmHq49ByxGXDv9gnRVsrgcZ7L9i6m+A7gETuxEPuu/P2Jux6NwxiAzj19+k7s
+yx2fHCDPIRCmOYrwlciqn9ut3ynm3zmh6brSy/sClxrnIECGoNrtFf5eGTkBgEmWN3WYKjhWiBVc
+E/nzWFX0oVSW7w7v/UedsHasoHvyofrHivoCkpyuty59nav/uf+dy1Oso8Cd8JMsn11P8g/fuHrb
+qfzLihYvjhgPgBo/fVQvycSO9Yh7v2/OneiqxdMnAHksryFwf/ib0KfbuI5g56naAgtA5/f45/0U
+mptZShfFmdskAvq6TZplAWKlmZWPEaLJ+ZmPEZyp9C0e7/KL0BaanQl6zZtq9bIc4AWLrVdMfZhO
+yTb69Uwa9hiL+jpq9tI7vWrf18Ktnl5O00Nc21NcnKv/wh2P5tKXrppKqi1w+3/brV1ffjB7s86/
+n+T7vw87AguAAi/wpvsLj40/+v8ZxxxbpSas0NV7y6Pc/Cmq8iZ6o0I+fSAwqOzPzsCf+wAxwJEj
+FAoGOloA/8KRggUIDRY8WCGFw4MVLV7EmFHjQSgEdjwCGVLkSJIiAZREmfLRSZUtUwrceHGEwYMX
+BEzM8GKgTYECegpckOGgAhQVBFQYuEGAow1CBw5A4cin0YkDOWS4AAImRRANB6ZAugFEixdGUYyI
+mVbtWrYDExBQ4VLuXLp17d7Fm1fvXr59/f4FLHLr2gFLD77IwMFRYRQDgjYsnOJqiwEbQvhEqPWq
+ghRiDRauqCCEwAstsC4W0PgxxYGYE/58mtpxhoYMKRam3DTqApptfW/s+LEvS77EAw9WO/nC4hAh
+BmbIfRm2awGUF0wVsGAA4qWTB6QAEdV14oMoQig8yBthdv/HAjY44iAgA1L5VX/fx5/xbdzA/f3/
+BzBAAQckEDDk0gKtohDQciSFy7qySgEBXhgABAFAcBCtCiysoIIW5ENBsQQjFKBEEJD66kGv1GtN
+oA2PwizFC72yjUUH5RtBMRbz4zE4v4zTC8i/DkzrxRIVUGwxCzFcUCrYeBvhwqq44yyDiTwEUbEY
+Q2ghogkrYjGhC3Ua6MOBFHCKRzXz269AN9+EM0455ySQyDXv3OiCAVDEs08/1/JxuB//s7PIAZb7
+M1FFF8WvTTofzeuARyKIoCRJU6K0pUsh5bRTAxkFNVRR/Qy0uEH9K3RUVVdl9SBHPYWVJAQkZeAR
+CSQoqdb/lG5tSddYfwXWpVRbJbbYREvdS0i8lO1rWGOfhbZRuIKV04JKQ7LAgpAKoJWkA6711aVv
+Q2qg20fKbYBadYN1Nlp33wXOo1NNRRVee+9V69V1BywAAgg6QOARDDrooIBHEGCg1loRCJiBAgqY
+oNJaJegg3ZEYfsRhiCulYIICOqjVAgj6peAREQKmeF+V42wXX5ehRTbIeY97ueaX9V3ZPwoMfqQA
+BCgQASQRSuY244MbltSDhim2+GKkH1H6kQ4kPaDWDrS1oINzIfgAgmtzBjvAlm0me9SY82LWrrT3
+GrtstxfFOey/MD4a4YQZCLjohRsGCWMGJvAAJb/75hsk/4Xv1rVqXOVmvL+234a8z7OXnfnT+/RE
+NHLN14q78b0+CBxqBEAH6Vq9jzYadQYigGBTkQZHfYJ0G6hV9tJB8gCCoD3nna/HNwf+t8nvWpuu
+4vP6vQIJj0yyLYla5LGpi1oQ73fNO+/9LtZvnQCBCCaQoGNJC/jAaNgHPwCCBhrQNqTzA/ZAhANE
+qBUD+TEwmIKKO1g8e//psl7wBJiW4amtckPyzQWgs5wBhKA3bLHNYpqHnwy8pyZHkeAA8zWt/+1l
+fhiI2vwKUDJbFSACBuMVz1LYNwlYYHcgWaGtFoeAERqsATTEwPpEoK0IiKBpHQRiSQKoQSJapIB1
+OZ5ckv94l8fNpCIDII8jLvCCBbwgSRXQ0wIsWIEQFCWDjqhAFRHFgQFwgIqZc8wLEDWCLh3GOV8M
+4wKWQ8aDlHEgWLweB4NoFwsUYH0jBEzo9jhIsRXRkPk5ovEO6JfHgYBMF6lABkCAJvQoAE0Sisry
+DIIZFAjgPO5BjQMttJwUCEABIDiNTTIHAgtSRzTuUSVqvMLKPPKHkHTxQMIE2Rf23dKXjjtkMH2T
+yLkssSXGrMvjYiQTmsRHIGhSjFGQEkHsVGUEQimMTjgAIaIMpDFn8goUkzSV+SRFKCHQSUIMYpQJ
+ug17v4RnPMGWggHU0573xGc+9blPfvbTn/8EaEAFOlD/ggL0B/ISVEKB2ZZlXoSML+jkMxnkiBDU
+xis+WcAb4eOTEdXIlGo8CHi8OVGMZsCSlvTJC5yjgCg5go2be6c8ZTrTYO2AADfFaU51ulOe9tSn
+PwVqUIU6VKIW1ahCFQ69lEqztqDTIilYjlJMGdGFeKWqV3XSjpzUUa9sYHlWxVB8MofRrizArHK0
+iVgzUCELRi6mNIVrXOlk06PW1a53xWte9XrUpCZrkc3yjRMviBMy8WQhbbzKRKhZmSgWRk+GueoG
+5nid9KDAqxXxSVOSxIENKAYE13QE9QTQTnfqUa54iQAGTrta1rYWMMhMCWzn8jjlMOeN0KmMdBbC
+nhaA/0AxCmgBfcpo0s5MEjVDqU0I6NmC3tgkBG110lWU6yD0XLNLQdGoW027WnRhq33e4plrxTte
+8sb2r777jZFMmaQKSalJLJWQAlDUFKFgBksZCNFxwSnFD1WHT6FNE/SwVB1EGQUyX4LpduOaPoJp
+TWAEM5gFZNeADlAgYQErb4Y17FrZlqTDwsJPBQ6VlggK015vjecBbDc1oAmtZB8oAAgfcYDwbtjG
+N5bph0eiY5UMcS0lNvG7UAxPGoOEW3a7sJEhAJIi49jJTyYkj0MiZZT4WC0jgG6QozXkXzaZW6Sb
+VOkgMAFtNRnKZ0Yz76i8EkJp2c0Y4bIvvfwt8IlPav/hq9gBOvC1NPfZz+ta85pJYuU3Qy7Ot7RA
+6DxQZhEAUgKhQ4AEGnCyP1fa0rEKdJsLvelDX9rTnwa1zBTK1N9gbtOltWWoVb3qOdGNjyQEYqbr
+5RvllWi96bVPTGr0QLXY5L+OeIFCGirATrPa2MeOk6s7KOuFskWBLWCgA38D5I3s+jfUs4gjv6jB
+YiPb2zlLdAEclq6BkRkDDGhd3ybAgMA1QNwFwBoEGLC7XEKgZO52mLbwvWeRqBBXEphA93CH7pIl
+egIOlqEF8McA1fYMYRDQlr9FBvEgMpvUaxHsU6LI2QXYB4uO2WIXkVJG7cBnAx1HrkMuoMXmxbGt
+JP//ToDZ+cUplhyOiLrAr4Ws4Nb2Ulx+8XlKXPdtSFWNApMuHwMkEIEP+FDFjxAZpbwmgn8HbYQN
+wEAE9Gyr8lHdVkFDQOA84Dpd+Y19qv2AakU249V9jWFVs0ADKM7ugwWt7AjAeg4rfl62+UbbGImk
+ST352/NgcremlIoD5ZsBwYfgtw1JiEkz4HimeNLwibekI2jpzag4qUGTN/zmEU+Qzt+r212ucUry
+Vz69JLpXRPfU1mdsMF0VrWcHULbGxH2wCWBAUg04+AfSpftaVc3rIrl7zyDggUp97GETOICZCTfn
+jFlMYYRD3d5HbTm2DPsgzFWMAnVySsW8wDDUZBD4/6WYk6teRyDb1ElFv2IYAUyURVeBCWYqeMf5
+vLS9z8k1eDm9PequJiuX7yoJVxuXkNA6JuMzlMgWcjGXGXtA2HOTJiuy2ruUI8MwiYm+6AMJg8OV
+BpCAfsmYD7wUpoOAhjMc7HsECji3E/qADyyX1Hs7njmdFkw+Zfsfi+O+tfC+1rAPJ4qgBFksITwI
+IoQ8jRKsLJIQ6LEKAYgqjeIoUzop2mCnBUCBtUqBADsxnqMpPfuXiCmyjoEYvLOdtWOAqllDCuuX
+gKEhf8EfcRu62euZgpmAkjFDkDmXgoGAgKG0lLFAAamaA0C61Gm6cpkAqPMaCpOAQDSYqTGZDwAa
+9v9ZREgUnUdoOpEgMwrznj2TOwtIRJGpQaehPrypu0foRIDJvljjO714HKeqCKjyvIFQjyI8v4vK
+v624RcjrDfXoJJMyk1ocKYpqqyo8K7MSCAxRgA1oAS0sPdMDw5mqmkoJuyKjxBc0GAzAFQ8InL2B
+mvKRuxuyoTXMxJEoMp/RRqmhmlrxAHFUH7nrmgocxMDQM3ELHV3BOoKDoXULnD5CN20BuHHDN/CB
+OnGjOJEJSJH4gAlYQfjRpXM5N4OUvqM5xVzyI010SAwIGAvrnx58ReQJrAeyiYmAkDPJpHDKRSg8
+yYVISYRIE6KQpqSgv8GoEAVqHp8wrKRYDhTYwgr/eIFTCkABnEaZwkBuMZgI8ACIMZitmzvUEbe7
+wT0MSz50NJiiycCQqJWoTJh2/Mh69I+K9KVwybGQxAvaWiDbskXagArMwMUzCa5afIy2fCbIq472
+2BP24A4oPAgQ6CLMeqYKGoAPISXGW4wMGK2bKUp5kj2gKbI/PICdAQmucTBwHJrboZuqFIl0pBqD
+sR3aMRkSupbceSGwDMvUG8u48kEEojULYZ70sBDl2i/9oi9iFBPZbD+WkpKBoJIunIhhM7//wgwO
+2EJP2gqTao02cpkB7KCq+ZkKK7I6KxiQaEjWW5gcohgKaMgbokrscx3OtMP4mZ+JqbDt1B9HNM3/
+/wg6IlNNs2SiEBuxUyMb5vwfGqOhggucnRma3aEd0znIkinBHZIhI4MhXFkybBE7rIG0GoKhAtih
+SeMhH0rPCVUz97QLQpNPm6FP/xFLlICxvtglChXR01pNRspQN9vQ7OlQksAAMuuLOhzRGC3L7WPN
+EzWxFJXRHNXRYClRwLLRG13MHRXSIVWZHkWvHxUmHAWi9STSJnUyI+07JA0mJW1O1HTSK80wKIVF
+37gOW2tJrUqLIMwIFFDOg6ggMD1RKuWdAuSZA1SJBZwUOCWJBvQuLLVTsNFSkWyLjLKnoGCQnGOo
+sTGKzGEKoQBUKVVTxhHDDiDD/PGY7gG+dFHDh/9hgJLJHTpMHYyRgDEkNwi7008FNAtNJi59oFJa
+jkNNI5zDoioaJ5ioOSuSIj4BVFksE7Q41AZh1Vi1iq2woyJKVLmpxoMZO4PJRsnkRqj5RlzZuqzL
+xOQrgH9rgBYLTVCl1l/J07Mk1Wx7D/UopVM6jYySPMqzL0miJDBKTIpCC7G4oOVgkUtCpQpQ1/Ug
+DSk0pF8Nm6MsMqVkyhnTmqdswQNYuMLBmI75wxtCHAyr1oSFlGt9zz3lNWvrJoIAiuHUNswQLGfS
+PJ3wNfhYK1ukCfVQqSQh0/iYJghRqUOyV7BpTPkxGMiUzEegTMOZnYgBn6nM1IDhmA74ADCjR4X/
+9Vk3YdgLzdbQ8MX1UACQQggm3CSYeCiqGgHnCLYk7DwM8diFmCRLuozQQov6MwhaJaKUzRnn1B8K
+iE4845nqNBz5EYFFszeACxiuoYA/hNlZ4Z/vCR/o+9m8hZOgHVWHtYj9YxGvKpGirVrMkCqisC8p
+bJKdGC2RqlpLSsaGsIwKGVR6rdcgJTKfASTX009p7U/D2RkMwyEJCJgP+gBccSF1nLFGgzW9dV0B
+4VsAGlqa1BGDkCz4oKygGIqtFQj2k6ItiRJCbUYUsCpg7I3nsYmXwq/s+lrMRb25+NAWfN3pLVJR
+ld09HY16Wg2KEI3lMojrsA4M0r/oiBHzY17L/7Dc27hL3RiIEGA/NJkoX3VeObNSFnVR6aXe/OVR
+650tLrU1TypegyiNEolLKNlNz2svJvlTBKsI6AATmriRDMgR3qQOnRsgsNXfDK7H2O1fUUHTIklf
+KU0LDNbgEv42DpYLDE2LD96IjCpTEY4JEjbhGWY1FAYxUdmA+L2yFiAtGNaP+aXhIB5RG24JFfZh
+aJFhlemuELwWORXiJ95b/k3hI27eVJOrRSXDDvgXN5TbqwEJ24HiMP4PIu4xKuY2ICakYL3GRQzH
+rWkA0pFWMZbj15LiGzbj4ElidcFXHEQcQ1xEDGjdORZkUVuqH1SLLv1fq8oPI1RkZ8OgiohaMf+t
+4tZa2Sa7zDAzGYAb5E32Kxo1UezFJ0LFjwTBo/vAtorQtl4FUiteMLwZ2ybLzu18weXj5Fomnjou
+4tm1CDOSIzy61V51udi4Iwa6J5yjIl7lAO3owoqYuV6tOZgAZlV9mzymFvvcXEEK0O+CN1vm5mLC
+5TL2W4dyXzSRvx0xXMtLDf2yjf/Njs9zoHTGPIPYPNKDni5856gQPZrwyWlG40Fa0W4GaLT55pfg
+UpM6KZoINhFpZ3MWCPlrkKVg5IowD8XYPzAqp/pLj2bqWM+r6EiqAP+zEADkZ1aGq38O6JNWJE/2
+UbZIiMg9k4kq596IESeE6JX0JvIojIOmDWL/FCumoMJ6skJLwsLR0kIu9EIN7WeUVmryImOCDmeL
+KDFrg55gBK6ans2mQJHCiFzYKA+0eK6DQMZkXMYUaMZn3OeRXuq07rOmrjJdLo/e2GkW4YmZrDx1
+ltxl2kmmWI6GuskocpK8vl2fnI+gpFq0/rNMkRMmVWsZZWsh4tLstSekMLDBbGeleAGyxg7t2EtG
+NovIXgjBJExiHAi/jEa3BG167UJsQsweVkyShjIevMD6XWwKbexB8192hmALmQmv6CQMwYzetBJG
+RuQjgY/iHA2+pGDhfD/jPk6aqA7tcu2S/ppy+RprkRXvQUBvmW5DlMDqzm44jQALaDI6nW0R/63t
+kTBior3jUKHmYHFDgTPDSl1UrDQYBNDikSmJ9w4YkSGZF/SYSlU+3TGc57PGg5vOTWXUHypvsDxv
+wVAUalvvP2lvYNEz9pEUSdTOp7s9O6QhIwtkfrVwqcEarcFwSsTBkjFHpYnUg7lKaF3wCW3wkEjv
+JMyyCPeTCQcWcZOf1GEyHOzM7IPtnpk3WkEcHgdygZ0VnilDh8S7F0/PGAeJGbdxUcHxX6EUBFhE
+MJYA6iuysMMd1huJK89yi6kULQezd7zZrAEJycxZMHfyQYTyR5DyKQeVKoeVWF4y8cSfJsMA33sY
+3ruVRkRAPBeY+zEYPTch8AE4icE+gNGflv+l2698c6KL8zmnc7hJ6j2iIQFl8RxyvUmxn0fjOvvB
+mtJkcQElR73r9HSZnx3vmQKVSKr7x0ZD2Em3wEq/dEPL9A0LUVvXYFx/ajWR3KOmnhG5dDsnwOz2
+9QwGdpbmtVE2jIpm3Aqgo1x3BGRf9myPYpU+UmcfZpCrI45j2q3AIjPyCQ54KTeCD3I3qzlC5mG2
+UWzX9nkfkGZfi3YtPHg2Jb8EJa4qjBI5lPSlpQS5jleSLHrV6tGu8UKTd3p3eP+w90OmCfIDNvpD
+aGyCLNvgKo1TaIuer3NKJ+OauTTd9VvSzoe35Yhf4YlXSSTcKKBOuRFx3LMQ5qA46JRaqZb/SneS
+j+4wvBa6WeIQVHaU//WBbutwfktirMKYhyzNkwzLBY2WTsYLSCspXKt5ztCGfxT9ZsPIfNTx+RjA
+IXoaVvmYaNeWlwoyKQwygiwIMXYtvCxh1iyr6CzNAy3RYu0303o6qXDxRh1J3LoYOxcwHvui5/Yo
+9XasShD52AAH6RKbaAzTODDJYNyvFmbpSgHqGgjrgknmlc+9pxMdlxTYMRrbs73CZ3ajd2ykR/sJ
+sZD8AjbG442G4AAJeSTTeCLDGDBou6N2ziYkBf05EfPYmdmeISEvRv3UP/wt9RNJtnZp6Xl5InQE
+yCH7+aA7pAD7Tn7DL+QaxRPnf/7fCH45/9l0rLk6Gmpy8hEBVd/+/C17HpGv8O+T8aeW029//X1/
++d+56CcvgChw4BHBggYPIkyocCHDhg4fQowocSLFihYvYsyocSPHjhgBbATpkeAARyZPokypciXL
+li5fwowpcybNmjETEFAxcifPnj5/Ag0qdCjRokaPQhSZUanHkjafQo0qdSpVmzh1Is2qdSvXrl6/
+gg0LlOlFshydVk2rdi1btlfFirXQAC7dunbv4s1r0GxFvhrR1hTyoG1MJEpcInHkpYpKM1sEE44M
+863erAIrIxhYeTPnzp4p+p0YGiNgmpAlt6RipeXpKl5QUnlgBYsQ1LZVUv7cs8GBuY8uK/88EOFR
+BM3EjSu0YMGgcOZzeQ8nqNwgb9/AdWPPrh3v6IjdLZaeedqRFSRIXjtSjVIIFvLm0TvC8gVJmfVI
+vlAxyR6JEPW05SORn3wPsIeGGSh9oUV8tZlUxn3tqbfgSezdBlVu21XkwQcEiUABBRMUMMFAAh1Q
+AEGXMVBAiAh0AIGJErgIQXQHqdjBBB480kAHBUCAwCMsdoDBhwUwQMEjGHSw4yMHQJBkBz8ywACG
+U1JZpVHfPYQlReHJdJoXD2ihxANbkPdAfoox9mWYY5qkRRdiomHSFg8o0UUVq4GphBKGOSKYEm7e
+KdgDBMZ2piNdvHaaElXUeacXXZiEBIH/6ZlZ4VMXWvmQBU82MMEjHQx0wJMkmvjbQAwM5IGJDTDQ
+AARzfYAjQgVgkOMEDWiY46sIiEAQqI9Q8AEFvT7S4QG3fjoicpky26yzooXEE5cxnaZFYo6UMdih
+X5jkmCPWNjiYYPkJQaYVkzqiRJwPxOkIn4Jda8aB4+2pXxXtQZZge45sYQYWsqXbRWIJWnppTs8+
+1IEFEuAoJUFSknriqQQh4OMjqEYZZak0aiYQkRkfUPHDBiGQMQOZlXrZdQiz3DLLWjYEs0TTwjQe
+FUIYpi0SCv7L4M05x1dFF1vU566CKaH77gP7ZtuntthCym+7kNWp55+DmbEuGodpwW3B/zVh6rJB
+sSr8CLKdmlqixBdTbDEDmxLUgG80GvmpBR0SNJzIZvsmQax5L5mysmITXjiVMi+EOEQ0v3TanIya
+oW1sVjwq5wOQS75FFw90QQWfSDOo9ITiPn1oGf+eSfWe5pmnmBZCdHFuoV+DfbDh1DVJEAYiHCBC
+rQJFMEGwIrL9o9uP9CiqjxHM+FsHFLD4iATPf3Dr3h7wjkEBwUvw4QFqm/rbhreTX35liieEvkOM
+q3SufoOdu5piT6urRZzxm/RleuhZIfBiE5IpaYcRjPx25jSUIGELXjjM+/jFQPLUJzYGckQVtnA0
+2s0kbIbzgATihoACIGAuHliOBEA4wv/fEEQCHURhBLRnMQlY7EQf8F3fCiACEq7wR7SaS+8KYCQL
+yOqEJWye+YpoRK+o7yBJZAj7UhIbblmwTPz5QhWe9iiAnWuKVXQafxbDniqYQQhlGJojBOg0LZRh
+MdwSzOlMEhstwAcyggnjYsj0rSpwa1HtwqBMNHhEjkRgfGv7IyELebho7aSJKUHDoKpQNCrSqQyO
+NMm/LghJJUiyPl/YnMBMYoXIVbA9ZhTMYqpwLSyIyWuOMANjRtcgLVwODfv6wqQkJT8+3sR2huyI
+XAyysl0CM5h5WWJBiKkQRTqRQrhs4DKbiRI/CjOa0pymlYz5CGsiBJnOXMl4trlMaFL/M5ziHOcw
+ETkSbXoTJVZ4YDr5CM5M1Y2c8pxnpqyJzYOgs536dOY7rUQCJ9AzoALNjj2ltc+DIvSZumxZD5Iw
+0IdCVC8FTWRCK7rPflopCLWKKEc7+pWJntOiIvUmRquEgSB4NKUqPQpIm1KTBQggpjFtwQVcwoEX
+uKQCKYgJClqgkgxsYAEKGGlkSnq4Eqw0qUr1SUs7ks8FhGAAUk1BCIbaEqG6RAELiEkFBFDTk2wg
+A464QAWIShijTgkASF0qW9u6FHO6lCZYPUkKBHASDgR1p2NFQVRNUoEFLGADfg0BCsrqiBQElgMm
+ucAFUvACDoQApydpwQjGatjDLuCx/5Y1CQfQMgDFmtUlaMXQEzzl1tOiNilwdepLrWqSBYDArxnI
+gAIEEAIOwDSmjtiAbWuLAkfUVgAKgKxwZ1tWqIIgBCnYQGwX61VHzFUBtAVBBirA3NcKoCQXeG5o
+WzLa7TQhnqkdL3mLudqzvJS2ClAACAQgWEe0YLhjzQBO5xqCrR7WrsDd6gsyUFMOKMCnMAUtBzLg
+lLli9QW3NUlPOSCAsrKXvyHormgXyrIarLW8Gh5vU9ErVxAAFgQg+KojBKBXR4xgqHMd6wCEql+t
+AreyJqkrdF2L4t86AgR6xSp716uAENiVsiVOsSMiS2HvWhhhQRDvhpvM1g5v5KlWLf+wZEuMFqzO
+FQUCoG0LXrxVGJtkAHZd8VgFwIEUNLfGwNUqYAG726iCoKvbJfGRU/JdJ+M5z3eB8l9aS1fugvgk
+CvgtVrtqWN6aBMYocC1s1YwSBWwABfhV86JPotMyj8CnGeBrnVlyZz2DOtRd4XNGpIyS+L42AwsY
+gJZLAtsBdHXV/X1xCyogZhS0WNWOBiuQSYxVMbdgAGHFcQjoC9wMyLjTdk6yqJvt7LCQmjR+PskF
+MrDj9irXr+2twKwVkAJr73a2hwVyoHd9kgz49CRzpeqWRwDaF2QXug9WNm6Y/ex745ul540yvftd
+lU/nO+ACt0i0L5JPfyNcoVgZOMP/Gz6SgoMn4RKv3cIdbvGL92XffZ44xydjb4yDPORK1HipO25y
+JFdc5CpfOcQrcvCTdxrgK595qFu+JZjj/CQypznPnWzziTxVpu1+rY1hAmMxtyQFFdjuZU3ygtjG
+O+co7znVHf7zmb00qlINq2DJbPStdrYl8W4Bjk8CApx+VupTrzrbA371iJj6JESeK14B+1+0hB3G
+YR8rYA0r5hc0VqyWNrMj0j7WF6w6zKBd+mKb3u+dtz3yS3374qZtkkyrGbLTfS64UTzho9u12iEA
+8k5lulUQvNcRKMBxvL9dVQH8FvUmES6Dy+5vyEs+9yml/EOeqvUWu1fN3wbtfVWf/+6z77fwY27u
+CyQbdbobePYlAapsK4D5AbTXJJ1HOO51732I8n59LxV6uVcs7BHouq4ckHPykS7mEIzgslF3cE03
+MGHpi9nH0l1AV3GLAgN/28R13/cRID2FX0PEXUoUWgbYVguUG1CNwP2BXpi1AANaVdSpXmWFQOpl
+l5i1GWCVhI5BWgsswOoJ4McVYAom1QEykeWhBFa1QLrlGH5lmuy1n11J1YzFGwZiX7WBlpVtF1ps
+QE2tXnW9AHudGPehoAoyYUex4EIk4AsOVQsoVwp0GX51FeHdIHQBVa4plgAsAIkll+3Fm3RtwAB0
+WU19m1gNAAP+oBKmXBPKoUc94f8xuaC6DdUF1JaqRaDZyeAEcgD62ZZejYAAyCC8NV28ccD/2RZa
+0NbsyWDCDeAcUiIh1WFCvBxUUJ/aFcwkVuInms8lZlOFbEAFcuLXeCIoqmLhiCI+kaICON4pokYq
+rmItvgzJSZsschwt2mIvMksrGkQm6mJF8aIvGmNa4aLBDeMJxuExOqMRAWNBCOMyHlQxPuM1dkY0
+kgQ1SuISYuM3Iow2PsI0cmM7WSM4omNdiCM5liNJeWM6wiMyasQ9BWM7Pt47xmM+Ysc62iO9naM+
+AiRS8GM/xhw+BuRBltM8GhRB1tk/IuRD/sRAMiSFOSREWuTDJaNFpMAA8IEBeOT/R4JkSIrkSJJk
+SZrkSaJkSqrkSrJkS54kFBjkRcokV4gjQRwAAeBkTurkTvJkT/rkTwJlUArlUBJlURrlUQ5lM87k
+UoJFTT7CDHxPVErlVFJlVVrlVWJlVmrlVnJlV3rlV3Ll3DDlWDZlRpLlWaJl+phlWrIlWjplW8Il
+Nr5lXNKlMc5lXeLlKt5lXvIlJe5lXwKmCv4lRMgF8zhEAywHUiTmIywmY0ZldCCmQRimRRxAYwbm
+ZarjWg6FQKiQQ4DPUZQK9xREAexIiHTQZ0pPDpHMsiCEB0CArGBmbMLFYDZEb6zMdBREcdhkqfCG
+ZTIHESVEdeQmckTAchyArFTM/8YAR/AEzkI0R/jkSG8UBG9AZ3HMSHHMzXPaJHDKZndqJkPQo0VE
+QJNAAASEjI8giYvoUHk+idoMyQQgAAWUygdggI6siC+FiolYgIugivTEyHCUp4x4gGY8iQhEB3Cw
+SnMWhMikSIhEQMlIyX7yiJGQZotEyXHy50AgwATYSATYZ4/kyI7Ap3eSKEfQpkJ4gI90ynlejId2
+EAJAwIlQgNoIC7CYiIx8yox2AGIix2WoDQLUCgV46Ks8wt+8zYkQBAXUCsOcCAZUTAfgCGoyaKr4
+yGWUDdwUwPhcBgYMR4p2ylxkRq64Cm/sqAWwZomiqUScaEIAh0CITMl0wItaTP/FqE0EqAqI/IgH
+MOdvMADv4GdzjucEcOkBmIyJOEwDEIsIlKZp0UrF1I2U+ojDiAyKmAx0+qj2nAxqfsyF8qmfpumn
+QotCcgXeJIvIuOgEWAACBNEHqE3yyCdxwKesMM+G/qnayM3d3NCT5MhcOIzfEId5fo8IdNAvQWrx
+TOpAIAtxWKpwTIAEnCfcHAepRsesmhaoWqtDrClCUMDzlMx5cs+HPGizwkhxmEizbmupiACqSg/1
+xGhBYAAGlIiJ7M4BvCvyZEYHRKrudKkgYemyFKukVumGzKv2LOt+UoAEjCi+Ks/0DE8DMOwHtOu1
+SqxCZKu2mtDCdJB8+lCe7s7/cgCRjXYIsVBAxH7QDUnm7jBpA2hPfRKHCyHpkXBI8xjoCRnExxZE
+Z5ZKZw5RA3wQy9LsCfUsDOWIy0qPDSVmyfrmxCptxVLE3jiECMSQ0kptMDHtRDgtQzSJWE7t1lri
+d3Lt11pc1YLt2K6g15Lt2d6b2KLt2j6U2rLt286T28Lt3IaT3NLt3QqT3eLt3haS3vLt3xaR3wLu
+4BqO4BLu4baM4SLu4jaL4jLu4x6SqELu5NKh2VLu5eat5WLu5vat5nLu5wau54Lu6Bau6JLu6Sau
+6aLu6jau6rLu60buW8Hu7Iai69Lu7XqGPQHA7vJu7/ru7wJv8Arv8BJv8Rrv//Eib/Iq7/Iyb/M6
+7/NCb/RK7/RSb/Va7/Vib/Zq7/Zyb/d6r/DWAO6K7/iSb/ma7/mib/qq7/qyb/u67/vCb/zK7/yq
+YAOsSt5UK2NGrEE4DEdYwAT0bwNsyNVGhAUwWdwIUkagZkEYMERgAAOYp1EscLGcqYIuhASkCAZv
+DEJMMEPYLwQnLZtW8J9GBMJOQALzBAEnaQgXRP/Sb1EgKogs5vMUhAfAJv96hKoyh4mo8EP0cAdX
+RAf3MEJIgAg0wMhK8AYjan8mBBCPJoUeMEbUKxI/xC9pRPDIBQSw8Eb0sBUfhAu/MFHYsK6mELGY
+TZcCcKlISWei0CN4AATXzf8bQ4B4WQCRbM9+QkAO2QgMiQAEMMAKyTGTBTIeK0cHMIDwfEqzujEc
+12wQKYeqpMhcjKygvogfywghf3AB4JBBCImvRAAMVUxm/EbJaLF/QnCXeiyO7GefptAEjCiwQAAl
+j418akYoV0xx7AgD1KfNjhDCQimHKocf++wD67ANu7LHEomq/ObInGfFDCspL8dleEAaH0l0zKxy
+YOpGbehrqmZ0KMyD2vLQHnLGCjNBpKgrl0iKuPGGKrLImLCP+LL+6vJc1DEDvHEYH8VzUEerAMuT
+jKfcRLCU7I2U0Kf+LsmT+GpBQO2PGPG7zsgHdMCDvsr/Fmmt7CdzIPQHqGz/faZokZoIRAeSRe8v
++JBIkSDqhogIoprIr0DtRiNqBxUxcTRPmx4AKNPpxeAIryRLsVRpfv4GBahsce6ojixHSovABg+S
+LSNAcaDKSZO0cHTAB2yKRpcyBmzIDr2qDRVpryx0ySQEkC6JLXeQPTO0qfyzq4SMKsdoSWdxMDMP
+iNbsaxKHUm/1ET+JUV+1EX/A26C1ivCGp1TMpsjNN0c18iyHVfM0lOCzVyC2sOZNrBCPQB8PaapI
+SnOoRuPwyFztj072ohpHp0Q1mFoM9KhIc1J2iBjHU4vKboKPrcIQiDKoihCJCEuMmT7mxfiGlDgs
+jPZ0c24ovP6Ii/AIyuzm/6xoxlTyRqmUyFOHD4mACGWHj9r4qKG2MBHv6HFE5XLwM9tcRiBNM7O6
+MY5EjKnsDQHzRktPJXQqqHT7tKlsLHlXjHCDqHPXCHWPzGJzxbayCg/dCERPzECLT1Q+Rwntb/9K
+9g4bz8hkqYBTB4EnuIokp2mz6vdkp+C0tsfsZqc4qZMmOKpEZUJ08qfYqWwXwFi3sIYDaW+DDxA1
+K5A+5oUb94mQuJkqN4Y3t7KISnZHt4lMd/H4eApdd9HKdsNUt3NrCEuPa9oITnnH0BHvZh2TeHXC
+eI+7d8c0M7x+z3CQCKh8j3ZXN35zBQTU64/UyrFMzAxJD0Eb8X4e8Zrnb/9X98pm8/DxzBBiEmmS
+unmHeyjB0uia37n+IqaIEGpviABKE7pA7GgE4GuCL3QJJUQJ8cb+8q+P8IqoNICi+0ihH8lKD0Sh
+76eH/opRI7V6H8SgnzSb/+/gXAbxcHiP93hXu7B+M8TJlLWbljnxjKyujrdAfPp4NvmRcjhC1Pn/
+Bg+hX3V7e4wRH4vxfLqODA6rZzqlgzGYH0XJ1M14NqiJRwCReLXKjnOOEIkiM7AdL8fVBo+THo+3
+i3vchHvG/nHJ3EiMnru6q+aRNOj35LKs7KcsE4mYB+kf13MpE/ADR3BC2HMk86m/L0ksKzPCIvyG
+krX+8rtxePFBJ7Pu3PuQjcMywru6T2/7wTcnAGeMQhx8AcwF8PixiqwQBGjp9whOkU4ABCz0ZTg8
+yybEGyvyyM7zjksMrcR8uVM6AAcRA0SAzps8uIM8tTeZEwfFtI/EjH4FAizHeJozRDh9cE4AdzKw
+xWBAxo7wRlS80jsc0wPF1XdEvW/Fe3aQkz+E2RvEyN6wQjjJdaP9SIQ9UgQEADs=
+
+------=_NextPart_000_001B_01C7D6F5.3FC587B0--

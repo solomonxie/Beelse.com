@@ -1,0 +1,67 @@
+<HTML>
+<HEAD>
+<TITLE>Example 5 - Wimpy MP3 Player Javascript Kit</TITLE>
+
+<!-- IMPORTANT NOTES: 
+
+1. The following line must be included anywhere 
+between the  <head> and </head> tag of you HTML page:
+
+2. You must edit the location of the "wimpy.js" file so that 
+it refers to the wimpy.js file on your server. 
+Example:
+src='http://www/yoursite.com/mp3s/wimpy.js'
+
+3. you must edit the URL to wimpy.swf in the wimpy.js file. 
+Open wimpy.js in a text editor and set the proper location 
+to wimpy.swf just like you did with wimpy.js so that the 
+URL refers to wimpy.swf on your server.
+
+-->
+<script language='javascript' src='wimpy.js'></script>
+
+
+</HEAD>
+<p><a href="readme_wimpy_mp3_js.html">Instructions</a> | <a href="readme_wimpy_mp3_js_example1.html">Example 1</a> | <a href="readme_wimpy_mp3_js_example2.html">Example 2</a> | <a href="readme_wimpy_mp3_js_example3.html">Example 3</a> | <a href="readme_wimpy_mp3_js_example4.html">Example 4</a> | <a href="readme_wimpy_mp3_js_example5.html">Example 5</a> | <a href="readme_wimpy_mp3_js_example6.html">Example 6 (Advanced Usage: Experts Only!)</a> | <a href="readme_wimpy_mp3_js_example7.html">Example 7 (Experts Only!)</a></p>
+
+
+<p>&nbsp;</p>
+<p>This example shows how you can load items into Wimpy and control the player through standard HTML</p>
+<p>&nbsp;</p>
+
+
+<!-- START WIMPY PLAYER CODE -->
+<script language="JavaScript" >
+	makeWimpyPlayer();
+</script>
+<!-- END WIMPY PLAYER CODE -->
+
+
+<p>
+
+
+<!-- START WIMPY PLAYER CODE -->
+<a href="javascript:;" onClick="wimpy_loadAndPlay('example1.mp3', '', 'Track 1', '', '');">Load and Play: track 1 </a><br>
+<a href="javascript:;" onClick="wimpy_loadAndPlay('example2.mp3', '', 'Track 2', '', '');"> Load and Play: track 2 </a><br>
+<a href="javascript:;" onClick="wimpy_loadAndPlay('example3.mp3', '', 'Track 3', '', '');"> Load and Play: track 3 </a><br>
+
+<p>&nbsp;</p>
+
+<a href="javascript:;" onClick="wimpy_clearPlaylist();"> Clear Playlist </a><br>
+<a href="javascript:;" onClick="wimpy_appendPlaylist('track', 'example4.mp3', 'My Artist', 'My Title', 'http://www.wimpyplayer.com', 'image.jpg')">Add Track </a><br>
+<a href="javascript:;" onClick="wimpy_appendPlaylist('playlist', 'playlist1.xml', '', 'Band%27s Title', 'http://www.wimpyplayer.com', 'image.jpg')"> Add Playlist </a><br>
+<a href="javascript:;" onClick="wimpy_play()"> Play </a><br>
+<a href="javascript:;" onClick="wimpy_stop()"> Stop </a><br>
+<a href="javascript:;" onClick="wimpy_pause()"> Pause </a><br>
+<a href="javascript:;" onClick="wimpy_gotoTrack(2)"> Go to and play the second track in the playlist</a><br>
+<a href="javascript:;" onClick="wimpy_next()"> Next </a><br>
+<a href="javascript:;" onClick="wimpy_prev()"> Previous </a><br>
+<a href="javascript:;" onClick="wimpy_appendMultipleTracks('example1.mp3|example2.mp3|example3.mp3|example4.mp3', 'My Artist', 'http://www.wimpyplayer.com', 'image.jpg')"> Add Multiple Tracks </a><br>
+<!-- END WIMPY PLAYER CODE -->
+
+
+</p>
+
+
+</BODY>
+</HTML>

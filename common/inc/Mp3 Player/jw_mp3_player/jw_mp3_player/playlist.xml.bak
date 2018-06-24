@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="GB2312"?>
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+	<trackList>
+
+		<track>
+			<title>学习</title>
+			<creator>Postman</creator>
+			<location>http://file.beelse.com/Music/%E9%93%81%E7%AB%B9%E5%A0%82%20-%20%E8%83%BD%E4%B8%8D%E8%83%BD.mp3</location>
+		</track>
+
+		<track>
+			<title>Jazzalude</title>
+			<creator>Basement Jaxx</creator>
+			<location>Linkin Park-Numb.flv</location>
+			<info>http://www.jeroenwijering.com</info>
+		</track>
+
+		<track>
+			<title>宝贝</title>
+			<creator>张悬</creator>
+			<location>baobei.mp3</location>
+		</track>
+		
+
+
+		<track>
+			<title>Jazzalude</title>
+			<creator>Basement Jaxx</creator>
+			<location>song2.mp3</location>
+		</track>
+		
+		<track>
+			<title>Homeland</title>
+			<creator>Postman</creator>
+			<location>song1.mp3</location>
+		</track>
+
+
+
+	</trackList>
+</playlist>

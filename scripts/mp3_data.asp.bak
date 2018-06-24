@@ -1,0 +1,19 @@
+<%@ LANGUAGE="VBscript" CODEPAGE="936"%>
+<!-- created for get the data from database only -->
+<!--#include file="../database/connector.asp"-->
+<%
+	dim sql
+	dim str_json
+	sql="select * from mp3"
+	set rs=server.createobject("adodb.recordset")
+	'set rs=conn.execute(sql)
+	rs.open sql,conn,1,3
+	rs.movefirst
+	while not rs.eof
+			str_json=str_json+"{"+chr(10)+"    title:"+Chr(34) +rs("title")+Chr(34) +",url:"+Chr(34) +rs("url")+Chr(34) +",singer:"+Chr(34) +rs("singer")+Chr(34) +",tch:"+Chr(34) +rs("tch")+Chr(34) +",sch:"+Chr(34) +rs("sch")+Chr(34)+chr(10)+"}"
+			rs.movenext
+			if not rs.eof then str_json=str_json+","+chr(10)
+	Wend
+	conn.close
+%>
+var mp3s=[<%=str_json%>];

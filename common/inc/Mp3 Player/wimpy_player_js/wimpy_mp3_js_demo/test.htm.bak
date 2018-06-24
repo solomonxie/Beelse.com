@@ -1,0 +1,19 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY>
+	<script src="wimpy.js"></script>
+	<SCRIPT LANGUAGE="JavaScript">
+	<!--
+		makeWimpyPlayer("http://file.beelse.com/Music/01%20%E5%8F%B7%E7%A0%81.mp3");
+	//-->
+	</SCRIPT>
+</BODY>
+</HTML>

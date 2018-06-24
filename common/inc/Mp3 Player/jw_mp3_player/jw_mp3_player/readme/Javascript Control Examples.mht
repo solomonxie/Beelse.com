@@ -1,0 +1,564 @@
+From: <ÓÉ Microsoft Internet Explorer 5 ±£´æ>
+Subject: Flash Players - Javascript Control Examples
+Date: Sun, 5 Aug 2007 00:50:14 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0002_01C7D6FA.959F1F70"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0002_01C7D6FA.959F1F70
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/extras/javascript.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den xml:lang=3D"en" =
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>Flash Players - =
+Javascript Control Examples</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Diso-8859-1">
+<STYLE type=3Dtext/css>BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; FONT: 13px/18px Arial, sans-serif; COLOR: #000; PADDING-TOP: 0px; =
+BACKGROUND-COLOR: #eee; TEXT-ALIGN: center
+}
+H1 {
+	FONT-SIZE: 20px; MARGIN: 0px; LINE-HEIGHT: 24px; BORDER-BOTTOM: #c00 =
+2px solid
+}
+H2 {
+	FONT-SIZE: 14px; MARGIN: 0px
+}
+A {
+	COLOR: #c00
+}
+A:hover {
+	COLOR: #000
+}
+UL {
+	MARGIN: 5px 0px 40px 30px; LIST-STYLE-TYPE: square
+}
+OL {
+	MARGIN: 5px 0px 40px 30px; LIST-STYLE-TYPE: square
+}
+#wrapper {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 40px; PADDING-BOTTOM: 40px; MARGIN: =
+0px auto; WIDTH: 780px; PADDING-TOP: 40px; BACKGROUND-COLOR: #fff; =
+TEXT-ALIGN: left
+}
+#lead {
+	FONT-WEIGHT: bold; MARGIN-BOTTOM: 40px; FONT-STYLE: italic
+}
+#player {
+	FLOAT: right
+}
+#pid {
+	MARGIN: 8px 0px 0px
+}
+#footer {
+	MARGIN-TOP: 60px; FONT-SIZE: 11px
+}
+</STYLE>
+
+<SCRIPT src=3D"http://www.jeroenwijering.com/embed/swfobject.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT src=3D"http://www.jeroenwijering.com/embed/swfmacmousewheel.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+=0A=
+	// some variables to save=0A=
+	var currentPosition;=0A=
+	var currentVolume;=0A=
+	var currentItem;=0A=
+=0A=
+	// these functions are caught by the JavascriptView object of the =
+player.=0A=
+	function sendEvent(typ,prm) { thisMovie("mpl").sendEvent(typ,prm); };=0A=
+	function getUpdate(typ,pr1,pr2,pid) {=0A=
+		if(typ =3D=3D "time") { currentPosition =3D pr1; }=0A=
+		else if(typ =3D=3D "volume") { currentVolume =3D pr1; }=0A=
+		else if(typ =3D=3D "item") { currentItem =3D pr1; =
+setTimeout("getItemData(currentItem)",100); }=0A=
+		var id =3D document.getElementById(typ);=0A=
+		id.innerHTML =3D typ+ ": "+Math.round(pr1);=0A=
+		pr2 =3D=3D undefined ? null: id.innerHTML +=3D ", "+Math.round(pr2);=0A=
+		if(pid !=3D "null") {=0A=
+			document.getElementById("pid").innerHTML =3D "(received from the =
+player with id <i>"+pid+"</i>)";=0A=
+		}=0A=
+	};=0A=
+=0A=
+	// These functions are caught by the feeder object of the player.=0A=
+	function loadFile(obj) { thisMovie("mpl").loadFile(obj); };=0A=
+	function addItem(obj,idx) { thisMovie("mpl").addItem(obj,idx); }=0A=
+	function removeItem(idx) { thisMovie("mpl").removeItem(idx); }=0A=
+	function getItemData(idx) {=0A=
+		var obj =3D thisMovie("mpl").itemData(idx);=0A=
+		var nodes =3D "";=0A=
+		for(var i in obj) { =0A=
+			nodes +=3D "<li>"+i+": "+obj[i]+"</li>"; =0A=
+		}=0A=
+		document.getElementById("data").innerHTML =3D nodes;=0A=
+	};=0A=
+=0A=
+	// This is a javascript handler for the player and is always needed.=0A=
+	function thisMovie(movieName) {=0A=
+	    if(navigator.appName.indexOf("Microsoft") !=3D -1) {=0A=
+			return window[movieName];=0A=
+		} else {=0A=
+			return document[movieName];=0A=
+		}=0A=
+	};=0A=
+=0A=
+</SCRIPT>
+
+<META content=3D"MSHTML 6.00.2900.3132" name=3DGENERATOR></HEAD>
+<BODY>
+<DIV id=3Dwrapper>
+<H1>JAVASCRIPT CONTROL EXAMPLES</H1>
+<P id=3Dlead>Here's an example of all the javascript interactions the=20
+players/rotator support. Note that javascript controls only work from =
+Flash=20
+version 8 and only online, not locally! In order to make them work, make =
+sure=20
+you have copied the javascript functions in the header of this page. =
+Also make=20
+sure that, through SJWObject or the embed tag, you've given the SWF an =
+ID that=20
+is similar to the id used in the javascripts (in this example it is=20
+"mpl").<BR><BR>This extra also showcases the use of the <A=20
+href=3D"http://blog.pixelbreaker.com/2006/11/08/flash/swfmacmousewheel/">=
+SWFMacMouseWheel=20
+javascript, by PixelBreaker</A>. By using this javascript, MAC users can =
+also=20
+scroll through the playlist with their mousewheel.<BR><BR>An overview of =
+all=20
+supported javacript functions can be found in the <A=20
+href=3D"http://www.jeroenwijering.com/extras/readme.html#customization">p=
+layers=20
+schematic in the readme</A>. Both JavascriptView's and Feeder's =
+functions are=20
+available. Note that jumping to fullscreen isn't supported by =
+javascript,=20
+because of Flash security restrictions. An overview of all elements you =
+can send=20
+along with a loadFile() or addItem() function can be found in the <A=20
+href=3D"http://www.jeroenwijering.com/extras/readme.html#playlists">playl=
+ists=20
+table in the readme</A>.</P>
+<P id=3Dplayer><A =
+href=3D"http://www.macromedia.com/go/getflashplayer">Get the Flash=20
+Player</A> to see this movie.</P>
+<SCRIPT type=3Dtext/javascript>=0A=
+		var so =3D new SWFObject('mediaplayer.swf','mpl','320','320','8');=0A=
+		so.addParam("allowfullscreen","true");=0A=
+		so.addVariable("file","/upload/mediaplayer.xml");=0A=
+		so.addVariable("enablejs","true");=0A=
+		so.addVariable("javascriptid","mpl");=0A=
+		so.addVariable("displayheight","240");=0A=
+		so.write('player');=0A=
+		var mmw =3D new SWFMacMouseWheel(so);=0A=
+	</SCRIPT>
+
+<H2>SEND EVENTS</H2>
+<UL>
+  <LI><A href=3D"javascript:sendEvent('playpause')">Toggle the pause =
+state</A>.=20
+  <LI><A href=3D"javascript:sendEvent('prev')">Play the previous =
+item</A>.=20
+  <LI><A href=3D"javascript:sendEvent('next')">Play the next item</A>.=20
+  <LI><A =
+href=3D"javascript:sendEvent('scrub',currentPosition%20+%205)">Scrub 5=20
+  seconds forward</A>.=20
+  <LI><A =
+href=3D"javascript:sendEvent('scrub',currentPosition%20-%205)">Scrub 5=20
+  seconds backward</A>.=20
+  <LI><A =
+href=3D"javascript:sendEvent('volume',currentVolume%20+%2010)">Increase=20
+  the volume 10%</A>=20
+  <LI><A =
+href=3D"javascript:sendEvent('volume',currentVolume%20-%2010)">Decrease=20
+  the volume 10%</A>=20
+  <LI><A href=3D"javascript:sendEvent('playitem',1)">Play the 2nd item =
+of the=20
+  playlist</A>.=20
+  <LI><A href=3D"javascript:sendEvent('getlink',1)">Go to the 2nd link =
+of the=20
+  playlist</A>.=20
+  <LI><A href=3D"javascript:sendEvent('stop')">Stop loading and =
+playing</A>.=20
+</LI></UL>
+<H2>RECEIVE UPDATES</H2>
+<P id=3Dpid></P>
+<UL>
+  <LI id=3Ditem>=20
+  <LI id=3Dvolume>=20
+  <LI id=3Dstate>=20
+  <LI id=3Dtime>=20
+  <LI id=3Dload>=20
+  <LI id=3Dsize> </LI></UL>
+<H2>EDIT PLAYLIST</H2>
+<UL>
+  <LI><A=20
+  =
+href=3D"javascript:loadFile({file:'http://www.jeroenwijering.com/upload/w=
+indmill_warriors.flv',title:'The%20BMC%20Windmill%20Warriors',link:'http:=
+//www.jeroenwijering.com/?item=3DWindmill_Warriors_DVD',id:'12345',image:=
+'/upload/windmill_dvd_rip.jpg'})">load=20
+  the "Windmill Warriors" video</A>.=20
+  <LI><A=20
+  =
+href=3D"javascript:loadFile({file:'http://blip.tv/?1=3D1&amp;s=3Dposts&am=
+p;skin=3Drss'})">load=20
+  the latest BLIP.tv movies</A>.=20
+  <LI><A =
+href=3D"javascript:loadFile({file:'/upload/mediaplayer.xml'})">Load the=20
+  original playlist again</A>.=20
+  <LI><A href=3D"javascript:addItem({file:'/upload/afraid.flv'},1)">load =
+a movie=20
+  in the second position of the playlist</A>.=20
+  <LI><A href=3D"javascript:addItem({file:'/upload/afraid.flv'})">load a =
+movie at=20
+  the end of the playlist</A>.=20
+  <LI><A href=3D"javascript:removeItem(1)">remove the second item from =
+the=20
+  playlist</A>.=20
+  <LI><A href=3D"javascript:removeItem()">remove the last item from the=20
+  playlist</A>. </LI></UL>
+<H2>ITEM DATA</H2>
+<UL id=3Ddata></UL>
+<DIV id=3Dfooter>all extras: <A=20
+href=3D"http://www.jeroenwijering.com/extras/">jeroenwijering.com/extras/=
+</A> |=20
+last update: june 17th, 2007</DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0002_01C7D6FA.959F1F70
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/embed/swfobject.js
+
+/**=0A=
+ * SWFObject v2.0: Flash Player detection and embed - =
+http://blog.deconcept.com/swfobject/=0A=
+ *=0A=
+ * SWFObject is (c) 2006 Geoff Stearns and is released under the MIT =
+License:=0A=
+ * http://www.opensource.org/licenses/mit-license.php=0A=
+ *=0A=
+ */=0A=
+if(typeof deconcept =3D=3D "undefined") var deconcept =3D new Object();=0A=
+if(typeof deconcept.util =3D=3D "undefined") deconcept.util =3D new =
+Object();=0A=
+if(typeof deconcept.SWFObjectUtil =3D=3D "undefined") =
+deconcept.SWFObjectUtil =3D new Object();=0A=
+deconcept.SWFObject =3D function(swf, id, w, h, ver, c, quality, =
+xiRedirectUrl, redirectUrl, detectKey) {=0A=
+	if (!document.getElementById) { return; }=0A=
+	this.DETECT_KEY =3D detectKey ? detectKey : 'detectflash';=0A=
+	this.skipDetect =3D deconcept.util.getRequestParameter(this.DETECT_KEY);=0A=
+	this.params =3D new Object();=0A=
+	this.variables =3D new Object();=0A=
+	this.attributes =3D new Array();=0A=
+	if(swf) { this.setAttribute('swf', swf); }=0A=
+	if(id) { this.setAttribute('id', id); }=0A=
+	if(w) { this.setAttribute('width', w); }=0A=
+	if(h) { this.setAttribute('height', h); }=0A=
+	if(ver) { this.setAttribute('version', new =
+deconcept.PlayerVersion(ver.toString().split("."))); }=0A=
+	this.installedVer =3D deconcept.SWFObjectUtil.getPlayerVersion();=0A=
+	if (!window.opera && document.all && this.installedVer.major > 7) {=0A=
+		// only add the onunload cleanup if the Flash Player version supports =
+External Interface and we are in IE=0A=
+		deconcept.SWFObject.doPrepUnload =3D true;=0A=
+	}=0A=
+	if(c) { this.addParam('bgcolor', c); }=0A=
+	var q =3D quality ? quality : 'high';=0A=
+	this.addParam('quality', q);=0A=
+	this.setAttribute('useExpressInstall', false);=0A=
+	this.setAttribute('doExpressInstall', false);=0A=
+	var xir =3D (xiRedirectUrl) ? xiRedirectUrl : window.location;=0A=
+	this.setAttribute('xiRedirectUrl', xir);=0A=
+	this.setAttribute('redirectUrl', '');=0A=
+	if(redirectUrl) { this.setAttribute('redirectUrl', redirectUrl); }=0A=
+}=0A=
+deconcept.SWFObject.prototype =3D {=0A=
+	useExpressInstall: function(path) {=0A=
+		this.xiSWFPath =3D !path ? "expressinstall.swf" : path;=0A=
+		this.setAttribute('useExpressInstall', true);=0A=
+	},=0A=
+	setAttribute: function(name, value){=0A=
+		this.attributes[name] =3D value;=0A=
+	},=0A=
+	getAttribute: function(name){=0A=
+		return this.attributes[name];=0A=
+	},=0A=
+	addParam: function(name, value){=0A=
+		this.params[name] =3D value;=0A=
+	},=0A=
+	getParams: function(){=0A=
+		return this.params;=0A=
+	},=0A=
+	addVariable: function(name, value){=0A=
+		this.variables[name] =3D value;=0A=
+	},=0A=
+	getVariable: function(name){=0A=
+		return this.variables[name];=0A=
+	},=0A=
+	getVariables: function(){=0A=
+		return this.variables;=0A=
+	},=0A=
+	getVariablePairs: function(){=0A=
+		var variablePairs =3D new Array();=0A=
+		var key;=0A=
+		var variables =3D this.getVariables();=0A=
+		for(key in variables){=0A=
+			variablePairs.push(key +"=3D"+ variables[key]);=0A=
+		}=0A=
+		return variablePairs;=0A=
+	},=0A=
+	getSWFHTML: function() {=0A=
+		var swfNode =3D "";=0A=
+		if (navigator.plugins && navigator.mimeTypes && =
+navigator.mimeTypes.length) { // netscape plugin architecture=0A=
+			if (this.getAttribute("doExpressInstall")) {=0A=
+				this.addVariable("MMplayerType", "PlugIn");=0A=
+				this.setAttribute('swf', this.xiSWFPath);=0A=
+			}=0A=
+			swfNode =3D '<embed type=3D"application/x-shockwave-flash" src=3D"'+ =
+this.getAttribute('swf') +'" width=3D"'+ this.getAttribute('width') +'" =
+height=3D"'+ this.getAttribute('height') +'"';=0A=
+			swfNode +=3D ' id=3D"'+ this.getAttribute('id') +'" name=3D"'+ =
+this.getAttribute('id') +'" ';=0A=
+			var params =3D this.getParams();=0A=
+			 for(var key in params){ swfNode +=3D [key] +'=3D"'+ params[key] +'" =
+'; }=0A=
+			var pairs =3D this.getVariablePairs().join("&");=0A=
+			 if (pairs.length > 0){ swfNode +=3D 'flashvars=3D"'+ pairs +'"'; }=0A=
+			swfNode +=3D '/>';=0A=
+		} else { // PC IE=0A=
+			if (this.getAttribute("doExpressInstall")) {=0A=
+				this.addVariable("MMplayerType", "ActiveX");=0A=
+				this.setAttribute('swf', this.xiSWFPath);=0A=
+			}=0A=
+			swfNode =3D '<object id=3D"'+ this.getAttribute('id') +'" =
+classid=3D"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width=3D"'+ =
+this.getAttribute('width') +'" height=3D"'+ this.getAttribute('height') =
++'">';=0A=
+			swfNode +=3D '<param name=3D"movie" value=3D"'+ =
+this.getAttribute('swf') +'" />';=0A=
+			var params =3D this.getParams();=0A=
+			for(var key in params) {=0A=
+			 swfNode +=3D '<param name=3D"'+ key +'" value=3D"'+ params[key] +'" =
+/>';=0A=
+			}=0A=
+			var pairs =3D this.getVariablePairs().join("&");=0A=
+			if(pairs.length > 0) {swfNode +=3D '<param name=3D"flashvars" =
+value=3D"'+ pairs +'" />';}=0A=
+			swfNode +=3D "</object>";=0A=
+		}=0A=
+		return swfNode;=0A=
+	},=0A=
+	write: function(elementId){=0A=
+		if(this.getAttribute('useExpressInstall')) {=0A=
+			// check to see if we need to do an express install=0A=
+			var expressInstallReqVer =3D new deconcept.PlayerVersion([6,0,65]);=0A=
+			if (this.installedVer.versionIsValid(expressInstallReqVer) && =
+!this.installedVer.versionIsValid(this.getAttribute('version'))) {=0A=
+				this.setAttribute('doExpressInstall', true);=0A=
+				this.addVariable("MMredirectURL", =
+escape(this.getAttribute('xiRedirectUrl')));=0A=
+				document.title =3D document.title.slice(0, 47) + " - Flash Player =
+Installation";=0A=
+				this.addVariable("MMdoctitle", document.title);=0A=
+			}=0A=
+		}=0A=
+		if(this.skipDetect || this.getAttribute('doExpressInstall') || =
+this.installedVer.versionIsValid(this.getAttribute('version'))){=0A=
+			var n =3D (typeof elementId =3D=3D 'string') ? =
+document.getElementById(elementId) : elementId;=0A=
+			n.innerHTML =3D this.getSWFHTML();=0A=
+			return true;=0A=
+		}else{=0A=
+			if(this.getAttribute('redirectUrl') !=3D "") {=0A=
+				document.location.replace(this.getAttribute('redirectUrl'));=0A=
+			}=0A=
+		}=0A=
+		return false;=0A=
+	}=0A=
+}=0A=
+=0A=
+/* ---- detection functions ---- */=0A=
+deconcept.SWFObjectUtil.getPlayerVersion =3D function(){=0A=
+	var PlayerVersion =3D new deconcept.PlayerVersion([0,0,0]);=0A=
+	if(navigator.plugins && navigator.mimeTypes.length){=0A=
+		var x =3D navigator.plugins["Shockwave Flash"];=0A=
+		if(x && x.description) {=0A=
+			PlayerVersion =3D new =
+deconcept.PlayerVersion(x.description.replace(/([a-zA-Z]|\s)+/, =
+"").replace(/(\s+r|\s+b[0-9]+)/, ".").split("."));=0A=
+		}=0A=
+	}else{=0A=
+		// do minor version lookup in IE, but avoid fp6 crashing issues=0A=
+		// see =
+http://blog.deconcept.com/2006/01/11/getvariable-setvariable-crash-intern=
+et-explorer-flash-6/=0A=
+		try{=0A=
+			var axo =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");=0A=
+		}catch(e){=0A=
+			try {=0A=
+				var axo =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");=0A=
+				PlayerVersion =3D new deconcept.PlayerVersion([6,0,21]);=0A=
+				axo.AllowScriptAccess =3D "always"; // throws if player version < =
+6.0.47 (thanks to Michael Williams @ Adobe for this code)=0A=
+			} catch(e) {=0A=
+				if (PlayerVersion.major =3D=3D 6) {=0A=
+					return PlayerVersion;=0A=
+				}=0A=
+			}=0A=
+			try {=0A=
+				axo =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash");=0A=
+			} catch(e) {}=0A=
+		}=0A=
+		if (axo !=3D null) {=0A=
+			PlayerVersion =3D new =
+deconcept.PlayerVersion(axo.GetVariable("$version").split(" =
+")[1].split(","));=0A=
+		}=0A=
+	}=0A=
+	return PlayerVersion;=0A=
+}=0A=
+deconcept.PlayerVersion =3D function(arrVersion){=0A=
+	this.major =3D arrVersion[0] !=3D null ? parseInt(arrVersion[0]) : 0;=0A=
+	this.minor =3D arrVersion[1] !=3D null ? parseInt(arrVersion[1]) : 0;=0A=
+	this.rev =3D arrVersion[2] !=3D null ? parseInt(arrVersion[2]) : 0;=0A=
+}=0A=
+deconcept.PlayerVersion.prototype.versionIsValid =3D function(fv){=0A=
+	if(this.major < fv.major) return false;=0A=
+	if(this.major > fv.major) return true;=0A=
+	if(this.minor < fv.minor) return false;=0A=
+	if(this.minor > fv.minor) return true;=0A=
+	if(this.rev < fv.rev) return false;=0A=
+	return true;=0A=
+}=0A=
+/* ---- get value of query string param ---- */=0A=
+deconcept.util =3D {=0A=
+	getRequestParameter: function(param) {=0A=
+		var q =3D document.location.search || document.location.hash;=0A=
+		if(q) {=0A=
+			var pairs =3D q.substring(1).split("&");=0A=
+			for (var i=3D0; i < pairs.length; i++) {=0A=
+				if (pairs[i].substring(0, pairs[i].indexOf("=3D")) =3D=3D param) {=0A=
+					return pairs[i].substring((pairs[i].indexOf("=3D")+1));=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+		return "";=0A=
+	}=0A=
+}=0A=
+/* fix for video streaming bug */=0A=
+deconcept.SWFObjectUtil.cleanupSWFs =3D function() {=0A=
+	var objects =3D document.getElementsByTagName("OBJECT");=0A=
+	for (var i=3D0; i < objects.length; i++) {=0A=
+		objects[i].style.display =3D 'none';=0A=
+		for (var x in objects[i]) {=0A=
+			if (typeof objects[i][x] =3D=3D 'function') {=0A=
+				objects[i][x] =3D function(){};=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+// fixes bug in fp9 see =
+http://blog.deconcept.com/2006/07/28/swfobject-143-released/=0A=
+if (deconcept.SWFObject.doPrepUnload) {=0A=
+	deconcept.SWFObjectUtil.prepUnload =3D function() {=0A=
+		__flash_unloadHandler =3D function(){};=0A=
+		__flash_savedUnloadHandler =3D function(){};=0A=
+		window.attachEvent("onunload", deconcept.SWFObjectUtil.cleanupSWFs);=0A=
+	}=0A=
+	window.attachEvent("onbeforeunload", =
+deconcept.SWFObjectUtil.prepUnload);=0A=
+}=0A=
+/* add Array.push if needed (ie5) */=0A=
+if (Array.prototype.push =3D=3D null) { Array.prototype.push =3D =
+function(item) { this[this.length] =3D item; return this.length; }}=0A=
+=0A=
+/* add some aliases for ease of use/backwards compatibility */=0A=
+var getQueryParamValue =3D deconcept.util.getRequestParameter;=0A=
+var FlashObject =3D deconcept.SWFObject; // for legacy support=0A=
+var SWFObject =3D deconcept.SWFObject;=0A=
+
+------=_NextPart_000_0002_01C7D6FA.959F1F70
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/embed/swfmacmousewheel.js
+
+/**
+ * SWFMacMouseWheel v1.0: Mac Mouse Wheel functionality in flash - =
+http://blog.pixelbreaker.com/
+ *
+ * SWFMacMouseWheel is (c) 2006 Gabriel Bucknall and is released under =
+the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * Dependencies:=20
+ * SWFObject v2.0 - (c) 2006 Geoff Stearns.
+ * http://blog.deconcept.com/swfobject/
+ */
+function SWFMacMouseWheel( swfObject )
+{
+	this.so =3D swfObject;
+	var isMac =3D navigator.appVersion.toLowerCase().indexOf( "mac" ) !=3D =
+-1;
+	if( isMac ) this.init();
+}
+
+SWFMacMouseWheel.prototype =3D {
+	init: function()
+	{
+		SWFMacMouseWheel.instance =3D this;
+		if (window.addEventListener)
+		{
+	        window.addEventListener('DOMMouseScroll', =
+SWFMacMouseWheel.instance.wheel, false);
+		}
+		window.onmousewheel =3D document.onmousewheel =3D =
+SWFMacMouseWheel.instance.wheel;
+	},
+=09
+	handle: function( delta )
+	{
+		document[ this.so.getAttribute('id') ].externalMouseEvent( delta );
+	},
+
+	wheel: function(event){
+        var delta =3D 0;
+        if (event.wheelDelta) { /* IE/Opera. */
+			delta =3D event.wheelDelta/120;
+			if (window.opera) delta =3D -delta;
+        } else if (event.detail) { /** Mozilla case. */
+            delta =3D -event.detail/3;
+        }
+        if( /AppleWebKit/.test(navigator.userAgent) ) {
+        	delta /=3D 3;
+        }
+        /** If delta is nonzero, handle it.
+         * Basically, delta is now positive if wheel was scrolled up,
+         * and negative, if wheel was scrolled down.
+         */
+        if (delta)
+               SWFMacMouseWheel.instance.handle(delta);
+        /** Prevent default actions caused by mouse wheel.
+         * That might be ugly, but we handle scrolls somehow
+         * anyway, so don't bother here..
+         */
+        if (event.preventDefault) event.preventDefault();
+		event.returnValue =3D false;
+	}
+};
+------=_NextPart_000_0002_01C7D6FA.959F1F70--

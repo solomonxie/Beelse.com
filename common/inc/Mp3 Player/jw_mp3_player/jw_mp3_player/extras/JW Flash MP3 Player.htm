@@ -1,0 +1,66 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/frameset.dtd">
+<!-- saved from url=(0165)http://202.43.217.123/search/cache.html?ei=UTF-8&icp=1&u=www.cuiz.net/player/playernet200610/2006-03-15-flash_mp3_player/mp3player.html&w=jw+player&d=DqoS4uljPNZL&s= -->
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>雅虎搜索_网页快照</TITLE>
+<META http-equiv=Content-Type content=text/html;charset=utf-8>
+<SCRIPT>
+var base='';
+var snap = null, snapid = 0, last = {}, count,counts, ex, top, marks;
+function nextAnchor(c) {
+    if(counts[c]<1) return;
+    var current, new_location = base+'#snap'+c+'_'+snapid;
+    try {
+        current = snap.document.getElementsByName('snap'+c+'_'+(snapid - 1))[0];
+        last.obj.style.color = last.color;
+        last.obj.style.backgroundColor = last.bgcolor;
+        last.obj.style.fontSize = last.size;
+    } catch(ex) {}
+
+    try {
+        current = snap.document.getElementsByName('snap'+c+'_'+snapid)[0];
+        last.color = current.style.color;
+        last.size = current.style.fontSize;
+        last.obj = current;
+        last.bgcolor = current.style.backgroundColor;
+        current.style.color = '#fff';           
+        current.style.backgroundColor = '#0066dc';
+    } catch (ex) {}
+    snap.location.href = new_location;
+    snapid++;
+    if (snapid >= counts[c]) snapid = 0;
+}
+
+function frameload(c) {
+    snap = parent.frames['mainFrame'] || parent.frames.mainFrame;
+    top = parent.frames['topFrame'] || parent.frames.topFrame;
+    marks = snap.document.getElementsByTagName("font");
+    count = marks.length;    
+    base = new String(snap.location);
+    base.replace(/#.*/, '');
+    keywords = new Array('jw','player');
+    counts =new Array();
+    for(j=0; j<c; j++){
+        top.document.getElementById('anchorBtn'+j).onclick = (function(x) {return function() {nextAnchor(x);}})(j);
+        for (i = 0,k=0; i < count;i++) {
+            t = marks[i].innerText||marks[i].textContent;
+            if (marks[i].style.color=='black' && t.length>0) {
+                if ( t.toLowerCase()!=keywords[j].toLowerCase()) continue;
+                var obj = marks[i], text = obj.innerHTML;            
+                var anchor = snap.document.createElement('a');           
+                obj.innerHTML = '';
+                anchor.id = 'snap' + j + '_' + k;
+                anchor.name='snap' + j + '_' + k;
+                k++;
+                anchor.innerHTML = text;             
+                obj.appendChild(anchor);
+            }
+        }
+        counts[j]=k;
+    }
+}
+</SCRIPT>
+
+<META content="MSHTML 6.00.2900.3132" name=GENERATOR></HEAD><FRAMESET border=0 
+frameSpacing=0 rows=78,* frameBorder=no onload=frameload(2);><FRAME id=topFrame 
+name=topFrame src="JW Flash MP3 Player.files/cache_top.htm" noResize 
+scrolling=no><FRAME id=mainFrame name=mainFrame 
+src="JW Flash MP3 Player.files/cache_main.htm"></FRAMESET></HTML>

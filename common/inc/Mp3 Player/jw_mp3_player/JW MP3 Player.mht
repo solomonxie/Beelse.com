@@ -1,0 +1,2580 @@
+From: <ÓÉ Microsoft Internet Explorer 5 ±£´æ>
+Subject: JW MP3 Player
+Date: Sat, 4 Aug 2007 01:38:38 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C7D638.2E60D8C0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C7D638.2E60D8C0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/?item=Flash_MP3_Player
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=3Den=20
+xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD><TITLE>JW MP3 =
+Player</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+<META content=3D"JW MP3 Player" name=3Dkeywords>
+<META=20
+content=3D"The JW MP3 Player (built with Adobe's Flash) is the easiest =
+way to add live music or podcasts to your website. It supports playback =
+of a single MP3 file or an RSS, XSPF or ATOM playlist (with =
+advertisement possibilities), a wide range of flashvars (settings) for =
+tweaking both behavior and appearance and an extensive, documented =
+javascript/actionscript API. The example above shows the top songs from =
+Odeo and the small example below plays back Engadget's latest =
+blogentries with the all-new built-in text-to-speech engine provided by =
+Talkr.com:"=20
+name=3Ddescription>
+<SCRIPT src=3D"http://www.google-analytics.com/urchin.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript> _uacct =3D "UA-739290-1"; =
+urchinTracker(); </SCRIPT>
+
+<SCRIPT src=3D"http://www.jeroenwijering.com/embed/swfobject.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT src=3D"http://www.jeroenwijering.com/embed/javascript.js"=20
+type=3Dtext/javascript></SCRIPT>
+<LINK title=3DJeroenW media=3Dscreen=20
+href=3D"http://www.jeroenwijering.com/embed/style.css" type=3Dtext/css=20
+rel=3Dstylesheet><LINK title=3DJeroenW media=3Dprint=20
+href=3D"http://www.jeroenwijering.com/embed/print.css" type=3Dtext/css=20
+rel=3Dstylesheet>
+<STYLE title=3DJeroenW type=3Dtext/css media=3Dall>A:link {
+	COLOR: #006699
+}
+#artic {
+	BORDER-BOTTOM: #006699 2px solid
+}
+#desig {
+	BORDER-BOTTOM: #006699 2px solid
+}
+#scrip {
+	BORDER-BOTTOM: #006699 2px solid
+}
+#artic:hover {
+	BACKGROUND-COLOR: #006699
+}
+#desig:hover {
+	BACKGROUND-COLOR: #006699
+}
+#scrip:hover {
+	BACKGROUND-COLOR: #006699
+}
+#articsub A:hover {
+	BACKGROUND-COLOR: #006699
+}
+#desigsub A:hover {
+	BACKGROUND-COLOR: #006699
+}
+#scripsub A:hover {
+	BACKGROUND-COLOR: #006699
+}
+H1 {
+	BORDER-BOTTOM: #006699 2px solid
+}
+.tgrey A {
+	BORDER-LEFT: #006699 4px solid
+}
+.twhite A {
+	BORDER-LEFT: #006699 4px solid
+}
+.tgrey P {
+	BORDER-LEFT: #006699 4px solid
+}
+.twhite P {
+	BORDER-LEFT: #006699 4px solid
+}
+.pgrey P {
+	BORDER-LEFT: #006699 4px solid
+}
+.pwhite P {
+	BORDER-LEFT: #006699 4px solid
+}
+PRE {
+	COLOR: #006699
+}
+CODE {
+	COLOR: #006699
+}
+.alert {
+	COLOR: #006699
+}
+</STYLE>
+<LINK title=3D"Jeroen Wijering RSS Feed"=20
+href=3D"http://feeds.feedburner.com/jeroenwijering" =
+type=3Dapplication/rss+xml=20
+rel=3Dalternate>
+<META content=3D"MSHTML 6.00.2900.3132" name=3DGENERATOR></HEAD>
+<BODY onload=3DlsInit();>
+<DIV id=3Dwrapper>
+<UL id=3Darticsub>
+  <LI><A class=3Dmgrey title=3D"The Embedding Flash Article"=20
+  =
+href=3D"http://www.jeroenwijering.com/?item=3DEmbedding_Flash">Embedding =
+Flash</A>=20
+  </LI>
+  <LI><A class=3Dmwhite title=3D"The Show and Share Article"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DShow_and_Share">Show and =
+Share</A>=20
+  </LI>
+  <LI><A class=3Dmgrey title=3D"The FLV Video Compression Article"=20
+  =
+href=3D"http://www.jeroenwijering.com/?item=3DFLV_Video_Compression">FLV =
+Video=20
+  Compression</A> </LI>
+  <LI><A class=3Dmwhite title=3D"The Google Optimization Tips Article"=20
+  =
+href=3D"http://www.jeroenwijering.com/?item=3DGoogle_Optimization_Tips">G=
+oogle=20
+  Optimization Tips</A> </LI></UL>
+<UL id=3Ddesigsub>
+  <LI><A class=3Dmgrey title=3D"The Bits on the Run Project"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DBits_on_the_Run">Bits on =
+the Run</A>=20
+  </LI>
+  <LI><A class=3Dmwhite title=3D"The SYNC Project"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DSYNC">SYNC</A> </LI>
+  <LI><A class=3Dmgrey title=3D"The What's Up? Project"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DWhat's_Up?">What's =
+Up?</A> </LI>
+  <LI><A class=3Dmwhite title=3D"The Windmill Warriors DVD Project"=20
+  =
+href=3D"http://www.jeroenwijering.com/?item=3DWindmill_Warriors_DVD">Wind=
+mill=20
+  Warriors DVD</A> </LI>
+  <LI><A class=3Dmgrey title=3D"The La Acera Project"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DLa_Acera">La Acera</A> =
+</LI></UL>
+<UL id=3Dscripsub>
+  <LI><A class=3Dmgrey title=3D"The JW MP3 Player Script"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DJW_MP3_Player">JW MP3 =
+Player</A>=20
+  </LI>
+  <LI><A class=3Dmwhite title=3D"The JW Image Rotator Script"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DJW_Image_Rotator">JW =
+Image=20
+  Rotator</A> </LI>
+  <LI><A class=3Dmgrey title=3D"The JW FLV Player Script"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DJW_FLV_Player">JW FLV =
+Player</A>=20
+  </LI>
+  <LI><A class=3Dmwhite title=3D"The JW Media Player Script"=20
+  href=3D"http://www.jeroenwijering.com/?item=3DJW_Media_Player">JW =
+Media Player</A>=20
+  </LI></UL><A id=3Dartic onclick=3D"return =
+toggleMenu('artic','#006699')"=20
+href=3D"http://www.jeroenwijering.com/?item=3DFlash_MP3_Player#">Articles=
+</A> <A=20
+id=3Ddesig onclick=3D"return toggleMenu('desig','#006699')"=20
+href=3D"http://www.jeroenwijering.com/?item=3DFlash_MP3_Player#">Projects=
+</A> <A=20
+id=3Dscrip onclick=3D"return toggleMenu('scrip','#006699')"=20
+href=3D"http://www.jeroenwijering.com/?item=3DFlash_MP3_Player#">Scripts<=
+/A> <A=20
+id=3Dstore title=3D"Order commercial licenses of my Flash scripts"=20
+href=3D"http://www.jeroenwijering.com/?order=3Dform">Order</A> <A =
+id=3Dforum=20
+title=3D"Support forum index"=20
+href=3D"http://www.jeroenwijering.com/?forum=3DAll">Forum</A> <A =
+id=3Dabout=20
+title=3D"The home / about page" =
+href=3D"http://www.jeroenwijering.com/">About</A>=20
+<DIV id=3Dbanner>
+<P>The <A href=3D"http://www.macromedia.com/go/getflashplayer">Flash =
+Player</A>=20
+and <A href=3D"http://www.mozilla.com/firefox/">a browser with =
+Javascript=20
+support</A> are needed..</P></DIV>
+<SCRIPT type=3Dtext/javascript>=0A=
+		var so =3D new =
+SWFObject('upload/mp3player.swf','player','600','300','7');=0A=
+		so.addParam("allowfullscreen","true");=0A=
+		=0A=
+		so.addVariable('file','/upload/projectopus.php');=0A=
+		so.addVariable('displayheight','120');=0A=
+		so.addVariable('thumbsinplaylist','true');=0A=
+		so.addVariable('height','260');=0A=
+		so.addVariable('width','300');=0A=
+		so.addVariable('backcolor','0x000000');=0A=
+		so.addVariable('frontcolor','0xffffff');=0A=
+		so.addVariable('lightcolor','0x0099CC');=0A=
+		so.addVariable('linktarget','_blank');=0A=
+		so.write('banner');=0A=
+	</SCRIPT>
+
+<DIV id=3Dleft>
+<H1 id=3Dtitle>JW MP3 PLAYER 3.99</H1>
+<P id=3Dsubtitle>script | 03.07.2007 | <A title=3D"Print this page."=20
+href=3D"javascript:print()">print</A></P>
+<P id=3Dlead>The JW MP3 Player (built with <A=20
+href=3D"http://www.adobe.com/products/flash/">Adobe's Flash</A>) is the =
+easiest=20
+way to add live music or podcasts to your website. It supports playback =
+of a=20
+single MP3 file or an RSS, XSPF or ATOM playlist (with advertisement=20
+possibilities), a wide range of flashvars (settings) for tweaking both =
+behavior=20
+and appearance and an extensive, documented javascript/actionscript API. =
+The=20
+example above shows the top songs from <A =
+href=3D"http://www.odeo.com/">Odeo</A>=20
+and the small example below plays back Engadget's latest blogentries =
+with the=20
+all-new built-in text-to-speech engine provided by <A=20
+href=3D"http://blog.talkr.com/2007/07/talkr-integrated-into-jw-flash-play=
+ers.html">Talkr.com</A>:</P>
+<DIV id=3Dtext><EMBED =
+pluginspage=3Dhttp://www.macromedia.com/go/getflashplayer=20
+src=3D/embed/mediaplayer.swf width=3D385 height=3D20=20
+type=3Dapplication/x-shockwave-flash=20
+flashvars=3D"file=3Dhttp://feeds.feedburner.com/engadget&amp;shuffle=3Dfa=
+lse&amp;repeat=3Dtrue&amp;showdownload=3Dtrue">=20
+
+<H2 id=3Dlicensing>LICENSING</H2>
+<P>This script is licensed under a <A=20
+title=3D"the Creative Commons Licensing Terms"=20
+href=3D"http://creativecommons.org/licenses/by-nc-sa/2.0/">Creative =
+Commons=20
+License</A>. It allows you to use and modify the script for =
+noncommercial=20
+purposes. For commercial use, I distribute licenses of the script for 15 =
+euros.=20
+For more info and instant ordering, please <A title=3D"Order commercial =
+licenses"=20
+href=3D"http://www.jeroenwijering.com/?order=3Dform">advance to my =
+online order=20
+page</A>!</P>
+<H2 id=3Ddownload>DOWNLOAD</H2>
+<P>You can <A title=3D"the JW MP3 Player download"=20
+href=3D"http://www.jeroenwijering.com/upload/jw_mp3_player.zip">download =
+the JW=20
+MP3 Player here</A>. It includes the source files (Flash 8) and a link =
+to the=20
+readme with tips regarding the installation and use of this script. =
+please read=20
+it carefully!</P>
+<H2 id=3Dplugins>PLUGINS</H2>
+<P>Here is a list of plugins for inserting the player in various CMS =
+systems. If=20
+you have written one, please <A=20
+href=3D"http://www.jeroenwijering.com/?thread=3D3009">report so in my =
+forum</A>, so=20
+I can list it here:</P>
+<OL>
+  <LI>The <A title=3D"the MP3 Player Wordpress Plugin"=20
+  href=3D"http://darkgiank.110mb.com/mp3-o-matic/">MP3-o-Matic Wordpress =
+
+  Plugin</A> (by DarkGiank)=20
+  <LI>The <A title=3D"the Flash MP3 Player plugin"=20
+  href=3D"http://nazdrave.net/fmp/">Flash MP3 Player Wordpress =
+Plugin</A> (by=20
+  Rosen Ivanov)=20
+  <LI>The <A title=3D"WordPress MediaCaster Plugin"=20
+  =
+href=3D"http://www.semiologic.com/software/publishing/mediacaster/">WordP=
+ress=20
+  MediaCaster Plugin</A> (by Semiologic)=20
+  <LI>The <A title=3D"the Joomla/Mambo MP3 Module"=20
+  href=3D"http://www.projects.solarvistas.net/X-Joom/">Joomla/Mambo MP3 =
+Module</A>=20
+  (by Xi)=20
+  <LI>The <A title=3D"the SOBI2 Joomla Plugin"=20
+  =
+href=3D"http://extensions.joomla.org/component/option,com_mtree/task,view=
+link/link_id,1576/Itemid,35/">SOBI2=20
+  Joomla Plugin</A> (by Sigrid &amp; Radek Suski)=20
+  <LI>The <A title=3D"the Drupal SWFTools Plugin"=20
+  href=3D"http://drupal.org/project/swftools">Drupal SWFTools Plugin</A> =
+(by=20
+  Simon)=20
+  <LI>The <A title=3D"the Joomla MP3 Player Module"=20
+  href=3D"http://geek-team.net/descargas/112.html">Joomla MP3 Player =
+Module</A>=20
+  (by Daniel Gutierrez)=20
+  <LI>The <A title=3D"the TYPO3 mp3 player extension"=20
+  =
+href=3D"http://typo3.org/extensions/repository/view/fe_mp3player/0.2.3/">=
+TYPO3=20
+  MP3Player extension</A> (by Raffi)=20
+  <LI>The <A title=3D"ZMS Media Player Plugin"=20
+  =
+href=3D"http://www.zms-publishing.com/live/zmspublishing/support/content/=
+e724/e729/e2761/index_eng.html">ZMS=20
+  Media Player Plugin</A> (by Christian Meier)=20
+  <LI>The <A title=3D"the Zoints Local Networking Plugin"=20
+  href=3D"http://dev.zoints.com/showthread.php?p=3D427#post427">Zoints =
+MP3 Player=20
+  Plugin</A> (by SneakyDave)=20
+  <LI>The <A title=3D"Ruby on Rails Plugin"=20
+  =
+href=3D"http://jroller.com/page/abstractScope?entry=3Dflash_mp3_imageslid=
+eshow_media_player">Ruby=20
+  on Rails Player/Rotator Plugin</A> (by Farooq Ali)=20
+  <LI>The <A title=3D"PmWiki MediaPlayer Plugin"=20
+  href=3D"http://www.pmwiki.org/wiki/Cookbook/FlashMediaPlayer">PmWiki =
+MediaPlayer=20
+  Plugin</A> (by Dfaure)=20
+  <LI>The <A title=3D"the TikiWiki Plugin"=20
+  =
+href=3D"http://tikiwiki.org/tiki-view_forum_thread.php?forumId=3D3&amp;co=
+mments_parentId=3D24462">TikiWiki=20
+  Plugin</A> (by Casainho.net)=20
+  <LI>The <A title=3D"eZ publish CMS Extension"=20
+  =
+href=3D"http://ez.no/community/contribs/applications/ngflashvideo_flv_mp3=
+_player_with_playlist">eZ=20
+  publish CMS MP3 Extension</A> (by Vjeran Vlahovicr)=20
+  <LI>The <A title=3D"Redaxo MP3 modules"=20
+  href=3D"http://www.stapis.de/service.html">Redaxo single &amp; jukebox =
+MP3=20
+  modules</A> (by Hannes Peterseim)=20
+  <LI>The <A title=3D"Alive MP3 Player for DotNetNuke"=20
+  =
+href=3D"http://www.considero.net/Products/DotNetNuke/Modules/Alive-MP3-Pl=
+ayer.aspx">Alive=20
+  MP3 Player for DotNetNuke</A> (by Hrvoje Komljenovic) </LI></OL>
+<H2 id=3Dsupport>SUPPORT</H2>
+<P>I receive a lot of requests for creating customized versions of my=20
+players/rotator. In most cases however, a clever setting of the =
+flashvars=20
+already fulfilled the requests, so please make sure you check the list =
+of=20
+flashvars (in the <A=20
+href=3D"http://www.jeroenwijering.com/extras/readme.html">readme =
+file</A>) first!=20
+Or checkout the <A title=3D"the Flash players setup wizard"=20
+href=3D"http://www.jeroenwijering.com/extras/wizard.html">new setup =
+wizard</A>.=20
+Additionally, I do not design or program any particular (paid-for)=20
+customizations (I just don't have time for it), but interesting features =
+will be=20
+plugged into the next update.</P>
+<P>If you are familiar with actionscripting yourself, you should find =
+that=20
+changing or adding to the players/rotator is quite simple. To get =
+started, I've=20
+provided a clear overview of the scripting in the <A=20
+href=3D"http://www.jeroenwijering.com/extras/readme.html#customization">r=
+eadme=20
+document</A>, plus some hints to get you started.</P>
+<P>A convenient collection of hands-on examples can be found in the <A=20
+href=3D"http://www.jeroenwijering.com/extras/">extras folder</A> of this =
+
+website.</P>
+<P>For tips, tricks, additional info and bug reports, you can always =
+have a look=20
+at my <A =
+href=3D"http://www.jeroenwijering.com/?forum=3Dall">forum</A>.</P>
+<P>For more info about the embedding of Flash in HTML, have a look at my =
+<A=20
+href=3D"http://www.jeroenwijering.com/?item=3DEmbedding_Flash">Embedding =
+Flash=20
+article</A>.</P>
+<H2 id=3Dhistory>HISTORY</H2>
+<OL>
+  <LI>3.99: Added <A=20
+  =
+href=3D"http://blog.talkr.com/2007/07/talkr-integrated-into-jw-flash-play=
+ers.html">Talkr=20
+  support</A> for text-to-speech playback of regular RSS feeds. Bugfixes =
+for=20
+  prev/next buttons, RSS parser, captioning accuracy and playlist =
+arrows. [<A=20
+  =
+href=3D"http://www.jeroenwijering.com/upload/jw_mp3_player.zip">download<=
+/A>]=20
+  <LI>3.9: Added support for various types of <A=20
+  =
+href=3D"http://www.jeroenwijering.com/extras/advertisements.html">adverti=
+sements</A>.=20
+  Added autostart=3Dmuted flashvar. Added showdownload and showvolume =
+flashvars.=20
+  Bugfixes in controlbar, audiotrack, captioning, rssparser and =
+watermark.=20
+  Renamed from <B>Flash MP3 Player</B> to JW MP3 Player, as requested by =
+Adobe.=20
+  <LI>3.8: Added (multitrack) <A title=3D"Captionate FLV captioning =
+editor"=20
+  href=3D"http://www.buraks.com/captionate/">Captionate</A> captions. =
+Added extra=20
+  audiotrack (for accessibility or director's comments). Added flashvar =
+for=20
+  return of an ID with javascript updates. "showicons=3Dfalse" will also =
+hide the=20
+  controlbar in overlay mode. 'start' value now works for HTTP/RTMP =
+streams;=20
+  playlist will auto-highlight new chapters (great for long podcasts). =
+Various=20
+  bugfixes.=20
+  <LI>..=20
+  <LI>3.2: Complete rewrite of the mp3player. Added large cover support =
+and a=20
+  documented (javascript) API. [<A=20
+  =
+href=3D"http://www.jeroenwijering.com/upload/flash_mp3_player_32.zip">dow=
+nload</A>]=20
+
+  <LI>2.3: Latest version 2 mp3player. Added RSS/XSPF playlists, color=20
+  customization and scrollbar. [<A=20
+  =
+href=3D"http://www.jeroenwijering.com/upload/flash_mp3_player_23.zip">dow=
+nload</A>]=20
+
+  <LI>1.1: latest installment of the first mp3player. [<A=20
+  =
+href=3D"http://www.jeroenwijering.com/upload/flash_mp3_player_11.zip">dow=
+nload</A>]=20
+  </LI></OL></DIV></DIV>
+<DIV id=3Dright>
+<FORM id=3Dsearchdiv action=3D./ method=3Dget>
+<FIELDSET>
+<H2>Search this Site</H2><INPUT id=3Dsearchinput name=3Dsearch> =
+</FIELDSET> </FORM>
+<DIV id=3Dresultdiv></DIV>
+<DIV id=3Dgoogle>
+<SCRIPT type=3Dtext/javascript>=0A=
+    	var google_ad_client =3D 'pub-8267021655360774';=0A=
+			var google_ad_width =3D 160;=0A=
+			var google_ad_height =3D 600;=0A=
+			var google_ad_format =3D '160x600_as';=0A=
+			var google_ad_type =3D 'text';=0A=
+			var google_ad_channel =3D '8699253155'; =0A=
+			var google_color_border =3D 'ffffff';=0A=
+			var google_color_bg =3D 'ffffff';=0A=
+			var google_color_link =3D '006699';=0A=
+			var google_color_url =3D '006699';=0A=
+			var google_color_text =3D '000000';=0A=
+    	</SCRIPT>
+
+<SCRIPT src=3D"http://pagead2.googlesyndication.com/pagead/show_ads.js"=20
+type=3Dtext/javascript></SCRIPT>
+</DIV></DIV>
+<DIV =
+id=3Dpageurl>http://www.jeroenwijering.com/?item=3DJW_MP3_Player</DIV>
+<DIV id=3Dfooter><A title=3D"The terms of my CC license"=20
+href=3D"http://creativecommons.org/licenses/by-nc-sa/2.0/">(cc)</A> some =
+rights=20
+reserved | <A title=3D"Check my XHTML Validity"=20
+href=3D"http://validator.w3.org/check/referer">XHTML</A> and <A=20
+title=3D"Check my CSS Validity"=20
+href=3D"http://jigsaw.w3.org/css-validator/check/referer">CSS</A> valid =
+| <A=20
+title=3D"Subscribe to my RSS Feed"=20
+href=3D"http://feeds.feedburner.com/jeroenwijering">RSS</A> available=20
+</DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01C7D638.2E60D8C0
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/embed/style.css
+
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+DIV {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+FORM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+OL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+LI {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+LEGEND {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: 18px; =
+PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+A:hover {
+	COLOR: black
+}
+A:visited {
+	COLOR: #444
+}
+BODY {
+	BACKGROUND: url(../embed/cssbg.gif) repeat-y center 50%; TEXT-ALIGN: =
+center
+}
+#wrapper {
+	PADDING-RIGHT: 50px; BORDER-TOP: #000 2px solid; PADDING-LEFT: 50px; =
+PADDING-BOTTOM: 0px; MARGIN: auto; WIDTH: 610px; PADDING-TOP: 0px; =
+BORDER-BOTTOM: #000 2px solid; BACKGROUND-COLOR: #fff; TEXT-ALIGN: left
+}
+#pageurl {
+	DISPLAY: none
+}
+#banner {
+	CLEAR: both; BORDER-RIGHT: #000 2px solid; BORDER-TOP: #000 1px solid; =
+DISPLAY: block; BORDER-LEFT: #000 8px solid; LINE-HEIGHT: 6px; =
+BORDER-BOTTOM: #000 1px solid
+}
+#banner IMG {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: none; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#banner OBJECT {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: none; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#banner P {
+	MARGIN: 10px
+}
+#artic {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN-BOTTOM: 40px; =
+WIDTH: 128px; COLOR: #000; MARGIN-RIGHT: 2px; PADDING-TOP: 6px; =
+BORDER-BOTTOM: 2px solid; HEIGHT: 18px; TEXT-DECORATION: none
+}
+#desig {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN-BOTTOM: 40px; =
+WIDTH: 128px; COLOR: #000; MARGIN-RIGHT: 2px; PADDING-TOP: 6px; =
+BORDER-BOTTOM: 2px solid; HEIGHT: 18px; TEXT-DECORATION: none
+}
+#scrip {
+	DISPLAY: block; FONT-WEIGHT: bold; FLOAT: left; MARGIN-BOTTOM: 40px; =
+WIDTH: 128px; COLOR: #000; MARGIN-RIGHT: 2px; PADDING-TOP: 6px; =
+BORDER-BOTTOM: 2px solid; HEIGHT: 18px; TEXT-DECORATION: none
+}
+#store {
+	BORDER-TOP: #000 4px solid; DISPLAY: block; FONT-WEIGHT: bold; FLOAT: =
+right; MARGIN-BOTTOM: 40px; WIDTH: 52px; MARGIN-RIGHT: 2px; PADDING-TOP: =
+6px; HEIGHT: 18px; TEXT-DECORATION: none
+}
+#forum {
+	BORDER-TOP: #000 4px solid; DISPLAY: block; FONT-WEIGHT: bold; FLOAT: =
+right; MARGIN-BOTTOM: 40px; WIDTH: 52px; MARGIN-RIGHT: 2px; PADDING-TOP: =
+6px; HEIGHT: 18px; TEXT-DECORATION: none
+}
+#about {
+	BORDER-TOP: #000 4px solid; DISPLAY: block; FONT-WEIGHT: bold; FLOAT: =
+right; MARGIN-BOTTOM: 40px; WIDTH: 52px; MARGIN-RIGHT: 2px; PADDING-TOP: =
+6px; HEIGHT: 18px; TEXT-DECORATION: none
+}
+#store {
+	MARGIN-RIGHT: 0px
+}
+#artic:hover {
+	COLOR: #fff
+}
+#desig:hover {
+	COLOR: #fff
+}
+#scrip:hover {
+	COLOR: #fff
+}
+#store:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #000
+}
+#forum:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #000
+}
+#about:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #000
+}
+#articsub {
+	DISPLAY: none; LIST-STYLE-TYPE: none
+}
+#desigsub {
+	DISPLAY: none; LIST-STYLE-TYPE: none
+}
+#scripsub {
+	DISPLAY: none; LIST-STYLE-TYPE: none
+}
+#articsub LI {
+	DISPLAY: block; WIDTH: 608px
+}
+#desigsub LI {
+	DISPLAY: block; WIDTH: 608px
+}
+#scripsub LI {
+	DISPLAY: block; WIDTH: 608px
+}
+#articsub A {
+	DISPLAY: block; FONT-WEIGHT: bold; LINE-HEIGHT: 25px; HEIGHT: 25px; =
+TEXT-DECORATION: none
+}
+#desigsub A {
+	DISPLAY: block; FONT-WEIGHT: bold; LINE-HEIGHT: 25px; HEIGHT: 25px; =
+TEXT-DECORATION: none
+}
+#scripsub A {
+	DISPLAY: block; FONT-WEIGHT: bold; LINE-HEIGHT: 25px; HEIGHT: 25px; =
+TEXT-DECORATION: none
+}
+#desigsub A {
+	PADDING-LEFT: 130px
+}
+#scripsub A {
+	PADDING-LEFT: 260px
+}
+#articsub A:hover {
+	COLOR: #fff
+}
+#desigsub A:hover {
+	COLOR: #fff
+}
+#scripsub A:hover {
+	COLOR: #fff
+}
+.mwhite {
+	BACKGROUND-COLOR: #eee
+}
+#left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: =
+40px; WIDTH: 390px; PADDING-TOP: 40px
+}
+OL {
+	LIST-STYLE-POSITION: outside; MARGIN: 5px 0px 18px 15px; =
+LIST-STYLE-TYPE: square
+}
+H1 {
+	FONT-SIZE: 20px; LINE-HEIGHT: 24px; BORDER-BOTTOM: 2px solid
+}
+#ttitle {
+	FONT-SIZE: 16px
+}
+#subtitle {
+	MARGIN-TOP: 2px; FONT-SIZE: 11px
+}
+#lead {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+H2 {
+	FONT-SIZE: 14px; PADDING-TOP: 25px
+}
+P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 15px
+}
+IMG {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+TABLE {
+	MARGIN-TOP: 5px; FONT-SIZE: 11px; MARGIN-BOTTOM: 15px
+}
+.bigimg {
+	MARGIN: 10px 30px 40px 0px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: =
+none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+#right {
+	PADDING-RIGHT: 0px; BORDER-TOP: #000 4px solid; PADDING-LEFT: 0px; =
+FLOAT: right; PADDING-BOTTOM: 30px; WIDTH: 160px; PADDING-TOP: 5px
+}
+#right2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: =
+30px; WIDTH: 160px; PADDING-TOP: 8px
+}
+#resultdiv OL {
+	MARGIN-TOP: 15px
+}
+#resultdiv P {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+#google {
+	MARGIN-TOP: 32px
+}
+#applian {
+	FONT-SIZE: 12px; MARGIN: 30px 0px
+}
+#posts {
+	CLEAR: both; PADDING-BOTTOM: 40px
+}
+.tgrey {
+	MARGIN: 10px 0px; CURSOR: pointer
+}
+.twhite {
+	MARGIN: 10px 0px; CURSOR: pointer
+}
+.tgrey A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 20px; FONT-WEIGHT: =
+bold; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 4px solid; =
+PADDING-TOP: 10px
+}
+.twhite A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 20px; FONT-WEIGHT: =
+bold; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 4px solid; =
+PADDING-TOP: 10px
+}
+.tgrey P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 11px; =
+PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: 4px solid; PADDING-TOP: =
+0px
+}
+.twhite P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 11px; =
+PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: 4px solid; PADDING-TOP: =
+0px
+}
+.tgrey {
+	BACKGROUND-COLOR: #eeeeee
+}
+.pgrey {
+	BACKGROUND-COLOR: #eeeeee
+}
+.pgrey {
+	MARGIN: 20px 0px
+}
+.pwhite {
+	MARGIN: 20px 0px
+}
+.pgrey P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; MARGIN: =
+0px; BORDER-LEFT: 4px solid; PADDING-TOP: 5px
+}
+.pwhite P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; MARGIN: =
+0px; BORDER-LEFT: 4px solid; PADDING-TOP: 5px
+}
+.pgrey IMG {
+	FLOAT: none
+}
+.pwhite IMG {
+	FLOAT: none
+}
+.tgrey IMG {
+	FLOAT: none
+}
+.twhite IMG {
+	FLOAT: none
+}
+EM {
+	DISPLAY: block; MARGIN: 10px 20px; COLOR: #444444; FONT-STYLE: italic
+}
+PRE {
+	FONT-SIZE: 12px; MARGIN: 10px 0px; LINE-HEIGHT: 16px; FONT-FAMILY: =
+monospace
+}
+CODE {
+	FONT-SIZE: 12px; MARGIN: 10px 0px; LINE-HEIGHT: 16px; FONT-FAMILY: =
+monospace
+}
+.alert {
+	FONT-WEIGHT: bold
+}
+LEGEND {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 24px
+}
+#reactfrm {
+	MARGIN-TOP: 40px
+}
+#reactfrm LEGEND {
+	PADDING-BOTTOM: 10px
+}
+INPUT {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #444 1px solid; MARGIN: 5px =
+0px; BORDER-LEFT: #444 1px solid; WIDTH: 57%; BORDER-BOTTOM: #bbb 1px =
+solid
+}
+SELECT {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #444 1px solid; MARGIN: 5px =
+0px; BORDER-LEFT: #444 1px solid; WIDTH: 57%; BORDER-BOTTOM: #bbb 1px =
+solid
+}
+TEXTAREA {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #444 1px solid; MARGIN: 5px =
+0px; BORDER-LEFT: #444 1px solid; WIDTH: 57%; BORDER-BOTTOM: #bbb 1px =
+solid
+}
+BUTTON {
+	BORDER-RIGHT: #444 1px solid; BORDER-TOP: #bbb 1px solid; MARGIN: 5px =
+0px; BORDER-LEFT: #bbb 1px solid; WIDTH: 57%; BORDER-BOTTOM: #444 1px =
+solid; BACKGROUND-COLOR: #ddd; TEXT-ALIGN: center
+}
+TEXTAREA {
+	WIDTH: 100%
+}
+#reactfrm IMG {
+	MARGIN: 2px; CURSOR: pointer
+}
+#bbcode {
+	MARGIN-TOP: 5px
+}
+#divider {
+	PADDING-LEFT: 10px
+}
+LABEL {
+	DISPLAY: block; FONT-SIZE: 11px; FLOAT: right; MARGIN: 7px 0px 0px; =
+WIDTH: 39%
+}
+#searchinput {
+	MARGIN-BOTTOM: 18px; WIDTH: 100%
+}
+FIELDSET P {
+	MARGIN: 10px 0px
+}
+FIELDSET H2 {
+	MARGIN-BOTTOM: 5px
+}
+#footer {
+	CLEAR: both; FONT-SIZE: 11px; PADDING-BOTTOM: 5px; WIDTH: 390px; =
+BORDER-BOTTOM: #000 4px solid
+}
+
+------=_NextPart_000_0000_01C7D638.2E60D8C0
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/embed/print.css
+
+BODY {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+DIV {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+FORM {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+FIELDSET {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+H1 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+H2 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+UL {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+OL {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+LEGEND {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+IMG {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+OBJECT {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-SIZE: 13px; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-TOP-STYLE: none; LINE-HEIGHT: =
+18px; PADDING-TOP: 0px; FONT-FAMILY: Arial, sans-serif; =
+BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: =
+none
+}
+A:hover {
+	COLOR: black
+}
+A:visited {
+	COLOR: #444444
+}
+BODY {
+	TEXT-ALIGN: center
+}
+#wrapper {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+auto; WIDTH: 610px; PADDING-TOP: 0px; BORDER-BOTTOM: black 2px solid; =
+BACKGROUND-COLOR: white; TEXT-ALIGN: left
+}
+#banner {
+	BORDER-RIGHT: black 2px solid; BORDER-TOP: black 1px solid; DISPLAY: =
+block; BORDER-LEFT: black 8px solid; BORDER-BOTTOM: black 1px solid
+}
+#banner IMG {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: none; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#banner OBJECT {
+	DISPLAY: none
+}
+#artic {
+	DISPLAY: none
+}
+#desig {
+	DISPLAY: none
+}
+#scrip {
+	DISPLAY: none
+}
+#forum {
+	DISPLAY: none
+}
+#about {
+	DISPLAY: none
+}
+#store {
+	DISPLAY: none
+}
+#articsub {
+	DISPLAY: none
+}
+#desigsub {
+	DISPLAY: none
+}
+#scripsub {
+	DISPLAY: none
+}
+#left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 40px; =
+PADDING-TOP: 40px
+}
+OL {
+	LIST-STYLE-POSITION: outside; MARGIN: 5px 0px 18px 15px; =
+LIST-STYLE-TYPE: square
+}
+H1 {
+	FONT-SIZE: 20px; LINE-HEIGHT: 24px; BORDER-BOTTOM: 2px solid
+}
+#ttitle {
+	FONT-SIZE: 16px
+}
+#subtitle {
+	MARGIN-TOP: 2px; FONT-SIZE: 11px
+}
+#lead {
+	FONT-WEIGHT: bold; FONT-STYLE: italic
+}
+H2 {
+	MARGIN-TOP: 30px; FONT-SIZE: 14px; MARGIN-BOTTOM: 0px
+}
+P {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 15px
+}
+IMG {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+TABLE {
+	MARGIN-TOP: 5px; FONT-SIZE: 11px; MARGIN-BOTTOM: 15px
+}
+.bigimg {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; MARGIN: =
+10px 0px 20px; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px =
+solid
+}
+#right {
+	DISPLAY: none
+}
+#right2 {
+	DISPLAY: none
+}
+.tgrey {
+	MARGIN: 10px 0px; CURSOR: pointer
+}
+.twhite {
+	MARGIN: 10px 0px; CURSOR: pointer
+}
+.tgrey A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 20px; FONT-WEIGHT: =
+bold; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 4px solid; =
+PADDING-TOP: 10px
+}
+.twhite A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 20px; FONT-WEIGHT: =
+bold; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 4px solid; =
+PADDING-TOP: 10px
+}
+.tgrey P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 11px; =
+PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: 4px solid; PADDING-TOP: =
+0px
+}
+.twhite P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 20px; FONT-SIZE: 11px; =
+PADDING-BOTTOM: 10px; MARGIN: 0px; BORDER-LEFT: 4px solid; PADDING-TOP: =
+0px
+}
+.tgrey {
+	BACKGROUND-COLOR: #eeeeee
+}
+.pgrey {
+	BACKGROUND-COLOR: #eeeeee
+}
+.pgrey {
+	MARGIN: 20px 0px
+}
+.pwhite {
+	MARGIN: 20px 0px
+}
+.pgrey P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; MARGIN: =
+0px; BORDER-LEFT: 4px solid; PADDING-TOP: 5px
+}
+.pwhite P {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; MARGIN: =
+0px; BORDER-LEFT: 4px solid; PADDING-TOP: 5px
+}
+.pgrey IMG {
+	FLOAT: none
+}
+.pwhite IMG {
+	FLOAT: none
+}
+.tgrey IMG {
+	FLOAT: none
+}
+.twhite IMG {
+	FLOAT: none
+}
+EM {
+	DISPLAY: block; MARGIN: 10px 20px; COLOR: #444444; FONT-STYLE: italic
+}
+CODE {
+	FONT-SIZE: 12px; MARGIN: 10px 0px; LINE-HEIGHT: 16px; FONT-FAMILY: =
+monospace
+}
+FORM {
+	DISPLAY: none
+}
+#pageurl {
+	CLEAR: both; DISPLAY: inline; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; =
+BORDER-BOTTOM: black 4px solid
+}
+#footer {
+	DISPLAY: none
+}
+
+------=_NextPart_000_0000_01C7D638.2E60D8C0
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.google-analytics.com/urchin.js
+
+//-- Google Analytics Urchin Module=0A=
+//-- Copyright 2007 Google, All Rights Reserved.=0A=
+=0A=
+//-- Urchin On Demand Settings ONLY=0A=
+var _uacct=3D"";			// set up the Urchin Account=0A=
+var _userv=3D1;			// service mode (0=3Dlocal,1=3Dremote,2=3Dboth)=0A=
+=0A=
+//-- UTM User Settings=0A=
+var _ufsc=3D1;			// set client info flag (1=3Don|0=3Doff)=0A=
+var _udn=3D"auto";		// (auto|none|domain) set the domain name for cookies=0A=
+var _uhash=3D"on";		// (on|off) unique domain hash for cookies=0A=
+var _utimeout=3D"1800";   	// set the inactive session timeout in seconds=0A=
+var _ugifpath=3D"/__utm.gif";	// set the web path to the __utm.gif file=0A=
+var _utsp=3D"|";			// transaction field separator=0A=
+var _uflash=3D1;			// set flash version detect option (1=3Don|0=3Doff)=0A=
+var _utitle=3D1;			// set the document title detect option =
+(1=3Don|0=3Doff)=0A=
+var _ulink=3D0;			// enable linker functionality (1=3Don|0=3Doff)=0A=
+var _uanchor=3D0;			// enable use of anchors for campaign =
+(1=3Don|0=3Doff)=0A=
+var _utcp=3D"/";			// the cookie path for tracking=0A=
+var _usample=3D100;		// The sampling % of visitors to track (1-100).=0A=
+=0A=
+//-- UTM Campaign Tracking Settings=0A=
+var _uctm=3D1;			// set campaign tracking module (1=3Don|0=3Doff)=0A=
+var _ucto=3D"15768000";		// set timeout in seconds (6 month default)=0A=
+var _uccn=3D"utm_campaign";	// name=0A=
+var _ucmd=3D"utm_medium";		// medium (cpc|cpm|link|email|organic)=0A=
+var _ucsr=3D"utm_source";		// source=0A=
+var _uctr=3D"utm_term";		// term/keyword=0A=
+var _ucct=3D"utm_content";	// content=0A=
+var _ucid=3D"utm_id";		// id number=0A=
+var _ucno=3D"utm_nooverride";	// don't override=0A=
+=0A=
+//-- Auto/Organic Sources and Keywords=0A=
+var _uOsr=3Dnew Array();=0A=
+var _uOkw=3Dnew Array();=0A=
+_uOsr[0]=3D"google";	_uOkw[0]=3D"q";=0A=
+_uOsr[1]=3D"yahoo";	_uOkw[1]=3D"p";=0A=
+_uOsr[2]=3D"msn";		_uOkw[2]=3D"q";=0A=
+_uOsr[3]=3D"aol";		_uOkw[3]=3D"query";=0A=
+_uOsr[4]=3D"aol";		_uOkw[4]=3D"encquery";=0A=
+_uOsr[5]=3D"lycos";	_uOkw[5]=3D"query";=0A=
+_uOsr[6]=3D"ask";		_uOkw[6]=3D"q";=0A=
+_uOsr[7]=3D"altavista";	_uOkw[7]=3D"q";=0A=
+_uOsr[8]=3D"netscape";	_uOkw[8]=3D"s";=0A=
+_uOsr[9]=3D"cnn";	_uOkw[9]=3D"query";=0A=
+_uOsr[10]=3D"looksmart";	_uOkw[10]=3D"qt";=0A=
+_uOsr[11]=3D"about";	_uOkw[11]=3D"terms";=0A=
+_uOsr[12]=3D"mamma";	_uOkw[12]=3D"query";=0A=
+_uOsr[13]=3D"alltheweb";	_uOkw[13]=3D"q";=0A=
+_uOsr[14]=3D"gigablast";	_uOkw[14]=3D"q";=0A=
+_uOsr[15]=3D"voila";	_uOkw[15]=3D"rdata";=0A=
+_uOsr[16]=3D"virgilio";	_uOkw[16]=3D"qs";=0A=
+_uOsr[17]=3D"live";	_uOkw[17]=3D"q";=0A=
+_uOsr[18]=3D"baidu";	_uOkw[18]=3D"wd";=0A=
+_uOsr[19]=3D"alice";	_uOkw[19]=3D"qs";=0A=
+_uOsr[20]=3D"seznam";	_uOkw[20]=3D"w";=0A=
+_uOsr[21]=3D"yandex";	_uOkw[21]=3D"text";=0A=
+_uOsr[22]=3D"najdi";	_uOkw[22]=3D"q";=0A=
+_uOsr[23]=3D"aol";	_uOkw[23]=3D"q";=0A=
+_uOsr[24]=3D"club-internet"; _uOkw[24]=3D"q";=0A=
+_uOsr[25]=3D"mama";	_uOkw[25]=3D"query";=0A=
+_uOsr[26]=3D"seznam";	_uOkw[26]=3D"q";=0A=
+_uOsr[27]=3D"search";	_uOkw[27]=3D"q";=0A=
+=0A=
+//-- Auto/Organic Keywords to Ignore=0A=
+var _uOno=3Dnew Array();=0A=
+//_uOno[0]=3D"urchin";=0A=
+//_uOno[1]=3D"urchin.com";=0A=
+//_uOno[2]=3D"www.urchin.com";=0A=
+=0A=
+//-- Referral domains to Ignore=0A=
+var _uRno=3Dnew Array();=0A=
+//_uRno[0]=3D".urchin.com";=0A=
+=0A=
+//-- **** Don't modify below this point ***=0A=
+var =
+_uff,_udh,_udt,_ubl=3D0,_udo=3D"",_uu,_ufns=3D0,_uns=3D0,_ur=3D"-",_ufno=3D=
+0,_ust=3D0,_ubd=3Ddocument,_udl=3D_ubd.location,_udlh=3D"",_uwv=3D"1";=0A=
+var _ugifpath2=3D"http://www.google-analytics.com/__utm.gif";=0A=
+if (_udl.hash) _udlh=3D_udl.href.substring(_udl.href.indexOf('#'));=0A=
+if (_udl.protocol=3D=3D"https:") =
+_ugifpath2=3D"https://ssl.google-analytics.com/__utm.gif";=0A=
+if (!_utcp || _utcp=3D=3D"") _utcp=3D"/";=0A=
+function urchinTracker(page) {=0A=
+ if (_udl.protocol=3D=3D"file:") return;=0A=
+ if (_uff && (!page || page=3D=3D"")) return;=0A=
+ var a,b,c,xx,v,z,k,x=3D"",s=3D"",f=3D0;=0A=
+ var nx=3D" expires=3DSun, 18 Jan 2038 00:00:00 GMT;";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ _udh=3D_uDomain();=0A=
+ if (!_uVG()) return;=0A=
+ _uu=3DMath.round(Math.random()*2147483647);=0A=
+ _udt=3Dnew Date();=0A=
+ _ust=3DMath.round(_udt.getTime()/1000);=0A=
+ a=3Ddc.indexOf("__utma=3D"+_udh);=0A=
+ b=3Ddc.indexOf("__utmb=3D"+_udh);=0A=
+ c=3Ddc.indexOf("__utmc=3D"+_udh);=0A=
+ if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ if (_utimeout && _utimeout!=3D"") {=0A=
+  x=3Dnew Date(_udt.getTime()+(_utimeout*1000));=0A=
+  x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ }=0A=
+ if (_ulink) {=0A=
+  if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+  s+=3D_udl.search;=0A=
+  if(s && s!=3D"" && s.indexOf("__utma=3D")>=3D0) {=0A=
+   if (!(_uIN(a=3D_uGC(s,"__utma=3D","&")))) a=3D"-";=0A=
+   if (!(_uIN(b=3D_uGC(s,"__utmb=3D","&")))) b=3D"-";=0A=
+   if (!(_uIN(c=3D_uGC(s,"__utmc=3D","&")))) c=3D"-";=0A=
+   v=3D_uGC(s,"__utmv=3D","&");=0A=
+   z=3D_uGC(s,"__utmz=3D","&");=0A=
+   k=3D_uGC(s,"__utmk=3D","&");=0A=
+   xx=3D_uGC(s,"__utmx=3D","&");=0A=
+   if ((k*1) !=3D ((_uHash(a+b+c+xx+z+v)*1)+(_udh*1))) =
+{_ubl=3D1;a=3D"-";b=3D"-";c=3D"-";xx=3D"-";z=3D"-";v=3D"-";}=0A=
+   if (a!=3D"-" && b!=3D"-" && c!=3D"-") f=3D1;=0A=
+   else if(a!=3D"-") f=3D2;=0A=
+  }=0A=
+ }=0A=
+ if(f=3D=3D1) {=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+b+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+c+"; path=3D"+_utcp+";"+_udo;=0A=
+ } else if (f=3D=3D2) {=0A=
+  a=3D_uFixA(s,"&",_ust);=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ } else if (a>=3D0 && b>=3D0 && c>=3D0) {=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+ } else {=0A=
+  if (a>=3D0) a=3D_uFixA(_ubd.cookie,";",_ust);=0A=
+  else a=3D_udh+"."+_uu+"."+_ust+"."+_ust+"."+_ust+".1";=0A=
+  _ubd.cookie=3D"__utma=3D"+a+"; path=3D"+_utcp+";"+nx+_udo;=0A=
+  _ubd.cookie=3D"__utmb=3D"+_udh+"; path=3D"+_utcp+";"+x+_udo;=0A=
+  _ubd.cookie=3D"__utmc=3D"+_udh+"; path=3D"+_utcp+";"+_udo;=0A=
+  _ufns=3D1;=0A=
+ }=0A=
+ if (_ulink && xx && xx!=3D"" && xx!=3D"-") {=0A=
+   xx=3D_uUES(xx);=0A=
+   if (xx.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmx=3D"+xx+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ if (_ulink && v && v!=3D"" && v!=3D"-") {=0A=
+  v=3D_uUES(v);=0A=
+  if (v.indexOf(";")=3D=3D-1) _ubd.cookie=3D"__utmv=3D"+v+"; =
+path=3D"+_utcp+";"+nx+_udo;=0A=
+ }=0A=
+ _uInfo(page);=0A=
+ _ufns=3D0;=0A=
+ _ufno=3D0;=0A=
+ if (!page || page=3D=3D"") _uff=3D1;=0A=
+}=0A=
+function _uInfo(page) {=0A=
+ var p,s=3D"",dm=3D"",pg=3D_udl.pathname+_udl.search;=0A=
+ if (page && page!=3D"") pg=3D_uES(page,1);=0A=
+ _ur=3D_ubd.referrer;=0A=
+ if (!_ur || _ur=3D=3D"") { _ur=3D"-"; }=0A=
+ else {=0A=
+  dm=3D_ubd.domain;=0A=
+  if(_utcp && _utcp!=3D"/") dm+=3D_utcp;=0A=
+  p=3D_ur.indexOf(dm);=0A=
+  if ((p>=3D0) && (p<=3D8)) { _ur=3D"0"; }=0A=
+  if (_ur.indexOf("[")=3D=3D0 && =
+_ur.lastIndexOf("]")=3D=3D(_ur.length-1)) { _ur=3D"-"; }=0A=
+ }=0A=
+ s+=3D"&utmn=3D"+_uu;=0A=
+ if (_ufsc) s+=3D_uBInfo();=0A=
+ if (_uctm) s+=3D_uCInfo();=0A=
+ if (_utitle && _ubd.title && _ubd.title!=3D"") =
+s+=3D"&utmdt=3D"+_uES(_ubd.title);=0A=
+ if (_udl.hostname && _udl.hostname!=3D"") =
+s+=3D"&utmhn=3D"+_uES(_udl.hostname);=0A=
+ s+=3D"&utmr=3D"+_ur;=0A=
+ s+=3D"&utmp=3D"+pg;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() {_uVoid();}=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uVoid() { return; }=0A=
+function _uCInfo() {=0A=
+ if (!_ucto || _ucto=3D=3D"") { _ucto=3D"15768000"; }=0A=
+ if (!_uVG()) return;=0A=
+ var =
+c=3D"",t=3D"-",t2=3D"-",t3=3D"-",o=3D0,cs=3D0,cn=3D0,i=3D0,z=3D"-",s=3D""=
+;=0A=
+ if (_uanchor && _udlh && _udlh!=3D"") s=3D_udlh+"&";=0A=
+ s+=3D_udl.search;=0A=
+ var x=3Dnew Date(_udt.getTime()+(_ucto*1000));=0A=
+ var dc=3D_ubd.cookie;=0A=
+ x=3D" expires=3D"+x.toGMTString()+";";=0A=
+ if (_ulink && !_ubl) {=0A=
+  z=3D_uUES(_uGC(s,"__utmz=3D","&"));=0A=
+  if (z!=3D"-" && z.indexOf(";")=3D=3D-1) { =
+_ubd.cookie=3D"__utmz=3D"+z+"; path=3D"+_utcp+";"+x+_udo; return ""; }=0A=
+ }=0A=
+ z=3Ddc.indexOf("__utmz=3D"+_udh);=0A=
+ if (z>-1) { z=3D_uGC(dc,"__utmz=3D"+_udh,";"); }=0A=
+ else { z=3D"-"; }=0A=
+ t=3D_uGC(s,_ucid+"=3D","&");=0A=
+ t2=3D_uGC(s,_ucsr+"=3D","&");=0A=
+ t3=3D_uGC(s,"gclid=3D","&");=0A=
+ if ((t!=3D"-" && t!=3D"") || (t2!=3D"-" && t2!=3D"") || (t3!=3D"-" && =
+t3!=3D"")) {=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"utmcid=3D"+_uEC(t);=0A=
+  if (t2!=3D"-" && t2!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmcsr=3D"+_uEC(t2); }=0A=
+  if (t3!=3D"-" && t3!=3D"") { if (c !=3D "") c+=3D"|"; =
+c+=3D"utmgclid=3D"+_uEC(t3); }=0A=
+  t=3D_uGC(s,_uccn+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmccn=3D"+_uEC(t);=0A=
+  else c+=3D"|utmccn=3D(not+set)";=0A=
+  t=3D_uGC(s,_ucmd+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcmd=3D"+_uEC(t);=0A=
+  else  c+=3D"|utmcmd=3D(not+set)";=0A=
+  t=3D_uGC(s,_uctr+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmctr=3D"+_uEC(t);=0A=
+  else { t=3D_uOrg(1); if (t!=3D"-" && t!=3D"") =
+c+=3D"|utmctr=3D"+_uEC(t); }=0A=
+  t=3D_uGC(s,_ucct+"=3D","&");=0A=
+  if (t!=3D"-" && t!=3D"") c+=3D"|utmcct=3D"+_uEC(t);=0A=
+  t=3D_uGC(s,_ucno+"=3D","&");=0A=
+  if (t=3D=3D"1") o=3D1;=0A=
+  if (z!=3D"-" && o=3D=3D1) return "";=0A=
+ }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { c=3D_uOrg(); if (z!=3D"-" && =
+_ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") { if (_ufns=3D=3D1)  c=3D_uRef(); if =
+(z!=3D"-" && _ufno=3D=3D1)  return ""; }=0A=
+ if (c=3D=3D"-" || c=3D=3D"") {=0A=
+  if (z=3D=3D"-" && _ufns=3D=3D1) { =
+c=3D"utmccn=3D(direct)|utmcsr=3D(direct)|utmcmd=3D(none)"; }=0A=
+  if (c=3D=3D"-" || c=3D=3D"") return "";=0A=
+ }=0A=
+ if (z!=3D"-") {=0A=
+  i=3Dz.indexOf(".");=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  if (i>-1) i=3Dz.indexOf(".",i+1);=0A=
+  t=3Dz.substring(i+1,z.length);=0A=
+  if (t.toLowerCase()=3D=3Dc.toLowerCase()) cs=3D1;=0A=
+  t=3Dz.substring(0,i);=0A=
+  if ((i=3Dt.lastIndexOf(".")) > -1) {=0A=
+   t=3Dt.substring(i+1,t.length);=0A=
+   cn=3D(t*1);=0A=
+  }=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) {=0A=
+  t=3D_uGC(dc,"__utma=3D"+_udh,";");=0A=
+  if ((i=3Dt.lastIndexOf(".")) > 9) {=0A=
+   _uns=3Dt.substring(i+1,t.length);=0A=
+   _uns=3D(_uns*1);=0A=
+  }=0A=
+  cn++;=0A=
+  if (_uns=3D=3D0) _uns=3D1;=0A=
+  _ubd.cookie=3D"__utmz=3D"+_udh+"."+_ust+"."+_uns+"."+cn+"."+c+"; =
+path=3D"+_utcp+"; "+x+_udo;=0A=
+ }=0A=
+ if (cs=3D=3D0 || _ufns=3D=3D1) return "&utmcn=3D1";=0A=
+ else return "&utmcr=3D1";=0A=
+}=0A=
+function _uRef() {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k,n;=0A=
+ if ((i=3D_ur.indexOf("://"))<0) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  k=3Dh.substring(h.indexOf("/"),h.length);=0A=
+  if (k.indexOf("?") > -1) k=3Dk.substring(0,k.indexOf("?"));=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ h=3Dh.toLowerCase();=0A=
+ n=3Dh;=0A=
+ if ((i=3Dn.indexOf(":")) > -1) n=3Dn.substring(0,i);=0A=
+ for (var ii=3D0;ii<_uRno.length;ii++) {=0A=
+  if ((i=3Dn.indexOf(_uRno[ii].toLowerCase())) > -1 && =
+n.length=3D=3D(i+_uRno[ii].length)) { _ufno=3D1; break; }=0A=
+ }=0A=
+ if (h.indexOf("www.")=3D=3D0) h=3Dh.substring(4,h.length);=0A=
+ return =
+"utmccn=3D(referral)|utmcsr=3D"+_uEC(h)+"|"+"utmcct=3D"+_uEC(k)+"|utmcmd=3D=
+referral";=0A=
+}=0A=
+function _uOrg(t) {=0A=
+ if (_ur=3D=3D"0" || _ur=3D=3D"" || _ur=3D=3D"-") return "";=0A=
+ var i=3D0,h,k;=0A=
+ if ((i=3D_ur.indexOf("://")) < 0) return "";=0A=
+ h=3D_ur.substring(i+3,_ur.length);=0A=
+ if (h.indexOf("/") > -1) {=0A=
+  h=3Dh.substring(0,h.indexOf("/"));=0A=
+ }=0A=
+ for (var ii=3D0;ii<_uOsr.length;ii++) {=0A=
+  if (h.toLowerCase().indexOf(_uOsr[ii].toLowerCase()) > -1) {=0A=
+   if ((i=3D_ur.indexOf("?"+_uOkw[ii]+"=3D")) > -1 || =
+(i=3D_ur.indexOf("&"+_uOkw[ii]+"=3D")) > -1) {=0A=
+    k=3D_ur.substring(i+_uOkw[ii].length+2,_ur.length);=0A=
+    if ((i=3Dk.indexOf("&")) > -1) k=3Dk.substring(0,i);=0A=
+    for (var yy=3D0;yy<_uOno.length;yy++) {=0A=
+     if (_uOno[yy].toLowerCase()=3D=3Dk.toLowerCase()) { _ufno=3D1; =
+break; }=0A=
+    }=0A=
+    if (t) return _uEC(k);=0A=
+    else return =
+"utmccn=3D(organic)|utmcsr=3D"+_uEC(_uOsr[ii])+"|"+"utmctr=3D"+_uEC(k)+"|=
+utmcmd=3Dorganic";=0A=
+   }=0A=
+  }=0A=
+ }=0A=
+ return "";=0A=
+}=0A=
+function _uBInfo() {=0A=
+ var sr=3D"-",sc=3D"-",ul=3D"-",fl=3D"-",cs=3D"-",je=3D1;=0A=
+ var n=3Dnavigator;=0A=
+ if (self.screen) {=0A=
+  sr=3Dscreen.width+"x"+screen.height;=0A=
+  sc=3Dscreen.colorDepth+"-bit";=0A=
+ } else if (self.java) {=0A=
+  var j=3Djava.awt.Toolkit.getDefaultToolkit();=0A=
+  var s=3Dj.getScreenSize();=0A=
+  sr=3Ds.width+"x"+s.height;=0A=
+ }=0A=
+ if (n.language) { ul=3Dn.language.toLowerCase(); }=0A=
+ else if (n.browserLanguage) { ul=3Dn.browserLanguage.toLowerCase(); }=0A=
+ je=3Dn.javaEnabled()?1:0;=0A=
+ if (_uflash) fl=3D_uFlash();=0A=
+ if (_ubd.characterSet) cs=3D_uES(_ubd.characterSet);=0A=
+ else if (_ubd.charset) cs=3D_uES(_ubd.charset);=0A=
+ return =
+"&utmcs=3D"+cs+"&utmsr=3D"+sr+"&utmsc=3D"+sc+"&utmul=3D"+ul+"&utmje=3D"+j=
+e+"&utmfl=3D"+fl;=0A=
+}=0A=
+function __utmSetTrans() {=0A=
+ var e;=0A=
+ if (_ubd.getElementById) e=3D_ubd.getElementById("utmtrans");=0A=
+ else if (_ubd.utmform && _ubd.utmform.utmtrans) =
+e=3D_ubd.utmform.utmtrans;=0A=
+ if (!e) return;=0A=
+ var l=3De.value.split("UTM:");=0A=
+ var i,i2,c;=0A=
+ if (_userv=3D=3D0 || _userv=3D=3D2) i=3Dnew Array();=0A=
+ if (_userv=3D=3D1 || _userv=3D=3D2) { i2=3Dnew Array(); c=3D_uGCS(); }=0A=
+=0A=
+ for (var ii=3D0;ii<l.length;ii++) {=0A=
+  l[ii]=3D_uTrim(l[ii]);=0A=
+  if (l[ii].charAt(0)!=3D'T' && l[ii].charAt(0)!=3D'I') continue;=0A=
+  var r=3DMath.round(Math.random()*2147483647);=0A=
+  if (!_utsp || _utsp=3D=3D"") _utsp=3D"|";=0A=
+  var f=3Dl[ii].split(_utsp),s=3D"";=0A=
+  if (f[0].charAt(0)=3D=3D'T') {=0A=
+   s=3D"&utmt=3Dtran"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmtst=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmtto=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmttx=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmtsp=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmtci=3D"+_uES(f[6]);=0A=
+   f[7]=3D_uTrim(f[7]); if(f[7]&&f[7]!=3D"") =
+s+=3D"&utmtrg=3D"+_uES(f[7]);=0A=
+   f[8]=3D_uTrim(f[8]); if(f[8]&&f[8]!=3D"") =
+s+=3D"&utmtco=3D"+_uES(f[8]);=0A=
+  } else {=0A=
+   s=3D"&utmt=3Ditem"+"&utmn=3D"+r;=0A=
+   f[1]=3D_uTrim(f[1]); if(f[1]&&f[1]!=3D"") =
+s+=3D"&utmtid=3D"+_uES(f[1]);=0A=
+   f[2]=3D_uTrim(f[2]); if(f[2]&&f[2]!=3D"") =
+s+=3D"&utmipc=3D"+_uES(f[2]);=0A=
+   f[3]=3D_uTrim(f[3]); if(f[3]&&f[3]!=3D"") =
+s+=3D"&utmipn=3D"+_uES(f[3]);=0A=
+   f[4]=3D_uTrim(f[4]); if(f[4]&&f[4]!=3D"") =
+s+=3D"&utmiva=3D"+_uES(f[4]);=0A=
+   f[5]=3D_uTrim(f[5]); if(f[5]&&f[5]!=3D"") =
+s+=3D"&utmipr=3D"+_uES(f[5]);=0A=
+   f[6]=3D_uTrim(f[6]); if(f[6]&&f[6]!=3D"") =
+s+=3D"&utmiqt=3D"+_uES(f[6]);=0A=
+  }=0A=
+  if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+   i[ii]=3Dnew Image(1,1);=0A=
+   i[ii].src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+   i[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+  if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+   i2[ii]=3Dnew Image(1,1);=0A=
+   =
+i2[ii].src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D=
+"+c;=0A=
+   i2[ii].onload=3Dfunction() { _uVoid(); }=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function _uFlash() {=0A=
+ var f=3D"-",n=3Dnavigator;=0A=
+ if (n.plugins && n.plugins.length) {=0A=
+  for (var ii=3D0;ii<n.plugins.length;ii++) {=0A=
+   if (n.plugins[ii].name.indexOf('Shockwave Flash')!=3D-1) {=0A=
+    f=3Dn.plugins[ii].description.split('Shockwave Flash ')[1];=0A=
+    break;=0A=
+   }=0A=
+  }=0A=
+ } else if (window.ActiveXObject) {=0A=
+  for (var ii=3D10;ii>=3D2;ii--) {=0A=
+   try {=0A=
+    var fl=3Deval("new =
+ActiveXObject('ShockwaveFlash.ShockwaveFlash."+ii+"');");=0A=
+    if (fl) { f=3Dii + '.0'; break; }=0A=
+   }=0A=
+   catch(e) {}=0A=
+  }=0A=
+ }=0A=
+ return f;=0A=
+}=0A=
+function __utmLinker(l,h) {=0A=
+ if (!_ulink) return;=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ if (!l || l=3D=3D"") return;=0A=
+ var iq =3D l.indexOf("?"); =0A=
+ var ih =3D l.indexOf("#"); =0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh,";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh,";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh,";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { _udl.href=3Dl+"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) _udl.href=3Dl+"?"+p;=0A=
+   else if (ih=3D=3D-1) _udl.href=3Dl+"&"+p;=0A=
+   else if (iq=3D=3D-1) =
+_udl.href=3Dl.substring(0,ih-1)+"?"+p+l.substring(ih);=0A=
+   else _udl.href=3Dl.substring(0,ih-1)+"&"+p+l.substring(ih);=0A=
+  }=0A=
+ } else { _udl.href=3Dl; }=0A=
+}=0A=
+function __utmLinkPost(f,h) {=0A=
+ if (!_ulink) return;=0A=
+ var p,k,a=3D"-",b=3D"-",c=3D"-",x=3D"-",z=3D"-",v=3D"-";=0A=
+ var dc=3D_ubd.cookie;=0A=
+ if (!f || !f.action) return;=0A=
+ var iq =3D f.action.indexOf("?"); =0A=
+ var ih =3D f.action.indexOf("#"); =0A=
+ if (dc) {=0A=
+  a=3D_uES(_uGC(dc,"__utma=3D"+_udh,";"));=0A=
+  b=3D_uES(_uGC(dc,"__utmb=3D"+_udh,";"));=0A=
+  c=3D_uES(_uGC(dc,"__utmc=3D"+_udh,";"));=0A=
+  x=3D_uES(_uGC(dc,"__utmx=3D"+_udh,";"));=0A=
+  z=3D_uES(_uGC(dc,"__utmz=3D"+_udh,";"));=0A=
+  v=3D_uES(_uGC(dc,"__utmv=3D"+_udh,";"));=0A=
+  k=3D(_uHash(a+b+c+x+z+v)*1)+(_udh*1);=0A=
+  =
+p=3D"__utma=3D"+a+"&__utmb=3D"+b+"&__utmc=3D"+c+"&__utmx=3D"+x+"&__utmz=3D=
+"+z+"&__utmv=3D"+v+"&__utmk=3D"+k;=0A=
+ }=0A=
+ if (p) {=0A=
+  if (h && ih>-1) return;=0A=
+  if (h) { f.action+=3D"#"+p; }=0A=
+  else {=0A=
+   if (iq=3D=3D-1 && ih=3D=3D-1) f.action+=3D"?"+p;=0A=
+   else if (ih=3D=3D-1) f.action+=3D"&"+p;=0A=
+   else if (iq=3D=3D-1) =
+f.action=3Df.action.substring(0,ih-1)+"?"+p+f.action.substring(ih);=0A=
+   else =
+f.action=3Df.action.substring(0,ih-1)+"&"+p+f.action.substring(ih);=0A=
+  }=0A=
+ }=0A=
+ return;=0A=
+}=0A=
+function __utmSetVar(v) {=0A=
+ if (!v || v=3D=3D"") return;=0A=
+ if (!_udo || _udo =3D=3D "") {=0A=
+  _udh=3D_uDomain();=0A=
+  if (_udn && _udn!=3D"") { _udo=3D" domain=3D"+_udn+";"; }=0A=
+ }=0A=
+ if (!_uVG()) return;=0A=
+ var r=3DMath.round(Math.random() * 2147483647);=0A=
+ _ubd.cookie=3D"__utmv=3D"+_udh+"."+_uES(v)+"; path=3D"+_utcp+"; =
+expires=3DSun, 18 Jan 2038 00:00:00 GMT;"+_udo;=0A=
+ var s=3D"&utmt=3Dvar&utmn=3D"+r;=0A=
+ if ((_userv=3D=3D0 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i=3Dnew Image(1,1);=0A=
+  i.src=3D_ugifpath+"?"+"utmwv=3D"+_uwv+s;=0A=
+  i.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+ if ((_userv=3D=3D1 || _userv=3D=3D2) && _uSP()) {=0A=
+  var i2=3Dnew Image(1,1);=0A=
+  =
+i2.src=3D_ugifpath2+"?"+"utmwv=3D"+_uwv+s+"&utmac=3D"+_uacct+"&utmcc=3D"+=
+_uGCS();=0A=
+  i2.onload=3Dfunction() { _uVoid(); }=0A=
+ }=0A=
+}=0A=
+function _uGCS() {=0A=
+ var t,c=3D"",dc=3D_ubd.cookie;=0A=
+ if ((t=3D_uGC(dc,"__utma=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utma=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmb=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmb=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmc=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmc=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmx=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmx=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmz=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmz=3D"+t+";+");=0A=
+ if ((t=3D_uGC(dc,"__utmv=3D"+_udh,";"))!=3D"-") =
+c+=3D_uES("__utmv=3D"+t+";");=0A=
+ if (c.charAt(c.length-1)=3D=3D"+") c=3Dc.substring(0,c.length-1);=0A=
+ return c;=0A=
+}=0A=
+function _uGC(l,n,s) {=0A=
+ if (!l || l=3D=3D"" || !n || n=3D=3D"" || !s || s=3D=3D"") return "-";=0A=
+ var i,i2,i3,c=3D"-";=0A=
+ i=3Dl.indexOf(n);=0A=
+ i3=3Dn.indexOf("=3D")+1;=0A=
+ if (i > -1) {=0A=
+  i2=3Dl.indexOf(s,i); if (i2 < 0) { i2=3Dl.length; }=0A=
+  c=3Dl.substring((i+i3),i2);=0A=
+ }=0A=
+ return c;=0A=
+}=0A=
+function _uDomain() {=0A=
+ if (!_udn || _udn=3D=3D"" || _udn=3D=3D"none") { _udn=3D""; return 1; }=0A=
+ if (_udn=3D=3D"auto") {=0A=
+  var d=3D_ubd.domain;=0A=
+  if (d.substring(0,4)=3D=3D"www.") {=0A=
+   d=3Dd.substring(4,d.length);=0A=
+  }=0A=
+  _udn=3Dd;=0A=
+ }=0A=
+ if (_uhash=3D=3D"off") return 1;=0A=
+ return _uHash(_udn);=0A=
+}=0A=
+function _uHash(d) {=0A=
+ if (!d || d=3D=3D"") return 1;=0A=
+ var h=3D0,g=3D0;=0A=
+ for (var i=3Dd.length-1;i>=3D0;i--) {=0A=
+  var c=3DparseInt(d.charCodeAt(i));=0A=
+  h=3D((h << 6) & 0xfffffff) + c + (c << 14);=0A=
+  if ((g=3Dh & 0xfe00000)!=3D0) h=3D(h ^ (g >> 21));=0A=
+ }=0A=
+ return h;=0A=
+}=0A=
+function _uFixA(c,s,t) {=0A=
+ if (!c || c=3D=3D"" || !s || s=3D=3D"" || !t || t=3D=3D"") return "-";=0A=
+ var a=3D_uGC(c,"__utma=3D"+_udh,s);=0A=
+ var lt=3D0,i=3D0;=0A=
+ if ((i=3Da.lastIndexOf(".")) > 9) {=0A=
+  _uns=3Da.substring(i+1,a.length);=0A=
+  _uns=3D(_uns*1)+1;=0A=
+  a=3Da.substring(0,i);=0A=
+  if ((i=3Da.lastIndexOf(".")) > 7) {=0A=
+   lt=3Da.substring(i+1,a.length);=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  if ((i=3Da.lastIndexOf(".")) > 5) {=0A=
+   a=3Da.substring(0,i);=0A=
+  }=0A=
+  a+=3D"."+lt+"."+t+"."+_uns;=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+function _uTrim(s) {=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  while ((s.charAt(0)=3D=3D' ') || (s.charAt(0)=3D=3D'\n') || =
+(s.charAt(0,1)=3D=3D'\r')) s=3Ds.substring(1,s.length);=0A=
+  while ((s.charAt(s.length-1)=3D=3D' ') || =
+(s.charAt(s.length-1)=3D=3D'\n') || (s.charAt(s.length-1)=3D=3D'\r')) =
+s=3Ds.substring(0,s.length-1);=0A=
+  return s;=0A=
+}=0A=
+function _uEC(s) {=0A=
+  var n=3D"";=0A=
+  if (!s || s=3D=3D"") return "";=0A=
+  for (var i=3D0;i<s.length;i++) {if (s.charAt(i)=3D=3D" ") n+=3D"+"; =
+else n+=3Ds.charAt(i);}=0A=
+  return n;=0A=
+}=0A=
+function __utmVisitorCode(f) {=0A=
+ var r=3D0,t=3D0,i=3D0,i2=3D0,m=3D31;=0A=
+ var a=3D_uGC(_ubd.cookie,"__utma=3D"+_udh,";");=0A=
+ if ((i=3Da.indexOf(".",0))<0) return;=0A=
+ if ((i2=3Da.indexOf(".",i+1))>0) r=3Da.substring(i+1,i2); else return =
+"";  =0A=
+ if ((i=3Da.indexOf(".",i2+1))>0) t=3Da.substring(i2+1,i); else return =
+"";  =0A=
+ if (f) {=0A=
+  return r;=0A=
+ } else {=0A=
+  var c=3Dnew =
+Array('A','B','C','D','E','F','G','H','J','K','L','M','N','P','R','S','T'=
+,'U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9');=0A=
+  return =
+c[r>>28&m]+c[r>>23&m]+c[r>>18&m]+c[r>>13&m]+"-"+c[r>>8&m]+c[r>>3&m]+c[((r=
+&7)<<2)+(t>>30&3)]+c[t>>25&m]+c[t>>20&m]+"-"+c[t>>15&m]+c[t>>10&m]+c[t>>5=
+&m]+c[t&m];=0A=
+ }=0A=
+}=0A=
+function _uIN(n) {=0A=
+ if (!n) return false;=0A=
+ for (var i=3D0;i<n.length;i++) {=0A=
+  var c=3Dn.charAt(i);=0A=
+  if ((c<"0" || c>"9") && (c!=3D".")) return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uES(s,u) {=0A=
+ if (typeof(encodeURIComponent) =3D=3D 'function') {=0A=
+  if (u) return encodeURI(s);=0A=
+  else return encodeURIComponent(s);=0A=
+ } else {=0A=
+  return escape(s);=0A=
+ }=0A=
+}=0A=
+function _uUES(s) {=0A=
+ if (typeof(decodeURIComponent) =3D=3D 'function') {=0A=
+  return decodeURIComponent(s);=0A=
+ } else {=0A=
+  return unescape(s);=0A=
+ }=0A=
+}=0A=
+function _uVG() {=0A=
+ if((_udn.indexOf("www.google.") =3D=3D 0 || _udn.indexOf(".google.") =
+=3D=3D 0 || _udn.indexOf("google.") =3D=3D 0) && _utcp=3D=3D'/') {=0A=
+  return false;=0A=
+ }=0A=
+ return true;=0A=
+}=0A=
+function _uSP() {=0A=
+ var s=3D100;=0A=
+ if (_usample) s=3D_usample;=0A=
+ if(s>=3D100 || s<=3D0) return true;=0A=
+ return ((__utmVisitorCode(1)%10000)<(s*100));=0A=
+}=0A=
+function urchinPathCopy(p){=0A=
+ var d=3Ddocument,nx,tx,sx,i,c,cs,t,h,o;=0A=
+ cs=3Dnew Array("a","b","c","v","x","z");=0A=
+ h=3D_uDomain(); if (_udn && _udn!=3D"") o=3D" domain=3D"+_udn+";";=0A=
+ nx=3D"Sun, 18 Jan 2038 00:00:00 GMT;";=0A=
+ tx=3Dnew Date(); tx.setTime(tx.getTime()+(_utimeout*1000));=0A=
+ tx=3Dtx.toGMTString()+";";=0A=
+ sx=3Dnew Date(); sx.setTime(sx.getTime()+(_ucto*1000));=0A=
+ sx=3Dsx.toGMTString()+";";=0A=
+ for (i=3D0;i<6;i++){=0A=
+  t=3D" expires=3D";=0A=
+  if (i=3D=3D1) t+=3Dtx; else if (i=3D=3D2) t=3D""; else if (i=3D=3D5) =
+t+=3Dsx; else t+=3Dnx;=0A=
+  c=3D_uGC(d.cookie,"__utm"+cs[i]+"=3D"+h,";");=0A=
+  if (c!=3D"-") d.cookie=3D"__utm"+cs[i]+"=3D"+c+"; path=3D"+p+";"+t+o;=0A=
+ }=0A=
+}=0A=
+function _uCO() {=0A=
+ if (!_utk || _utk=3D=3D"" || _utk.length<10) return;=0A=
+ var d=3D'www.google.com';=0A=
+ if (_utk.charAt(0)=3D=3D'!') d=3D'analytics.corp.google.com';=0A=
+ _ubd.cookie=3D"GASO=3D"+_utk+"; path=3D"+_utcp+";"+_udo;=0A=
+ var sc=3Ddocument.createElement('script');=0A=
+ sc.type=3D'text/javascript';=0A=
+ sc.id=3D"_gasojs";=0A=
+ =
+sc.src=3D'https://'+d+'/analytics/reporting/overlay_js?gaso=3D'+_utk+'&'+=
+Math.random();=0A=
+ document.getElementsByTagName('head')[0].appendChild(sc);  =0A=
+}=0A=
+function _uGT() {=0A=
+ var h=3Dlocation.hash, a;=0A=
+ if (h && h!=3D"" && h.indexOf("#gaso=3D")=3D=3D0) {=0A=
+  a=3D_uGC(h,"gaso=3D","&");=0A=
+ } else {=0A=
+  a=3D_uGC(_ubd.cookie,"GASO=3D",";");=0A=
+ }=0A=
+ return a;=0A=
+}=0A=
+var _utk=3D_uGT();=0A=
+if (_utk && _utk!=3D"" && _utk.length>10) {=0A=
+ if (window.addEventListener) {=0A=
+  window.addEventListener('load', _uCO, false); =0A=
+ } else if (window.attachEvent) { =0A=
+  window.attachEvent('onload', _uCO);=0A=
+ }=0A=
+}=0A=
+
+------=_NextPart_000_0000_01C7D638.2E60D8C0
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/embed/swfobject.js
+
+/**=0A=
+ * SWFObject v2.0: Flash Player detection and embed - =
+http://blog.deconcept.com/swfobject/=0A=
+ *=0A=
+ * SWFObject is (c) 2006 Geoff Stearns and is released under the MIT =
+License:=0A=
+ * http://www.opensource.org/licenses/mit-license.php=0A=
+ *=0A=
+ */=0A=
+if(typeof deconcept =3D=3D "undefined") var deconcept =3D new Object();=0A=
+if(typeof deconcept.util =3D=3D "undefined") deconcept.util =3D new =
+Object();=0A=
+if(typeof deconcept.SWFObjectUtil =3D=3D "undefined") =
+deconcept.SWFObjectUtil =3D new Object();=0A=
+deconcept.SWFObject =3D function(swf, id, w, h, ver, c, quality, =
+xiRedirectUrl, redirectUrl, detectKey) {=0A=
+	if (!document.getElementById) { return; }=0A=
+	this.DETECT_KEY =3D detectKey ? detectKey : 'detectflash';=0A=
+	this.skipDetect =3D deconcept.util.getRequestParameter(this.DETECT_KEY);=0A=
+	this.params =3D new Object();=0A=
+	this.variables =3D new Object();=0A=
+	this.attributes =3D new Array();=0A=
+	if(swf) { this.setAttribute('swf', swf); }=0A=
+	if(id) { this.setAttribute('id', id); }=0A=
+	if(w) { this.setAttribute('width', w); }=0A=
+	if(h) { this.setAttribute('height', h); }=0A=
+	if(ver) { this.setAttribute('version', new =
+deconcept.PlayerVersion(ver.toString().split("."))); }=0A=
+	this.installedVer =3D deconcept.SWFObjectUtil.getPlayerVersion();=0A=
+	if (!window.opera && document.all && this.installedVer.major > 7) {=0A=
+		// only add the onunload cleanup if the Flash Player version supports =
+External Interface and we are in IE=0A=
+		deconcept.SWFObject.doPrepUnload =3D true;=0A=
+	}=0A=
+	if(c) { this.addParam('bgcolor', c); }=0A=
+	var q =3D quality ? quality : 'high';=0A=
+	this.addParam('quality', q);=0A=
+	this.setAttribute('useExpressInstall', false);=0A=
+	this.setAttribute('doExpressInstall', false);=0A=
+	var xir =3D (xiRedirectUrl) ? xiRedirectUrl : window.location;=0A=
+	this.setAttribute('xiRedirectUrl', xir);=0A=
+	this.setAttribute('redirectUrl', '');=0A=
+	if(redirectUrl) { this.setAttribute('redirectUrl', redirectUrl); }=0A=
+}=0A=
+deconcept.SWFObject.prototype =3D {=0A=
+	useExpressInstall: function(path) {=0A=
+		this.xiSWFPath =3D !path ? "expressinstall.swf" : path;=0A=
+		this.setAttribute('useExpressInstall', true);=0A=
+	},=0A=
+	setAttribute: function(name, value){=0A=
+		this.attributes[name] =3D value;=0A=
+	},=0A=
+	getAttribute: function(name){=0A=
+		return this.attributes[name];=0A=
+	},=0A=
+	addParam: function(name, value){=0A=
+		this.params[name] =3D value;=0A=
+	},=0A=
+	getParams: function(){=0A=
+		return this.params;=0A=
+	},=0A=
+	addVariable: function(name, value){=0A=
+		this.variables[name] =3D value;=0A=
+	},=0A=
+	getVariable: function(name){=0A=
+		return this.variables[name];=0A=
+	},=0A=
+	getVariables: function(){=0A=
+		return this.variables;=0A=
+	},=0A=
+	getVariablePairs: function(){=0A=
+		var variablePairs =3D new Array();=0A=
+		var key;=0A=
+		var variables =3D this.getVariables();=0A=
+		for(key in variables){=0A=
+			variablePairs.push(key +"=3D"+ variables[key]);=0A=
+		}=0A=
+		return variablePairs;=0A=
+	},=0A=
+	getSWFHTML: function() {=0A=
+		var swfNode =3D "";=0A=
+		if (navigator.plugins && navigator.mimeTypes && =
+navigator.mimeTypes.length) { // netscape plugin architecture=0A=
+			if (this.getAttribute("doExpressInstall")) {=0A=
+				this.addVariable("MMplayerType", "PlugIn");=0A=
+				this.setAttribute('swf', this.xiSWFPath);=0A=
+			}=0A=
+			swfNode =3D '<embed type=3D"application/x-shockwave-flash" src=3D"'+ =
+this.getAttribute('swf') +'" width=3D"'+ this.getAttribute('width') +'" =
+height=3D"'+ this.getAttribute('height') +'"';=0A=
+			swfNode +=3D ' id=3D"'+ this.getAttribute('id') +'" name=3D"'+ =
+this.getAttribute('id') +'" ';=0A=
+			var params =3D this.getParams();=0A=
+			 for(var key in params){ swfNode +=3D [key] +'=3D"'+ params[key] +'" =
+'; }=0A=
+			var pairs =3D this.getVariablePairs().join("&");=0A=
+			 if (pairs.length > 0){ swfNode +=3D 'flashvars=3D"'+ pairs +'"'; }=0A=
+			swfNode +=3D '/>';=0A=
+		} else { // PC IE=0A=
+			if (this.getAttribute("doExpressInstall")) {=0A=
+				this.addVariable("MMplayerType", "ActiveX");=0A=
+				this.setAttribute('swf', this.xiSWFPath);=0A=
+			}=0A=
+			swfNode =3D '<object id=3D"'+ this.getAttribute('id') +'" =
+classid=3D"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width=3D"'+ =
+this.getAttribute('width') +'" height=3D"'+ this.getAttribute('height') =
++'">';=0A=
+			swfNode +=3D '<param name=3D"movie" value=3D"'+ =
+this.getAttribute('swf') +'" />';=0A=
+			var params =3D this.getParams();=0A=
+			for(var key in params) {=0A=
+			 swfNode +=3D '<param name=3D"'+ key +'" value=3D"'+ params[key] +'" =
+/>';=0A=
+			}=0A=
+			var pairs =3D this.getVariablePairs().join("&");=0A=
+			if(pairs.length > 0) {swfNode +=3D '<param name=3D"flashvars" =
+value=3D"'+ pairs +'" />';}=0A=
+			swfNode +=3D "</object>";=0A=
+		}=0A=
+		return swfNode;=0A=
+	},=0A=
+	write: function(elementId){=0A=
+		if(this.getAttribute('useExpressInstall')) {=0A=
+			// check to see if we need to do an express install=0A=
+			var expressInstallReqVer =3D new deconcept.PlayerVersion([6,0,65]);=0A=
+			if (this.installedVer.versionIsValid(expressInstallReqVer) && =
+!this.installedVer.versionIsValid(this.getAttribute('version'))) {=0A=
+				this.setAttribute('doExpressInstall', true);=0A=
+				this.addVariable("MMredirectURL", =
+escape(this.getAttribute('xiRedirectUrl')));=0A=
+				document.title =3D document.title.slice(0, 47) + " - Flash Player =
+Installation";=0A=
+				this.addVariable("MMdoctitle", document.title);=0A=
+			}=0A=
+		}=0A=
+		if(this.skipDetect || this.getAttribute('doExpressInstall') || =
+this.installedVer.versionIsValid(this.getAttribute('version'))){=0A=
+			var n =3D (typeof elementId =3D=3D 'string') ? =
+document.getElementById(elementId) : elementId;=0A=
+			n.innerHTML =3D this.getSWFHTML();=0A=
+			return true;=0A=
+		}else{=0A=
+			if(this.getAttribute('redirectUrl') !=3D "") {=0A=
+				document.location.replace(this.getAttribute('redirectUrl'));=0A=
+			}=0A=
+		}=0A=
+		return false;=0A=
+	}=0A=
+}=0A=
+=0A=
+/* ---- detection functions ---- */=0A=
+deconcept.SWFObjectUtil.getPlayerVersion =3D function(){=0A=
+	var PlayerVersion =3D new deconcept.PlayerVersion([0,0,0]);=0A=
+	if(navigator.plugins && navigator.mimeTypes.length){=0A=
+		var x =3D navigator.plugins["Shockwave Flash"];=0A=
+		if(x && x.description) {=0A=
+			PlayerVersion =3D new =
+deconcept.PlayerVersion(x.description.replace(/([a-zA-Z]|\s)+/, =
+"").replace(/(\s+r|\s+b[0-9]+)/, ".").split("."));=0A=
+		}=0A=
+	}else{=0A=
+		// do minor version lookup in IE, but avoid fp6 crashing issues=0A=
+		// see =
+http://blog.deconcept.com/2006/01/11/getvariable-setvariable-crash-intern=
+et-explorer-flash-6/=0A=
+		try{=0A=
+			var axo =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");=0A=
+		}catch(e){=0A=
+			try {=0A=
+				var axo =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");=0A=
+				PlayerVersion =3D new deconcept.PlayerVersion([6,0,21]);=0A=
+				axo.AllowScriptAccess =3D "always"; // throws if player version < =
+6.0.47 (thanks to Michael Williams @ Adobe for this code)=0A=
+			} catch(e) {=0A=
+				if (PlayerVersion.major =3D=3D 6) {=0A=
+					return PlayerVersion;=0A=
+				}=0A=
+			}=0A=
+			try {=0A=
+				axo =3D new ActiveXObject("ShockwaveFlash.ShockwaveFlash");=0A=
+			} catch(e) {}=0A=
+		}=0A=
+		if (axo !=3D null) {=0A=
+			PlayerVersion =3D new =
+deconcept.PlayerVersion(axo.GetVariable("$version").split(" =
+")[1].split(","));=0A=
+		}=0A=
+	}=0A=
+	return PlayerVersion;=0A=
+}=0A=
+deconcept.PlayerVersion =3D function(arrVersion){=0A=
+	this.major =3D arrVersion[0] !=3D null ? parseInt(arrVersion[0]) : 0;=0A=
+	this.minor =3D arrVersion[1] !=3D null ? parseInt(arrVersion[1]) : 0;=0A=
+	this.rev =3D arrVersion[2] !=3D null ? parseInt(arrVersion[2]) : 0;=0A=
+}=0A=
+deconcept.PlayerVersion.prototype.versionIsValid =3D function(fv){=0A=
+	if(this.major < fv.major) return false;=0A=
+	if(this.major > fv.major) return true;=0A=
+	if(this.minor < fv.minor) return false;=0A=
+	if(this.minor > fv.minor) return true;=0A=
+	if(this.rev < fv.rev) return false;=0A=
+	return true;=0A=
+}=0A=
+/* ---- get value of query string param ---- */=0A=
+deconcept.util =3D {=0A=
+	getRequestParameter: function(param) {=0A=
+		var q =3D document.location.search || document.location.hash;=0A=
+		if(q) {=0A=
+			var pairs =3D q.substring(1).split("&");=0A=
+			for (var i=3D0; i < pairs.length; i++) {=0A=
+				if (pairs[i].substring(0, pairs[i].indexOf("=3D")) =3D=3D param) {=0A=
+					return pairs[i].substring((pairs[i].indexOf("=3D")+1));=0A=
+				}=0A=
+			}=0A=
+		}=0A=
+		return "";=0A=
+	}=0A=
+}=0A=
+/* fix for video streaming bug */=0A=
+deconcept.SWFObjectUtil.cleanupSWFs =3D function() {=0A=
+	var objects =3D document.getElementsByTagName("OBJECT");=0A=
+	for (var i=3D0; i < objects.length; i++) {=0A=
+		objects[i].style.display =3D 'none';=0A=
+		for (var x in objects[i]) {=0A=
+			if (typeof objects[i][x] =3D=3D 'function') {=0A=
+				objects[i][x] =3D function(){};=0A=
+			}=0A=
+		}=0A=
+	}=0A=
+}=0A=
+// fixes bug in fp9 see =
+http://blog.deconcept.com/2006/07/28/swfobject-143-released/=0A=
+if (deconcept.SWFObject.doPrepUnload) {=0A=
+	deconcept.SWFObjectUtil.prepUnload =3D function() {=0A=
+		__flash_unloadHandler =3D function(){};=0A=
+		__flash_savedUnloadHandler =3D function(){};=0A=
+		window.attachEvent("onunload", deconcept.SWFObjectUtil.cleanupSWFs);=0A=
+	}=0A=
+	window.attachEvent("onbeforeunload", =
+deconcept.SWFObjectUtil.prepUnload);=0A=
+}=0A=
+/* add Array.push if needed (ie5) */=0A=
+if (Array.prototype.push =3D=3D null) { Array.prototype.push =3D =
+function(item) { this[this.length] =3D item; return this.length; }}=0A=
+=0A=
+/* add some aliases for ease of use/backwards compatibility */=0A=
+var getQueryParamValue =3D deconcept.util.getRequestParameter;=0A=
+var FlashObject =3D deconcept.SWFObject; // for legacy support=0A=
+var SWFObject =3D deconcept.SWFObject;=0A=
+
+------=_NextPart_000_0000_01C7D638.2E60D8C0
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.jeroenwijering.com/embed/javascript.js
+
+/*-------------------------------------------------------------------
+	LIVESEARCH SCRIPT
+-------------------------------------------------------------------*/
+
+var lsReqUrl =3D "include/livesearch.php";
+var lsResultId =3D "resultdiv";
+var lsSearchId =3D "searchinput";
+var lsStartDelay =3D 200;
+var lsShowDelay =3D 8000;
+var lsTimer =3D null;=20
+var lsReq;
+
+function lsInit(){
+	document.getElementById(lsSearchId).onkeypress =3D lsStart;
+	if (lsShowDelay > 0)
+		document.getElementById(lsSearchId).onblur =3D function () { =
+setTimeout('lsHideResults()',lsShowDelay) }
+}
+function lsStart() {
+	if (lsTimer) { window.clearTimeout(lsTimer); }
+	lsTimer =3D window.setTimeout("lsDoSearch()",lsStartDelay);
+}
+function lsDoSearch() {
+	var s =3D document.getElementById(lsSearchId).value;
+	if (s =3D=3D "")
+		return false;
+	var lsUrl =3D lsReqUrl + "?search=3D" + s;
+	lsGetXML(lsUrl);
+}
+function lsGetXML(lsUrl){
+	if (window.XMLHttpRequest) {
+		lsReq =3D new XMLHttpRequest();
+		lsReq.onreadystatechange =3D lsProcReq;
+		lsReq.open("GET", lsUrl, true);
+		lsReq.send(null);
+	} else if (window.ActiveXObject) {
+		lsReq =3D new ActiveXObject("Microsoft.XMLHTTP");
+		if (lsReq) {
+			lsReq.onreadystatechange =3D lsProcReq;
+			lsReq.open("GET", lsUrl, true);
+			lsReq.send();
+		}
+	}
+}
+function lsProcReq(){
+	if (lsReq.readyState =3D=3D 4) {
+		if (lsReq.status =3D=3D 200) {
+			var res =3D document.getElementById(lsResultId);
+			if(lsReq.responseXML){
+				response =3D lsReq.responseXML.documentElement;
+				res.innerHTML =3D =
+response.getElementsByTagName('result')[0].firstChild.data;
+			} else {
+				res.innerHTML =3D lsReq.responseText;
+			}
+			res.style.display =3D '';
+		} else {
+			alert("There was a problem retrieving the XML data:\n" + =
+piReq.statusText);
+		}
+	}
+}
+function lsHideResults(){
+	document.getElementById(lsResultId).style.display =3D 'none';
+}
+
+
+
+/*-------------------------------------------------------------------
+	MENU TOGGLE SCRIPTS
+-------------------------------------------------------------------*/
+function resetMenu() {
+    document.getElementById('articsub').style.display =3D '';
+	document.getElementById('desigsub').style.display =3D '';
+	document.getElementById('scripsub').style.display =3D '';
+    document.getElementById('artic').style.backgroundColor =3D '';
+	document.getElementById('desig').style.backgroundColor =3D '';
+	document.getElementById('scrip').style.backgroundColor =3D '';
+    document.getElementById('artic').style.color =3D '';
+	document.getElementById('desig').style.color =3D '';
+	document.getElementById('scrip').style.color =3D '';
+}
+function toggleMenu(menu,col) {
+    var submenu =3D menu+'sub';
+	if (document.getElementById(submenu).style.display =3D=3D 'block') {
+		document.getElementById(submenu).style.display =3D 'none';
+		document.getElementById(menu).style.backgroundColor =3D '';
+		document.getElementById(menu).style.color =3D '';
+	} else {
+        resetMenu();
+		document.getElementById(submenu).style.display =3D 'block';
+		document.getElementById(menu).style.color =3D 'white';
+		document.getElementById(menu).style.backgroundColor =3D col;
+	}
+	return false;
+}
+
+
+/*-------------------------------------------------------------------
+    FORUM THREAD ROLLOVER FUNCTIONS
+-------------------------------------------------------------------*/
+function overThread(obj,col) {
+	obj.style.backgroundColor =3D col;=20
+	obj.firstChild.style.color =3D '#FFFFFF';=20
+	obj.firstChild.nextSibling.style.color =3D '#FFFFFF';
+}
+function outThread(obj,col) {
+	obj.style.backgroundColor =3D '';
+	obj.firstChild.style.color =3D col;
+	obj.firstChild.nextSibling.style.color=3D'#000000';
+}
+function overLink(obj) {
+	obj.style.color =3D '#000000';
+}
+function outLink(obj,col) {
+	obj.style.color =3D col;=20
+}
+
+
+/*-------------------------------------------------------------------
+    BBCODE INSERT FUNCTIONS
+-------------------------------------------------------------------*/
+function insertURL (myField, i) {
+    var defaultValue =3D 'http://';
+	var URL =3D prompt('enter your url' ,defaultValue);
+=09
+    if (URL) {
+		ii =3D '[url=3D'+ URL + ']';
+		insertBB(ii,'click here[/url]');
+	} else {
+		insertBB('[url=3D]','[/url]');
+	}
+}
+function insertBB(i,o) {
+    if(o =3D=3D undefined) { o=3D''; }
+    var myField =3D document.getElementById('textfield');
+	// IE selection support
+	if (document.selection) {
+		myField.focus();
+	    sel =3D document.selection.createRange();
+		if (sel.text.length > 0) {
+			sel.text =3D i + sel.text + o;
+		} else {
+			sel.text =3D i + o;
+		}
+		myField.focus();
+    // MOZILLA selection support
+	} else if (myField.selectionStart || myField.selectionStart =3D=3D '0') =
+{
+		var startPos =3D myField.selectionStart;
+		var endPos =3D myField.selectionEnd;
+		var cursorPos =3D endPos;
+		var scrollTop =3D myField.scrollTop;
+		if (startPos !=3D endPos) {
+			myField.value =3D myField.value.substring(0, startPos)
+			+ i
+            + myField.value.substring(startPos, endPos)=20
+            + o
+            + myField.value.substring(endPos, myField.value.length);
+			cursorPos =3D cursorPos + i.length + o.length;
+		} else {
+            myField.value =3D myField.value.substring(0, startPos)=20
+            + i=20
+            + o=20
+            + myField.value.substring(endPos, myField.value.length);
+            cursorPos =3D startPos + i.length;
+		}
+		myField.focus();
+		myField.selectionStart =3D cursorPos;
+		myField.selectionEnd =3D cursorPos;
+		myField.scrollTop =3D scrollTop;
+	// SAFARI and others
+	} else {
+		myField.value +=3D i+o;
+		myField.focus();
+	}
+}
+
+
+/*-------------------------------------------------------------------
+    FORM SUBMIT AND ANTI-SPAM
+-------------------------------------------------------------------*/
+function checkForm() {
+    var tf =3D document.getElementById('titlefield');
+    var df =3D document.getElementById('dudefield');
+    if (tf.value.length < 5) {
+        alert('please insert a descriptive thread title');
+        return false;
+    } else if(df.value.length < 2) {
+        alert('please insert your (nick)name');
+        return false;
+    } else {
+        return true;
+    }
+}
+function antiSpam() {
+    var i =3D document.createElement('input');
+    i.name =3D 'antispaminput';
+    i.value =3D 'bye bye spambots';
+    i.type =3D 'hidden';
+    document.getElementById('reactfrm').appendChild(i);
+}
+
+
+/*-------------------------------------------------------------------
+    ORDER UPDATES AND SUBMIT
+-------------------------------------------------------------------*/
+function calculateIt() {
+	var val =3D document.getElementById('sites').value;
+	if(val =3D=3D 0) {
+		document.getElementById('amount').value =3D 0;
+		document.getElementById('submit1').disabled =3D true;
+		document.getElementById('submit2').disabled =3D true;=20
+	} else if(val =3D=3D 99) {
+		document.getElementById('amount').value =3D 100;
+		document.getElementById('submit1').disabled =3D false;
+		document.getElementById('submit2').disabled =3D false;
+	} else {
+		document.getElementById('amount').value =3D val*15;
+		document.getElementById('submit1').disabled =3D false;
+		document.getElementById('submit2').disabled =3D false;
+	}
+}
+function process(act) {=20
+	var nm =3D document.getElementById('name').value;
+	var em =3D document.getElementById('email').value;
+	var am =3D document.getElementById('amount').value;
+	var err =3D '';
+	if (nm.length <=3D 2) { err +=3D '- please enter your name\n'; }
+	if (em.length <=3D 2 || em.indexOf('@') < 0 || em.indexOf('.') < 0) {=20
+		err +=3D '- please enter your email address\n';
+	}
+	if (am =3D=3D 0) {=20
+		err +=3D '- please select the maount of websites you want to =
+license\n';
+	}
+    if (err.length > 0) {
+    	alert('You have not entered all required data:\n\n'+err);
+    	document.getElementById('name').focus();
+    } else {
+		document.getElementById('frm').action.value =3D act;
+		document.getElementById('frm').submit();
+	}
+}
+
+------=_NextPart_000_0000_01C7D638.2E60D8C0
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://pagead2.googlesyndication.com/pagead/show_ads.js
+
+(function(){=0A=
+function n(c){return c!=3Dnull?'"'+c+'"':'""'}function J(c){if(typeof =
+encodeURIComponent=3D=3D"function"){return =
+encodeURIComponent(c)}else{return escape(c)}}function =
+e(c,a){if(a){window.google_ad_url+=3D"&"+c+"=3D"+a}}function =
+i(c,a){if(a){e(c,J(a))}}function m(c,a,b){if(a&&typeof =
+a=3D=3D"object"){a=3Da[b%a.length]}e("color_"+c,a)}function N(c,a){var =
+b=3Dc.screen,d=3Dnavigator.javaEnabled(),f=3D-a.getTimezoneOffset();if(b)=
+{e("u_h",b.height);e("u_w",b.width);e("u_ah",b.availHeight);e("u_aw",b.av=
+ailWidth);e("u_cd",b.colorDepth)}e("u_tz",=0A=
+f);e("u_his",history.length);e("u_java",d);if(navigator.plugins){e("u_npl=
+ug",navigator.plugins.length)}if(navigator.mimeTypes){e("u_nmime",navigat=
+or.mimeTypes.length)}}function =
+E(c){c=3Dc.toLowerCase();if(c.substring(0,3)!=3D"ca-"){c=3D"ca-"+c}return=
+ c}function =
+W(c,a,b,d){b=3Db.substring(0,2000);b=3Db.replace(/%\w?$/,"");if(c.google_=
+ad_output=3D=3D"js"&&(c.google_ad_request_done||c.google_radlink_request_=
+done)){a.write('<script language=3D"JavaScript1.1" =
+src=3D'+n(b)+"><\/script>")}else =
+if(c.google_ad_output=3D=3D"html"){if(c.name!=3D=0A=
+"google_ads_frame"){if(d!=3Dnull){a.write('<div =
+id=3D"'+d+'">')}a.write('<iframe name=3D"google_ads_frame" =
+width=3D'+n(c.google_ad_width)+" height=3D"+n(c.google_ad_height)+" =
+frameborder=3D"+n(c.google_ad_frameborder)+" src=3D"+n(b)+' =
+marginwidth=3D"0" marginheight=3D"0" vspace=3D"0" hspace=3D"0" =
+allowtransparency=3D"true" =
+scrolling=3D"no">');a.write("</iframe>");if(d!=3Dnull){a.write("</div>")}=
+}}else if(c.google_ad_output=3D=3D"textlink"){a.write('<script =
+language=3D"JavaScript1.1" src=3D'+n(b)+"><\/script>")}}function =
+T(c){var a=3D=0A=
+null;c.google_ad_frameborder=3Da;c.google_ad_format=3Da;c.google_page_url=
+=3Da;c.google_language=3Da;c.google_gl=3Da;c.google_country=3Da;c.google_=
+region=3Da;c.google_city=3Da;c.google_hints=3Da;c.google_safe=3Da;c.googl=
+e_encoding=3Da;c.google_ad_output=3Da;c.google_max_num_ads=3Da;c.google_a=
+d_channel=3Da;c.google_contents=3Da;c.google_alternate_ad_url=3Da;c.googl=
+e_alternate_color=3Da;c.google_color_bg=3Da;c.google_color_text=3Da;c.goo=
+gle_color_link=3Da;c.google_color_url=3Da;c.google_color_border=3Da;c.goo=
+gle_color_line=3Da;c.google_reuse_colors=3D=0A=
+a;c.google_adtest=3Da;c.google_kw_type=3Da;c.google_kw=3Da;c.google_num_r=
+adlinks=3Da;c.google_max_radlink_len=3Da;c.google_rl_filtering=3Da;c.goog=
+le_rl_mode=3Da;c.google_rt=3Da;c.google_rl_dest_url=3Da;c.google_num_radl=
+inks_per_unit=3Da;c.google_ad_type=3Da;c.google_image_size=3Da;c.google_f=
+eedback=3Da;c.google_skip=3Da;c.google_page_location=3Da;c.google_referre=
+r_url=3Da;c.google_ad_region=3Da;c.google_ad_section=3Da;c.google_bid=3Da=
+;c.google_cpa_choice=3Da;c.google_cust_age=3Da;c.google_cust_gender=3Da;c=
+.google_cust_interests=3Da;c.google_cust_id=3D=0A=
+a;c.google_cust_job=3Da;c.google_cust_u_url=3Da;c.google_cust_l=3Da;c.goo=
+gle_cust_lh=3Da;c.google_cust_ch=3Da;c.google_ed=3Da;c.google_targeting=3D=
+a;c.google_ad_host=3Da;c.google_ad_slot=3Da;c.google_ad_override=3Da;c.go=
+ogle_ui_features=3Da;c.google_only_ads_with_video=3Da;c.google_expandable=
+_ads_ok=3Da}function H(c){var a=3Dnull,b=3Dwindow,d=3Ddocument,f=3Dnew =
+Date,g=3Df.getTime(),h=3Db.google_ad_format;if(b.google_cpa_choice){b.goo=
+gle_ad_url=3D"http://pagead2.googlesyndication.com/cpa/ads?";b.google_ad_=
+url+=3D"client=3D"+escape(E(b.google_ad_client));=0A=
+b.google_ad_region=3D"_google_cpa_region_";e("cpa_choice",b.google_cpa_ch=
+oice);if(typeof =
+d.characterSet!=3D"undefined"){i("oe",d.characterSet)}else if(typeof =
+d.charset!=3D"undefined"){i("oe",d.charset)}}else{b.google_ad_url=3D"http=
+://pagead2.googlesyndication.com/pagead/ads?";b.google_ad_url+=3D"client=3D=
+"+escape(E(b.google_ad_client))}e("host",b.google_ad_host);var =
+j=3Db.google_num_slots_by_client,C=3Db.google_num_slots_by_channel,l=3Db.=
+google_prev_ad_formats_by_region;if(b.google_ad_region=3D=3Da&&b.google_a=
+d_section!=3D=0A=
+a){b.google_ad_region=3Db.google_ad_section}var =
+k=3Db.google_ad_region=3D=3Da?"":b.google_ad_region,w=3Dfalse;if(h){w=3Dh=
+.indexOf("_0ads")>0}if(w){if(b.google_num_0ad_slots){b.google_num_0ad_slo=
+ts=3Db.google_num_0ad_slots+1}else{b.google_num_0ad_slots=3D1}if(b.google=
+_num_0ad_slots>3){return false}}else =
+if(!b.google_cpa_choice){if(b.google_num_ad_slots){b.google_num_ad_slots=3D=
+b.google_num_ad_slots+1}else{b.google_num_ad_slots=3D1}if(b.google_num_sl=
+ots_to_rotate){l[k]=3Da;if(b.google_num_slot_to_show=3D=3Da){b.google_num=
+_slot_to_show=3D=0A=
+g%b.google_num_slots_to_rotate+1}if(b.google_num_slot_to_show!=3Db.google=
+_num_ad_slots){return false}}else =
+if(b.google_num_ad_slots>3&&k=3D=3D""){return =
+false}}e("dt",f.getTime());e("hl",b.google_language);if(b.google_country)=
+{e("gl",b.google_country)}else{e("gl",b.google_gl)}e("gr",b.google_region=
+);i("gcs",b.google_city);i("hints",b.google_hints);e("adsafe",b.google_sa=
+fe);e("oe",b.google_encoding);e("lmt",b.google_last_modified_time);i("alt=
+ernate_ad_url",b.google_alternate_ad_url);e("alt_color",b.google_alternat=
+e_color);=0A=
+e("skip",b.google_skip);e("targeting",b.google_targeting);var =
+p=3Db.google_ad_client;if(!j[p]){j[p]=3D1;j.length+=3D1}else{j[p]+=3D1}if=
+(l[k]){i("prev_fmts",l[k].toLowerCase());if(j.length>1){e("slot",j[p])}}i=
+f(h&&!b.google_ad_slot){i("format",h.toLowerCase());if(l[k]){l[k]=3Dl[k]+=
+","+h}else{l[k]=3Dh}}e("num_ads",b.google_max_num_ads);e("output",c!=3Da?=
+c:b.google_ad_output);e("adtest",b.google_adtest);if(b.google_ad_slot){e(=
+"slotname",b.google_ad_slot)}i("correlator",b.google_correlator);if(b.goo=
+gle_ad_channel){var x=3D=0A=
+b.google_ad_channel;i("channel",x);var y=3D"",z=3Dx.split("+");for(var =
+s=3D0;s<z.length;s++){var =
+t=3Dz[s];if(!C[t]){C[t]=3D1}else{y+=3Dt+"+"}}i("pv_ch",y)}i("url",b.googl=
+e_page_url);m("bg",b.google_color_bg,g);m("text",b.google_color_text,g);m=
+("link",b.google_color_link,g);m("url",b.google_color_url,g);m("border",b=
+.google_color_border,g);m("line",b.google_color_line,g);if(b.google_reuse=
+_colors)e("reuse_colors",1);else =
+e("reuse_colors",0);e("kw_type",b.google_kw_type);i("kw",b.google_kw);i("=
+contents",b.google_contents);=0A=
+e("num_radlinks",b.google_num_radlinks);e("max_radlink_len",b.google_max_=
+radlink_len);e("rl_filtering",b.google_rl_filtering);e("rl_mode",b.google=
+_rl_mode);e("rt",b.google_rt);i("rl_dest_url",b.google_rl_dest_url);e("nu=
+m_radlinks_per_unit",b.google_num_radlinks_per_unit);e("ad_type",b.google=
+_ad_type);e("image_size",b.google_image_size);e("region",b.google_ad_regi=
+on);e("feedback_link",b.google_feedback);i("ref",b.google_referrer_url);i=
+("loc",b.google_page_location);e("bid",b.google_bid);e("cust_age",=0A=
+b.google_cust_age);e("cust_gender",b.google_cust_gender);e("cust_interest=
+s",b.google_cust_interests);e("cust_id",b.google_cust_id);e("cust_job",b.=
+google_cust_job);e("cust_u_url",b.google_cust_u_url);e("cust_l",b.google_=
+cust_l);e("cust_lh",b.google_cust_lh);e("cust_ch",b.google_cust_ch);e("ed=
+",b.google_ed);i("ui",b.google_ui_features);i("only_ads_with_video",b.goo=
+gle_only_ads_with_video);i("expandable_ads_ok",b.google_expandable_ads_ok=
+);if(F(b,d)&&d.body){var A=3Dd.body.scrollHeight,B=3Dd.body.clientHeight;=0A=
+if(B&&A){i("cc",Math.round(B*100/A))}}e("google_ad_override",b.google_ad_=
+override);e("flash",b.google_flash_version);N(b,f);return true}function =
+G(){var =
+c=3Dwindow,a=3Ddocument,b=3Dfalse;if(O(c.google_ad_output,c.google_ad_cli=
+ent)&&!V()){b=3Dtrue}var =
+d=3Db?"json_html":null;if(!H(d)){return}if(!b){W(c,a,c.google_ad_url,null=
+)}else{S()}T(c)}function K(c,a,b){G();return true}function F(c,a){return =
+c.top.location=3D=3Da.location}function D(c,a){var =
+b=3Da.documentElement;if(F(c,a))return =
+false;if(c.google_ad_width&&c.google_ad_height){var d=3D=0A=
+1,f=3D1;if(c.innerHeight){d=3Dc.innerWidth;f=3Dc.innerHeight}else =
+if(b&&b.clientHeight){d=3Db.clientWidth;f=3Db.clientHeight}else =
+if(a.body){d=3Da.body.clientWidth;f=3Da.body.clientHeight}if(f>2*c.google=
+_ad_height||d>2*c.google_ad_width){return false}}return true}function =
+P(c){var =
+a=3Dwindow,b=3Ddocument,d=3Db.location,f=3Db.referrer,g=3Dnull,h=3Da.oner=
+ror;a.onerror=3Dc;if(a.google_ad_frameborder=3D=3Dg){a.google_ad_framebor=
+der=3D0}if(a.google_ad_output=3D=3Dg){a.google_ad_output=3D"html"}if(a.go=
+ogle_ad_format=3D=3Dg&&a.google_ad_output=3D=3D"html"){a.google_ad_format=
+=3D=0A=
+a.google_ad_width+"x"+a.google_ad_height}if(a.google_page_url=3D=3Dg){a.g=
+oogle_page_url=3Df;if(!D(a,b)){a.google_page_url=3Dd;a.google_last_modifi=
+ed_time=3DDate.parse(b.lastModified)/1000;a.google_referrer_url=3Df}}else=
+{a.google_page_location=3Df;if(!D(a,b)){a.google_page_location=3Dd}}if(a.=
+google_num_slots_by_channel=3D=3Dg){a.google_num_slots_by_channel=3D[]}if=
+(a.google_num_slots_by_client=3D=3Dg){a.google_num_slots_by_client=3D[]}i=
+f(a.google_prev_ad_formats_by_region=3D=3Dg){a.google_prev_ad_formats_by_=
+region=3D[]}if(a.google_correlator=3D=3D=0A=
+g){a.google_correlator=3D(new =
+Date).getTime()}if(a.google_adslot_loaded=3D=3Dg){a.google_adslot_loaded=3D=
+{}}if(a.google_adContentsBySlot=3D=3Dg){a.google_adContentsBySlot=3D{}}if=
+(a.google_flash_version=3D=3Dg){a.google_flash_version=3DI().toString()}a=
+.onerror=3Dh}function o(c){if(c in q){return q[c]}return =
+q[c]=3Dnavigator.userAgent.toLowerCase().indexOf(c)!=3D-1}var =
+q=3D{};function r(){return o("msie")&&!window.opera}function u(){return =
+o("safari")}function L(){var c=3Dnavigator.userAgent,a=3Dc.indexOf("MSIE =
+");if(a=3D=3D-1){return 0}else{return parseFloat(c.substring(a+=0A=
+5,c.indexOf(";",a)))}}function V(){if(r()){var c=3DL();return =
+c<=3D5}else if(o("firefox")){var =
+a=3Dnavigator.userAgent.indexOf("Firefox")+8,b=3DparseInt(navigator.userA=
+gent.charAt(a)),d=3Dnavigator.userAgent.slice(a);return b<1}else =
+if(u()){var =
+a=3Dnavigator.userAgent.indexOf("Safari")+7,d=3Dnavigator.userAgent.slice=
+(a),f=3DparseInt(d);return f<412}else if(window.opera!=3Dnull){var =
+a=3Dnavigator.userAgent.indexOf("Opera")+6,d=3Dnavigator.userAgent.slice(=
+a),b=3DparseInt(d);return b<9}else if(!r()&&!u()&&o("mozilla")){var a=3D=0A=
+navigator.userAgent.indexOf("Netscape")+9,d=3Dnavigator.userAgent.slice(a=
+),b=3DparseInt(d);return b<7}else{return true}}function =
+O(c,a){if(c!=3D"html"){return false}var =
+b=3D{};b["ca-pub-8954402009499768"]=3Dtrue;b["ca-pub-0556581589806023"]=3D=
+true;return b[a]!=3Dnull}function S(){var =
+c=3Dwindow;e("impl","s");e("callback","_google_setAdContentsBySlotForSync=
+");document.write("<script src =3D =
+'"+c.google_ad_url+"'><\/script>")}function U(c){var =
+a=3Ddocument.getElementById("google_flash_div");if(a!=3Dnull){a.style.hei=
+ght=3D=0A=
+c+"px"}var =
+b=3Ddocument.getElementById("google_flash_obj");if(b!=3Dnull){b.height=3D=
+c}var =
+d=3Ddocument.getElementById("google_flash_embed");if(d!=3Dnull){d.height=3D=
+c}}window.google_createDivWithContent=3Dfunction(c){var =
+a=3Dwindow,b=3D"google_ads_div_"+c,d=3D"<div =
+id=3D"+b+">",f=3Da.google_adContentsBySlot[c];if(f=3D=3Dnull){return}d+=3D=
+f._html_;d+=3D"\n</div>\n";document.write(d)};window.google_createDOMIfra=
+me=3Dfunction(c,a,b,d){var =
+f=3Ddocument.getElementsByTagName("script"),g=3Df[f.length-1],h=3Ddocumen=
+t.createElement("iframe");h.id=3D=0A=
+"google_ads_iframe_"+c;h.width=3Da;h.height=3Db;h.vspace=3D0;h.hspace=3D0=
+;h.allowTransparency=3D"true";h.scrolling=3D"no";h.marginWidth=3D0;h.marg=
+inHeight=3D0;h.frameBorder=3D0;h.style.border=3D0;g.parentNode.appendChil=
+d(h);h.contentWindow.document.write(d);h.contentWindow.document.close()};=
+window.google_createiframe=3Dfunction(c,a,b,d,f){var =
+g=3D"google_ads_div_"+c,h=3D"google_ads_iframe_"+c,j=3D"<div =
+id=3D"+g+">";j+=3D"<iframe id=3D"+h+' width=3D"'+d+'" height=3D"'+f+'" =
+vspace=3D"0" hspace=3D"0" allowtransparency=3D"true" scrolling=3D"no" =
+marginwidth=3D"0" marginheight=3D"0" frameborder=3D"0" =
+style=3D"border:0px;" src=3D"'+=0A=
+a.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace=
+(/\"/g,"&quot;")+'"';j+=3D' =
+onload=3D"'+b+'"';j+=3D"></iframe></div>";document.write(j)};var =
+v=3D"google_ads_iframe_".length;function M(c){var =
+a=3Dc.getAttribute("id"),b=3Da.substr(v,a.length-v);return =
+b}window._google_syncAdSlotLoaded=3Dfunction(c){var =
+a=3DM(c);window.google_loadiframe(c)};window._google_setAdContentsBySlotF=
+orSync=3Dfunction(c){var a=3Dwindow;for(var b in c){var =
+d=3Dc[b];a.google_adContentsBySlot[b]=3Dd;if(d=3D=3Dnull||d._empty_){}els=
+e =
+if(d._expandable_){a.google_createDivWithContent(b)}else{if(navigator.use=
+rAgent.indexOf("MSIE ")>=0A=
+0){a.google_adslot_loaded[b]=3Dfalse;var =
+f=3D"window._google_syncAdSlotLoaded(this);";a.google_createiframe(b,"abo=
+ut:blank",f,d._width_,d._height_)}else{a.google_createDOMIframe(b,d._widt=
+h_,d._height_,d._html_)}}}};function R(c){var =
+a=3D{},b=3Dc.split("?"),d=3Db[b.length-1].split("&");for(var =
+f=3D0;f<d.length;f++){var =
+g=3Dd[f].split("=3D");if(g[0]){try{a[g[0].toLowerCase()]=3Dg.length>1?(wi=
+ndow.decodeURIComponent?decodeURIComponent(g[1].replace(/\+/g," =
+")):unescape(g[1])):""}catch(h){}}}return a}function Q(){var c=3D=0A=
+window,a=3DR(document.URL);if(a.google_ad_override){c.google_ad_override=3D=
+a.google_ad_override}}function I(){var =
+c=3D0;if(navigator.plugins&&navigator.mimeTypes.length){var =
+a=3Dnavigator.plugins["Shockwave =
+Flash"];if(a&&a.description){c=3Da.description.replace(/([a-zA-Z]|\s)+/,"=
+").split(".")[0]}}else =
+if(navigator.userAgent&&navigator.userAgent.indexOf("Windows =
+CE")>=3D0){c=3D3;var b=3D1;while(b){try{b=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash."+(c+1));c++}catch(d){b=3Dnu=
+ll}}}else if(r()){try{var b=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash.7")}catch(d){try{var b=3D=0A=
+new =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");c=3D6;b.AllowScriptAcces=
+s=3D"always"}catch(d){if(c=3D=3D6){return c}}try{b=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash")}catch(d){}}if(b!=3Dnull){c=
+=3Db.GetVariable("$version").split(" ")[1].split(",")[0]}}return =
+c}window.google_resize_flash_ad=3DU;Q();P(K);G();=0A=
+})()
+------=_NextPart_000_0000_01C7D638.2E60D8C0--

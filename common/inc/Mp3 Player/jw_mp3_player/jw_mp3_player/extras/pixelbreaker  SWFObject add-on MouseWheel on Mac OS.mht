@@ -1,0 +1,2985 @@
+From: <ÓÉ Microsoft Internet Explorer 5 ±£´æ>
+Subject: pixelbreaker : SWFObject add-on: MouseWheel on Mac OS
+Date: Sun, 5 Aug 2007 01:06:37 +0800
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C7D6FC.DF594260"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/2006/11/08/flash/swfmacmousewheel/
+
+=EF=BB=BF<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" =
+"http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns=3D"http://www.w3.org/1999/xhtml"><HEAD=20
+profile=3Dhttp://gmpg.org/xfn/11><TITLE>pixelbreaker : SWFObject add-on: =
+MouseWheel on Mac OS</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; charset=3DUTF-8">
+<META content=3Dglobal name=3Ddistribution>
+<META content=3D"follow, all" name=3Drobots>
+<META=20
+content=3D"Flash, ActionScript, Action Script, ActionScript 2, =
+ActionScript 3, Macromedia, Adobe, Flash Player, Eclipse, FDT"=20
+name=3Dkeywords>
+<META content=3D"SWFObject add-on: MouseWheel on Mac OS" =
+name=3Ddescription>
+<META content=3Dglobal name=3Ddistribution>
+<META content=3D"follow, all" name=3Drobots>
+<META content=3Den name=3Dlanguage>
+<META content=3D"MSHTML 6.00.2900.3132" name=3DGENERATOR><LINK =
+href=3D"/favicon.ico"=20
+type=3Dimage/x-icon rel=3Dicon><LINK href=3D"/favicon.ico" =
+type=3Dimage/x-icon=20
+rel=3D"shortcut icon"><!-- leave this for stats please --><LINK =
+title=3D"RSS 2.0"=20
+href=3D"http://blog.pixelbreaker.com/feed/" type=3Dapplication/rss+xml=20
+rel=3Dalternate><LINK title=3D"RSS .92"=20
+href=3D"http://blog.pixelbreaker.com/feed/rss/" type=3Dtext/xml =
+rel=3Dalternate><LINK=20
+title=3D"Atom 0.3" href=3D"http://blog.pixelbreaker.com/feed/atom/"=20
+type=3Dapplication/atom+xml rel=3Dalternate><LINK=20
+href=3D"http://blog.pixelbreaker.com/xmlrpc.php" rel=3Dpingback><LINK=20
+title=3D"July 2007" href=3D"http://blog.pixelbreaker.com/2007/07/"=20
+rel=3Darchives><LINK title=3D"June 2007"=20
+href=3D"http://blog.pixelbreaker.com/2007/06/" rel=3Darchives><LINK =
+title=3D"May 2007"=20
+href=3D"http://blog.pixelbreaker.com/2007/05/" rel=3Darchives><LINK=20
+title=3D"April 2007" href=3D"http://blog.pixelbreaker.com/2007/04/"=20
+rel=3Darchives><LINK title=3D"March 2007"=20
+href=3D"http://blog.pixelbreaker.com/2007/03/" rel=3Darchives><LINK=20
+title=3D"February 2007" href=3D"http://blog.pixelbreaker.com/2007/02/"=20
+rel=3Darchives><LINK title=3D"January 2007"=20
+href=3D"http://blog.pixelbreaker.com/2007/01/" rel=3Darchives><LINK=20
+title=3D"November 2006" href=3D"http://blog.pixelbreaker.com/2006/11/"=20
+rel=3Darchives><LINK title=3DRSD =
+href=3D"http://blog.pixelbreaker.com/xmlrpc.php?rsd"=20
+type=3Dapplication/rsd+xml rel=3DEditURI><!-- Courtesy of Kimili Flash =
+Embed - Version 1.2 -->
+<SCRIPT=20
+src=3D"http://blog.pixelbreaker.com/wp-content/plugins/kml_flashembed_wp_=
+12/kml_flashembed.php?swfobject.js"=20
+type=3Dtext/javascript></SCRIPT>
+<LINK media=3Dall=20
+href=3D"http://blog.pixelbreaker.com/wp-content/plugins/ig_syntax_hilite/=
+css/syntax_hilite_css.css"=20
+type=3Dtext/css rel=3Dstylesheet>
+<SCRIPT language=3Djavascript=20
+src=3D"http://blog.pixelbreaker.com/wp-content/plugins/ig_syntax_hilite/j=
+s/syntax_hilite_js.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT language=3Djavascript=20
+type=3Dtext/javascript>=0A=
+	var arrCode =3D new Array();=0A=
+	</SCRIPT>
+<!-- WP lightbox JS Plugin version 0.8.1 --><LINK media=3Dscreen=20
+href=3D"http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/lig=
+htbox.css"=20
+type=3Dtext/css rel=3Dstylesheet>
+<STYLE type=3Dtext/css media=3Dscreen>#overlay {
+	BACKGROUND-IMAGE: =
+url(http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/images/=
+overlay.png)
+}
+ HTML #overlay {
+	FILTER: =
+progid:DXImageTransform.Microsoft.AlphaImageLoader(src=3D"http://blog.pix=
+elbreaker.com/wp-content/plugins/wp-lightboxJS/images/overlay.png", =
+sizingMethod=3D"scale"); BACKGROUND-IMAGE: =
+url(http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/images/=
+blank.gif)
+}
+</STYLE>
+
+<SCRIPT=20
+src=3D"http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/ligh=
+tbox.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript>=0A=
+		var loadingImage =3D =
+"http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/images/loa=
+ding.gif";=0A=
+		var closeButton =3D =
+"http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/images/clo=
+se.gif";=0A=
+	</SCRIPT>
+
+<STYLE type=3Dtext/css media=3Dscreen>@import url( =
+http://blog.pixelbreaker.com/wp-content/themes/pixelbreaker/style.css );
+</STYLE>
+<LINK media=3Dscreen =
+href=3D"http://blog.pixelbreaker.com/sifr/sIFR-screen.css"=20
+type=3Dtext/css rel=3Dstylesheet><LINK media=3Dprint=20
+href=3D"http://blog.pixelbreaker.com/sifr/sIFR-print.css" =
+type=3Dtext/css=20
+rel=3Dstylesheet>
+<SCRIPT src=3D"http://blog.pixelbreaker.com/sifr/sifr.js"=20
+type=3Dtext/javascript></SCRIPT>
+
+<SCRIPT src=3D"http://blog.pixelbreaker.com/sifr/sifr-addons.js"=20
+type=3Dtext/javascript></SCRIPT>
+</HEAD>
+<BODY>
+<DIV id=3Dwrap>
+<DIV id=3Dlogo>
+<DIV id=3Dtagline><A =
+href=3D"http://blog.pixelbreaker.com/">HOME</A></DIV></DIV>
+<DIV id=3Dcontent>
+<DIV class=3D"entry ">
+<H3 class=3Dentrytitle id=3Dpost-8>SWFObject add-on: MouseWheel on Mac =
+OS</H3>
+<DIV class=3Dentrybody>
+<P>I've had the mouse wheel working in flash on OS X for a while, and =
+after=20
+seeing the <A href=3D"http://www.asual.com/swfaddress/"=20
+target=3D_blank>SWFAddress</A> add-on for <A=20
+href=3D"http://blog.deconcept.com/swfobject/" =
+target=3D_blank>deconcept's=20
+SWFObject</A> embedding system, I thought I'd add mousewheel =
+functionality to=20
+SWFObject, rather than using my own "frankenstein" embedding system.</P>
+<P>It's straight forward to implement. Download <A=20
+href=3D"http://blog.pixelbreaker.com/downloads/swfmacmousewheel.zip"><SPA=
+N=20
+id=3Dmce_editor_0_parent></SPAN>SWFMacMouseWheel here</A>.</P>
+<P><A =
+href=3D"http://blog.pixelbreaker.com/downloads/swfmacmousewheel.zip"><SPA=
+N=20
+id=3Dmce_editor_0_parent></SPAN></A><BR><SPAN =
+id=3Dmore-8></SPAN><BR>Within=20
+ActionScript, you'll barely notice any difference. Only that instead of =
+using=20
+Mouse.addListener(), you'll refer to my class instead.</P>
+<P>Example code:</P>
+<DIV class=3DigBar><SPAN id=3Dlactionscript-1><A=20
+onclick=3D"javascript:showPlainTxt('actionscript-1'); return false;"=20
+href=3D"http://blog.pixelbreaker.com/2006/11/08/flash/swfmacmousewheel/#"=
+>PLAIN=20
+TEXT</A></SPAN></DIV>
+<DIV class=3Dsyntax_hilite><SPAN class=3DlangName>Actionscript:</SPAN>=20
+<DIV id=3Dactionscript-1>
+<DIV class=3Dactionscript><SPAN style=3D"COLOR: #cdfbfe">import</SPAN> =
+com.<SPAN=20
+style=3D"COLOR: #fff9a2">pixelbreaker</SPAN>.<SPAN=20
+style=3D"COLOR: #fff9a2">ui</SPAN>.<SPAN style=3D"COLOR: =
+#fff9a2">MouseWheel</SPAN>;
+<P></P>
+<P><SPAN style=3D"FONT-WEIGHT: bold; COLOR: #cdfbfe">class</SPAN> =
+Example<BR><SPAN=20
+style=3D"COLOR: #f7f99d">{</SPAN></P>
+<P><SPAN style=3D"FONT-WEIGHT: bold; COLOR: #cdfbfe">function</SPAN> =
+Example<SPAN=20
+style=3D"COLOR: #f7f99d">(</SPAN><SPAN style=3D"COLOR: =
+#f7f99d">)</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">{</SPAN><BR>MouseWheel.<SPAN=20
+style=3D"COLOR: #cdfbfe">addListener</SPAN><SPAN style=3D"COLOR: =
+#f7f99d">(</SPAN>=20
+<SPAN style=3D"COLOR: #cdfbfe">this</SPAN> <SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN>;<BR><SPAN style=3D"COLOR: =
+#f7f99d">}</SPAN></P>
+<P><SPAN style=3D"COLOR: #cdfbfe">public</SPAN> <SPAN=20
+style=3D"FONT-WEIGHT: bold; COLOR: #cdfbfe">function</SPAN> <SPAN=20
+style=3D"COLOR: #cdfbfe">onMouseWheel</SPAN><SPAN style=3D"COLOR: =
+#f7f99d">(</SPAN>=20
+delta:<SPAN style=3D"COLOR: #cdfbfe">Number</SPAN> <SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN>:<SPAN=20
+style=3D"COLOR: #cdfbfe">Void</SPAN><BR><SPAN=20
+style=3D"COLOR: #f7f99d">{</SPAN><BR><SPAN=20
+style=3D"COLOR: #668ed2; FONT-STYLE: italic">// do something with the =
+delta=20
+value</SPAN><BR><SPAN style=3D"COLOR: #f7f99d">}</SPAN><BR><SPAN=20
+style=3D"COLOR: #f7f99d">}</SPAN></P></DIV></DIV></DIV>
+<P></P>
+<P>All the javascript is included in the zip, with an example html =
+file.</P>
+<P>You simply have to add one line of code to the javascript:</P>
+<DIV class=3DigBar><SPAN id=3Dljavascript-2><A=20
+onclick=3D"javascript:showPlainTxt('javascript-2'); return false;"=20
+href=3D"http://blog.pixelbreaker.com/2006/11/08/flash/swfmacmousewheel/#"=
+>PLAIN=20
+TEXT</A></SPAN></DIV>
+<DIV class=3Dsyntax_hilite><SPAN class=3DlangName>JavaScript:</SPAN>=20
+<DIV id=3Djavascript-2>
+<DIV class=3Djavascript><SPAN style=3D"FONT-WEIGHT: bold; COLOR: =
+#cdfbfe">var</SPAN>=20
+so =3D <SPAN style=3D"FONT-WEIGHT: bold; COLOR: #cdfbfe">new</SPAN> =
+SWFObject<SPAN=20
+style=3D"COLOR: #f7f99d">(</SPAN><SPAN style=3D"COLOR: =
+#04ffa6">'test.swf'</SPAN>,=20
+<SPAN style=3D"COLOR: #04ffa6">'website'</SPAN>, <SPAN=20
+style=3D"COLOR: #04ffa6">'100%'</SPAN>, <SPAN=20
+style=3D"COLOR: #04ffa6">'100%'</SPAN>, <SPAN style=3D"COLOR: =
+#04ffa6">'8'</SPAN>,=20
+<SPAN style=3D"COLOR: #04ffa6">'#FFFFFF'</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN>;
+<P></P>
+<P>so.<SPAN style=3D"COLOR: #fff9a2">useExpressInstall</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">(</SPAN><SPAN=20
+style=3D"COLOR: #04ffa6">'js/expressinstall.swf'</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN>;</P>
+<P>so.<SPAN style=3D"COLOR: #fff9a2">addParam</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">(</SPAN><SPAN style=3D"COLOR: =
+#04ffa6">'menu'</SPAN>, <SPAN=20
+style=3D"COLOR: #04ffa6">'false'</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN>;<BR>so.<SPAN=20
+style=3D"COLOR: #fff9a2">addParam</SPAN><SPAN style=3D"COLOR: =
+#f7f99d">(</SPAN><SPAN=20
+style=3D"COLOR: #04ffa6">'scale'</SPAN>, <SPAN=20
+style=3D"COLOR: #04ffa6">'noscale'</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN>;<BR>so.<SPAN=20
+style=3D"COLOR: #fff9a2">addParam</SPAN><SPAN style=3D"COLOR: =
+#f7f99d">(</SPAN><SPAN=20
+style=3D"COLOR: #04ffa6">'salign'</SPAN>, <SPAN=20
+style=3D"COLOR: #04ffa6">'lt'</SPAN><SPAN style=3D"COLOR: =
+#f7f99d">)</SPAN>;</P>
+<P><SPAN style=3D"COLOR: #668ed2; FONT-STYLE: italic">// CHANGE=20
+BELOW</SPAN><BR><SPAN style=3D"COLOR: #cdfbfe">if</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">(</SPAN> so.<SPAN=20
+style=3D"COLOR: #cdfbfe">write</SPAN><SPAN style=3D"COLOR: =
+#f7f99d">(</SPAN><SPAN=20
+style=3D"COLOR: #04ffa6">'flashcontent'</SPAN><SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN> <SPAN style=3D"COLOR: =
+#f7f99d">)</SPAN><BR><SPAN=20
+style=3D"COLOR: #f7f99d">{</SPAN><BR><SPAN=20
+style=3D"FONT-WEIGHT: bold; COLOR: #cdfbfe">var</SPAN> macmousewheel =3D =
+<SPAN=20
+style=3D"FONT-WEIGHT: bold; COLOR: #cdfbfe">new</SPAN> =
+SWFMacMouseWheel<SPAN=20
+style=3D"COLOR: #f7f99d">(</SPAN> so <SPAN=20
+style=3D"COLOR: #f7f99d">)</SPAN>;<BR><SPAN=20
+style=3D"COLOR: #f7f99d">}</SPAN></P></DIV></DIV></DIV>
+<P></P></DIV>
+<DIV class=3Dentrymeta>November 8th, 2006 by gabriel in <A=20
+title=3D"View all posts in Mac" =
+href=3D"http://blog.pixelbreaker.com/category/mac/"=20
+rel=3D"category tag">Mac</A>, <A title=3D"View all posts in Open Source" =
+
+href=3D"http://blog.pixelbreaker.com/category/open-source/"=20
+rel=3D"category tag">Open Source</A>, <A=20
+title=3D"View all posts in ActionScript 2.0"=20
+href=3D"http://blog.pixelbreaker.com/category/flash/actionscript-20/"=20
+rel=3D"category tag">ActionScript 2.0</A>, <A title=3D"View all posts in =
+Flash"=20
+href=3D"http://blog.pixelbreaker.com/category/flash/" rel=3D"category =
+tag">Flash</A>=20
+</DIV><!--=0A=
+	<rdf:RDF xmlns:rdf=3D"http://www.w3.org/1999/02/22-rdf-syntax-ns#"=0A=
+				xmlns:dc=3D"http://purl.org/dc/elements/1.1/"=0A=
+				=
+xmlns:trackback=3D"http://madskills.com/public/xml/rss/module/trackback/"=
+>=0A=
+			<rdf:Description =
+rdf:about=3D"http://blog.pixelbreaker.com/flash/swfmacmousewheel/"=0A=
+    =
+dc:identifier=3D"http://blog.pixelbreaker.com/flash/swfmacmousewheel/"=0A=
+    dc:title=3D"SWFObject add-on: MouseWheel on Mac OS"=0A=
+    =
+trackback:ping=3D"http://blog.pixelbreaker.com/flash/swfmacmousewheel/tra=
+ckback/" />=0A=
+</rdf:RDF>	--></DIV>
+<DIV id=3Dcommentblock><!--comments area-->
+<H2 id=3Dcomments>76 Comments so far </H2>
+<OL id=3Dcommentlist>
+  <LI class=3Dalt id=3Dcomment-7>
+  <DIV class=3Dcommentname><A href=3D"http://blog.deconcept.com/"=20
+  rel=3D"external nofollow">Geoff</A> / November 9th, 2006 1:06 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Awesome, this is actually very useful... we have clients all the =
+time that=20
+  want mouse wheel support on macs.</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-8>
+  <DIV class=3Dcommentname>pixelbreaker / November 9th, 2006 1:30 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi Geoff, glad it's of use. I've also got a little class that =
+allows flash=20
+  movies to be 100% of the browser, but not go below a certain size, =
+I'll make=20
+  that work along side SWFObject in the next week, I'll let you know =
+when it's=20
+  done.</P></DIV>
+  <LI class=3Dalt id=3Dcomment-9>
+  <DIV class=3Dcommentname><A href=3D"http://www.yourportfolio.nl/"=20
+  rel=3D"external nofollow">Zokdok</A> / November 9th, 2006 8:37 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Thanks for bringing mouse wheel support publicly to the mac =
+:).<BR>I'll=20
+  start integrating it when I switched to swfObject, which brings me to =
+your own=20
+  reply, I need that 'not go below a certain size' functionality. I have =
+it=20
+  already, but by switching over to SWFObject, I have to reimplement =
+it.</P>
+  <P>I'll be checking your blog a lot from now on, and I hope you have =
+it sooner=20
+  then next week, as I'm currently in the process of adapting the =
+code... which=20
+  would same me a some time and trouble.<BR>(Or maybe you could send me =
+the beta=20
+  code, in which I can help test and bug hunt.)</P>
+  <P>thanks!</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-10>
+  <DIV class=3Dcommentname><A href=3D"http://reefscape.net/?p=3D13"=20
+  rel=3D"external nofollow">Flash scroll wheel support on the Mac =C2=BB =
+
+  reefscape.net</A> / November 9th, 2006 8:59 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] Extending Flash support in browser is the new black these =
+days.=20
+  Pixelbreaker adds a very welcome addition by extending support for the =
+mouse=20
+  wheel in Flash to the Macs with is own MouseWheel extension. Finally =
+mouse=20
+  wheel support is no longer Windows only! [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-11>
+  <DIV class=3Dcommentname><A=20
+  href=3D"http://www.yestoall.com/cache/2006/11/09/mac-mousewheel/"=20
+  rel=3D"external nofollow">cach=E9=AE=B9estoall.com =C2=BB Blog Archive =
+=C2=BB mac mousewheel</A> /=20
+  November 9th, 2006 10:15 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] ya puedes utilizar la ruedecita del rat=F3=AE=A0=A4esde flash =
+en mac aqu=ED=A0=A5sta el=20
+  =E2=80=9Ctruco=E2=80=9D [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-12>
+  <DIV class=3Dcommentname>pixelbreaker / November 9th, 2006 12:18 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>hi zokdok, I'll get it done asap, just i'm finishing my current =
+employment=20
+  tomorrow, so big party tonight, gonna be a bit tricky to get anything =
+done=20
+  before sunday...</P></DIV>
+  <LI class=3Dalt id=3Dcomment-13>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://blog.danielyuen.hk/articles/2006/11/09/links-for-2006-11-0=
+9"=20
+  rel=3D"external nofollow">danielyuen.hk Blog : links for =
+2006-11-09</A> /=20
+  November 9th, 2006 3:26 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] pixelbreaker ? SWFObject add-on: MouseWheel on Mac OS (tags: =
+flash=20
+  actionscript swfobject mousewheel osx) [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-14>
+  <DIV class=3Dcommentname>Freddy / November 11th, 2006 10:34 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi Pixelbreaker, thanks a lot for the script!!!, Is there any way =
+to use it=20
+  without swfObject? (some layouts just make it hard to use =
+swfObject)</P>
+  <P>Also, this will work only with Flash 8 and up?</P>
+  <P>thanks again!.</P></DIV>
+  <LI class=3Dalt id=3Dcomment-15>
+  <DIV class=3Dcommentname>pixelbreaker / November 11th, 2006 11:38 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>It should work fine with Flash 7, you just have to be using =
+ActionScript=20
+  2.0. The version available above will only work with SWFObject. I've =
+not had=20
+  any issues using SWFObject with different layouts.</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-16>
+  <DIV class=3Dcommentname><A href=3D"http://jeanphiblog.media-box.net/" =
+
+  rel=3D"external nofollow">jeanphilippe</A> / November 12th, 2006 10:02 =
+am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi,<BR>It seems it doesn't run on Safari 2.0.4, flash Player =
+9</P></DIV>
+  <LI class=3Dalt id=3Dcomment-17>
+  <DIV class=3Dcommentname>pixelbreaker / November 12th, 2006 4:22 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>I'm running it on Safari 2.0.4 here, and it's fine.</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-20>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://chestermclaughlin.com/2006/11/13/which-detection-method-is=
+-better/"=20
+  rel=3D"external nofollow">Chester McLaughlin =C2=BB Fundamental Flash =
+Features</A> /=20
+  November 13th, 2006 6:32 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] Mac ScrollWheel Support [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-21>
+  <DIV class=3Dcommentname><A =
+href=3D"http://www.daveglanzproductions.com/"=20
+  rel=3D"external nofollow">Dave Glanz</A> / November 14th, 2006 6:47 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>With Safari, I get this message when opening the sample:</P>
+  <P>str:<BR>onMouseWheel: [type Function]<BR>$version: MAC=20
+  9,0,16,0<BR>mouse_txt: _level0.mouse_txt<BR>test_txt: =
+_level0.test_txt</P>
+  <P>Using Firefox 2.0, I'm getting the "You need to upgrade your Flash =
+Player!"=20
+  message.</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-22>
+  <DIV class=3Dcommentname><A =
+href=3D"http://www.daveglanzproductions.com/"=20
+  rel=3D"external nofollow">Dave Glanz</A> / November 14th, 2006 6:48 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>With Safari, I get this message when opening the sample:</P>
+  <P>str:<BR>onMouseWheel: [type Function]<BR>$version: MAC=20
+  9,0,16,0<BR>mouse_txt: _level0.mouse_txt<BR>test_txt: =
+_level0.test_txt</P>
+  <P>Also, when using Firefox 2.0, I'm getting the "You need to upgrade =
+your=20
+  Flash Player!" message.</P></DIV>
+  <LI class=3Dalt id=3Dcomment-23>
+  <DIV class=3Dcommentname>pixelbreaker / November 14th, 2006 7:17 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Dave, the flash detection is working in firefox 2.0 on Windows and =
+OS X for=20
+  me, maybe you should direct questions for that to deconcept (who made =
+the=20
+  detection scripts).</P>
+  <P>The message you see in safari is correct, that's what my test movie =
+
+  shows... once you scroll the mouse wheel, you should see another =
+textfield to=20
+  the right, echoing some numbers, ? depending on which direction you're =
+
+  scrolling your wheel.</P>
+  <P>Hope you get it sorted...</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-24>
+  <DIV class=3Dcommentname><A =
+href=3D"http://www.daveglanzproductions.com/"=20
+  rel=3D"external nofollow">Dave Glanz</A> / November 15th, 2006 2:44 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Pixelbreaker, thanks for the response...</P>
+  <P>Still not seeing any changes when scrolling though, (using Safari). =
+Has=20
+  anyone else had trouble with this? I'd love to see it =
+working!</P></DIV>
+  <LI class=3Dalt id=3Dcomment-26>
+  <DIV class=3Dcommentname><A =
+href=3D"http://chakramedia.com/blog/?p=3D7"=20
+  rel=3D"external nofollow">Chakra Media blog =C2=BB SWFMacMouseWheel - =
+real world=20
+  example</A> / November 21st, 2006 1:55 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] A couple of weeks ago pixelbreaker released a kick-ass add-on =
+to=20
+  SWFObject called SWFMacMouseWheel which enables the mousewheel support =
+in=20
+  Flash for OSX.&nbsp; I was a little bummed on their example code =
+though=E2=80=A6 so=20
+  I=E2=80=99ve created a little example of some scrolling textFields. It =
+uses a simple=20
+  hitTest to see if mouse is over the textField and then increments the=20
+  vPosition accordingly. example [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-28>
+  <DIV class=3Dcommentname><A href=3D"http://www.melanchology.com/"=20
+  rel=3D"external nofollow">Hugo Ahlberg</A> / November 23rd, 2006 11:02 =
+am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>This is great. Thank you very much.. I posted it on Digg.com<BR><A=20
+  =
+href=3D"http://digg.com/programming/Mouse_wheel_support_in_Flash_finally_=
+on_Mac_OS_X"=20
+  =
+rel=3Dnofollow>http://digg.com/programming/Mouse_wheel_support_in_Flash_f=
+inally_on_Mac_OS_X</A></P></DIV>
+  <LI class=3Dalt id=3Dcomment-32>
+  <DIV class=3Dcommentname><A href=3D"http://lab.60000feet.com/blog/"=20
+  rel=3D"external nofollow">Dai</A> / November 27th, 2006 3:22 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Great work!<BR>It works on safari 2.0.4 and OSX 10.4.8.</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-56>
+  <DIV class=3Dcommentname><A href=3D"http://www.remotedeveloper.com/"=20
+  rel=3D"external nofollow">Kev Sutherland</A> / December 4th, 2006 =
+11:06 am=20
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi, I too am getting the same response as Dave, I see the =
+textfields on the=20
+  top left but when I use the mouse scroller I don't see anything =
+changing, this=20
+  happens when I use firefox or Safari. I'm running FP 9 in both =
+cases.</P>
+  <P>Both the example SWF and my own attempts both fail to show output =
+from the=20
+  scrollwheel.</P>
+  <P>Any ideas?</P></DIV>
+  <LI class=3Dalt id=3Dcomment-58>
+  <DIV class=3Dcommentname><A href=3D"http://www.thesurface.de/"=20
+  rel=3D"external nofollow">Pedro Jonen</A> / December 5th, 2006 12:27 =
+pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi... I also had the same Problem lke Dave and Kev, using Saf 2.0.4 =
+or=20
+  Firefox 2.0...<BR>LOCAL... it has to be online (on the Server) to =
+work!!!</P>
+  <P>Thx, it's great!</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-59>
+  <DIV class=3Dcommentname>pixelbreaker / December 6th, 2006 2:50 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Pedro, you probably have to change your flash player security =
+settings and=20
+  allow "c:\" if you're on PC or "Macintosh HD" if you're on =
+mac.</P></DIV>
+  <LI class=3Dalt id=3Dcomment-66>
+  <DIV class=3Dcommentname><A href=3D"http://www.yourportfolio.nl/"=20
+  rel=3D"external nofollow">Zokdok</A> / December 8th, 2006 3:51 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>You might want to change the main() to init() or something when =
+you're used=20
+  to work with mtasc (like me).</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-218>
+  <DIV class=3Dcommentname><A href=3D"http://www.designato.de/"=20
+  rel=3D"external nofollow">mecklen</A> / January 24th, 2007 3:56 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>While working with Flex 2 on a AS3 project a textfield suddenly =
+scrolled by=20
+  wheel - and this on the MAC!!! standalone debug player. Also=20
+  MouseEvent.MOUSE_WHEEL is broadcasted. Although the mac mouse wheel =
+support is=20
+  still missing in the flash plugin itself (9.28), it seems to be in the =
+pipe=20
+  now!</P></DIV>
+  <LI class=3Dalt id=3Dcomment-322>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://reefscape.net/2006/11/09/flash-scroll-wheel-support-on-the=
+-mac/"=20
+  rel=3D"external nofollow">Flash scroll wheel support on the Mac =C2=BB =
+Blog Archive =C2=BB=20
+  reefscape.net</A> / February 5th, 2007 10:18 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] Extending Flash support in browser is the new black these =
+days.=20
+  Pixelbreaker adds a very welcome addition by extending support for the =
+mouse=20
+  wheel in Flash to the Macs with is own MouseWheel extension. Finally =
+mouse=20
+  wheel support is no longer Windows only! [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-329>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://webbproducent.wordpress.com/2007/02/06/hjulmus-flash-mac-s=
+ant/"=20
+  rel=3D"external nofollow">Hjulmus + Flash + Mac =3D sant =C2=AB Livet =
+som=20
+  webbproducent</A> / February 6th, 2007 2:53 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] =C2=BB L=C3=A4s mer p=C3=A5 pixelbreaker.com. [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-381>
+  <DIV class=3Dcommentname><A =
+href=3D"http://bouge.ca/ericchan/blog/?p=3D160"=20
+  rel=3D"external nofollow">eBlog =C2=BB Blog Archive =C2=BB Flash =
+MouseWheel Functionality=20
+  on MAC</A> / February 16th, 2007 4:20 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] Part of eepmon version 3 allows the user to use their mouse =
+wheel to=20
+  scroll through content. Works great in Windows but no go on a =
+MAC.&nbsp; So=20
+  I=E2=80=99ve done&nbsp;a google search and stumbled upon =
+pixelbreaker=E2=80=99s site where he=20
+  has resolved the mouse wheel conflict. [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-382>
+  <DIV class=3Dcommentname><A href=3D"http://ww.eepmon.com/"=20
+  rel=3D"external nofollow">eepmon</A> / February 16th, 2007 4:30 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hello,</P>
+  <P>I am creating my new version of my site and the mouse wheel is =
+working=20
+  perfectly on Firefox. It also works in Safari but it seems to be =
+dispatching=20
+  mouse wheel event twice causing the navigation to skip every 2nd item. =
+Could=20
+  this be a browser issue? Has anyone come across this?</P>
+  <P>Thank you</P></DIV>
+  <LI class=3Dalt id=3Dcomment-429>
+  <DIV class=3Dcommentname><A=20
+  href=3D"http://www.interfaceandfunctionality.com/archives/13"=20
+  rel=3D"external nofollow">interface &amp; functionality =C2=BB =
+mouseWheel support for=20
+  Windows and Mac</A> / February 20th, 2007 4:30 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] Mac OSX Support [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-458>
+  <DIV class=3Dcommentname><A=20
+  href=3D"http://www.linkbizkits.com/2007/02/22/swfmacmousewheel/"=20
+  rel=3D"external nofollow">linkbizkits =C2=BB Blog Archive =C2=BB =
+SWFMacMouseWheel</A> /=20
+  February 22nd, 2007 2:44 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] Get all the info here [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-665>
+  <DIV class=3Dcommentname>Joel / March 8th, 2007 6:37 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>hi, </P>
+  <P>i'm trying to add the mousewheel to my movies. first of all i want =
+to get=20
+  something like your test.swf made by me, but i'm having some =
+troubles.</P>
+  <P>i'm just making a new flash movie, named test.swf and overwrite =
+yours. on=20
+  the movie i'm making on the first frame<BR>i'm adding all the example =
+code you=20
+  detail on the top of this site like this:</P>
+  <P>import com.pixelbreaker.ui.MouseWheel;<BR>class =
+Example<BR>{<BR>function=20
+  Example(){<BR>MouseWheel.addListener( this );<BR>}<BR>public function=20
+  onMouseWheel( delta:Number ):Void<BR>{<BR>myTextField =3D =
+delta;<BR>}<BR>}</P>
+  <P>first problem. Flash debugger is telling me that i can only define =
+classes=20
+  in AS external scripts.<BR>.. i'm not very used to work with classes, =
+so i try=20
+  only<BR>leaving the first line (import =
+com.pixelbreaker.ui.MouseWheel;) in the=20
+  flash movie and placing the rest of the code at the end of the =
+mouswheel.as=20
+  file ... i also define into the publication configuration menu of the =
+flash=20
+  movie the folders where all the .as files are contained..<BR>it =
+doesn't work=20
+  too.</P>
+  <P>please, explain me better how could i use this very usefull code or =
+upload=20
+  the test.fla.</P>
+  <P>thanks you</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-666>
+  <DIV class=3Dcommentname>Joel / March 8th, 2007 6:38 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>sorry, there's some more.<BR>the firefox debugger keeps telling me =
+these=20
+  everytime the mousewheel is moved:</P>
+  <P>document[this.so.getAttribute("id")].externalMouseEvent is not a=20
+  function<BR>[Break on this error] document[ this.so.getAttribute('id') =
+
+  ].externalMouseEvent( delta );</P>
+  <P>thanks again.</P></DIV>
+  <LI class=3Dalt id=3Dcomment-741>
+  <DIV class=3Dcommentname><A =
+href=3D"http://dyo.jp/blog/2007/03/flashjsbeta.html"=20
+  rel=3D"external nofollow">DYOBLOG</A> / March 15th, 2007 11:34 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  =
+<P><STRONG>=E3=82=AF=E3=83=AD=E3=82=B9=E3=83=97=E3=83=A9=E3=83=83=E3=83=88=
+=E3=83=95=E3=82=A9=E3=83=BC=E3=83=A0=E3=80=80Flash=E3=82=B9=E3=82=AF=E3=83=
+=AD=E3=83=BC=E3=83=AB=E3=82=AF=E3=83=A9=E3=82=B9=EF=BC=86JS=E3=80=80Beta.=
+..</STRONG></P>
+  <P>=E3=82=B8=E3=83=9F=E3=83=BC=E3=81=AA=E7=A0=94=E7=A9=B6=E3=80=82 =
+=E2=96=A0Flash8=E3=81=AE=E3=82=B9=E3=82=AF=E3=83=AD=E3=83=BC=E3=83=AB=E9=96=
+=A2=E4=BF=82=E3=82=B3=E3=83=B3=E3=83=9D=E3=83=BC=E3=83=8D=E3=83=B3=E3=83=88=
+=E3=81=8C=E3=81=A9=E3=81=86=E3=82=82=E4=BD=BF=E3=81=84=E3=81=A5=E3=82=89=E3=
+=81=84=E3=80=82......</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-746>
+  <DIV class=3Dcommentname><A href=3D"http://www.guzelsozler.name.tr/"=20
+  rel=3D"external nofollow">guzelsozler</A> / March 15th, 2007 10:34 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>thenk you</P></DIV>
+  <LI class=3Dalt id=3Dcomment-752>
+  <DIV class=3Dcommentname><A href=3D"http://www.flashdynamix.com/blog"=20
+  rel=3D"external nofollow">Shane McCartney</A> / March 16th, 2007 6:59 =
+am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>I have desccovered a bug with this code with the undocumented =
+scrollTarget=20
+  parameter onMouseWheel event. Basically this param tells you what =
+movieclip=20
+  the mouse is currently over. The following code fixes this if this =
+could be=20
+  updated in the source it would be a good idea.</P>
+  <P>The solution is a bit of a hack but it works</P>
+  <P>private public static function=20
+  externalMouseEvent(delta:Number):Void<BR>{<BR>var st:MovieClip =3D=20
+  _root.createEmptyMovieClip("st",=20
+  _root.getNextHighestDepth());<BR>st.startDrag();<BR>//<BR>st.func =3D=20
+  macBroadcaster.broadcastMessage;<BR>st.scope =3D =
+macBroadcaster<BR>st.args =3D=20
+  ["onMouseWheel", delta];<BR>//<BR>st.onEnterFrame =3D function()=20
+  {<BR>//<BR>this._x =3D _root._xmouse;<BR>this._y =3D =
+_root._ymouse;<BR>//<BR>if=20
+  (this._droptarget !=3D "" &amp;&amp; this._droptarget!=3D undefined)=20
+  =
+{<BR>//<BR>this.args.push(eval(this._droptarget));<BR>this.func.apply(thi=
+s.scope,=20
+  this.args);<BR>//<BR>delete=20
+  =
+this.onEnterFrame;<BR>this.removeMovieClip();<BR>}<BR>};<BR>}</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-753>
+  <DIV class=3Dcommentname><A href=3D"http://www.flashdynamix.com/blog"=20
+  rel=3D"external nofollow">Shane McCartney</A> / March 16th, 2007 7:03 =
+am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Sorry typo in the above change that first line from </P>
+  <P>private static function =
+externalMouseEvent(delta:Number):Void<BR>{<BR>var=20
+  st:MovieClip =3D _root.createEmptyMovieClip("st",=20
+  _root.getNextHighestDepth());<BR>st.startDrag();<BR>//<BR>st.func =3D=20
+  macBroadcaster.broadcastMessage;<BR>st.scope =3D =
+macBroadcaster<BR>st.args =3D=20
+  ["onMouseWheel", delta];<BR>//<BR>st.onEnterFrame =3D function()=20
+  {<BR>//<BR>this._x =3D _root._xmouse;<BR>this._y =3D =
+_root._ymouse;<BR>//<BR>if=20
+  (this._droptarget !=3D "" &amp;&amp; this._droptarget!=3D undefined)=20
+  =
+{<BR>//<BR>this.args.push(eval(this._droptarget));<BR>this.func.apply(thi=
+s.scope,=20
+  this.args);<BR>//<BR>delete=20
+  =
+this.onEnterFrame;<BR>this.removeMovieClip();<BR>}<BR>};<BR>}</P></DIV>
+  <LI class=3Dalt id=3Dcomment-759>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://www.flashdynamix.com/blog/index.php/2007/03/17/enabling-sc=
+roll-wheel-cross-os-for-flash-applications/"=20
+  rel=3D"external nofollow">FlashDynamix.com - Shane McCartney =C2=BB =
+Blog Archive =C2=BB=20
+  Enabling Scroll Wheel cross OS for Flash applications</A> / March =
+17th, 2007=20
+  2:51 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] Now getting Scroll Wheel to work on Mac is a little trickier =
+as Flash=20
+  doesn=E2=80=99t have native support for this but there is a way to get =
+this to work in=20
+  Flash 8. The Javascript and Actionscript provided code from =
+PixelBreaker as a=20
+  SWFObject add-on allows you to do this. It=E2=80=99s pretty good but =
+has one=20
+  shortcoming and that is that it only provides the delta parameter and =
+not=20
+  scrollTarget, I have an Actionscript fix for this and it=E2=80=99s a =
+bit of a hack but=20
+  hey it works, I hope u find this useful. [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-763>
+  <DIV class=3Dcommentname><A href=3D"http://www.islamkent.com/"=20
+  rel=3D"external nofollow">islami site islami sohbet</A> / March 17th, =
+2007 10:44=20
+  pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>I have still problems with the code, anyone can solve it? =
+thanks</P></DIV>
+  <LI class=3Dalt id=3Dcomment-816>
+  <DIV class=3Dcommentname><A href=3D"http://www.higui.it/"=20
+  rel=3D"external nofollow">hi_gui</A> / March 21st, 2007 6:18 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Great work man, you saved my ass!<BR>I'm not such an experet, but i =
+did it=20
+  to work in a couple of hours.<BR>Thanx again<BR>hi_gui</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-1069>
+  <DIV class=3Dcommentname>pixelbreaker / April 9th, 2007 4:57 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Shane, good that you got scrolltarget working, I never use it, and =
+creating=20
+  _root movieclips is too hacked for my liking. By all means, publish =
+your own=20
+  version of the code.</P>
+  <P>cheers</P></DIV>
+  <LI class=3Dalt id=3Dcomment-1191>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://www.3viso.com/flash/2006/11/09/swfmacmousewheel-swfobject-=
+add-on/"=20
+  rel=3D"external nofollow">programmazione flash =C2=BB Blog Archive =
+=C2=BB SWFMacMouseWheel=20
+  SWFObject add-on</A> / April 16th, 2007 7:43 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] SWFMacMouseWheel [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-2044>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://aendirect.com/2007/05/15/flash-how-to-accelerated-mousewhe=
+el-scrolling/"=20
+  rel=3D"external nofollow">[Flash How-To] Accelerated Mousewheel =
+Scrolling =E2=80=94 AEN=20
+  DIRECT =E2=80=94 Art Director</A> / May 15th, 2007 3:02 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] UPDATE As the Flash Player for Macs doesn't have support for=20
+  Mousewheel events, I have updated the source code with a mac version =
+which=20
+  uses a javascript workaround. You'll also need to download the=20
+  SWFMacMouseWheel class from pixelbreaker. I have tested it on Mac OS X =
+Safari=20
+  and Firefox, works fine. To install the class, copy the "com" folder =
+and paste=20
+  it into your Actionscript 2.0 class folder. Typical paths are Windows: =
+Hard=20
+  DiskDocuments and SettingsuserLocal SettingsApplication DataAdobeFlash =
+
+  CS3languageConfigurationClasses Macintosh: Hard=20
+  Disk/Users/user/Library/Application Support/Adobe/Flash=20
+  CS3/language/Configuration/Classes [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-2080>
+  <DIV class=3Dcommentname><A href=3D"http://www.chatsohbet.net/"=20
+  rel=3D"external nofollow">Sohbet</A> / May 16th, 2007 10:07 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>nice work</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-2081>
+  <DIV class=3Dcommentname><A href=3D"http://www.hossohbet.net/"=20
+  rel=3D"external nofollow">Sohbet</A> / May 16th, 2007 10:08 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Thank you</P></DIV>
+  <LI class=3Dalt id=3Dcomment-2103>
+  <DIV class=3Dcommentname><A href=3D"http://www.chatgurbet.com/"=20
+  rel=3D"external nofollow">sohbet</A> / May 17th, 2007 2:10 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>thank you very much webmaster for nice site. i am reading all =
+write. thanks=20
+  again. works is very nice</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-2379>
+  <DIV class=3Dcommentname><A href=3D"http://roycms.com/wp/?p=3D5"=20
+  rel=3D"external nofollow">Genuine Bricoleur=C2=BB Blog Archive =C2=BB =
+Sadmedia :-(</A> /=20
+  May 22nd, 2007 7:26 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] This extra also showcases the use of the SWFMacMouseWheel =
+javascript,=20
+  by PixelBreaker. By using this javascript, MAC users can also scroll =
+through=20
+  the playlist with their mousewheel. [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-2855>
+  <DIV class=3Dcommentname><A href=3D"http://www.2pitch.com/"=20
+  rel=3D"external nofollow">Keven</A> / June 8th, 2007 8:22 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>I'll admit, I'm no actionscript pro so if anyone has used this =
+fancy=20
+  mousewheel stuff with a custom scrollbar such as this:<BR><A=20
+  href=3D"http://www.kirupa.com/developer/flash8/scrollbar.htm"=20
+  =
+rel=3Dnofollow>http://www.kirupa.com/developer/flash8/scrollbar.htm</A><B=
+R>can=20
+  you please let me know.<BR>Thanks</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-2882>
+  <DIV class=3Dcommentname><A href=3D"http://www.laklaka.net/"=20
+  rel=3D"external nofollow">izlesene</A> / June 9th, 2007 6:02 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>I want to use vista.. but my os don't support them!</P>
+  <P><A title=3Dyoutube rel=3Dnofollow>youtube</A><BR><A title=3Dmirc=20
+  rel=3Dnofollow>mirc</A><BR><A title=3Dradyo =
+rel=3Dnofollow>radyo</A><BR><A=20
+  title=3Dmirc rel=3Dnofollow>mirc</A><BR><A title=3Dsohbet=20
+  rel=3Dnofollow>sohbet</A><BR><A title=3Dsohbet =
+rel=3Dnofollow>sohbet</A></P></DIV>
+  <LI class=3Dalt id=3Dcomment-2912>
+  <DIV class=3Dcommentname><A href=3D"http://www.paradigm77.com/"=20
+  rel=3D"external nofollow">Oliver Bujdoso</A> / June 10th, 2007 4:35 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Works great in Safari, but on Windows with IE, the scroll wheel =
+doesn't=20
+  work until you click on something (activeX). The swfobject.js doesn't =
+work for=20
+  the scrollwheel.</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3052>
+  <DIV class=3Dcommentname><A href=3D"http://www.alemsohbet.net/"=20
+  rel=3D"external nofollow">sohbet</A> / June 14th, 2007 1:44 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>thanks for all</P></DIV>
+  <LI class=3Dalt id=3Dcomment-3080>
+  <DIV class=3Dcommentname><A href=3D"http://www.youtubetr.net/"=20
+  rel=3D"external nofollow">youtube</A> / June 15th, 2007 10:40 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>thanks :)</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3122>
+  <DIV class=3Dcommentname><A href=3D"http://www.sorguc.net/"=20
+  rel=3D"external nofollow">sorguc</A> / June 16th, 2007 10:46 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>thx for all</P></DIV>
+  <LI class=3Dalt id=3Dcomment-3125>
+  <DIV class=3Dcommentname><A href=3D"http://www.bilimarsivi.com/"=20
+  rel=3D"external nofollow">bilim</A> / June 16th, 2007 10:59 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Wow, this is a great release. I won't have that much use for the =
+resizable=20
+  columns, but the new feed navigation is really great for me!</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3673>
+  <DIV class=3Dcommentname><A href=3D"http://sklep.apteka-cito.pl/"=20
+  rel=3D"external nofollow">Apteka internetowa</A> / July 5th, 2007 =
+12:18 pm=20
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>It's very good article. Great site with very good look and perfect=20
+  information... Thanks</P></DIV>
+  <LI class=3Dalt id=3Dcomment-3695>
+  <DIV class=3Dcommentname><A href=3D"http://www.tutkutr.com/"=20
+  rel=3D"external nofollow">ChaT SohbeT</A> / July 6th, 2007 11:08 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Works great in Safari, but on Windows with IE, the scroll wheel =
+doesn't=20
+  work until you click on something (activeX) The swfobject.js doesn't =
+work for=20
+  the scrollwheel...</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3706>
+  <DIV class=3Dcommentname><A href=3D"http://www.missohbet.com/"=20
+  rel=3D"external nofollow">Sohbet</A> / July 6th, 2007 10:24 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Wow, this is a great release. I won't have that much use for the =
+resizable=20
+  columns</P></DIV>
+  <LI class=3Dalt id=3Dcomment-3719>
+  <DIV class=3Dcommentname><A href=3D"http://www.sohbetevim.net/"=20
+  rel=3D"external nofollow">Sohbet odalari</A> / July 7th, 2007 7:07 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>It's very good article. Great site with very good look and perfect=20
+  information.</P>
+  <P>Thnks...</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3733>
+  <DIV class=3Dcommentname><A href=3D"http://www.trarkadas.net/"=20
+  rel=3D"external nofollow">Arkadas</A> / July 8th, 2007 5:42 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Wow, this is a great release. I won't have that much use for the =
+resizable=20
+  columns, but the new feed navigation is really great for me!!!</P>
+  <P><A href=3D"http://www.murat-boz.info/" rel=3Dnofollow>Murat =
+Boz</A></P></DIV>
+  <LI class=3Dalt id=3Dcomment-3734>
+  <DIV class=3Dcommentname><A href=3D"http://www.forumhanem.com/"=20
+  rel=3D"external nofollow">Resim</A> / July 8th, 2007 7:20 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>the firefox debugger keeps telling me these everytime the =
+mousewheel is=20
+  moved:<BR>document[this.so.getAttribute("id")].externalMouseEvent is =
+not a=20
+  function<BR>[Break on this error] document[ this.so.getAttribute('id') =
+
+  ].externalMouseEvent( delta );<BR>thanks again...</P>
+  <P><A href=3D"http://www.grup-hepsi.net/" rel=3Dnofollow>Grup =
+Hepsi</A></P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3737>
+  <DIV class=3Dcommentname><A href=3D"http://www.mirchanem.com/"=20
+  rel=3D"external nofollow">Mirc</A> / July 8th, 2007 10:26 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>I'll be checking your blog a lot from now on, and I hope you have =
+it sooner=20
+  then next week, as I'm currently in the process of adapting the =
+code... which=20
+  would same me a some time and trouble.<BR>(Or maybe you could send me =
+the beta=20
+  code, in which I can help test and bug hunt.)<A =
+href=3D"http://www.10ur.com/"=20
+  rel=3Dnofollow>Sohpet</A></P></DIV>
+  <LI class=3Dalt id=3Dcomment-3755>
+  <DIV class=3Dcommentname><A href=3D"http://www.hizlivideo.com/"=20
+  rel=3D"external nofollow">video izle</A> / July 8th, 2007 11:06 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>thank you</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3768>
+  <DIV class=3Dcommentname><A href=3D"http://www.freeindir.com/"=20
+  rel=3D"external nofollow">indir</A> / July 9th, 2007 10:54 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>the firefox debugger keeps telling me these everytime the =
+mousewheel is=20
+  moved:<BR>document[this.so.getAttribute("id")].externalMouseEvent is =
+not a=20
+  function<BR>[Break on this error] document[ this.so.getAttribute('id') =
+
+  ].externalMouseEvent( delta );<BR>thanks again...</P></DIV>
+  <LI class=3Dalt id=3Dcomment-3775>
+  <DIV class=3Dcommentname><A href=3D"http://dir99999.spaces.live.com/"=20
+  rel=3D"external nofollow">kyle</A> / July 9th, 2007 2:03 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Thank you very much</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3824>
+  <DIV class=3Dcommentname><A href=3D"http://www.yarimol.net/"=20
+  rel=3D"external nofollow">Arkadas</A> / July 10th, 2007 8:20 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>I'll admit, I'm no actionscript pro so if anyone has used this =
+fancy=20
+  mousewheel stuff with a custom scrollbar such as this:.</P></DIV>
+  <LI class=3Dalt id=3Dcomment-3833>
+  <DIV class=3Dcommentname><A href=3D"http://www.fullmp3indir.org/"=20
+  rel=3D"external nofollow">mp3indir</A> / July 10th, 2007 2:20 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P><A title=3Dmp3indir href=3D"http://www.fullmp3indir.org/"=20
+  rel=3Dnofollow>mp3indir</A><BR><A title=3Dzirve=20
+  href=3D"http://www.zirve-insaat.com/" rel=3Dnofollow>zirve</A></P>
+  <P>thanks</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-3854>
+  <DIV class=3Dcommentname><A href=3D"http://gazeteler.oku.gen.tr/"=20
+  rel=3D"external nofollow">gazeteler</A> / July 10th, 2007 8:48 pm =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi, I'm Turkish science communicator.I like very very much Nature=20
+  Podcast.</P>
+  <P>Congratulations!</P></DIV>
+  <LI class=3Dalt id=3Dcomment-4000>
+  <DIV class=3Dcommentname><A href=3D"http://hasseg.org/blog/"=20
+  rel=3D"external nofollow">Hasse G</A> / July 13th, 2007 8:51 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi. I found your site a while back when I was looking for existing=20
+  solutions for OS X mouse wheel support, but found none that would be =
+easily=20
+  plugged to Flex/AS3 apps, so I implemented one myself. You can find it =
+here:=20
+  </P>
+  <P><A href=3D"http://hasseg.org/blog/?p=3D3"=20
+  rel=3Dnofollow>http://hasseg.org/blog/?p=3D3</A></P></DIV>
+  <LI class=3Dstandard id=3Dcomment-4043>
+  <DIV class=3Dcommentname><A href=3D"http://www.tutkutr.com/forum"=20
+  rel=3D"external nofollow">Paylasim</A> / July 14th, 2007 6:13 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi. I also had the same Problem lke Dave and Kev, using Saf 2.0.4 =
+or=20
+  Firefox 2.0.<BR>Local. it has to be online (on the Server) to =
+work</P></DIV>
+  <LI class=3Dalt id=3Dcomment-4052>
+  <DIV class=3Dcommentname><A href=3D"http://www.trsaglik.net/"=20
+  rel=3D"external nofollow">Saglik</A> / July 14th, 2007 9:59 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>Does that mean, using your example class, I would state: =
+mouseListener =3D=20
+  new Example(); Mouse.addListener(mouseListener);? If not, then =
+what?<BR><A=20
+  href=3D"http://www.sexevim.net/" rel=3Dnofollow>Thanks.</A></P></DIV>
+  <LI class=3Dstandard id=3Dcomment-4087>
+  <DIV class=3Dcommentname><A href=3D"http://www.missohbet.com/"=20
+  rel=3D"external nofollow">sohbet odalari</A> / July 15th, 2007 7:10 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hi.<BR>[...] A couple of weeks ago pixelbreaker released a kick-ass =
+add-on=20
+  to SWFObject called SWFMacMouseWheel which enables the mousewheel =
+support in=20
+  Flash for OSX. I was a little bummed on their example code =
+though=E2=80=A6 so I=E2=80=99ve=20
+  created a little example of some scrolling textFields. It uses a =
+simple=20
+  hitTest to see if mouse is over the textField and then increments the=20
+  vPosition accordingly. example [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-4088>
+  <DIV class=3Dcommentname><A href=3D"http://www.tutkutr.com/"=20
+  rel=3D"external nofollow">islami sohbet</A> / July 15th, 2007 7:36 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Hello, I too am getting the same response as Dave, I see the =
+textfields on=20
+  the top left but when I use the mouse scroller I don't see anything =
+changing,=20
+  this happens when I use firefox or Safari. I'm running FP 9 in both =
+cases. <A=20
+  href=3D"http://www.tutkutr.com/" rel=3Dnofollow>dini =
+sohbet</A></P></DIV>
+  <LI class=3Dstandard id=3Dcomment-4089>
+  <DIV class=3Dcommentname><A href=3D"http://www.adobecs4.net/"=20
+  rel=3D"external nofollow">adobe</A> / July 15th, 2007 7:57 am </DIV>
+  <DIV class=3Dcommenttext>
+  <P>thanx</P></DIV>
+  <LI class=3Dalt id=3Dcomment-4153>
+  <DIV class=3Dcommentname><A href=3D"http://www.pfodere.com/"=20
+  rel=3D"external nofollow">forum problem bank</A> / July 17th, 2007 =
+12:31 am=20
+  </DIV>
+  <DIV class=3Dcommenttext>
+  <P>thanks for all knowledge</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-4174>
+  <DIV class=3Dcommentname><A=20
+  =
+href=3D"http://www.3viso.com/flash/swfmacmousewheel-swfobject-add-on/2006=
+/11/09/"=20
+  rel=3D"external nofollow">SWFMacMouseWheel SWFObject add-on | blog =
+aggregatore=20
+  programmazione flash</A> / July 17th, 2007 2:27 pm </DIV>
+  <DIV class=3Dcommenttext>
+  <P>[...] SWFMacMouseWheel [...]</P></DIV>
+  <LI class=3Dalt id=3Dcomment-4347>
+  <DIV class=3Dcommentname><A href=3D"http://www.kalekapi.org/"=20
+  rel=3D"external nofollow">kale kapi</A> / July 25th, 2007 4:58 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>thanks good [...] SWFMacMouseWheel [...]</P></DIV>
+  <LI class=3Dstandard id=3Dcomment-4378>
+  <DIV class=3Dcommentname><A href=3D"http://www.kalekapilari.net/"=20
+  rel=3D"external nofollow">kale kapi</A> / July 27th, 2007 1:04 am =
+</DIV>
+  <DIV class=3Dcommenttext>
+  <P>Shane, good that you got scrolltarget working, I never use it, and =
+creating=20
+  _root movieclips is too hacked for my liking. =
+B</P></DIV></LI></OL></DIV>
+<P></P></DIV>
+<DIV id=3Dsidebar><!--<h2 id=3D"searchdiv">Search this site</h2>=0A=
+  <div>=0A=
+    <form id=3D"searchform" method=3D"get" action=3D"/index.php">=0A=
+      <input type=3D"text" name=3D"s" id=3D"s" size=3D"15"/>=0A=
+      <input name=3D"sbutt" type=3D"submit" id=3D"sbut" value=3D"Search" =
+alt=3D"Submit"  />=0A=
+    </form>=0A=
+  </div>=0A=
+  <br />=0A=
+  <ul>-->
+<H2>Pages</H2>
+<UL>
+  <LI class=3Dpage_item><A title=3DPolarClock=20
+  href=3D"http://blog.pixelbreaker.com/polarclock/">PolarClock</A>=20
+  <LI class=3Dpage_item><A title=3D"About me"=20
+  href=3D"http://blog.pixelbreaker.com/about/">About me</A> </LI></UL>
+<H2>Recent posts </H2>
+<UL>
+  <LI><A=20
+  =
+href=3D"http://blog.pixelbreaker.com/flash/looping-within-a-range/">Loopi=
+ng=20
+  within a range</A>=20
+  <LI><A=20
+  =
+href=3D"http://blog.pixelbreaker.com/flash/polarclock-dashboard-widget/">=
+PolarClock=20
+  Dashboard Widget</A>=20
+  <LI><A =
+href=3D"http://blog.pixelbreaker.com/work/new-role-at-digit/">New role =
+at=20
+  Digit!</A>=20
+  <LI><A=20
+  =
+href=3D"http://blog.pixelbreaker.com/flash/rssatom-syndication-made-easy/=
+">RSS/Atom=20
+  syndication made easy</A>=20
+  <LI><A=20
+  =
+href=3D"http://blog.pixelbreaker.com/flash/polarclock-30-release/">PolarC=
+lock=20
+  3.0 Release</A> </LI></UL>
+<H2>Categories </H2>
+<UL><!-- 	<li><a =
+href=3D"http://blog.pixelbreaker.com/category/flash/actionscript-20/" =
+title=3D"View all posts filed under ActionScript 2.0">ActionScript =
+2.0</a>=0A=
+</li>=0A=
+	<li><a =
+href=3D"http://blog.pixelbreaker.com/category/flash/actionscript-30/" =
+title=3D"View all posts filed under ActionScript 3.0">ActionScript =
+3.0</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/flash/eclipse/" =
+title=3D"View all posts filed under Eclipse">Eclipse</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/flash/fdt/" =
+title=3D"View all posts filed under FDT">FDT</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/firefox/" =
+title=3D"View all posts filed under FireFox">FireFox</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/flash/" =
+title=3D"View all posts filed under Flash">Flash</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/library/" =
+title=3D"View all posts filed under Library">Library</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/mac/" =
+title=3D"View all posts filed under Mac">Mac</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/open-source/" =
+title=3D"View all posts filed under Open Source">Open Source</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/play/" =
+title=3D"View all posts filed under Play">Play</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/screensaver/" =
+title=3D"View all posts filed under Screensaver">Screensaver</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/flash/tips/" =
+title=3D"View all posts filed under Tips">Tips</a>=0A=
+</li>=0A=
+	<li><a href=3D"http://blog.pixelbreaker.com/category/work/" =
+title=3D"View all posts filed under Work">Work</a>=0A=
+</li>=0A=
+ -->
+  <LI><A title=3D"View all posts filed under ActionScript 2.0"=20
+  =
+href=3D"http://blog.pixelbreaker.com/category/flash/actionscript-20/">Act=
+ionScript=20
+  2.0</A> (13)=20
+  <LI><A title=3D"View all posts filed under ActionScript 3.0"=20
+  =
+href=3D"http://blog.pixelbreaker.com/category/flash/actionscript-30/">Act=
+ionScript=20
+  3.0</A> (9)=20
+  <LI><A title=3D"View all posts filed under Eclipse"=20
+  =
+href=3D"http://blog.pixelbreaker.com/category/flash/eclipse/">Eclipse</A>=
+ (3)=20
+  <LI><A title=3D"View all posts filed under FDT"=20
+  href=3D"http://blog.pixelbreaker.com/category/flash/fdt/">FDT</A> (3)=20
+  <LI><A title=3D"View all posts filed under FireFox"=20
+  href=3D"http://blog.pixelbreaker.com/category/firefox/">FireFox</A> =
+(3)=20
+  <LI><A title=3D"View all posts filed under Flash"=20
+  href=3D"http://blog.pixelbreaker.com/category/flash/">Flash</A> (22)=20
+  <LI><A title=3D"View all posts filed under Library"=20
+  href=3D"http://blog.pixelbreaker.com/category/library/">Library</A> =
+(2)=20
+  <LI><A title=3D"View all posts filed under Mac"=20
+  href=3D"http://blog.pixelbreaker.com/category/mac/">Mac</A> (7)=20
+  <LI><A title=3D"View all posts filed under Open Source"=20
+  href=3D"http://blog.pixelbreaker.com/category/open-source/">Open =
+Source</A> (5)=20
+  <LI><A title=3D"View all posts filed under Play"=20
+  href=3D"http://blog.pixelbreaker.com/category/play/">Play</A> (8)=20
+  <LI><A title=3D"View all posts filed under Screensaver"=20
+  =
+href=3D"http://blog.pixelbreaker.com/category/screensaver/">Screensaver</=
+A> (2)=20
+  <LI><A title=3D"View all posts filed under Tips"=20
+  href=3D"http://blog.pixelbreaker.com/category/flash/tips/">Tips</A> =
+(4)=20
+  <LI><A title=3D"View all posts filed under Work"=20
+  href=3D"http://blog.pixelbreaker.com/category/work/">Work</A> (1) =
+</LI></UL>
+<UL>
+  <LI class=3Dlinkcat id=3Dlinkcat-14>
+  <H2>Links</H2>
+  <UL>
+    <LI><A href=3D"http://labs.adobe.com/" target=3D_blank>Adobe =
+Labs</A>=20
+    <LI><A href=3D"http://blog.andre-michelle.com/" =
+target=3D_blank>andr=C3=A9=20
+    michelle</A>=20
+    <LI><A href=3D"http://labs.bigspaceship.com/blog/" =
+target=3D_blank>Big Spaceship=20
+    Labs</A>=20
+    <LI><A href=3D"http://moock.org/blog/" target=3D_blank>Colin =
+Moock</A>=20
+    <LI><A href=3D"http://www.creativereview.co.uk/crblog/" =
+target=3D_blank>CR=20
+    Blog</A>=20
+    <LI><A href=3D"http://www.darronschall.com/weblog/" =
+target=3D_blank>Darron=20
+    Schall</A>=20
+    <LI><A href=3D"http://blog.deconcept.com/" =
+target=3D_blank>deconcept</A>=20
+    <LI><A href=3D"http://flickr.com/photos/gabes/" target=3D_blank>My =
+Flickr</A>=20
+    <LI><A href=3D"http://blog.rorymacdonald.net/" target=3D_blank>Rory=20
+    MacDonald</A>=20
+    <LI><A href=3D"http://www.sephiroth.it/" =
+target=3D_blank>sephiroth</A>=20
+    <LI><A href=3D"http://www.simonheys.com/wordpress/" =
+target=3D_blank>Simon=20
+    Heys</A>=20
+    <LI><A href=3D"http://thingstolookat.blogspot.com/" =
+target=3D_blank>things to=20
+    look at</A>=20
+    <LI><A href=3D"http://www.tink.ws/blog/" target=3D_blank>tink</A> =
+</LI></UL>
+  <LI class=3Dlinkcat id=3Dlinkcat-15>
+  <H2>Flash Essentials</H2>
+  <UL>
+    <LI><A href=3D"http://www.amfphp.org/" target=3D_blank>AMFPHP</A>=20
+    <LI><A href=3D"http://www.asual.com/swfaddress/" =
+target=3D_blank>Asual=20
+    SWFAddress</A>=20
+    <LI><A href=3D"http://blog.deconcept.com/swfobject/" =
+target=3D_blank>deconcept's=20
+    SWFObject</A> </LI></UL>
+  <LI class=3Dlinkcat id=3Dlinkcat-16>
+  <H2>Work</H2>
+  <UL>
+    <LI><A=20
+    =
+href=3D"http://www.adidas.com/campaigns/women/content/stella/fw06/launch.=
+asp?strCountry_adidascom=3Duk&amp;strBrand_adidascom=3Dperformance"=20
+    target=3D_blank>adidas: Stella McCartney</A>=20
+    <LI><A href=3D"http://archive.pixelbreaker.com/adidas_1/"=20
+    target=3D_blank>adidas_1: interim site</A>=20
+    <LI><A href=3D"http://www.panasonic-europe.com/" =
+target=3D_blank>Panasonic=20
+    Europe</A>=20
+    <LI><A href=3D"http://www.panasonic-europe.com/vieraexperience/"=20
+    target=3D_blank>Panasonic Viera</A>=20
+    <LI><A href=3D"http://www.pixelbreaker.com/v1/" =
+target=3D_blank>Pixelbreaker=20
+    v1</A>=20
+    <LI><A href=3D"http://www.viaduct.co.uk/" =
+target=3D_blank>Viaduct</A>=20
+  </LI></UL></LI></UL>
+<H2>Meta </H2>
+<UL>
+  <LI><A title=3D"Syndicate this site using RSS"=20
+  href=3D"http://blog.pixelbreaker.com/feed/"><ABBR=20
+  title=3D"Really Simple Syndication">RSS</ABBR> </A>
+  <LI><A href=3D"http://blog.pixelbreaker.com/wp-login.php">Login</A>=20
+</LI></UL></DIV><!-- The main column ends  --><!-- begin footer -->
+<DIV id=3Dfooter><A href=3D"http://www.pixelbreaker.com/v1/"=20
+target=3D_blank>pixelbreaker.com v1</A> | running <A =
+href=3D"http://wordpress.org/"=20
+target=3D_blank>WordPress</A> | hosted on <A =
+href=3D"http://www.mediatemple.net/"=20
+target=3D_blank>( mt )</A> | <A=20
+onclick=3D"window.open('http://del.icio.us/post?v=3D4&amp;noui&amp;jump=3D=
+close&amp;url=3D'+encodeURIComponent(location.href)+'&amp;title=3D'+encod=
+eURIComponent(document.title), =
+'delicious','toolbar=3Dno,width=3D700,height=3D400'); return false;"=20
+href=3D"http://del.icio.us/post">+ del.icio.us</A> </DIV></DIV>
+<SCRIPT type=3Dtext/javascript>=0A=
+//<![CDATA[=0A=
+/* Replacement calls. Please see documentation for more information. */=0A=
+=0A=
+if(typeof sIFR =3D=3D "function"){=0A=
+=0A=
+// This is the preferred "named argument" syntax=0A=
+	sIFR.replaceElement(named({sSelector:"#content .entrytitle", =
+sFlashSrc:"/sifr/avantgarde.swf", sColor:"#AAAAAA", =
+sLinkColor:"#AAAAAA", sBgColor:"#2d2d2d", sHoverColor:"#A4E38D", =
+nPaddingTop:0, nPaddingBottom:0, =
+sFlashVars:"textalign=3Dleft&offsetLeft=3D-2", sWmode:"opaque" }));=0A=
+=0A=
+=0A=
+};=0A=
+=0A=
+//]]>=0A=
+</SCRIPT>
+</BODY></HTML>
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/wp-content/plugins/ig_syntax_hilite/css/syntax_hilite_css.css
+
+.syntax_hilite {
+	BORDER-RIGHT: #555555 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#555555 1px solid; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: =
+10px; OVERFLOW: auto; BORDER-LEFT: #555555 1px solid; LINE-HEIGHT: 13px; =
+PADDING-TOP: 3px; BORDER-BOTTOM: #555555 1px solid; FONT-FAMILY: =
+'Courier New',Courier,monospace; WHITE-SPACE: nowrap; BACKGROUND-COLOR: =
+#323232; TEXT-ALIGN: left
+}
+LI .syntax_hilite {
+	BORDER-RIGHT: #555555 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: =
+#555555 1px solid; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: =
+10px; OVERFLOW: auto; BORDER-LEFT: #555555 1px solid; LINE-HEIGHT: 13px; =
+PADDING-TOP: 3px; BORDER-BOTTOM: #555555 1px solid; FONT-FAMILY: =
+'Courier New',Courier,monospace; WHITE-SPACE: nowrap; BACKGROUND-COLOR: =
+#323232; TEXT-ALIGN: left
+}
+.syntax_hilite {
+	WIDTH: 489px
+}
+LI .syntax_hilite {
+	WIDTH: 449px
+}
+.igBar {
+	BORDER-RIGHT: #555555 1px solid; BORDER-TOP: #555555 1px solid; =
+BORDER-LEFT: #555555 1px solid; BACKGROUND-COLOR: #333333
+}
+LI .igBar {
+	BORDER-RIGHT: #555555 1px solid; BORDER-TOP: #555555 1px solid; =
+BORDER-LEFT: #555555 1px solid; BACKGROUND-COLOR: #333333
+}
+.igBar {
+	WIDTH: 500px
+}
+LI .igBar {
+	WIDTH: 460px
+}
+.igBar A {
+	FONT-WEIGHT: bold; MARGIN: 0px 5px 0px 10px; TEXT-DECORATION: none
+}
+.igBar A:hover {
+	FONT-WEIGHT: bold; MARGIN: 0px 5px 0px 10px; TEXT-DECORATION: none
+}
+.syntax_hilite .langName {
+	FONT-WEIGHT: bold; COLOR: #cfcfcf
+}
+.syntax_hilite TEXTAREA {
+	BORDER-RIGHT: #555555 1px solid; BORDER-TOP: #555555 1px solid; MARGIN: =
+0px -5px -2px 0px; BORDER-LEFT: #555555 1px solid; BORDER-BOTTOM: =
+#555555 1px solid
+}
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/lightbox.css
+
+#lightbox {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 6px; =
+PADDING-TOP: 6px; BACKGROUND-COLOR: #666
+}
+#lightboxCaption {
+	FONT-SIZE: 0.8em; PADDING-TOP: 0.4em
+}
+#lightbox IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+#overlay IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+ HTML #overlay {
+	Z-INDEX: 3; BACKGROUND-COLOR: transparent
+}
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/wp-content/themes/pixelbreaker/style.css
+
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #242424; =
+PADDING-BOTTOM: 0px; MARGIN: 0px; FONT: 12px/12px Helvetica, Tahoma, =
+Arial, sans-serif; COLOR: #aaaaaa; PADDING-TOP: 0px
+}
+#wrap {
+	BACKGROUND: #2d2d2d; MARGIN: 0px auto 0px 100px; OVERFLOW: hidden; =
+WIDTH: 780px; POSITION: relative
+}
+#content {
+	PADDING-RIGHT: 10px; DISPLAY: inline; PADDING-LEFT: 10px; FLOAT: left; =
+PADDING-BOTTOM: 0px; MARGIN: 8px; WIDTH: 510px; PADDING-TOP: 80px; =
+TEXT-ALIGN: left
+}
+#nav {
+	MARGIN-LEFT: auto; WIDTH: 780px; MARGIN-RIGHT: auto; HEIGHT: 49px
+}
+#sidebar {
+	PADDING-RIGHT: 10px; DISPLAY: inline; PADDING-LEFT: 10px; FONT-SIZE: =
+11px; FLOAT: right; PADDING-BOTTOM: 10px; MARGIN: 8px 8px 8px 0px; =
+WIDTH: 200px; LINE-HEIGHT: 1.5em; PADDING-TOP: 80px
+}
+#pages H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+#pages H1 A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; FLOAT: left; PADDING-BOTTOM: =
+0px; MARGIN: 0px; TEXT-TRANSFORM: uppercase; COLOR: #999; PADDING-TOP: =
+13px; LETTER-SPACING: -1px; TEXT-DECORATION: none
+}
+#pages H1 A:hover {
+	TEXT-DECORATION: underline
+}
+H3 {
+	PADDING-BOTTOM: 15px; PADDING-TOP: 5px
+}
+H4 {
+	PADDING-BOTTOM: 15px; PADDING-TOP: 5px
+}
+#logo {
+	Z-INDEX: 2; BACKGROUND: url(images/logo_new.png) #454847 no-repeat; =
+LEFT: 100px; FLOAT: left; WIDTH: 780px; POSITION: fixed; TOP: 0px; =
+HEIGHT: 78px
+}
+#tagline {
+	MARGIN-TOP: 60px; FONT-WEIGHT: bold; FONT-SIZE: 12px; Z-INDEX: 11; =
+TEXT-TRANSFORM: uppercase; COLOR: #ffffff; MARGIN-RIGHT: 183px; HEIGHT: =
+20px; TEXT-ALIGN: right
+}
+#tagline A {
+	COLOR: #ffffff
+}
+#tagline A:hover {
+	COLOR: #93d27c; TEXT-DECORATION: none
+}
+DIV#pages {
+	BACKGROUND: #2d2d2d; MARGIN: 0px auto; WIDTH: 800px; HEIGHT: 40px
+}
+DIV#pages UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 10px; WHITE-SPACE: nowrap; LIST-STYLE-TYPE: none
+}
+DIV#pages UL LI {
+	FLOAT: right
+}
+DIV#pages UL LI.current_page_item A {
+	TEXT-DECORATION: underline
+}
+DIV#pages UL LI A {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 10px; FONT-SIZE: =
+12px; PADDING-BOTTOM: 5px; TEXT-TRANSFORM: capitalize; BORDER-LEFT: #333 =
+1px dotted; COLOR: #999; PADDING-TOP: 5px; TEXT-DECORATION: none
+}
+DIV#pages UL LI A:hover {
+	COLOR: #ccc; TEXT-DECORATION: underline
+}
+DIV#pages H1 A:hover {
+	BACKGROUND-COLOR: transparent
+}
+#footer {
+	CLEAR: both; PADDING-RIGHT: 10px; MARGIN-TOP: 5px; PADDING-LEFT: 20px; =
+MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; WIDTH: 780px; PADDING-TOP: =
+10px; HEIGHT: 40px; BACKGROUND-COLOR: #454847; TEXT-ALIGN: left
+}
+.entry {
+	PADDING-LEFT: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 30px; =
+LINE-HEIGHT: 1.5em; PADDING-TOP: 0px
+}
+.firstpost {
+	MARGIN-BOTTOM: 20px
+}
+H3.entrytitle {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+22px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: none; =
+MARGIN-RIGHT: 0px; PADDING-TOP: 10px
+}
+H3 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+22px; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; TEXT-TRANSFORM: none; =
+MARGIN-RIGHT: 0px; PADDING-TOP: 10px
+}
+H3.entrytitle A {
+	COLOR: #aaaaaa; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: =
+none
+}
+H3.entrytitle A:visited {
+	COLOR: #aaaaaa; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: =
+none
+}
+H3 A {
+	COLOR: #aaaaaa; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; TEXT-DECORATION: none; BORDER-BOTTOM-STYLE: =
+none
+}
+H3.entrytitle A:hover {
+	COLOR: #a4e38d; TEXT-DECORATION: none
+}
+H3 A:hover {
+	COLOR: #a4e38d; TEXT-DECORATION: none
+}
+.entrymeta {
+	BORDER-TOP: #555555 1px solid; MARGIN-TOP: 0px; FONT-SIZE: 11px; =
+MARGIN-BOTTOM: 8px; COLOR: #666; PADDING-TOP: 4px; HEIGHT: 16px
+}
+.entrymeta A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+.entrybody A {
+	COLOR: #93d27c
+}
+.entrybody IMG {
+	BORDER-RIGHT: #444 5px solid; BORDER-TOP: #444 5px solid; =
+MARGIN-BOTTOM: 7px; BORDER-LEFT: #444 5px solid; BORDER-BOTTOM: #444 5px =
+solid
+}
+.flashmovie {
+	BORDER-RIGHT: #444 5px solid; BORDER-TOP: #444 5px solid; MARGIN-TOP: =
+8px; MARGIN-BOTTOM: 15px; BORDER-LEFT: #444 5px solid; BORDER-BOTTOM: =
+#444 5px solid
+}
+.entrybody UL {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 20px; LIST-STYLE-TYPE: none
+}
+.entrybody OL {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 20px
+}
+.entrybody UL LI {
+	LIST-STYLE-TYPE: square
+}
+.commentlink IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+H4 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #999; PADDING-TOP: 0px; =
+FONT-STYLE: normal; FONT-VARIANT: normal
+}
+H3 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #999; PADDING-TOP: 0px; =
+FONT-STYLE: normal; FONT-VARIANT: normal
+}
+H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #999; PADDING-TOP: 0px; =
+FONT-STYLE: normal; FONT-VARIANT: normal
+}
+#commentblock H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: =
+11px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #999; PADDING-TOP: 0px; =
+FONT-STYLE: normal; FONT-VARIANT: normal
+}
+H2 {
+	FONT-SIZE: 14px; MARGIN-BOTTOM: 10px
+}
+A {
+	COLOR: #93d27c; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #93d27c; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+.entrybody P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 8px =
+0px; PADDING-TOP: 0px
+}
+.entrybody UL {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 30px; LIST-STYLE-TYPE: none
+}
+.entrybody OL {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 30px
+}
+.entrybody UL LI {
+	LIST-STYLE-TYPE: square
+}
+#sidebar H2 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 5px; PADDING-LEFT: 0px; FONT-WEIGHT: =
+bold; FONT-SIZE: 11px; MARGIN-BOTTOM: 3px; PADDING-BOTTOM: 0px; =
+TEXT-TRANSFORM: capitalize; COLOR: #999; MARGIN-RIGHT: 0px; PADDING-TOP: =
+0px; BORDER-BOTTOM: #555555 1px solid
+}
+#sidebar UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px =
+0px 15px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#sidebar UL LI {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: =
+0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#sidebar LI {
+	LIST-STYLE-TYPE: none
+}
+#sidebar #s {
+	BORDER-RIGHT: #999999 1px dotted; BORDER-TOP: #999999 1px dotted; =
+BORDER-LEFT: #999999 1px dotted; COLOR: #cccccc; BORDER-BOTTOM: #999999 =
+1px dotted; BACKGROUND-COLOR: #333333
+}
+#author {
+	BORDER-RIGHT: #999999 1px dotted; BORDER-TOP: #999999 1px dotted; =
+BORDER-LEFT: #999999 1px dotted; COLOR: #cccccc; BORDER-BOTTOM: #999999 =
+1px dotted; BACKGROUND-COLOR: #333333
+}
+#email {
+	BORDER-RIGHT: #999999 1px dotted; BORDER-TOP: #999999 1px dotted; =
+BORDER-LEFT: #999999 1px dotted; COLOR: #cccccc; BORDER-BOTTOM: #999999 =
+1px dotted; BACKGROUND-COLOR: #333333
+}
+#url {
+	BORDER-RIGHT: #999999 1px dotted; BORDER-TOP: #999999 1px dotted; =
+BORDER-LEFT: #999999 1px dotted; COLOR: #cccccc; BORDER-BOTTOM: #999999 =
+1px dotted; BACKGROUND-COLOR: #333333
+}
+#comment {
+	BORDER-RIGHT: #999999 1px dotted; BORDER-TOP: #999999 1px dotted; =
+BORDER-LEFT: #999999 1px dotted; COLOR: #cccccc; BORDER-BOTTOM: #999999 =
+1px dotted; BACKGROUND-COLOR: #333333
+}
+#sidebar #sbut {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; =
+BORDER-LEFT: #666666 1px solid; COLOR: #cccccc; BORDER-BOTTOM: #666666 =
+1px solid; BACKGROUND-COLOR: #444444
+}
+#submit {
+	BORDER-RIGHT: #666666 1px solid; BORDER-TOP: #666666 1px solid; =
+BORDER-LEFT: #666666 1px solid; COLOR: #cccccc; BORDER-BOTTOM: #666666 =
+1px solid; BACKGROUND-COLOR: #444444
+}
+#sidebar UL LI A {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: 2px 45%; PADDING-BOTTOM: 0px; =
+MARGIN-LEFT: 0px; TEXT-TRANSFORM: capitalize; COLOR: #93d27c; =
+PADDING-TOP: 0px; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+#sidebar UL LI A:hover {
+	COLOR: #a4e38d; TEXT-DECORATION: underline
+}
+#searchdiv {
+	MARGIN-TOP: 8px; MARGIN-BOTTOM: 15px
+}
+.comments-link {
+	BACKGROUND-POSITION: left center; BACKGROUND-REPEAT: no-repeat
+}
+#commentblock H2 {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 10px; PADDING-LEFT: 0px; MARGIN-BOTTOM: =
+10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#commentblock {
+	FLOAT: left; PADDING-BOTTOM: 20px; PADDING-TOP: 0px; TEXT-ALIGN: left
+}
+OL#commentlist {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: =
+0px; MARGIN-LEFT: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.commentdate {
+	PADDING-LEFT: 5px; FONT-SIZE: 0.8em
+}
+#commentlist LI P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 5px; =
+PADDING-BOTTOM: 0px; LINE-HEIGHT: 15px; PADDING-TOP: 0px
+}
+.commentname {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; PADDING-TOP: 0px
+}
+.commentinfo {
+	CLEAR: both
+}
+.commenttext {
+	CLEAR: both; PADDING-RIGHT: 10px; MARGIN-TOP: 5px; PADDING-LEFT: 10px; =
+BACKGROUND: #333; MARGIN-BOTTOM: 15px; PADDING-BOTTOM: 5px; WIDTH: =
+500px; PADDING-TOP: 2px
+}
+.commenttext-admin {
+	CLEAR: both; PADDING-RIGHT: 10px; MARGIN-TOP: 5px; PADDING-LEFT: 10px; =
+BACKGROUND: #333; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 5px; WIDTH: =
+500px; PADDING-TOP: 2px
+}
+#commentsformheader {
+	PADDING-LEFT: 0px
+}
+#commentsform {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: =
+0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#commentsform FORM {
+	MARGIN: 0px; TEXT-ALIGN: left
+}
+#commentsform P {
+	MARGIN: 5px
+}
+#commentsform FORM TEXTAREA {
+	WIDTH: 99%
+}
+P.comments_link IMG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: =
+0px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+BLOCKQUOTE {
+	COLOR: #999999; FONT-STYLE: italic
+}
+.adwrap {
+	BORDER-RIGHT: #d5d7d0 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#d5d7d0 1px solid; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: =
+4px; MARGIN: 0px 0px 1em; BORDER-LEFT: #d5d7d0 0px solid; PADDING-TOP: =
+4px; BORDER-BOTTOM: #d5d7d0 1px solid
+}
+.adwrapwide {
+	BORDER-RIGHT: #d5d7d0 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#d5d7d0 1px solid; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: =
+4px; MARGIN: 0px 0px 1em; BORDER-LEFT: #d5d7d0 0px solid; PADDING-TOP: =
+4px; BORDER-BOTTOM: #d5d7d0 1px solid
+}
+.adwrap-lu {
+	BORDER-RIGHT: #d5d7d0 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#d5d7d0 1px solid; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: =
+4px; MARGIN: 0px 0px 1em; BORDER-LEFT: #d5d7d0 0px solid; PADDING-TOP: =
+4px; BORDER-BOTTOM: #d5d7d0 1px solid
+}
+.adwrapbutton {
+	BORDER-RIGHT: #d5d7d0 0px solid; PADDING-RIGHT: 0px; BORDER-TOP: =
+#d5d7d0 1px solid; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: =
+4px; MARGIN: 0px 0px 1em; BORDER-LEFT: #d5d7d0 0px solid; PADDING-TOP: =
+4px; BORDER-BOTTOM: #d5d7d0 1px solid
+}
+.adwrap OBJECT {
+	WIDTH: 336px; HEIGHT: 280px
+}
+.adwrapwide IFRAME {
+	WIDTH: 468px; HEIGHT: 65px
+}
+.adwrapwide OBJECT {
+	WIDTH: 468px; HEIGHT: 65px
+}
+.adwrap-lu {
+	FLOAT: right; MARGIN: 0px 0px 1em 1em; WIDTH: 180px
+}
+.adwrap-lu OBJECT {
+	WIDTH: 180px; HEIGHT: 90px
+}
+.adwrapbutton IFRAME {
+	WIDTH: 180px; HEIGHT: 150px
+}
+.adwrapbutton OBJECT {
+	WIDTH: 180px; HEIGHT: 150px
+}
+TABLE {
+	MARGIN: 10px
+}
+TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+TH {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: normal; =
+PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+#wp-calendar {
+	FONT-SIZE: 10px; MARGIN: 0px auto; WIDTH: 100%; COLOR: #93d27c; =
+BORDER-BOTTOM: #666 1px dotted
+}
+#wp-calendar CAPTION {
+	PADDING-LEFT: 2px; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; MARGIN: 0px; =
+TEXT-TRANSFORM: uppercase; COLOR: #999; PADDING-TOP: 5px; BORDER-BOTTOM: =
+#666 1px dotted; TEXT-ALIGN: left
+}
+#wp-calendar TH {
+	FONT-SIZE: 10px
+}
+#wp-calendar #today {
+	BORDER-RIGHT: #93d27c 1px dotted; BORDER-TOP: #93d27c 1px dotted; =
+BORDER-LEFT: #93d27c 1px dotted; COLOR: #fff; BORDER-BOTTOM: #93d27c 1px =
+dotted
+}
+#wp-calendar TD {
+	PADDING-RIGHT: 0px; COLOR: #999; TEXT-ALIGN: center
+}
+#wp-calendar TABLE {
+	MARGIN: 0px
+}
+#wp-calendar TD.pad {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: =
+none; BORDER-BOTTOM-STYLE: none
+}
+#wp-calendar A:link {
+	TEXT-DECORATION: none
+}
+#wp-calendar A:visited {
+	TEXT-DECORATION: none
+}
+#wp-calendar A:hover {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+#wp-calendar A:active {
+	COLOR: #fff; TEXT-DECORATION: underline
+}
+#wp-calendar #next A {
+	PADDING-RIGHT: 2px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; TEXT-ALIGN: right; BORDER-BOTTOM-STYLE: none
+}
+#wp-calendar #next {
+	PADDING-RIGHT: 2px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; TEXT-ALIGN: right; BORDER-BOTTOM-STYLE: none
+}
+#wp-calendar #prev A {
+	PADDING-LEFT: 2px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
+#wp-calendar #prev {
+	PADDING-LEFT: 2px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; =
+BORDER-LEFT-STYLE: none; TEXT-ALIGN: left; BORDER-BOTTOM-STYLE: none
+}
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/sifr/sIFR-screen.css
+
+.sIFR-flash {
+	VISIBILITY: visible! important; MARGIN: 0px
+}
+.sIFR-replaced {
+	VISIBILITY: visible! important
+}
+SPAN.sIFR-alternate {
+	DISPLAY: block; LEFT: 0px; OVERFLOW: hidden; WIDTH: 0px; POSITION: =
+absolute; TOP: 0px; HEIGHT: 0px
+}
+UNKNOWN {
+	DISPLAY: none! important
+}
+.sIFR-hasFlash H3.entrytitle {
+	FONT-SIZE: 22px; VISIBILITY: hidden; LETTER-SPACING: -6px
+}
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/sifr/sIFR-print.css
+
+.sIFR-flash {
+	DISPLAY: none! important; OVERFLOW: hidden; WIDTH: 0px; POSITION: =
+absolute; HEIGHT: 0px
+}
+.sIFR-flash OBJECT {
+	DISPLAY: none! important; OVERFLOW: hidden; WIDTH: 0px; POSITION: =
+absolute; HEIGHT: 0px
+}
+.sIFR-flash EMBED {
+	DISPLAY: none! important; OVERFLOW: hidden; WIDTH: 0px; POSITION: =
+absolute; HEIGHT: 0px
+}
+SPAN.sIFR-alternate {
+	DISPLAY: block! important; LEFT: auto! important; VISIBILITY: visible! =
+important; POSITION: static! important; TOP: auto! important
+}
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/wp-content/plugins/kml_flashembed_wp_12/kml_flashembed.php?swfobject.js
+
+/**=0A=
+ * SWFObject v1.4.4: Flash Player detection and embed - =
+http://blog.deconcept.com/swfobject/=0A=
+ *=0A=
+ * SWFObject is (c) 2006 Geoff Stearns and is released under the MIT =
+License:=0A=
+ * http://www.opensource.org/licenses/mit-license.php=0A=
+ *=0A=
+ * **SWFObject is the SWF embed script formerly known as FlashObject. =
+The name was changed for=0A=
+ *   legal reasons.=0A=
+ */=0A=
+if(typeof deconcept=3D=3D"undefined"){var deconcept=3Dnew Object();}=0A=
+if(typeof deconcept.util=3D=3D"undefined"){deconcept.util=3Dnew =
+Object();}=0A=
+if(typeof =
+deconcept.SWFObjectUtil=3D=3D"undefined"){deconcept.SWFObjectUtil=3Dnew =
+Object();}=0A=
+deconcept.SWFObject=3Dfunction(_1,id,w,h,_5,c,_7,_8,_9,_a,_b){if(!documen=
+t.getElementById){return;}=0A=
+this.DETECT_KEY=3D_b?_b:"detectflash";=0A=
+this.skipDetect=3Ddeconcept.util.getRequestParameter(this.DETECT_KEY);=0A=
+this.params=3Dnew Object();=0A=
+this.variables=3Dnew Object();=0A=
+this.attributes=3Dnew Array();=0A=
+if(_1){this.setAttribute("swf",_1);}=0A=
+if(id){this.setAttribute("id",id);}=0A=
+if(w){this.setAttribute("width",w);}=0A=
+if(h){this.setAttribute("height",h);}=0A=
+if(_5){this.setAttribute("version",new =
+deconcept.PlayerVersion(_5.toString().split(".")));}=0A=
+this.installedVer=3Ddeconcept.SWFObjectUtil.getPlayerVersion();=0A=
+if(c){this.addParam("bgcolor",c);}=0A=
+var q=3D_8?_8:"high";=0A=
+this.addParam("quality",q);=0A=
+this.setAttribute("useExpressInstall",_7);=0A=
+this.setAttribute("doExpressInstall",false);=0A=
+var _d=3D(_9)?_9:window.location;=0A=
+this.setAttribute("xiRedirectUrl",_d);=0A=
+this.setAttribute("redirectUrl","");=0A=
+if(_a){this.setAttribute("redirectUrl",_a);}};=0A=
+deconcept.SWFObject.prototype=3D{setAttribute:function(_e,_f){=0A=
+this.attributes[_e]=3D_f;=0A=
+},getAttribute:function(_10){=0A=
+return this.attributes[_10];=0A=
+},addParam:function(_11,_12){=0A=
+this.params[_11]=3D_12;=0A=
+},getParams:function(){=0A=
+return this.params;=0A=
+},addVariable:function(_13,_14){=0A=
+this.variables[_13]=3D_14;=0A=
+},getVariable:function(_15){=0A=
+return this.variables[_15];=0A=
+},getVariables:function(){=0A=
+return this.variables;=0A=
+},getVariablePairs:function(){=0A=
+var _16=3Dnew Array();=0A=
+var key;=0A=
+var _18=3Dthis.getVariables();=0A=
+for(key in _18){_16.push(key+"=3D"+_18[key]);}=0A=
+return _16;},getSWFHTML:function(){var _19=3D"";=0A=
+if(navigator.plugins&&navigator.mimeTypes&&navigator.mimeTypes.length){=0A=
+if(this.getAttribute("doExpressInstall")){=0A=
+this.addVariable("MMplayerType","PlugIn");}=0A=
+_19=3D"<embed type=3D\"application/x-shockwave-flash\" =
+src=3D\""+this.getAttribute("swf")+"\" =
+width=3D\""+this.getAttribute("width")+"\" =
+height=3D\""+this.getAttribute("height")+"\"";=0A=
+_19+=3D" id=3D\""+this.getAttribute("id")+"\" =
+name=3D\""+this.getAttribute("id")+"\" ";=0A=
+var _1a=3Dthis.getParams();=0A=
+for(var key in _1a){_19+=3D[key]+"=3D\""+_1a[key]+"\" ";}=0A=
+var _1c=3Dthis.getVariablePairs().join("&");=0A=
+if(_1c.length>0){_19+=3D"flashvars=3D\""+_1c+"\"";}_19+=3D"/>";=0A=
+}else{if(this.getAttribute("doExpressInstall")){this.addVariable("MMplaye=
+rType","ActiveX");}=0A=
+_19=3D"<object id=3D\""+this.getAttribute("id")+"\" =
+classid=3D\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" =
+width=3D\""+this.getAttribute("width")+"\" =
+height=3D\""+this.getAttribute("height")+"\">";=0A=
+_19+=3D"<param name=3D\"movie\" value=3D\""+this.getAttribute("swf")+"\" =
+/>";=0A=
+var _1d=3Dthis.getParams();=0A=
+for(var key in _1d){_19+=3D"<param name=3D\""+key+"\" =
+value=3D\""+_1d[key]+"\" />";}=0A=
+var _1f=3Dthis.getVariablePairs().join("&");=0A=
+if(_1f.length>0){_19+=3D"<param name=3D\"flashvars\" value=3D\""+_1f+"\" =
+/>";}_19+=3D"</object>";}=0A=
+return _19;=0A=
+},write:function(_20){=0A=
+if(this.getAttribute("useExpressInstall")){=0A=
+var _21=3Dnew deconcept.PlayerVersion([6,0,65]);=0A=
+if(this.installedVer.versionIsValid(_21)&&!this.installedVer.versionIsVal=
+id(this.getAttribute("version"))){=0A=
+this.setAttribute("doExpressInstall",true);=0A=
+this.addVariable("MMredirectURL",escape(this.getAttribute("xiRedirectUrl"=
+)));=0A=
+document.title=3Ddocument.title.slice(0,47)+" - Flash Player =
+Installation";=0A=
+this.addVariable("MMdoctitle",document.title);}}=0A=
+if(this.skipDetect||this.getAttribute("doExpressInstall")||this.installed=
+Ver.versionIsValid(this.getAttribute("version"))){=0A=
+var n=3D(typeof _20=3D=3D"string")?document.getElementById(_20):_20;=0A=
+n.innerHTML=3Dthis.getSWFHTML();return true;=0A=
+}else{if(this.getAttribute("redirectUrl")!=3D""){document.location.replac=
+e(this.getAttribute("redirectUrl"));}}=0A=
+return false;}};=0A=
+deconcept.SWFObjectUtil.getPlayerVersion=3Dfunction(){=0A=
+var _23=3Dnew deconcept.PlayerVersion([0,0,0]);=0A=
+if(navigator.plugins&&navigator.mimeTypes.length){=0A=
+var x=3Dnavigator.plugins["Shockwave Flash"];=0A=
+if(x&&x.description){_23=3Dnew =
+deconcept.PlayerVersion(x.description.replace(/([a-zA-Z]|\s)+/,"").replac=
+e(/(\s+r|\s+b[0-9]+)/,".").split("."));}=0A=
+}else{try{var axo=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");}=0A=
+catch(e){try{var axo=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");=0A=
+_23=3Dnew =
+deconcept.PlayerVersion([6,0,21]);axo.AllowScriptAccess=3D"always";}=0A=
+catch(e){if(_23.major=3D=3D6){return _23;}}try{axo=3Dnew =
+ActiveXObject("ShockwaveFlash.ShockwaveFlash");}=0A=
+catch(e){}}if(axo!=3Dnull){_23=3Dnew =
+deconcept.PlayerVersion(axo.GetVariable("$version").split(" =
+")[1].split(","));}}=0A=
+return _23;};=0A=
+deconcept.PlayerVersion=3Dfunction(_27){=0A=
+this.major=3D_27[0]!=3Dnull?parseInt(_27[0]):0;=0A=
+this.minor=3D_27[1]!=3Dnull?parseInt(_27[1]):0;=0A=
+this.rev=3D_27[2]!=3Dnull?parseInt(_27[2]):0;=0A=
+};=0A=
+deconcept.PlayerVersion.prototype.versionIsValid=3Dfunction(fv){=0A=
+if(this.major<fv.major){return false;}=0A=
+if(this.major>fv.major){return true;}=0A=
+if(this.minor<fv.minor){return false;}=0A=
+if(this.minor>fv.minor){return true;}=0A=
+if(this.rev<fv.rev){=0A=
+return false;=0A=
+}return true;};=0A=
+deconcept.util=3D{getRequestParameter:function(_29){=0A=
+var q=3Ddocument.location.search||document.location.hash;=0A=
+if(q){var _2b=3Dq.substring(1).split("&");=0A=
+for(var i=3D0;i<_2b.length;i++){=0A=
+if(_2b[i].substring(0,_2b[i].indexOf("=3D"))=3D=3D_29){=0A=
+return _2b[i].substring((_2b[i].indexOf("=3D")+1));}}}=0A=
+return "";}};=0A=
+deconcept.SWFObjectUtil.cleanupSWFs=3Dfunction(){if(window.opera||!docume=
+nt.all){return;}=0A=
+var _2d=3Ddocument.getElementsByTagName("OBJECT");=0A=
+for(var i=3D0;i<_2d.length;i++){_2d[i].style.display=3D"none";for(var x =
+in _2d[i]){=0A=
+if(typeof _2d[i][x]=3D=3D"function"){_2d[i][x]=3Dfunction(){};}}}};=0A=
+deconcept.SWFObjectUtil.prepUnload=3Dfunction(){__flash_unloadHandler=3Df=
+unction(){};=0A=
+__flash_savedUnloadHandler=3Dfunction(){};=0A=
+if(typeof window.onunload=3D=3D"function"){=0A=
+var _30=3Dwindow.onunload;=0A=
+window.onunload=3Dfunction(){=0A=
+deconcept.SWFObjectUtil.cleanupSWFs();_30();};=0A=
+}else{window.onunload=3Ddeconcept.SWFObjectUtil.cleanupSWFs;}};=0A=
+if(typeof window.onbeforeunload=3D=3D"function"){=0A=
+var oldBeforeUnload=3Dwindow.onbeforeunload;=0A=
+window.onbeforeunload=3Dfunction(){=0A=
+deconcept.SWFObjectUtil.prepUnload();=0A=
+oldBeforeUnload();};=0A=
+}else{window.onbeforeunload=3Ddeconcept.SWFObjectUtil.prepUnload;}=0A=
+if(Array.prototype.push=3D=3Dnull){=0A=
+Array.prototype.push=3Dfunction(_31){=0A=
+this[this.length]=3D_31;=0A=
+return this.length;};}=0A=
+var getQueryParamValue=3Ddeconcept.util.getRequestParameter;=0A=
+var FlashObject=3Ddeconcept.SWFObject;=0A=
+var SWFObject=3Ddeconcept.SWFObject;=0A=
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/wp-content/plugins/ig_syntax_hilite/js/syntax_hilite_js.js
+
+function getBrowserType() {
+	var detect =3D navigator.userAgent.toLowerCase();
+	var browser;
+	var doCheckIt =3D function (bString) {
+		place =3D detect.indexOf(bString) + 1;
+		return place;
+	};
+	if (doCheckIt('konqueror')) { browser =3D "konqueror"; }
+	else if (doCheckIt('safari')) { browser =3D "safari"; }
+	else if (doCheckIt('omniweb')) { browser =3D "omniweb"; }
+	else if (doCheckIt('opera')) { browser =3D "opera"; }
+	else if (doCheckIt('webtv')) { browser =3D "webtv"; }
+	else if (doCheckIt('icab')) { browser =3D "icab"; }
+	else if (doCheckIt('msie')) { browser =3D "msie"; }
+	else if (doCheckIt('firefox')) { browser =3D "firefox"; }
+	else if (!doCheckIt('compatible')) { browser =3D "nn"; }
+	return browser;
+}
+
+function strTrim(str) {
+	var i,j;
+	i =3D 0;
+	j =3D str.length-1;
+	str =3D str.split("");
+	while(i < str.length) {
+		if(str[i]=3D=3D" ") {
+			str[i] =3D "";
+		} else {
+			break;
+		}
+		i++;
+	}
+	while(j > 0) {
+		if(str[j]=3D=3D " ") {
+			str[j]=3D"";
+		} else {
+			break;
+		}
+		j--;
+	}
+	return str.join("");
+}
+
+function igEncodeHTML(igHTML) {
+	var regExLT =3D /</g;
+	var regExGT =3D />/g;
+	igHTML =3D igHTML.replace(regExLT, "&lt;");
+	igHTML =3D igHTML.replace(regExGT, "&gt;");
+	return igHTML;
+}
+
+function doCleanUp(sTxt) {
+	sTxt =3D sTxt.replace(/(\r\n|\r|\n)/g, "\n");
+	var arrTxt =3D sTxt.split("\n");
+	for(i=3D0; i<arrTxt.length; i++) {
+		if(arrTxt[i].substr((arrTxt[i].length-1), 1)=3D=3D" ") {
+			arrTxt[i] =3D arrTxt[i].substr(0, (arrTxt[i].length-1));
+		}
+		if(arrTxt[i].substr((arrTxt[i].length-1), 1)=3D=3D"	") {
+			arrTxt[i] =3D arrTxt[i].substr(0, (arrTxt[i].length-1));
+		}
+	}
+	sTxt =3D arrTxt.join("\n");
+	var regExNL1a =3D /([\n]{2,})/g;			//to find two consecutive 'newlines'
+	var regExNL1b =3D /([ ]{1,})\n/g;			//to find more than 1 whitespace =
+before 'newline'
+	var regExNL1c =3D /([	|\t]{1,})\n/g;		//to find more than 1 tab before =
+'newline'
+	var regExNL1d =3D /\n([ ]{1,})\n/g;		//to find a line with only spaces
+	var regExNL1e =3D /\n([	|\t]{1,})\n/g;	//to find a line with only tabs
+	var regExNL1g =3D / {4}/g;				//to find 4 space chars
+	sTxt =3D sTxt.replace(regExNL1g, "	");
+	sTxt =3D sTxt.replace(regExNL1d, "\n").replace(regExNL1e, "\n");
+	sTxt =3D sTxt.replace(regExNL1b, "\n").replace(regExNL1c, "\n");
+	sTxt =3D sTxt.replace(regExNL1a, "\n");
+	if(sTxt.substr(0, 1)=3D=3D"\n") {
+		sTxt =3D sTxt.substr(1, sTxt.length);
+	}
+	if(sTxt.substr((sTxt.length-1), 1)=3D=3D"\n") {
+		sTxt =3D sTxt.substr(0, (sTxt.length-1));
+	}
+	return sTxt;
+}
+
+function getTagCode(sID) {
+	var myBrowser =3D strTrim(navigator.appName.substring(0, 9));
+	myBrowser =3D myBrowser.toLowerCase();
+	if(document.getElementById) {
+		oDoc =3D document.getElementById(sID);
+	} else if(document.all) {
+		oDoc =3D document.all[sID];
+	}
+	var getTxt =3D "";
+	if(typeof(oDoc.innerText) !=3D 'undefined') {
+		getTxt =3D strTrim(oDoc.innerText);
+	} else {
+		getTxt =3D strTrim(oDoc.innerHTML);	//textContent doesn't keep \n with =
+<LI>, so use innerHTML
+		var regExLi =3D /<\/li>/gi;		//RegEx to find </li>
+		var regExHTML =3D /<\S[^>]*>/g;	//RegEx to find HTML Tags
+		var regExAnd =3D /&amp;/g;		//to find ampersand as HTML entity
+		var regExSpace =3D /&nbsp;/g;		//to find whitespace as HTML entity
+		var regExLT =3D /&lt;/g;			//to find < as HTML entity
+		var regExGT =3D /&gt;/g;			//to find > as HTML entity
+		getTxt =3D getTxt.replace(regExLi, "\n");		//replace </li> with \n
+		getTxt =3D getTxt.replace(regExHTML, "");		//strip out all HTML Tags
+		getTxt =3D getTxt.replace(regExAnd, "&");		//replace &amp; with &
+		getTxt =3D getTxt.replace(regExSpace, " ");	//replace &nbsp; with =
+simple whitespace
+		getTxt =3D getTxt.replace(regExLT, "<");		//replace &lt; with <
+		getTxt =3D getTxt.replace(regExGT, ">");		//replace &gt; with >
+	}
+	return getTxt;
+}
+
+function showCodeTxt(sId) {
+	var cdTxt =3D igEncodeHTML(getTagCode(sId));
+	cdTxt =3D doCleanUp(cdTxt);
+	var cdTxtPrefix =3D "<html><head><title>iG:Syntax Hiliter &raquo; =
+Plain-Text View</title><style>body { margin:0px; padding:0px; =
+white-space:nowrap; }</style></head><body><pre>\n";
+	var cdTxtSuffix =3D "\n</pre><br /></body></html>";
+	cdWin =3D window.open("about:blank", "cdWin", =
+"toolbar=3D0,scrollbars=3D1,location=3D0,statusbar=3D0,menubar=3D0,resiza=
+ble=3D1,width=3D700,height=3D400,left=3D35,top=3D85");
+	cdWin.document.open();
+	cdWin.document.write(cdTxtPrefix+cdTxt+cdTxtSuffix);
+	cdWin.document.close();
+}
+
+function getCodeTxt(sId) {
+	var cdTxt =3D igEncodeHTML(getTagCode(sId));
+	cdTxt =3D doCleanUp(cdTxt);
+	return cdTxt;
+}
+
+function hidePlainTxt(bID) {
+	var oCodeBox =3D document.getElementById(bID);
+	if(arrCode[bID]=3D=3D"") {
+		alert("The HTML View for this Code Box is not available");
+	} else {
+		var lnkID =3D "l"+bID;
+		lnkID =3D lnkID.toLowerCase();
+		var oLnk =3D document.getElementById(lnkID);
+		var sInnerHTML =3D "<a href=3D\"#\" =
+onclick=3D\"javascript:showPlainTxt('"+bID+"'); return false;\">PLAIN =
+TEXT</a>";
+		oLnk.innerHTML =3D sInnerHTML;
+		oCodeBox.innerHTML =3D "";
+		oCodeBox.innerHTML =3D arrCode[bID];
+		arrCode[bID] =3D "";
+	}
+}
+
+function showPlainTxt(bID) {
+	var sHtmlCode, sPlainCode, sInnerHTML, oLnk, intHeightDiff, =
+intWidthDiff;
+	var browserName =3D getBrowserType();
+	if(browserName=3D=3D"msie") {
+		intHeightDiff =3D 20;
+		intWidthDiff =3D 5;
+	} else if(browserName=3D=3D"opera") {
+		intHeightDiff =3D 20;
+		intWidthDiff =3D 12;
+	} else if(browserName=3D=3D"firefox") {
+		intHeightDiff =3D 20;
+		intWidthDiff =3D 12;
+	}
+	var oCodeBox =3D document.getElementById(bID);
+	//get InnerHTML
+	sHtmlCode =3D oCodeBox.innerHTML;
+	arrCode[bID] =3D sHtmlCode;
+	var lnkID =3D "l"+bID;
+	lnkID =3D lnkID.toLowerCase();
+	oLnk =3D document.getElementById(lnkID);
+	sInnerHTML =3D "<a href=3D\"#\" =
+onclick=3D\"javascript:hidePlainTxt('"+bID+"'); return false;\">HILITED =
+HTML</a>";
+	oLnk.innerHTML =3D sInnerHTML;
+	sPlainCode =3D getCodeTxt(bID);
+	var cbHeight =3D oCodeBox.parentNode.clientHeight;
+	var cbWidth =3D oCodeBox.parentNode.clientWidth;
+	var ptHeight =3D cbHeight-intHeightDiff;
+	var ptWidth =3D cbWidth-intWidthDiff;
+	sPlainCodeHTML =3D "<textarea style=3D\"width:"+ptWidth+"px; =
+height:"+ptHeight+"px;\" wrap=3D\"off\">"+sPlainCode+"</textarea>";
+	oCodeBox.innerHTML =3D "";
+	oCodeBox.innerHTML =3D sPlainCodeHTML;
+}
+
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/wp-content/plugins/wp-lightboxJS/lightbox.js
+
+/*
+	Lightbox JS: Fullsize Image Overlays by Lokesh Dhakar - =
+http://www.huddletogether.com
+	For more information on this script, visit:	=
+http://huddletogether.com/projects/lightbox/
+
+	Licensed under the Creative Commons Attribution 2.5 License - =
+http://creativecommons.org/licenses/by/2.5/
+	(basically, do anything you want, just leave my name and link)
+=09
+	Table of Contents
+	-----------------
+	Configuration
+=09
+	Functions
+	- getPageScroll()
+	- getPageSize()
+	- pause()
+	- getKey()
+	- listenKey()
+	- showLightbox()
+	- hideLightbox()
+	- initLightbox()
+	- addLoadEvent()
+=09
+	Function Calls
+	- addLoadEvent(initLightbox)
+
+	WP Lightbox JS WordPress Plugin:=20
+	--------------------------------
+	Changelog
+	- 4/6/06 3:18 GMT+8: Fixes a Zlib output compression problem that =
+conflicts with PHP setting (Rudd-0).
+	- 3/9/06 2:49 GMT+8: Enabled and use WordPress gzip compression =
+(Safirul Alredha).
+	- 3/6/06 2:06 GMT+8: Fix plugin path issue (Dennis Crall).
+	- 3/3/06 19:00 GMT-5: Fixed blog caching override introduced by =
+wp-blog-header.php (Rudd-O).
+	- 1/19/06 10:40PM EST: Added keypress (x) activated closing (Lokesh =
+Dhakar).
+
+	Last updated: April 6, 2006 by Safirul Alredha=20
+	http://zeo.unic.net.my
+*/
+//
+// getPageScroll()
+// Returns array with x,y page scroll values.
+// Core code from - quirksmode.org
+//
+function getPageScroll(){
+
+	var yScroll;
+
+	if (self.pageYOffset) {
+		yScroll =3D self.pageYOffset;
+	} else if (document.documentElement && =
+document.documentElement.scrollTop){	 // Explorer 6 Strict
+		yScroll =3D document.documentElement.scrollTop;
+	} else if (document.body) {// all other Explorers
+		yScroll =3D document.body.scrollTop;
+	}
+
+	arrayPageScroll =3D new Array('',yScroll)=20
+	return arrayPageScroll;
+}
+
+//
+// getPageSize()
+// Returns array with page width, height and window width, height
+// Core code from - quirksmode.org
+// Edit for Firefox by pHaez
+//
+function getPageSize(){
+=09
+	var xScroll, yScroll;
+=09
+	if (window.innerHeight && window.scrollMaxY) {=09
+		xScroll =3D document.body.scrollWidth;
+		yScroll =3D window.innerHeight + window.scrollMaxY;
+	} else if (document.body.scrollHeight > document.body.offsetHeight){ // =
+all but Explorer Mac
+		xScroll =3D document.body.scrollWidth;
+		yScroll =3D document.body.scrollHeight;
+	} else { // Explorer Mac...would also work in Explorer 6 Strict, =
+Mozilla and Safari
+		xScroll =3D document.body.offsetWidth;
+		yScroll =3D document.body.offsetHeight;
+	}
+=09
+	var windowWidth, windowHeight;
+	if (self.innerHeight) {	// all except Explorer
+		windowWidth =3D self.innerWidth;
+		windowHeight =3D self.innerHeight;
+	} else if (document.documentElement && =
+document.documentElement.clientHeight) { // Explorer 6 Strict Mode
+		windowWidth =3D document.documentElement.clientWidth;
+		windowHeight =3D document.documentElement.clientHeight;
+	} else if (document.body) { // other Explorers
+		windowWidth =3D document.body.clientWidth;
+		windowHeight =3D document.body.clientHeight;
+	}=09
+=09
+	// for small pages with total height less then height of the viewport
+	if(yScroll < windowHeight){
+		pageHeight =3D windowHeight;
+	} else {=20
+		pageHeight =3D yScroll;
+	}
+
+	// for small pages with total width less then width of the viewport
+	if(xScroll < windowWidth){=09
+		pageWidth =3D windowWidth;
+	} else {
+		pageWidth =3D xScroll;
+	}
+
+	arrayPageSize =3D new =
+Array(pageWidth,pageHeight,windowWidth,windowHeight)=20
+	return arrayPageSize;
+}
+
+//
+// pause(numberMillis)
+// Pauses code execution for specified time. Uses busy code, not good.
+// Code from http://www.faqts.com/knowledge_base/view.phtml/aid/1602
+//
+function pause(numberMillis) {
+	var now =3D new Date();
+	var exitTime =3D now.getTime() + numberMillis;
+	while (true) {
+		now =3D new Date();
+		if (now.getTime() > exitTime)
+			return;
+	}
+}
+
+//
+// getKey(key)
+// Gets keycode. If 'x' is pressed then it hides the lightbox.
+//
+function getKey(e){
+	if (e =3D=3D null) { // ie
+		keycode =3D event.keyCode;
+	} else { // mozilla
+		keycode =3D e.which;
+	}
+	key =3D String.fromCharCode(keycode).toLowerCase();
+=09
+	if(key =3D=3D 'x'){ hideLightbox(); }
+}
+
+//
+// listenKey()
+//
+function listenKey () {	document.onkeypress =3D getKey; }
+=09
+//
+// showLightbox()
+// Preloads images. Pleaces new image in lightbox then centers and =
+displays.
+//
+function showLightbox(objLink)
+{
+	// prep objects
+	var objOverlay =3D document.getElementById('overlay');
+=09
+	objOverlay.onclick =3D function(){ hideLightbox(); return false; };
+	var objLightbox =3D document.getElementById('lightbox');
+	var objCaption =3D document.getElementById('lightboxCaption');
+	var objImage =3D document.getElementById('lightboxImage');
+	var objLoadingImage =3D document.getElementById('loadingImage');
+
+	var arrayPageSize =3D getPageSize();
+	var arrayPageScroll =3D getPageScroll();
+
+	// center loadingImage if it exists
+	if (objLoadingImage) {
+		objLoadingImage.style.top =3D (arrayPageScroll[1] + ((arrayPageSize[3] =
+- 35 - objLoadingImage.height) / 2) + 'px');
+		objLoadingImage.style.left =3D (((arrayPageSize[0] - 20 - =
+objLoadingImage.width) / 2) + 'px');
+		objLoadingImage.style.display =3D 'block';
+	}
+
+	// set height of Overlay to take up whole page and show
+	objOverlay.style.height =3D (arrayPageSize[1] + 'px');
+	objOverlay.style.display =3D 'block';
+
+	// preload image
+	imgPreload =3D new Image();
+
+	imgPreload.onload=3Dfunction(){
+		objImage.src =3D objLink.href;
+
+		// center lightbox and make sure that the top and left values are not =
+negative
+		// and the image placed outside the viewport
+		var lightboxTop =3D arrayPageScroll[1] + ((arrayPageSize[3] - 35 - =
+imgPreload.height) / 2);
+		var lightboxLeft =3D ((arrayPageSize[0] - 20 - imgPreload.width) / 2);
+	=09
+		objLightbox.style.top =3D (lightboxTop < 0) ? "0px" : lightboxTop + =
+"px";
+		objLightbox.style.left =3D (lightboxLeft < 0) ? "0px" : lightboxLeft + =
+"px";
+
+		//objLightboxDetails.style.width =3D imgPreload.width + 'px';
+	=09
+		if(objLink.getAttribute('title')){
+			objCaption.style.display =3D 'block';
+			objCaption.style.width =3D imgPreload.width + 'px';
+			objCaption.innerHTML =3D objLink.getAttribute('title');
+		} else {
+			objCaption.style.display =3D 'none';
+		}
+	=09
+		// A small pause between the image loading and displaying is required =
+with IE,
+		// this prevents the previous image displaying for a short burst =
+causing flicker.
+		if (navigator.appVersion.indexOf("MSIE")!=3D-1){
+			pause(250);
+		}=20
+
+		if (objLoadingImage) {	objLoadingImage.style.display =3D 'none'; }
+		objLightbox.style.display =3D 'block';
+
+		// After image is loaded, update the overlay height as the new image =
+might have
+		// increased the overall page height.
+		arrayPageSize =3D getPageSize();
+		objOverlay.style.height =3D (arrayPageSize[1] + 'px');
+	=09
+		// Check for 'x' keypress
+                listenKey();
+
+		return false;
+	}
+
+	var divs =3D document.getElementsByTagName( 'div' );
+ 	for( var i=3D0; i<divs.length; i++ )
+	{
+		if( divs[ i ].getAttribute( 'id' ) )
+		{
+			var id =3D divs[ i ].getAttribute( 'id' );
+			if( id.indexOf( 'fo_targ' ) !=3D -1 )
+			{
+				divs[ i ].style.visibility =3D 'hidden';
+			}
+		}
+	}
+=09
+	imgPreload.src =3D objLink.href;
+}
+
+//
+// hideLightbox()
+//
+function hideLightbox()
+{
+	// get objects
+	objOverlay =3D document.getElementById('overlay');
+	objLightbox =3D document.getElementById('lightbox');
+
+	// hide lightbox and overlay
+	objOverlay.style.display =3D 'none';
+	objLightbox.style.display =3D 'none';
+=09
+	// disable keypress listener
+	document.onkeypress =3D '';
+
+	var divs =3D document.getElementsByTagName( 'div' );
+ 	for( var i=3D0; i<divs.length; i++ )
+	{
+		if( divs[ i ].getAttribute( 'id' ) )
+		{
+			var id =3D divs[ i ].getAttribute( 'id' );
+			if( id.indexOf( 'fo_targ' ) !=3D -1 )
+			{
+				divs[ i ].style.visibility =3D 'visible';
+			}
+		}
+	}
+}
+
+//
+// initLightbox()
+// Function runs on window load, going through link tags looking for =
+rel=3D"lightbox".
+// These links receive onclick events that enable the lightbox display =
+for their targets.
+// The function also inserts html markup at the top of the page which =
+will be used as a
+// container for the overlay pattern and the inline image.
+//
+function initLightbox()
+{
+=09
+	if (!document.getElementsByTagName){ return; }
+	var anchors =3D document.getElementsByTagName("a");
+
+	// loop through all anchor tags
+	for (var i=3D0; i<anchors.length; i++){
+		var anchor =3D anchors[i];
+
+		if (anchor.getAttribute("href") && (anchor.getAttribute("rel") =3D=3D =
+"lightbox")){
+			anchor.onclick =3D function () {showLightbox(this); return false;}
+		}
+	}
+
+	// the rest of this code inserts html at the top of the page that looks =
+like this:
+	//
+	// <div id=3D"overlay">
+	//		<a href=3D"#" onclick=3D"hideLightbox(); return false;"><img =
+id=3D"loadingImage" /></a>
+	//	</div>
+	// <div id=3D"lightbox">
+	//		<a href=3D"#" onclick=3D"hideLightbox(); return false;" =
+title=3D"Click anywhere to close image">
+	//			<img id=3D"closeButton" />	=09
+	//			<img id=3D"lightboxImage" />
+	//		</a>
+	//		<div id=3D"lightboxDetails">
+	//			<div id=3D"lightboxCaption"></div>
+	//			<div id=3D"keyboardMsg"></div>
+	//		</div>
+	// </div>
+=09
+	var objBody =3D document.getElementsByTagName("body").item(0);
+=09
+	// create overlay div and hardcode some functional styles (aesthetic =
+styles are in CSS file)
+	var objOverlay =3D document.createElement("div");
+	objOverlay.setAttribute('id','overlay');
+	//objOverlay.onclick =3D function () {hideLightbox(); return false;}
+	objOverlay.style.display =3D 'none';
+	objOverlay.style.position =3D 'absolute';
+	objOverlay.style.top =3D '0';
+	objOverlay.style.left =3D '0';
+	objOverlay.style.zIndex =3D '90';
+ 	objOverlay.style.width =3D '100%';
+	objBody.insertBefore(objOverlay, objBody.firstChild);
+=09
+	var arrayPageSize =3D getPageSize();
+	var arrayPageScroll =3D getPageScroll();
+
+	// preload and create loader image
+	var imgPreloader =3D new Image();
+=09
+	// if loader image found, create link to hide lightbox and create =
+loadingimage
+	imgPreloader.onload=3Dfunction(){
+
+		var objLoadingImageLink =3D document.createElement("a");
+		objLoadingImageLink.setAttribute('href','#');
+		objLoadingImageLink.onclick =3D function () {hideLightbox(); return =
+false;}
+		objOverlay.appendChild(objLoadingImageLink);
+	=09
+		var objLoadingImage =3D document.createElement("img");
+		objLoadingImage.src =3D loadingImage;
+		objLoadingImage.setAttribute('id','loadingImage');
+		objLoadingImage.style.position =3D 'absolute';
+		objLoadingImage.style.zIndex =3D '150';
+		objLoadingImageLink.appendChild(objLoadingImage);
+
+		imgPreloader.onload=3Dfunction(){};	//	clear onLoad, as IE will flip =
+out w/animated gifs
+
+		return false;
+	}
+
+	imgPreloader.src =3D loadingImage;
+
+	// create lightbox div, same note about styles as above
+	var objLightbox =3D document.createElement("div");
+	objLightbox.setAttribute('id','lightbox');
+	objLightbox.style.display =3D 'none';
+	objLightbox.style.position =3D 'absolute';
+	objLightbox.style.zIndex =3D '100';=09
+	objBody.insertBefore(objLightbox, objOverlay.nextSibling);
+=09
+	// create link
+	var objLink =3D document.createElement("a");
+	objLink.setAttribute('href','#');
+	objLink.setAttribute('title','Click to close');
+	objLink.onclick =3D function () {hideLightbox(); return false;}
+	objLightbox.appendChild(objLink);
+
+	// preload and create close button image
+	var imgPreloadCloseButton =3D new Image();
+
+	// if close button image found,=20
+	imgPreloadCloseButton.onload=3Dfunction(){
+
+		var objCloseButton =3D document.createElement("img");
+		objCloseButton.src =3D closeButton;
+		objCloseButton.setAttribute('id','closeButton');
+		objCloseButton.style.position =3D 'absolute';
+		objCloseButton.style.zIndex =3D '200';
+                objCloseButton.style.top =3D '5px';
+                objCloseButton.style.right =3D '5px';
+		objLink.appendChild(objCloseButton);
+
+		return false;
+	}
+
+	imgPreloadCloseButton.src =3D closeButton;
+
+	// create image
+	var objImage =3D document.createElement("img");
+	objImage.setAttribute('id','lightboxImage');
+	objLink.appendChild(objImage);
+=09
+	// create caption
+	var objCaption =3D document.createElement("div");
+	objCaption.setAttribute('id','lightboxCaption');
+	objCaption.style.display =3D 'none';
+	objLightbox.appendChild(objCaption);
+
+}
+
+//
+// addLoadEvent()
+// Adds event to window.onload without overwriting currently assigned =
+onload functions.
+// Function found at Simon Willison's weblog - http://simon.incutio.com/
+//
+function addLoadEvent(func)
+{=09
+	var oldonload =3D window.onload;
+	if (typeof window.onload !=3D 'function'){
+    	window.onload =3D func;
+	} else {
+		window.onload =3D function(){
+		oldonload();
+		func();
+		}
+	}
+
+}
+
+addLoadEvent(initLightbox);	// run initLightbox onLoad
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/sifr/sifr.js
+
+/*	sIFR 2.0.2
+	Copyright 2004 - 2006 Mike Davidson, Shaun Inman, Tomas Jogin and Mark =
+Wubben
+
+	This software is licensed under the CC-GNU LGPL =
+<http://creativecommons.org/licenses/LGPL/2.1/>
+*/
+
+var hasFlash=3Dfunction(){var =
+a=3D6;if(navigator.appVersion.indexOf("MSIE")!=3D-1&&navigator.appVersion=
+.indexOf("Windows")>-1){document.write('<script language=3D"VBScript"\> =
+\non error resume next \nhasFlash =3D =
+(IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash." & '+a+'))) =
+\n</script\> \n');if(window.hasFlash!=3Dnull)return =
+window.hasFlash}if(navigator.mimeTypes&&navigator.mimeTypes["application/=
+x-shockwave-flash"]&&navigator.mimeTypes["application/x-shockwave-flash"]=
+.enabledPlugin){var b=3D(navigator.plugins["Shockwave Flash =
+2.0"]||navigator.plugins["Shockwave Flash"]).description;return =
+parseInt(b.charAt(b.indexOf(".")-1))>=3Da}return =
+false}();String.prototype.normalize=3Dfunction(){return =
+this.replace(/\s+/g," =
+")};if(Array.prototype.push=3D=3Dnull){Array.prototype.push=3Dfunction(){=
+var =
+i=3D0,a=3Dthis.length,b=3Darguments.length;while(i<b){this[a++]=3Dargumen=
+ts[i++]}return =
+this.length}}if(!Function.prototype.apply){Function.prototype.apply=3Dfun=
+ction(a,b){var c=3D[];var d,e;if(!a)a=3Dwindow;if(!b)b=3D[];for(var =
+i=3D0;i<b.length;i++){c[i]=3D"b["+i+"]"}e=3D"a.__applyTemp__("+c.join(","=
+)+");";a.__applyTemp__=3Dthis;d=3Deval(e);a.__applyTemp__=3Dnull;return =
+d}}function named(a){return new =
+named.Arguments(a)}named.Arguments=3Dfunction(a){this.oArgs=3Da};named.Ar=
+guments.prototype.constructor=3Dnamed.Arguments;named.extract=3Dfunction(=
+a,b){var c,d;var =
+i=3Da.length;while(i--){d=3Da[i];if(d!=3Dnull&&d.constructor!=3Dnull&&d.c=
+onstructor=3D=3Dnamed.Arguments){c=3Da[i].oArgs;break}}if(c=3D=3Dnull)ret=
+urn;for(e in c)if(b[e]!=3Dnull)b[e](c[e]);return};var =
+parseSelector=3Dfunction(){var =
+a=3D/^([^#.>`]*)(#|\.|\>|\`)(.+)$/;function r(s,t){var =
+u=3Ds.split(/\s*\,\s*/);var v=3D[];for(var =
+i=3D0;i<u.length;i++)v=3Dv.concat(b(u[i],t));return v}function =
+b(c,d,e){c=3Dc.normalize().replace(" ","`");var f=3Dc.match(a);var =
+g,h,i,j,k,n;var =
+l=3D[];if(f=3D=3Dnull)f=3D[c,c];if(f[1]=3D=3D"")f[1]=3D"*";if(e=3D=3Dnull=
+)e=3D"`";if(d=3D=3Dnull)d=3Ddocument;switch(f[2]){case =
+"#":k=3Df[3].match(a);if(k=3D=3Dnull)k=3D[null,f[3]];g=3Ddocument.getElem=
+entById(k[1]);if(g=3D=3Dnull||(f[1]!=3D"*"&&!o(g,f[1])))return =
+l;if(k.length=3D=3D2){l.push(g);return l}return b(k[3],g,k[2]);case =
+".":if(e!=3D">")h=3Dm(d,f[1]);else =
+h=3Dd.childNodes;for(i=3D0,n=3Dh.length;i<n;i++){g=3Dh[i];if(g.nodeType!=3D=
+1)continue;k=3Df[3].match(a);if(k!=3Dnull){if(g.className=3D=3Dnull||g.cl=
+assName.match("(\\s|^)"+k[1]+"(\\s|$)")=3D=3Dnull)continue;j=3Db(k[3],g,k=
+[2]);l=3Dl.concat(j)}else =
+if(g.className!=3Dnull&&g.className.match("(\\s|^)"+f[3]+"(\\s|$)")!=3Dnu=
+ll)l.push(g)}return l;case ">":if(e!=3D">")h=3Dm(d,f[1]);else =
+h=3Dd.childNodes;for(i=3D0,n=3Dh.length;i<n;i++){g=3Dh[i];if(g.nodeType!=3D=
+1)continue;if(!o(g,f[1]))continue;j=3Db(f[3],g,">");l=3Dl.concat(j)}retur=
+n l;case =
+"`":h=3Dm(d,f[1]);for(i=3D0,n=3Dh.length;i<n;i++){g=3Dh[i];j=3Db(f[3],g,"=
+`");l=3Dl.concat(j)}return l;default:if(e!=3D">")h=3Dm(d,f[1]);else =
+h=3Dd.childNodes;for(i=3D0,n=3Dh.length;i<n;i++){g=3Dh[i];if(g.nodeType!=3D=
+1)continue;if(!o(g,f[1]))continue;l.push(g)}return l}}function =
+m(d,o){if(o=3D=3D"*"&&d.all!=3Dnull)return d.all;return =
+d.getElementsByTagName(o)}function o(p,q){return =
+q=3D=3D"*"?true:p.nodeName.toLowerCase().replace("html:", =
+"")=3D=3Dq.toLowerCase()}return r}();var sIFR=3Dfunction(){var =
+a=3D"http://www.w3.org/1999/xhtml";var b=3Dfalse;var c=3Dfalse;var d;var =
+ah=3D[];var al=3Ddocument;var ak=3Dal.documentElement;var =
+am=3Dwindow;var au=3Dal.addEventListener;var =
+av=3Dam.addEventListener;var f=3Dfunction(){var =
+g=3Dnavigator.userAgent.toLowerCase();var =
+f=3D{a:g.indexOf("applewebkit")>-1,b:g.indexOf("safari")>-1,c:navigator.p=
+roduct!=3Dnull&&navigator.product.toLowerCase().indexOf("konqueror")>-1,d=
+:g.indexOf("opera")>-1,e:al.contentType!=3Dnull&&al.contentType.indexOf("=
+xml")>-1,f:true,g:true,h:null,i:null,j:null,k:null};f.l=3Df.a||f.c;f.m=3D=
+!f.a&&navigator.product!=3Dnull&&navigator.product.toLowerCase()=3D=3D"ge=
+cko";if(f.m&&g.match(/.*gecko\/(\d{8}).*/))f.j=3Dnew =
+Number(g.match(/.*gecko\/(\d{8}).*/)[1]);f.n=3Dg.indexOf("msie")>-1&&!f.d=
+&&!f.l&&!f.m;f.o=3Df.n&&g.match(/.*mac.*/)!=3Dnull;if(f.d&&g.match(/.*ope=
+ra(\s|\/)(\d+\.\d+)/))f.i=3Dnew =
+Number(g.match(/.*opera(\s|\/)(\d+\.\d+)/)[2]);if(f.n||(f.d&&f.i<7.6))f.g=
+=3Dfalse;if(f.a&&g.match(/.*applewebkit\/(\d+).*/))f.k=3Dnew =
+Number(g.match(/.*applewebkit\/(\d+).*/)[1]);if(am.hasFlash&&(!f.n||f.o))=
+{var aj=3D(navigator.plugins["Shockwave Flash =
+2.0"]||navigator.plugins["Shockwave =
+Flash"]).description;f.h=3DparseInt(aj.charAt(aj.indexOf(".")-1))}if(g.ma=
+tch(/.*(windows|mac).*/)=3D=3Dnull||f.o||f.c||(f.d&&(g.match(/.*mac.*/)!=3D=
+null||f.i<7.6))||(f.b&&f.h<7)||(!f.b&&f.a&&f.k<312)||(f.m&&f.j<20020523))=
+f.f=3Dfalse;if(!f.o&&!f.m&&al.createElementNS)try{al.createElementNS(a,"i=
+").innerHTML=3D""}catch(e){f.e=3Dtrue}f.p=3Df.c||(f.a&&f.k<312);return =
+f}();function =
+at(){return{bIsWebKit:f.a,bIsSafari:f.b,bIsKonq:f.c,bIsOpera:f.d,bIsXML:f=
+.e,bHasTransparencySupport:f.f,bUseDOM:f.g,nFlashVersion:f.h,nOperaVersio=
+n:f.i,nGeckoBuildDate:f.j,nWebKitVersion:f.k,bIsKHTML:f.l,bIsGecko:f.m,bI=
+sIE:f.n,bIsIEMac:f.o,bUseInnerHTMLHack:f.p}}if(am.hasFlash=3D=3Dfalse||!a=
+l.getElementsByTagName||!al.getElementById||(f.e&&(f.p||f.n)))return{UA:a=
+t()};function =
+af(e){if((!k.bAutoInit&&(am.event||e)!=3Dnull)||!l(e))return;b=3Dtrue;for=
+(var i=3D0,h=3Dah.length;i<h;i++)j.apply(null,ah[i]);ah=3D[]}var =
+k=3Daf;function =
+l(e){if(c=3D=3Dfalse||k.bIsDisabled=3D=3Dtrue||((f.e&&f.m||f.l)&&e=3D=3Dn=
+ull&&b=3D=3Dfalse)||(al.body=3D=3Dnull||al.getElementsByTagName("body").l=
+ength=3D=3D0))return false;return true}function m(n){if(f.n)return =
+n.replace(new RegExp("%\d{0}","g"),"%25");return n.replace(new =
+RegExp("%(?!\d)","g"),"%25")}function as(p,q){return =
+q=3D=3D"*"?true:p.nodeName.toLowerCase().replace("html:", =
+"")=3D=3Dq.toLowerCase()}function o(p,q,r,s,t){var u=3D"";var =
+v=3Dp.firstChild;var =
+w,x,y,z;if(s=3D=3Dnull)s=3D0;if(t=3D=3Dnull)t=3D"";while(v){if(v.nodeType=
+=3D=3D3){z=3Dv.nodeValue.replace("<","&lt;");switch(r){case =
+"lower":u+=3Dz.toLowerCase();break;case =
+"upper":u+=3Dz.toUpperCase();break;default:u+=3Dz}}else =
+if(v.nodeType=3D=3D1){if(as(v,"a")&&!v.getAttribute("href")=3D=3Dfalse){i=
+f(v.getAttribute("target"))t+=3D"&sifr_url_"+s+"_target=3D"+v.getAttribut=
+e("target");t+=3D"&sifr_url_"+s+"=3D"+m(v.getAttribute("href")).replace(/=
+&/g,"%26");u+=3D'<a href=3D"asfunction:_root.launchURL,'+s+'">';s++}else =
+if(as(v,"br"))u+=3D"<br/>";if(v.hasChildNodes()){y=3Do(v,null,r,s,t);u+=3D=
+y.u;s=3Dy.s;t=3Dy.t}if(as(v,"a"))u+=3D"</a>"}w=3Dv;v=3Dv.nextSibling;if(q=
+!=3Dnull){x=3Dw.parentNode.removeChild(w);q.appendChild(x)}}return{"u":u,=
+"s":s,"t":t}}function A(B){if(al.createElementNS&&f.g)return =
+al.createElementNS(a,B);return al.createElement(B)}function C(D,E,z){var =
+p=3DA("param");p.setAttribute("name",E);p.setAttribute("value",z);D.appen=
+dChild(p)}function F(p,G){var H=3Dp.className;if(H=3D=3Dnull)H=3DG;else =
+H=3DH.normalize()+(H=3D=3D""?"":" ")+G;p.className=3DH}function =
+aq(ar){var =
+a=3Dak;if(k.bHideBrowserText=3D=3Dfalse)a=3Dal.getElementsByTagName("body=
+")[0];if((k.bHideBrowserText=3D=3Dfalse||ar)&&a)if(a.className=3D=3Dnull|=
+|a.className.match(/\bsIFR\-hasFlash\b/)=3D=3Dnull)F(a, =
+"sIFR-hasFlash")}function j(I,J,K,L,M,N,O,P,Q,R,S,r,T){if(!l())return =
+ah.push(arguments);aq();named.extract(arguments,{sSelector:function(ap){I=
+=3Dap},sFlashSrc:function(ap){J=3Dap},sColor:function(ap){K=3Dap},sLinkCo=
+lor:function(ap){L=3Dap},sHoverColor:function(ap){M=3Dap},sBgColor:functi=
+on(ap){N=3Dap},nPaddingTop:function(ap){O=3Dap},nPaddingRight:function(ap=
+){P=3Dap},nPaddingBottom:function(ap){Q=3Dap},nPaddingLeft:function(ap){R=
+=3Dap},sFlashVars:function(ap){S=3Dap},sCase:function(ap){r=3Dap},sWmode:=
+function(ap){T=3Dap}});var =
+U=3DparseSelector(I);if(U.length=3D=3D0)return =
+false;if(S!=3Dnull)S=3D"&"+S.normalize();else =
+S=3D"";if(K!=3Dnull)S+=3D"&textcolor=3D"+K;if(M!=3Dnull)S+=3D"&hovercolor=
+=3D"+M;if(M!=3Dnull||L!=3Dnull)S+=3D"&linkcolor=3D"+(L||K);if(O=3D=3Dnull=
+)O=3D0;if(P=3D=3Dnull)P=3D0;if(Q=3D=3Dnull)Q=3D0;if(R=3D=3Dnull)R=3D0;if(=
+N=3D=3Dnull)N=3D"#FFFFFF";if(T=3D=3D"transparent")if(!f.f)T=3D"opaque";el=
+se N=3D"transparent";if(T=3D=3Dnull)T=3D"";var p,V,W,X,Y,Z,aa,ab,ac;var =
+ad=3Dnull;for(var =
+i=3D0,h=3DU.length;i<h;i++){p=3DU[i];if(p.className!=3Dnull&&p.className.=
+match(/\bsIFR\-replaced\b/)!=3Dnull)continue;V=3Dp.offsetWidth-R-P;W=3Dp.=
+offsetHeight-O-Q;aa=3DA("span");aa.className=3D"sIFR-alternate";ac=3Do(p,=
+aa,r);Z=3D"txt=3D"+m(ac.u).replace(/\+/g,"%2B").replace(/&/g,"%26").repla=
+ce(/\"/g, "%22").normalize() + S + "&w=3D" + V + "&h=3D" + W + =
+ac.t;F(p,"sIFR-replaced");if(ad=3D=3Dnull||!f.g){if(!f.g){if(!f.n)p.inner=
+HTML=3D['<embed class=3D"sIFR-flash" =
+type=3D"application/x-shockwave-flash" src=3D"',J,'" quality=3D"best" =
+wmode=3D"',T,'" bgcolor=3D"',N,'" flashvars=3D"',Z,'" width=3D"',V,'" =
+height=3D"',W,'" sifr=3D"true"></embed>'].join("");else =
+p.innerHTML=3D['<object =
+classid=3D"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" sifr=3D"true" =
+width=3D"',V,'" height=3D"',W,'" class=3D"sIFR-flash"><param =
+name=3D"movie" value=3D"',J,"?",Z,'"></param><param name=3D"quality" =
+value=3D"best"></param><param name=3D"wmode" =
+value=3D"',T,'"></param><param name=3D"bgcolor" value=3D"',N,'"></param> =
+</object>'].join('')}else{if(f.d){ab=3DA("object");ab.setAttribute("data"=
+,J);C(ab,"quality","best");C(ab,"wmode",T);C(ab,"bgcolor",N)}else{ab=3DA(=
+"embed");ab.setAttribute("src",J);ab.setAttribute("quality","best");ab.se=
+tAttribute("flashvars",Z);ab.setAttribute("wmode",T);ab.setAttribute("bgc=
+olor",N)}ab.setAttribute("sifr","true");ab.setAttribute("type","applicati=
+on/x-shockwave-flash");ab.className=3D"sIFR-flash";if(!f.l||!f.e)ad=3Dab.=
+cloneNode(true)}}else =
+ab=3Dad.cloneNode(true);if(f.g){if(f.d)C(ab,"flashvars",Z);else =
+ab.setAttribute("flashvars",Z);ab.setAttribute("width",V);ab.setAttribute=
+("height",W);ab.style.width=3DV+"px";ab.style.height=3DW+"px";p.appendChi=
+ld(ab)}p.appendChild(aa);if(f.p)p.innerHTML+=3D""}if(f.n&&k.bFixFragIdBug=
+)setTimeout(function(){al.title=3Dd},0)}function =
+ai(){d=3Dal.title}function =
+ae(){if(k.bIsDisabled=3D=3Dtrue)return;c=3Dtrue;if(k.bHideBrowserText)aq(=
+true);if(am.attachEvent)am.attachEvent("onload",af);else =
+if(!f.c&&(al.addEventListener||am.addEventListener)){if(f.a&&f.k>=3D132&&=
+am.addEventListener)am.addEventListener("load",function(){setTimeout("sIF=
+R({})",1)},false);else{if(al.addEventListener)al.addEventListener("load",=
+af,false);if(am.addEventListener)am.addEventListener("load",af,false)}}el=
+se if(typeof am.onload=3D=3D"function"){var =
+ag=3Dam.onload;am.onload=3Dfunction(){ag();af()}}else =
+am.onload=3Daf;if(!f.n||am.location.hash=3D=3D"")k.bFixFragIdBug=3Dfalse;=
+else =
+ai()}k.UA=3Dat();k.bAutoInit=3Dtrue;k.bFixFragIdBug=3Dtrue;k.replaceEleme=
+nt=3Dj;k.updateDocumentTitle=3Dai;k.appendToClassName=3DF;k.setup=3Dae;k.=
+debug=3Dfunction(){aq(true)};k.debug.replaceNow=3Dfunction(){ae();k()};k.=
+bIsDisabled=3Dfalse;k.bHideBrowserText=3Dtrue;return k}();
+
+if(typeof sIFR =3D=3D "function" && !sIFR.UA.bIsIEMac){
+	sIFR.setup();
+};
+------=_NextPart_000_0000_01C7D6FC.DF594260
+Content-Type: application/x-js
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://blog.pixelbreaker.com/sifr/sifr-addons.js
+
+/*	sIFR 2.0.1 Official Add-ons 1.2=0A=
+	Copyright 2005 Mark Wubben=0A=
+=0A=
+	This software is licensed under the CC-GNU LGPL =
+<http://creativecommons.org/licenses/LGPL/2.1/>=0A=
+*/=0A=
+
+if(typeof sIFR=3D=3D"function")(function(){var j=3Ddocument;var =
+h=3Dj.documentElement;sIFR.removeDecoyClasses=3Dfunction(){function =
+a(b){if(b&&b.className!=3Dnull)b.className=3Db.className.replace(/\bsIFR-=
+hasFlash\b/,"")}return =
+function(){a(h);a(j.getElementsByTagName("body")[0])}}();sIFR.preferenceM=
+anager=3D{storage:{sCookieId:"sifr",set:function(a){var b=3Dnew =
+Date();b.setFullYear(b.getFullYear()+3);j.cookie=3D[this.sCookieId,"=3D",=
+a,";expires=3D",b.toGMTString(),";path=3D/"].join("")},get:function(){var=
+ a=3Dj.cookie.match(new =
+RegExp(";?"+this.sCookieId+"=3D([^;]+);?"));if(a!=3Dnull&&a[1]=3D=3D"fals=
+e")return false;else return true},reset:function(){var a=3Dnew =
+Date();a.setFullYear(a.getFullYear()-1);j.cookie=3D[this.sCookieId,"=3Dtr=
+ue;expires=3D",a.toGMTString(),";path=3D/"].join("")}},disable:function()=
+{this.storage.set(false)},enable:function(){this.storage.set(true)},test:=
+function(){return =
+this.storage.get()}};if(sIFR.preferenceManager.test()=3D=3Dfalse){sIFR.bI=
+sDisabled=3Dtrue;sIFR.removeDecoyClasses()}sIFR.rollback=3Dfunction(){fun=
+ction a(b){var c,d,e,f,g,h;var l=3DparseSelector(b);var =
+i=3Dl.length-1;var =
+m=3Dfalse;while(i>=3D0){c=3Dl[i];l.length--;d=3Dc.parentNode;if(c.getAttr=
+ibute("sifr")=3D=3D"true"){h=3D0;while(h<d.childNodes.length){c=3Dd.child=
+Nodes[h];if(c.className=3D=3D"sIFR-alternate"){e=3Dc;h++;continue}d.remov=
+eChild(c)}if(e!=3Dnull){f=3De.firstChild;while(f!=3Dnull){g=3Df.nextSibli=
+ng;d.appendChild(e.removeChild(f));f=3Dg}d.removeChild(e)}if(!sIFR.UA.bIs=
+XML&&sIFR.UA.bUseInnerHTMLHack)d.innerHTML+=3D"";d.className=3Dd.classNam=
+e.replace(/\bsIFR\-replaced\b/,"")};m=3Dtrue;i--}return m}return =
+function(k){named.extract(arguments,{sSelector:function(a){k=3Da}});if(k=3D=
+=3Dnull)k=3D"";else =
+k+=3D">";sIFR.removeDecoyClasses();sIFR.bHideBrowserText=3Dfalse;if(a(k+"=
+embed")=3D=3Dfalse)a(k+"object")}}()})()
+------=_NextPart_000_0000_01C7D6FC.DF594260--

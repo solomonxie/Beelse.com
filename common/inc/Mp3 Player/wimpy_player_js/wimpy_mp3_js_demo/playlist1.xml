@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<playlist>
+	<item>
+		<filename>playlist2.xml</filename>
+		<artist>An%20Embedded%20Playlist</artist>
+		<title>An%20Embedded%20Playlist</title>
+		<comments></comments>
+		<visual></visual>
+		<url></url>
+	</item>
+	<item>
+		<filename>playlist3.xml</filename>
+		<artist>Anoher%20Embedded%20Playlist</artist>
+		<title>Another%20Embedded%20Playlist</title>
+		<comments></comments>
+		<visual></visual>
+		<url></url>
+	</item>
+	<item>
+		<filename>http://www.wimpyplayer.com/mp3s3/Killeen%20and%20Gieson%20-%20Alone.mp3</filename>
+		<artist>killeen%20and%20gieson</artist>
+		<title>alone</title>
+		<comments>http://www.wimpyplayer.com/ecom/dlm/cart/cart.php%3Faction=add_item%26id=1%26c=abWm14WiYHd9w%26qty=1%26p=0.99%26k=abFe5UotyJq0Y</comments>
+		<visual>http://www.wimpyplayer.com/mp3s3/Killeen%20and%20Gieson%20-%20Alone.jpg</visual>
+	</item>
+	<item>
+		<filename>http://www.wimpyplayer.com/mp3s3/Killeen%20and%20Gieson%20-%20Hated.mp3</filename>
+		<artist>Killeen%20and%20Gieson</artist>
+		<title>Hated</title>
+		<comments>http://www.wimpyplayer.com/ecom/dlm/cart/cart.php%3Faction=add_item%26id=2%26c=abx7bM58zGQzE%26qty=1%26p=0.99%26k=abFe5UotyJq0Y</comments>
+		<visual>http://www.wimpyplayer.com/mp3s3/Killeen%20and%20Gieson%20-%20Hated.jpg</visual>
+	</item>
+</playlist>

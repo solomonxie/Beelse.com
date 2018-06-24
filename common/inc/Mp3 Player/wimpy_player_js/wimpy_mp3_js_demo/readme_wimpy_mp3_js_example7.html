@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Example 7 - Wimpy MP3 Player Javascript Kit</title>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+var wimpyWindow;
+var winOpen=0;
+function wimpyPopPlayer(wimpyPopPage,theWidth,theHeight) {
+	wimpyWindow = window.open(wimpyPopPage,'wimpyMP3player','width='+theWidth+',height='+theHeight);
+	winOpen=1;
+}
+function wimpyPopPlayerWithFile(wimpyPopPage,initialFile,theWidth,theHeight) {
+	wimpyWindow = window.open(wimpyPopPage+'?theFile='+initialFile,'wimpyMP3player','width='+theWidth+',height='+theHeight);
+	winOpen=1;
+}
+function wimpyIsOpen(){
+	if (winOpen==1){
+		if (wimpyWindow.closed){
+			return false;
+		} else {
+			return true;
+		}
+	} else {
+		return false;
+	}
+}
+function wimpyPopAndPlay(theFile, theArtist, theTitle, graphicURL, hotlinkURL){
+	if(wimpyIsOpen()){
+		wimpyWindow.wimpy_loadAndPlay(theFile, theArtist, theTitle, graphicURL, hotlinkURL);
+	} else {
+		wimpyPopPlayerWithFile('readme_wimpy_mp3_js_example7-popup.html',theFile,'480','140');
+	}
+}
+//-->
+</script>
+
+</head>
+
+<body>
+
+<p>
+  <a href="readme_wimpy_mp3_js.html">Instructions</a> | <a href="readme_wimpy_mp3_js_example1.html">Example 1</a> | <a href="readme_wimpy_mp3_js_example2.html">Example 2</a> | <a href="readme_wimpy_mp3_js_example3.html">Example 3</a> | <a href="readme_wimpy_mp3_js_example4.html">Example 4</a> | <a href="readme_wimpy_mp3_js_example5.html">Example 5</a> | <a href="readme_wimpy_mp3_js_example6.html">Example 6 (Advanced Usage: Experts Only!)</a> | <a href="readme_wimpy_mp3_js_example7.html">Example 7 (Experts Only!)</a> </p>
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+  <tr>
+    <td width="46%" align="left" valign="top"><p>This example shows you how to pop up a window, then control the player from the page that opened the window (this page).</p>
+      <p><b>First click one of these links to open a window: </b></p>
+      <p><a href="javascript:;" onclick="wimpyPopPlayer('readme_wimpy_mp3_js_example7-popup.html','480','140')">Launch Jukebox with default playlist</a>.</p>
+      <p><a href="javascript:;" onclick="wimpyPopPlayerWithFile('readme_wimpy_mp3_js_example7-popup.html','example.mp3','480','140')">Launch Jukebox with specific file</a>.</p>
+      <p><a href="javascript:;" onclick="wimpyPopAndPlay('example1.mp3', '', 'Track 1', '', '');">Pop and Play: track 1 </a></p>
+      <p>&nbsp;</p>
+      <p><b>Next, use the following links to control the player. </b></p>
+      <p><a href="javascript:;" onclick="wimpyPopAndPlay('example1.mp3', '', 'Track 1', '', '');">Pop and Play: track 1 </a><br />
+        <a href="javascript:;" onclick="wimpyPopAndPlay('example2.mp3', '', 'Track 2', '', '');"> </a><a href="javascript:;" onclick="wimpyPopAndPlay('example1.mp3', '', 'Track 1', '', '');">Pop</a><a href="javascript:;" onclick="wimpyPopAndPlay('example2.mp3', '', 'Track 2', '', '');"> and Play: track 2 </a><br />
+        <a href="javascript:;" onclick="wimpyPopAndPlay('example3.mp3', '', 'Track 3', '', '');"> </a><a href="javascript:;" onclick="wimpyPopAndPlay('example1.mp3', '', 'Track 1', '', '');">Pop</a><a href="javascript:;" onclick="wimpyPopAndPlay('example3.mp3', '', 'Track 3', '', '');"> and Play: track 3 </a><br />
+      </p>
+      <p> <a href="javascript:;" onclick="wimpyWindow.wimpy_clearPlaylist();"> Clear Playlist </a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_appendPlaylist('track', 'example4.mp3', 'My Artist', 'My Title', 'http://www.wimpyplayer.com', 'image.jpg')">Add Track </a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_appendPlaylist('playlist', 'playlist1.xml', '', 'Band%27s Title', 'http://www.wimpyplayer.com', 'image.jpg')"> Add Playlist </a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_play()"> Play </a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_stop()"> Stop </a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_pause()"> Pause </a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_gotoTrack(2)"> Go to and play the second track in the playlist</a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_next()"> Next </a><br />
+          <a href="javascript:;" onclick="wimpyWindow.wimpy_prev()"> Previous </a><br />
+        <a href="javascript:;" onclick="wimpyWindow.wimpy_appendMultipleTracks('example1.mp3|example2.mp3|example3.mp3|example4.mp3', 'My Artist', 'http://www.wimpyplayer.com', 'image.jpg')"> Add Multiple Tracks </a></p>
+    <p>&nbsp;</p></td>
+    <td width="54%" align="left" valign="top"><p><b>NOTES:</b></p>
+    <p><b>1. Altered function calls </b></p>
+    <blockquote>
+      <p>The JavaScript&nbsp; function &quot;calls&quot; on this page differ slightly from the calls made on the other examples. </p>
+      <p>The difference being that &quot;wimpyWindow&quot; is used in front  of each function call. &quot;wimpyWindow&quot; should not be confused with window naming conventions. &quot;wimpyWindow&quot; references an &quot;Object&quot; -- NOT a window name. </p>
+      <p>To illustrate, other examples reference functions as:<br />
+        <b>wimpy_stop()</b></p>
+      <p>This page references functions as:<br />
+        <b><font color="#CC0000">wimpyWindow.</font>wimpy_stop()</b></p>
+    </blockquote>
+    <p><b>2. Additional functions. </b></p>
+    <blockquote>
+      <p>Javascript function included in this page. </p>
+      <blockquote>
+        <p> <b>wimpyPopPlayer</b><br />
+          Will pop up Wimpy and use the &quot;default&quot; playlist that is defined in the page that is popped up. For this example, readme_wimpy_mp3_js_example7-popup.html has &quot;playlist1.xml&quot; already defined as the default playlist. if wimpyPopPlayerWithFile is used, the default playlist will be ignored. </p>
+        <p><b>wimpyPopPlayerWithFile<br />
+      </b>Will open Wimpy in a pop up window and populate the Wimpy playlist with an MP3 file, or if you use a reference to an XML playlist, the contents of the XML playlist will be populated in Wimpy. With this function, the reference to either the MP3 file or XML playlist go into the second parameter.</p>
+        <p><b>wimpyPopAndPlay</b><br />
+        This is a modification / extension of wimpy_LoadAndPlay(), which includes extra funcitonality to check to ensure that the window is available before issueing the request. </p>
+        <p>NOTE: When <b>wimpyPopAndPlay</b> and <b>wimpyPopPlayerWithFile</b> functions are used, Artist, Track, Image and Link attributes will not be available within the player. Only when a window is available will you be able to include Artist, Title, Image and Link data to the player. </p>
+      </blockquote>
+      <p>Javascript funcitons on popped up page.</p>
+      <blockquote>
+        <p>This example is to be used in conjunction with <b>readme_wimpy_js_example7-popup.html</b>, which includes additional JavaScript functions.. Be sure to review the JavaScript within the source code of that page. </p>
+        </blockquote>
+      </blockquote>    
+    <p><b>3. No &quot;is window open&quot; check for other commands.</b></p>
+    <blockquote>
+      <p>This example does not include any kind of check to see if the pop up window is still available for the standard control funcitons included in wimpy.js. </p>
+      <p>In other words, if the user closes the pop up window and then clicks one of the commands (such as &quot;Play&quot;), there is no JavaScript included to re-open the window and carry out the command.</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+      <p>&nbsp; </p>
+    </blockquote></td>
+  </tr>
+</table>
+<p><br />
+</p>
+</p>
+</body>
+</html>

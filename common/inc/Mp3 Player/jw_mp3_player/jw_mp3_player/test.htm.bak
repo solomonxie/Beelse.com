@@ -1,0 +1,137 @@
+<html><head><title>jw_mp3_player</title>
+
+<script type="text/javascript" src="swfobject.js"></script>
+<script type="text/javascript" src="swfmacmousewheel.js"></script>
+
+
+<script type="text/javascript">
+
+	// some variables to save
+	var currentPosition;
+	var currentVolume;
+	var currentItem;
+
+	// these functions are caught by the JavascriptView object of the player.
+	function sendEvent(typ,prm) { thisMovie("mpl").sendEvent(typ,prm); };
+	function getUpdate(typ,pr1,pr2,pid) {
+		if(typ == "time") { currentPosition = pr1; }
+		else if(typ == "volume") { currentVolume = pr1; }
+		else if(typ == "item") { currentItem = pr1; setTimeout("getItemData(currentItem)",100); }
+		var id = document.getElementById(typ);
+		id.innerHTML = typ+ ": "+Math.round(pr1);
+		pr2 == undefined ? null: id.innerHTML += ", "+Math.round(pr2);
+		if(pid != "null") {
+			document.getElementById("pid").innerHTML = "(received from the player with id <i>"+pid+"</i>)";
+		}
+	};
+
+	// These functions are caught by the feeder object of the player.
+	function loadFile(obj) { thisMovie("mpl").loadFile(obj); };
+	function addItem(obj,idx) { thisMovie("mpl").addItem(obj,idx); }
+	function removeItem(idx) { thisMovie("mpl").removeItem(idx); }
+	function getItemData(idx) {
+		var obj = thisMovie("mpl").itemData(idx);
+		var nodes = "";
+		for(var i in obj) { 
+			nodes += "<li>"+i+": "+obj[i]+"</li>"; 
+		}
+		document.getElementById("data").innerHTML = nodes;
+	};
+
+	// This is a javascript handler for the player and is always needed.
+	function thisMovie(movieName) {
+	    if(navigator.appName.indexOf("Microsoft") != -1) {
+			return window[movieName];
+		} else {
+			return document[movieName];
+		}
+	};
+
+</script>
+</head>
+<body>
+<br><br>
+
+<div id="lr_player3"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</div>
+<br><br><br><br>
+<div id="lr_player2"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</div>
+<br><br><br><br>
+<div id="lr_player1"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.</div>
+<ul id="data"></ul>
+<br><br><br><br><br><br><br><br>
+
+<script type="text/javascript">
+	/**
+	*	var s3 = new SWFObject(1, 2, 3, 4, 5);
+	*	1 -> "mp3player.swf"
+	*	2 -> "line" or "playlist" or "single"
+	*	3 -> width
+	*	4 -> height
+	*	5 -> "7"
+	*/
+	var s3 = new SWFObject("mp3player.swf", "line", "240", "20", "7");
+	s3.addVariable("file","http://file.beelse.com/Music/%E9%93%81%E7%AB%B9%E5%A0%82%20-%20%E8%83%BD%E4%B8%8D%E8%83%BD.mp3");
+	s3.addVariable("repeat","true");
+	s3.addVariable("showdigits","false");
+	s3.addVariable("showdownload","true");
+	s3.write("lr_player3");
+	
+
+	var s2 = new SWFObject("mp3player.swf", "playlist", "500", "235", "7");
+	s2.addVariable("file","playlist.xml");
+	s2.addVariable("backcolor","0x00000");
+	s2.addVariable("frontcolor","0xEECCDD");
+	s2.addVariable("lightcolor","0xCC0066");
+	s2.addVariable("displayheight","0");
+	s2.write("lr_player2");
+
+	var s1 = new SWFObject("mp3player.swf", "mpl",'320','600','8');
+	s1.addVariable("file","playlist.xml");
+	s1.addVariable("image","cover.jpg");
+	s1.addParam("allowfullscreen","true");
+	s1.addVariable("enablejs","true");
+	s1.addVariable("javascriptid","singel");
+	s1.addVariable("displayheight","240");
+	s1.write("lr_player1");
+	var mmw = new SWFMacMouseWheel(s1);
+</script>
+
+<h2>SEND EVENTS</h2>
+	<ul>
+		<li><a href="javascript:sendEvent('playpause')">Toggle the pause state</a>.</li>
+		<li><a href="javascript:sendEvent('prev')">Play the previous item</a>.</li>
+		<li><a href="javascript:sendEvent('next')">Play the next item</a>.</li>
+		<li><a href="javascript:sendEvent('scrub',currentPosition + 5)">Scrub 5 seconds forward</a>.</li>
+		<li><a href="javascript:sendEvent('scrub',currentPosition - 5)">Scrub 5 seconds backward</a>.</li>
+		<li><a href="javascript:sendEvent('volume',currentVolume + 10)">Increase the volume 10%</a></li>
+		<li><a href="javascript:sendEvent('volume',currentVolume - 10)">Decrease the volume 10%</a></li>
+		<li><a href="javascript:sendEvent('playitem',1)">Play the 2nd item of the playlist</a>.</li>
+		<li><a href="javascript:sendEvent('getlink',1)">Go to the 2nd link of the playlist</a>.</li>
+		<li><a href="javascript:sendEvent('stop')">Stop loading and playing</a>.</li>
+	</ul>
+
+
+	<h2>RECEIVE UPDATES</h2>
+	<p id="pid"></p>
+	<ul>
+		<li id="item">&nbsp;</li>
+		<li id="volume">&nbsp;</li>
+		<li id="state">&nbsp;</li>
+		<li id="time">&nbsp;</li>
+		<li id="load">&nbsp;</li>
+		<li id="size">&nbsp;</li>
+	</ul>
+
+
+	<h2>EDIT PLAYLIST</h2>
+	<ul>
+		<li><a href="javascript:loadFile({file:'http://www.jeroenwijering.com/upload/windmill_warriors.flv',title:'The BMC Windmill Warriors',link:'http://www.jeroenwijering.com/?item=Windmill_Warriors_DVD',id:'12345',image:'/upload/windmill_dvd_rip.jpg'})">load the "Windmill Warriors" video</a>.</li>
+		<li><a href="javascript:loadFile({file:'http://blip.tv/?1=1&s=posts&skin=rss'})">load the latest BLIP.tv movies</a>.</li>
+		<li><a href="javascript:loadFile({file:'/upload/mediaplayer.xml'})">Load the original playlist again</a>.</li>
+		<li><a href="javascript:addItem({file:'/upload/afraid.flv'},1)">load a movie in the second position of the playlist</a>.</li>
+		<li><a href="javascript:addItem({file:'/upload/afraid.flv'})">load a movie at the end of the playlist</a>.</li>
+		<li><a href="javascript:removeItem(1)">remove the second item from the playlist</a>.</li>
+		<li><a href="javascript:removeItem()">remove the last item from the playlist</a>.</li>
+	</ul>
+</body>
+</html>

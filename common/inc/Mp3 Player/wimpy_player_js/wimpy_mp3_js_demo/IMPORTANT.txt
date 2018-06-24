@@ -1,0 +1,6 @@
+The demo version will only 
+play 10 seconds of each track.
+
+
+The Full version will play 
+the full length of each track.

@@ -1,0 +1,10 @@
+[DEFAULT]
+BASEURL=http://www.windstyle.cn/blog/article.asp?id=251
+[DOC#689]
+BASEURL=http://feedlook.net/lookme/pannel.php?e=1&t=1&i=f340b7e07c557e40e9f13244e75bc2d82201b4d6&w=123&h=105
+ORIGURL= http://feedlook.net/lookme/pannel.php?e=1&t=1&i=f340b7e07c557e40e9f13244e75bc2d82201b4d6&w=123&h=105
+[InternetShortcut]
+URL=http://www.windstyle.cn/blog/article.asp?id=251
+Modified=70121A94C0D6C7018E
+IconFile=http://www.windstyle.cn/blog/favicon.ico
+IconIndex=1

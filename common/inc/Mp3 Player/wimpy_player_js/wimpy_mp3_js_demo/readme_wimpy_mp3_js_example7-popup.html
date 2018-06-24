@@ -1,0 +1,61 @@
+<HTML>
+<HEAD>
+<TITLE> Example 7 - Pop Up - Wimpy MP3 Player Javascript Kit</TITLE>
+
+<!-- IMPORTANT NOTES: 
+
+1. The following line must be included anywhere 
+between the  <head> and </head> tag of you HTML page:
+
+2. You must edit the location of the "wimpy.js" file so that 
+it refers to the wimpy.js file on your server. 
+Example:
+src='http://www/yoursite.com/mp3s/wimpy.js'
+
+3. you must edit the URL to wimpy.swf in the wimpy.js file. 
+Open wimpy.js in a text editor and set the proper location 
+to wimpy.swf just like you did with wimpy.js so that the 
+URL refers to wimpy.swf on your server.
+
+-->
+<script language='javascript' src='wimpy.js'></script>
+
+<!--
+This function is used to populate the player with a track when the pop up window is first launched.
+-->
+<script>
+function wimpyInitialize(defaultFile){
+	startPlayingOnload = "yes";
+	var qsParm = new Array();
+	var query = window.location.search.substring(1);
+	var parms = query.split('&');
+	for (var i=0; i<parms.length; i++) {
+		var pos = parms[i].indexOf('=');
+		if (pos > 0) {
+			var key = parms[i].substring(0,pos);
+			var val = parms[i].substring(pos+1);
+			qsParm[key] = val;
+		}
+	}
+	var fileINsend
+	if(qsParm['theFile']){
+		fileINsend = qsParm['theFile'];
+	} else {
+		fileINsend = defaultFile;
+	}
+	
+	makeWimpyPlayer(fileINsend);
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></HEAD><body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<p>
+<!-- START WIMPY PLAYER CODE -->
+<script language="JavaScript" >
+	wimpyInitialize("playlist1.xml");
+</script>
+<!-- END WIMPY PLAYER CODE -->
+</p>
+
+
+</BODY>
+</HTML>
