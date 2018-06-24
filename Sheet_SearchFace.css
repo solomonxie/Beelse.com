@@ -29,6 +29,9 @@
 	#km {
 		FONT-SIZE: 14px; HEIGHT: 50px
 	}
+	A {
+		FONT-FAMILY: arial
+	}
 	#km A {
 		FONT-FAMILY: ËÎÌו
 	}
@@ -45,16 +48,5 @@
 	.Change{
 		font-size:18px;
 		font-weight:bold;
-	}
-	A.linkWebSelect:Link{
-		display:block;
-		background-color:#FFFFFF;
-	}
-	A.linkWebSelect:Hover{
-		display:block;
-		background-color:#999999;
-	}
-	A.linkWebSelect:Visited{
-		display:block;
 	}
 </STYLE>

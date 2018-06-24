@@ -221,14 +221,14 @@ function getSongForm(ch,flag){//zm «◊÷ƒ∏,flag «≈≈¡–∑Ω Ω»Á∞¥’’∏Ë«˙≈≈ªÚ’ﬂ∞¥’’∏Ë ÷≈
 	for(var i=0;i<sP.length;i++){
 		if(flag=="byname")
 			inner+=Songs[sP[i]].singer==""?
-				"<a class='headJump' href='#' id='Songs-"+sP[i]+"' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"</a><br>"
+				"<a href='#' id='Songs-"+sP[i]+"' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"</a><br>"
 				:
-				"<a class='headJump'  href='#' id='Songs-"+ sP[i] +"' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"["+ Songs[sP[i]].singer +"]" +"</a><br>";
+				"<a href='#' id='Songs-"+ sP[i] +"' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"["+ Songs[sP[i]].singer +"]" +"</a><br>";
 		else{
 			inner+=Songs[sP[i]].singer==""?
-				"<a class='headJump'  href='#' id='Songs-"+sP[i]+"' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"</a><br>"
+				"<a href='#' id='Songs-"+sP[i]+"' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"</a><br>"
 				:
-				"<a class='headJump'  href='#' id='Songs-"+ sP[i] +"' onClick='Songs["+sP[i]+"].play();'>"+Songs[sP[i]].singer+":"+Songs[sP[i]].name+"</a><br>";
+				"<a href='#' id='Songs-"+ sP[i] +"' onClick='Songs["+sP[i]+"].play();'>"+Songs[sP[i]].singer+":"+Songs[sP[i]].name+"</a><br>";
 		}
 	}
 		
@@ -257,9 +257,9 @@ function showSongsForSearch(key){
 	var sP=paramList.split("*");//«–∏Ó≤Œ ˝//sPŒ™songs position£¨ «÷∏‘⁄Songs÷–µƒŒª÷√
 	for(var i=0;i<sP.length;i++)
 		inner+=Songs[sP[i]].singer==""?
-				"<a class='headJump'  href='#' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"</a><br>"
+				"<a href='#' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"</a><br>"
 				:
-				"<a class='headJump'  href='#' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"["+ Songs[sP[i]].singer +"]" +"</a><br>";
+				"<a href='#' onClick='Songs["+sP[i]+"].play();'>"+ Songs[sP[i]].name+"["+ Songs[sP[i]].singer +"]" +"</a><br>";
 	$("lrForSearch").innerHTML=inner;
 }
 

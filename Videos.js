@@ -68,9 +68,9 @@ function showAlbum(){
 	if(this.vP!="")for(var i=0;i<this.vP.length;i++)
 				//inner+="<a href='#' id='albumVideos-"+ i +"' onClick='Videos["+ this.vP[i] +"].play();'>"+ Videos[this.vP[i]].title+"</a><br>";
 				inner+=Videos[this.vP[i]].color==""?
-					"<a class='headJump'  href='#' id='albumVideos-"+ i +"' onClick='Videos["+this.vP[i]+"].play();'>"+ Videos[this.vP[i]].title+"</a><br>"
+					"<a href='#' id='albumVideos-"+ i +"' onClick='Videos["+this.vP[i]+"].play();'>"+ Videos[this.vP[i]].title+"</a><br>"
 					:
-					"<a class='headJump'  href='#' id='albumVideos-"+ i +"' onClick='Videos["+this.vP[i]+"].play();'>"+ Videos[this.vP[i]].title.fontcolor(Videos[this.vP[i]].color)+"</a><br>";
+					"<a href='#' id='albumVideos-"+ i +"' onClick='Videos["+this.vP[i]+"].play();'>"+ Videos[this.vP[i]].title.fontcolor(Videos[this.vP[i]].color)+"</a><br>";
 	$("lrAlbum").innerHTML=inner;
 }
 
@@ -154,9 +154,6 @@ Videos[Videos.length++]=new Video("小时候","小时候","","http://v.blog.sina.com.c
 Videos[Videos.length++]=new Video("Beck-Moon On The Water[真人pv]","Beck-Moon On The Water[真人pv]","","http://v.blog.sina.com.cn/swf/player.swf?vid=1454768&uid=1253924794","","MV","B","");
 Videos[Videos.length++]=new Video("信乐团-One Night in Beijing","信乐团-One Night in Beijing","","http://v.blog.sina.com.cn/swf/player.swf?vid=1453017&uid=1253924794","","MV","X","");
 Videos[Videos.length++]=new Video("五月天-为爱而生","五月天-为爱而生","","http://v.blog.sina.com.cn/swf/player.swf?vid=1452990&uid=1253924794","","MV","W","");
-Videos[Videos.length++]=new Video("使用jsp基于数据库完成用户登陆程序","案例-使用jsp基于数据库完成用户登陆程序","案例&&&jsp&&&数据库&&&登陆","http://vhead.blog.sina.com.cn/player/outer_player.swf?auto=0&vid=2480455&uid=1281081403","","Movie","S","");
-Videos[Videos.length++]=new Video("Stuts","Stuts","Stuts","http://vhead.blog.sina.com.cn/player/outer_player.swf?auto=0&vid=1875485&uid=1281081403","","Movie","S","");
-
 
 Videos[Videos.length++]=new Video('Eminem-Stan[Live]02','','','http://v.blog.sina.com.cn/swf/player.swf?vid=1189629&uid=1253924794','','MV','E','Eminem');
 Videos[Videos.length++]=new Video('Eminem-Stan[Live]01','','','http://v.blog.sina.com.cn/swf/player.swf?vid=1189604&uid=1253924794','','MV','E','Eminem');
@@ -374,20 +371,20 @@ function getVideoForm(ch,gd){//ch is character ,gd is ground just like 动漫,影视
 	
 	if(vP.length<1 && abP.length<1) 
 		return "Sorry,Have not"
-						+"<a class='headJump'  onclick=alert('直接告诉我Video名称就行了，当然有地址更好了'); href='http://wpa.qq.com/msgrd?V=1&Uin=563787750&Menu=yes;' target='_blank'><br>你来添加吧！</a>";
+						+"<a onclick=alert('直接告诉我Video名称就行了，当然有地址更好了'); href='http://wpa.qq.com/msgrd?V=1&Uin=563787750&Menu=yes;' target='_blank'><br>你来添加吧！</a>";
 	
 	
 	//show singel video
 	for(var i=0;i<vP.length;i++)
 			inner+=Videos[vP[i]].color==""?
-					"<a class='headJump'  href='#' id='Videos-"+ vP[i] +"' onClick='Videos["+vP[i]+"].play();'>"+ Videos[vP[i]].title+"</a><br>"
+					"<a href='#' id='Videos-"+ vP[i] +"' onClick='Videos["+vP[i]+"].play();'>"+ Videos[vP[i]].title+"</a><br>"
 					:
-					"<a class='headJump'  href='#' id='Videos-"+ vP[i] +"' onClick='Videos["+vP[i]+"].play();'>"+ Videos[vP[i]].title.fontcolor(Videos[vP[i]].color)+"</a><br>";
+					"<a href='#' id='Videos-"+ vP[i] +"' onClick='Videos["+vP[i]+"].play();'>"+ Videos[vP[i]].title.fontcolor(Videos[vP[i]].color)+"</a><br>";
 
 	//show albums
 	for(var i=0;i<Albums.length;i++)
 		if(Albums[i].ch.toLowerCase()==ch.toLowerCase() && Albums[i].ground.toLowerCase()==gd.toLowerCase())
-			inner+="<a class='headJump'  href='#album' id='Albums-"+ Albums[i] +"' onClick='Albums["+i+"].showAlbum();'>"+"[专辑]".fontcolor('green')+ Albums[i].name.fontcolor('green')+"</a><br>";
+			inner+="<a href='#album' id='Albums-"+ Albums[i] +"' onClick='Albums["+i+"].showAlbum();'>"+"[专辑]".fontcolor('green')+ Albums[i].name.fontcolor('green')+"</a><br>";
 
 	return inner;
 }
