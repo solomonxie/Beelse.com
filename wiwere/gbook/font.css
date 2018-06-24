@@ -1,0 +1,100 @@
+<style type="text/css">
+<!--
+body {
+	SCROLLBAR-FACE-COLOR: #7eb1fe;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #ffffff;
+	SCROLLBAR-ARROW-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #ffffff;
+	SCROLLBAR-DARKSHADOW-COLOR: #7eb1fe;
+	SCROLLBAR-BASE-COLOR: #ffffff;
+}
+.lan {
+	font-size: 12px;
+	color: #0265F9;
+	text-decoration: none;
+	cursor: url("images/mouse.gif");
+}
+.hot {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+.art {
+	font-size: 12px;
+	color: #035C80;
+	text-decoration: none;
+	cursor: url("images/mouse.gif");
+}
+.texts {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #0265F9;
+	color: #0265F9;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+.areas {
+	background-color: #FFFFFF;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: dotted;
+	border-right-style: none;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #0265F9;
+	border-bottom-color: #0265F9;
+	border-left-width: 1px;
+	border-left-color: #0265F9;
+	color: #0265F9;
+}
+.buttons {
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #0265F9;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+A.lj:link {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #0265F9}
+A.lj:visited {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #0265F9}
+A.lj:hover {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #FF0000}
+A.lj:active {
+        TEXT-DECORATION: none;
+        color: #0265F9;
+        font-size: 12px;
+}
+A.artsort:link {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #82FB64}
+A.artsort:visited {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #82FB64}
+A.artsort:hover {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #FF0000}
+A.artsort:active {
+        TEXT-DECORATION: none;
+        color: #82FB64;
+        font-size: 12px;
+}A.artlj:link {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #035C80}
+A.artlj:visited {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #035C80}
+A.artlj:hover {FONT-SIZE: 12px; TEXT-DECORATION: none; color: #FF0000}
+A.artlj:active {
+        TEXT-DECORATION: none;
+        color: #035C80;
+        font-size: 12px;
+}
+.biaoti {
+	font-size: 25px;
+	color: #0265F9;
+	text-decoration: none;
+	font-family: "华文新魏";
+}.artbiaoti {
+	font-size: 25px;
+	color: #035C80;
+	text-decoration: none;
+	font-family: "华文新魏";
+}
+-->
+</style>

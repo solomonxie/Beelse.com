@@ -1,0 +1,28 @@
+if (!google) {
+var google = {};
+}
+if (!google.loader) {
+google.loader = {};
+google.loader.ServiceBase = "http://www.google.com/uds";
+google.loader.ApiKey = "ABQIAAAAim5LjVctp02rAuRUss_G_BQwgLwyxobxTpZV_Zt_7Z0nRuz1pBS6-1N-MjehLubv986D52zLPph8kw";
+google.loader.KeyVerified = true;
+google.loader.LoadFailure = false;
+google.loader.AdditionalParams = "";
+(function() { 
+Function.prototype.__google_inherits=function(c){var a=function(){}
+;a.prototype=c.prototype;this.prototype=new a;this.prototype.__google_super=function(b,d,e,f){var n=Array.prototype.h.apply(arguments,[1,arguments.length]);return b.apply(this,n)}
+}
+;var h=null;var l=false;function i(c){this.a=c}
+i.prototype.c=function(c,a){var b="";if(a!=undefined){if(a["locale"]!=undefined){b+="&hl="+encodeURIComponent(a["locale"])}if(a["nocss"]!=undefined){b+="&output="+encodeURIComponent("nocss="+a["nocss"])}if(a["other_params"]!=undefined){b+="&"+a["other_params"]}}if(h!=null&&!l){b+="&key="+encodeURIComponent(h);l=true}return google.loader.ServiceBase+"/?file="+this.a+"&v="+c+google.loader.AdditionalParams+b}
+;function k(c,a,b,d,e,f){this.a=c;this.g=a;this.f=b;this.d=d;this.e=e;this.b=f}
+k.__google_inherits(i);k.prototype.c=function(c,a){var b="";if(this.d!=undefined){b+="&"+this.d+"="+encodeURIComponent(h?h:google.loader.ApiKey)}if(this.e!=undefined){b+="&"+this.e+"="+encodeURIComponent(c)}if(a!=undefined&&this.b!=undefined){for(var d in a){if(this.b[":"+d]!=undefined){b+="&"+this.b[":"+d]+"="+encodeURIComponent(a[d])}else if(d=="other_params"){b+="&"+a[d]}}}google[this.a]={};if(!this.f&&b!=""){b="?"+b.substring(1)}return this.g+b}
+;function o(c,a,b){var d=j[":"+c];if(!d){var e=new Error("Module: '"+c+"' not found!");e.toString=function(){return this.message}
+;throw e;}else{m("script",d.c(a,b))}}
+function q(c){var a=window;if(a.addEventListener){a.addEventListener("load",c,false)}else if(a.attachEvent){a.attachEvent("onload",c)}else{a["onload"]=c}}
+function p(c){var a=window.location.href;var b;var d=a.length;for(var e in c){var f=a.indexOf(e);if(f!=-1&&f<d){b=e;d=f}}h=b?c[b]:null}
+function m(c,a){if(c=="script"){document.write('<script src="'+a+'" type="text/javascript"><\/script>')}else if(c=="css"){document.write('<link href="'+a+'" type="text/css" rel="stylesheet"></link>')}}
+function g(c,a){var b=c.split(/\./);var d=window;for(var e=0;e<b.length-1;e++){d=d[b[e]]}d[b[b.length-1]]=a}
+var j={};j[":search"]=new i("search");j[":feeds"]=new i("feeds");j[":maps"]=new k("maps","http://maps.google.com/maps?file=googleapi",true,"key","v",{":locale":"hl"});g("google.load",o);g("google.setOnLoadCallback",q);g("google.loader.writeLoadTag",m);g("google.loader.setApiKeyLookupMap",p);g("google_exportSymbol",g);
+
+ })()
+}

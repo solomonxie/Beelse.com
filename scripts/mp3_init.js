@@ -4,7 +4,9 @@ player.addVariable("image","cover.jpg");
 player.addParam("allowfullscreen","true"); 
 player.addVariable("enablejs","true"); 
 player.addVariable("javascriptid","player_id"); 
+//x displayheight:是列表高度	//x displaywidth:是列表宽度
 player.addVariable("displayheight","240");
+//player.addVariable("displayheight","240");
 player.write("lr_player");
 var mmw = new SWFMacMouseWheel(player);
 

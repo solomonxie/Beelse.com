@@ -1,10 +1,12 @@
-var player = new SWFObject("common/mp3_player/mp3player.swf", "player_id",'320','320','8'); 
+var player = new SWFObject("common/mp3_player/mp3player.swf", "player_id",'500','320','8'); 
 player.addVariable("file","common/mp3_player/playlist.xml"); 
-player.addVariable("image","images/beelse_com.jpg"); 
+player.addVariable("image","cover.jpg"); 
 player.addParam("allowfullscreen","true"); 
 player.addVariable("enablejs","true"); 
 player.addVariable("javascriptid","player_id"); 
-player.addVariable("displayheight","240");
+//x displayheight:是列表高度	//x displaywidth:是列表宽度
+player.addVariable("displayheight","100");
+player.addVariable("displaywidth","50");
 player.write("lr_player");
 var mmw = new SWFMacMouseWheel(player);
 

@@ -94,8 +94,8 @@
 			<h2>EDIT PLAYLIST</h2>
 			<ul>
 				<li><a href="javascript:loadFile({file:'../../media/Linkin Park-Numb.flv',title:'Linkin Park-Numb',link:'http://www.beelse.com',id:'12345',image:'/upload/windmill_dvd_rip.jpg'});sendEvent('next');">[本地]单独读取一首歌儿</a>.</li>
-				<li><a href="javascript:loadFile({file:'http://file.beelse.com/Music/%E9%93%81%E7%AB%B9%E5%A0%82%20-%20%E8%83%BD%E4%B8%8D%E8%83%BD.mp3',title:'能不能 '});">[网络]单独读取一首歌儿</a>.</li>
-				<li><a href="javascript:addItem({file:'http://file.beelse.com/Music/%E9%93%81%E7%AB%B9%E5%A0%82%20-%20%E8%83%BD%E4%B8%8D%E8%83%BD.mp3',title:'能不能 '});">[网络]添加一首歌儿</a>.</li>
+				<li><a href="javascript:loadFile({file:'http://file.beelse.com/Music/%E9%93%81%E7%AB%B9%E5%A0%82%20-%20%E8%83%BD%E4%B8%8D%E8%83%BD.mp3',title:'能不能 ',creator:'铁竹堂'});">[网络]单独读取一首歌儿</a>.</li>
+				<li><a href="javascript:addItem({file:'http://file.beelse.com/Music/%E9%93%81%E7%AB%B9%E5%A0%82%20-%20%E8%83%BD%E4%B8%8D%E8%83%BD.mp3',title:'能不能 ',creator:'铁竹堂'});">[网络]添加一首歌儿</a>.</li>
 				<li><a href="javascript:loadFile({file:'http://blip.tv/?1=1&s=posts&skin=rss'})">读取rss方式音乐列表</a>.</li>
 				<li><a href="javascript:loadFile({file:'common/mp3_player/playlist.xml'})">读取一个音乐列表</a>.</li>
 				<li><a href="javascript:addItem({file:'../../media/Linkin Park-Numb.flv',title:'Linkin Park-Numb'},0)">在最上面添加一首歌儿</a>.</li>

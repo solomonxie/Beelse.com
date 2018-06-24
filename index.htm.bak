@@ -12,7 +12,7 @@
 			<h1><a href="#">beelse.com ... ...</a></h1>
 		</div>
 		<ul id="menu">
-			<li><a href="index.htm" id="lk_home">主页</a></li>
+			<li><a href="#" id="lk_home">主页</a></li>
 			<li><a href="#" id="lk_video">视频</a></li>
 			<li><a href="mp3.htm" id="lk_mp3">Mp3</a></li>
 			<li><a href="#" id="lk_talk">说话</a></li>
