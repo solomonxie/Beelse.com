@@ -21,8 +21,8 @@ function Song(name,singer,src,nch,sch){//ch is charator
 
 //control function
 function play(){
-	$("lrPlayer").innerHTML="<EMBED id='player' src=" + this.src + "  hidden='false' type=audio/mpeg controls='console' width=270 height=50 LOOP=5 AUTOSTART=1 SHOWSTATUSBAR=2 style='FILTER: Xray(); WIDTH: 350px; HEIGHT: 50px;'></EMBED>";
-	$("download").innerHTML="<a href='"+ this.src +"'  size='2'  title='点击下载'><font size='2' face='Comic Sans MS'>下载</font></a>";
+	$("lrPlayer").innerHTML="<EMBED id='player' src=" + this.src + "  hidden='false' type=audio/mpeg controls='console' width=273 height=183 LOOP=5 AUTOSTART=1 SHOWSTATUSBAR=2 style='FILTER: Xray(); WIDTH: 350px; HEIGHT: 50px;'></EMBED>";
+	$("download").innerHTML="<a href='"+ this.src +"' title='点击下载'>下载</a>";
 	this.setLrc();
 }
 //设置歌词
@@ -165,8 +165,8 @@ Songs[Songs.length++]=new Song("忘记","林俊杰","http://202.96.82.69/wma/music200
 Songs[Songs.length++]=new Song("没那么爱他","范玮琪","http://fv.menllo.com/musics/e99b82b4-67f3-4166-ae83-77e022039f04/2006/12/31/060935134.mp3","M","F");
 Songs[Songs.length++]=new Song("做你的男人","张信哲","http://music3.9t9t.com/1/367/7356/9t9t_825205.wma","Z","Z");
 Songs[Songs.length++]=new Song("Dying in the sun","卡百丽","http://music0.hexun.com/Save/Music/2006/1012/633/M_61DDF181DE63CF4D.WMA","D","K");
-Songs[Songs.length++]=new Song("钢琴曲","","http://file.beelse.com/Music/%E4%BC%8A%E4%BC %E7%9A%84-%E9%92%A2%E7%90%B4%E6%9B%B2.mp3","G","");
-Songs[Songs.length++]=new Song("蓝色生死恋-主题曲[钢琴曲]","蓝色生死恋","http://file.beelse.com/Music/%E9%9F%A9%E5%9B%BD%E6%AD%8C%E6%9B%B2%20-%20%E9%92%A2%E7%90%B4%E6%9B%B2%20-%20%E7%83%9B%E5%85%89%E9%92%A2%E7%90%B4%20-%20rcason(%E9%9F%A9%E5%89%A7%E3%80%8A%E8%93%9D%E8%89%B2%E7%94%9F%E6%AD%BB%E6%81%8B%E3%80%8B%E4%B8%BB%E9%A2%98%E6%9B%B2).mp3","L","L");
+
+
 
 //Songs=Songs.sort();//进行整齐排序//排序问题还有待特殊处理下
 
